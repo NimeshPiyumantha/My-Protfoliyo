@@ -15,7 +15,7 @@ This is My Personal Web Project.
 
 * My linkedin : https://www.linkedin.com/in/nimesh-piyumantha-33736a222
 * My Personal Web Site Map : https://www.gloomaps.com/7D7wNfcoAY
-* My Personal Web Wire Frame : https://wireframe.cc/pro/pp/a7e67d1a0562296
+* My Personal Web Wire Frame : https://wireframe.cc/Pupr2R
 * My Personal Web Mockup : https://www.figma.com/file/m40P91ZKauWs18R5qheoWu/MyWebMockUp?node-id=1%3A4
 * My GitHub Page Link :  https://nimeshpiyumantha.github.io/My-Protfoliyo
 * My Personal Profile : http://www.nimeshpiyumantha.epizy.com/?i=1
