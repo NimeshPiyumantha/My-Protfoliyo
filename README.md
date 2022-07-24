@@ -10,7 +10,7 @@ This is My Personal Web Project.
 #### If you hava any bugs or issues , If you want to explain my code pleace contact me on : nimeshpiyumantha11@gmail.com
 
 ##
-
+![alt text](https://github.com/NimeshPiyumantha/My-Protfoliyo/blob/main/assests/mainMockup.png)
 ##
 
 * My linkedin : https://www.linkedin.com/in/nimesh-piyumantha-33736a222
