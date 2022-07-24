@@ -19,7 +19,7 @@ This is My Personal Web Project.
 * My Personal Web Mockup : https://www.figma.com/file/m40P91ZKauWs18R5qheoWu/MyWebMockUp?node-id=1%3A4
 * My GitHub Page Link :  https://nimeshpiyumantha.github.io/My-Protfoliyo
 * My Personal Profile : http://www.nimeshpiyumantha.epizy.com/?i=1
-* Project Link : https://github.com/NimeshPiyumantha/My-Personal-Web.git
+* Project Link :https://github.com/NimeshPiyumantha/My-Protfoliyo.git
 
 
 ##  Connect with me
