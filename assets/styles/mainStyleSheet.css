@@ -4,7 +4,17 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #F8F7F3;
+}
+
+.background {
+    width: 100%;
+    height: 95vh;
+}
+
+.mainPhoto {
+    width: 683px;
+    height: 618px;
+    background-position: center;
 }
 
 .text-primary {
