@@ -6,11 +6,6 @@
     padding: 0;
 }
 
-.background {
-    width: 100%;
-    height: 95vh;
-}
-
 .mainPhoto {
     width: 683px;
     height: 618px;
@@ -59,4 +54,11 @@ header {
 
 .nav_link li a:hover {
     color: #2ED573;
+}
+
+.background {
+    background: url("/assets/images/background1.png") no-repeat;
+    background-size: 100%;
+    height:120vh;
+    padding-top: initial;
 }
