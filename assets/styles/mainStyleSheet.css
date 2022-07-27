@@ -126,7 +126,7 @@ a.active, a:hover {
 
 /** Main - Home */
 .img {
-    background: url(/assets/images/background.png) no-repeat;
+    background: url(assets/images/background.png) no-repeat;
     background-size: cover;
     height: calc(100vh - 80px);
 }
