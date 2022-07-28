@@ -12,7 +12,7 @@
 
 .head {
     background: #F8F7F3;
-    height: 80px;
+    height: 90px;
     width: 100%;
 }
 
@@ -126,15 +126,7 @@ a.active, a:hover {
 
 /** Main - Home */
 .img {
-    background: url(assets/images/background.png) no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
-    height: calc(100vh - 80px);
-}
-
-.mainImage {
-    width: 750px;
-    height: 685px;
-    position: absolute;
-    right: 100px;
-    bottom: 100px;
+    width: 100%;
 }
