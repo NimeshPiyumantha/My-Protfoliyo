@@ -38,10 +38,10 @@ This is My Personal Web Project.
 <div align="center">
 
 ![repo license](https://img.shields.io/github/license/NimeshPiyumantha/My-Protfoliyo?&labelColor=black&color=3867d6&style=for-the-badge)
-![repo size](https://img.shields.io/github/repo-size/NimeshPiyumantha/NimeshPiyumantha?label=Repo%20Size&style=for-the-badge&labelColor=black&color=20bf6b)
-![GitHub forks](https://img.shields.io/github/forks/NimeshPiyumantha/NimeshPiyumantha?&labelColor=black&color=0fb9b1&style=for-the-badge)
-![GitHub stars](https://img.shields.io/github/stars/NimeshPiyumantha/NimeshPiyumantha?&labelColor=black&color=f7b731&style=for-the-badge)
-![GitHub LastCommit](https://img.shields.io/github/last-commit/NimeshPiyumantha/NimeshPiyumantha?logo=github&labelColor=black&color=d1d8e0&style=for-the-badge)
+![repo size](https://img.shields.io/github/repo-size/NimeshPiyumantha/My-Protfoliyo?label=Repo%20Size&style=for-the-badge&labelColor=black&color=20bf6b)
+![GitHub forks](https://img.shields.io/github/forks/NimeshPiyumantha/My-Protfoliyo?&labelColor=black&color=0fb9b1&style=for-the-badge)
+![GitHub stars](https://img.shields.io/github/stars/NimeshPiyumantha/My-Protfoliyo?&labelColor=black&color=f7b731&style=for-the-badge)
+![GitHub LastCommit](https://img.shields.io/github/last-commit/NimeshPiyumantha/My-Protfoliyo?logo=github&labelColor=black&color=d1d8e0&style=for-the-badge)
 </div>
 
 <div align="center">
