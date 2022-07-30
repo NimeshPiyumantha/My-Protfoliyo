@@ -20,7 +20,7 @@ This is My Personal Web Project.
 
 
 ##  Connect with me
-#### If you hava any bugs or issues , If you want to explain my code pleace contact me on :
+#### If you have any bugs or issues , If you want to explain my code please contact me on :
 <div align="center">
 
 #### nimeshpiyumantha11@gmail.com
