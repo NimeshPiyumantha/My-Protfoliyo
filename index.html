@@ -45,10 +45,10 @@
     <!--Home page sectioning -->
     <section><!--Image sectioning -->
         <img alt="Image" class="img" src="assets/images/background.png">
-        <article> <!--Paragraph sectioning -->
-            <h1>Hello,</h1>
-            <h1>I am Nimesh Piyumantha.</h1>
-            <h1>Full Stack Software Developer.</h1>
+        <article class="carousel-caption justify-content-center"> <!--Paragraph sectioning -->
+            <h1 class="text-primary text-size-1 "><span class="auto-type"></span></h1>
+            <h1 class="text-black text-size-2 ">I am <span class="auto-type1 text-green text-size-2"></span></h1>
+            <h1 class="text-black text-size-3 "><span class="auto-type2"></span></h1>
         </article>
 
         <section> <!--Button sectioning --></section>
@@ -58,6 +58,30 @@
         </section>
 
         <nav> <!--SocialMedia link sectioning --> </nav>
+
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script>
+            const typed2 = new Typed(".auto-type", {
+                strings: ["Hello,"],
+                typeSpeed: 150,
+                backSpeed: 200,
+                loop: true
+            });
+
+            const typed = new Typed(".auto-type1", {
+                strings: ["Nimesh Piyumantha.", "IJSE GDSE Student.", " Computer Science Student.", "Competitive Programmer."],
+                typeSpeed: 150,
+                backSpeed: 200,
+                loop: true
+            });
+
+            const typed1 = new Typed(".auto-type2", {
+                strings: ["Full Stack Software Developer from Sri Lanka.", "Student of Institute of Software Engineering."],
+                typeSpeed: 150,
+                backSpeed: 200,
+                loop: true
+            });
+        </script>
     </section>
 
     <hr>
