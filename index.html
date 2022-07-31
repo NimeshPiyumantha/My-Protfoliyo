@@ -342,9 +342,27 @@
         <article> <!--Header Paragraph sectioning -->
             <h4>Contact </h4>
             <h1>Contact With Me</h1>
+            <br><br>
         </article>
         <section> <!--Box sectioning --></section>
-        <section> <!--Contact Details Box sectioning --></section>
+
+        <section> <!--Contact Details Box sectioning -->
+            <form action="details" id="contactForm" method="post">
+
+                    <input id="txtName" name="customerName" placeholder="Name" required type="text">
+                    <br><br>
+                    <input id="txtEmail" name="customerEmail" placeholder="E-mail" required type="email">
+                    <br><br>
+                    <input id="txtSubject" name="subject" placeholder="Subject" required type="text">
+                    <br><br>
+                    <textarea cols="50" id="txtComment" name="comment" placeholder="Comment" rows="10"></textarea>
+                    <br><br>
+                    <button form="contactForm" formaction="sendMassage" formmethod="post">Send Massage</button>
+                    <br><br>
+
+            </form>
+        </section>
+
         <article> <!-- Paragraph Header sectioning -->
             <h1>Get In Touch</h1>
         </article>
