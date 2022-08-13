@@ -136,7 +136,7 @@ a.active, a:hover {
 
 .carousel-caption {
     position: relative;
-    left: 5%;
+    padding-left:150px ;
     padding-top: 10%;
     text-align: left;
 }
@@ -396,7 +396,7 @@ a.active, a:hover {
     float: left;
     width: 100%;
     margin-top: -17%;
-    margin-left: 7%;
+    padding-left:150px ;
 }
 
 .follow-content-text {

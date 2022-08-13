@@ -3,36 +3,8 @@
  * @since : 0.1.0
  **/
 
-@media (max-width: 1100px) {
-    label.logo {
-        font-size: 25px;
-        padding-left: 30px;
-    }
-
-    .head .link_Nav li a {
-        font-size: 16px;
-    }
-
-    .text-size-1 {
-        font-size: calc(65px - 30px);
-        margin-bottom: 0.02rem;
-    }
-
-    .text-size-2 {
-        font-size: calc(80px - 45px);
-        margin-bottom: 0.2rem;
-    }
-
-    .text-size-3 {
-        font-size: calc(55px - 30px);
-        margin-bottom: 0.2rem;
-    }
-}
-
 /** Resize in 1000px  **/
-
 @media (max-width: 1000px) {
-
     /** Header */
     .checkBtn {
         display: block;
@@ -72,17 +44,15 @@
     /** Main - Home- Type Text */
     .text-size-1 {
         font-size: calc(80px - 40px);
-        margin-bottom: 0.02rem;
+
     }
 
     .text-size-2 {
         font-size: calc(80px - 50px);
-        margin-bottom: 0.02rem;
     }
 
     .text-size-3 {
         font-size: calc(55px - 35px);
-        margin-bottom: 0.02rem;
     }
 
     /** Main - Home -Animate Background */
@@ -128,7 +98,7 @@
 
     .box div:nth-child(5) {
         top: 33%;
-        left: 10%;
+        left: 90%;
         animation: animate 6s linear infinite;
         background-color: transparent;
         border: 3px solid rgba(22, 160, 133, 1.0);
@@ -159,7 +129,7 @@
     }
 
     .box div:nth-child(9) {
-        top: 45%;
+        top: 50%;
         left: 25%;
         animation: animate 9s linear infinite;
         background-color: rgba(230, 126, 34, 1.0);
@@ -215,6 +185,8 @@
         font-family: Poppins, sans-serif;
         font-weight: bolder;
         cursor: pointer;
+        margin-top: 20px;
+        margin-left: 80px;
     }
 
     .button-content {
@@ -261,7 +233,7 @@
     }
 
     .wrapper .button:hover {
-        width: 150px;
+        width: 50px;
     }
 
     .wrapper .button .icon {
@@ -275,25 +247,6 @@
         transition: all 0.3s ease-out;
     }
 
-    .wrapper .button:nth-child(1):hover .icon {
-        background: #3b5998;
-    }
-
-    .wrapper .button:nth-child(2):hover .icon {
-        background: #0A66C2;
-    }
-
-    .wrapper .button:nth-child(3):hover .icon {
-        background: #1DA1F2;
-    }
-
-    .wrapper .button:nth-child(4):hover .icon {
-        background: #333;
-    }
-
-    .wrapper .button:nth-child(5):hover .icon {
-        background: #F47F24;
-    }
 
     .wrapper .button .icon i {
         font-size: 20px;
@@ -305,48 +258,19 @@
         color: #fff;
     }
 
-    .wrapper .button span {
-        font-size: 13px;
-        font-weight: bolder;
-        line-height: 50px;
-        margin-left: 5px;
-        transition: all 0.3s ease-out;
-
-    }
-
-    .wrapper .button:nth-child(1) span {
-        color: #3b5998;
-    }
-
-    .wrapper .button:nth-child(2) span {
-        color: #0A66C2;
-    }
-
-    .wrapper .button:nth-child(3) span {
-        color: #1DA1F2;
-    }
-
-    .wrapper .button:nth-child(4) span {
-        color: #333;
-    }
-
-    .wrapper .button:nth-child(5) span {
-        color: #F47F24;
-    }
-
     .follow-content {
         position: relative;
         display: block;
         float: left;
         width: 50%;
         margin-top: -17%;
-        margin-left: 7%;
     }
 
     .follow-content-text {
         font-size: 25px;
         font-weight: bolder;
         margin-bottom: 1rem;
+        margin-top: 20px;
     }
 
 }
