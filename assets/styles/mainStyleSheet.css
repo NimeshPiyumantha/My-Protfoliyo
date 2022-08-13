@@ -4,7 +4,7 @@
  **/
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Podkova&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -15,19 +15,19 @@
 
 /** Colors */
 .text-primary {
-    color: #FF6348;
+    color: #FF6348 !important;
 }
 
 .text-black {
-    color: #2C3E50;
+    color: #2C3E50 !important;
 }
 
 .text-green {
-    color: #2ED573;
+    color: #2ED573 !important;
 }
 
 .text-white {
-    background: #F8F7F3;
+    background: #F8F7F3 !important;
 }
 
 /** Header */
@@ -72,6 +72,7 @@ nav ul li a {
 a:hover {
     text-decoration: overline;
     text-decoration-thickness: 10px;
+    border-radius: 4px;
 }
 
 a.active, a:hover {
@@ -244,6 +245,7 @@ a.active, a:hover {
     background-color: rgba(44, 62, 80, 1.0);
     border: transparent;
 }
+
 @keyframes animate {
     0% {
         transform: scale(0) translateY(0) rotate(0);
@@ -255,9 +257,7 @@ a.active, a:hover {
     }
 }
 
-
 /**  Home_Content_Hire me Button */
-
 .btn-Hire-Me {
     background-color: #2ED573;
     border-radius: 100px;
@@ -285,18 +285,19 @@ a.active, a:hover {
     height: 50px;
     width: 50px;
     float: right;
-    margin-left :7px;
+    margin-left: 7px;
     background: #F9FAFB;
     border-radius: 50px;
     cursor: pointer;
     box-shadow: 10px 10px 10px rgba(1, 1, 1, 0.1);
     position: relative;
 }
-#arrow_details{
-    color: #2ED573 ;
+
+#arrow_details {
+    color: #2ED573;
     position: absolute;
-    z-index: 1;
     padding-top: 8px;
+    z-index: 1;
     padding-left: 15px;
 }
 
@@ -403,5 +404,3 @@ a.active, a:hover {
     font-weight: bolder;
     margin-bottom: 2rem;
 }
-
-

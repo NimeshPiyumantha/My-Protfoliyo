@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="eng">
+<html lang="eng" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>NimeshPiyumntha</title>
@@ -13,6 +13,7 @@
     <meta content="width=device-width initial-scale=1 maximum-scale=1 minimum-scale=1 user-scalable=no" name="viewport">
     <meta content="green" name="theme-color">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script crossorigin='anonymous' src='https://kit.fontawesome.com/a076d05399.js'></script>
     <link href="assets/styles/mainStyleSheet.css" rel="stylesheet">
     <link href="assets/styles/ResizeStyleSheet.css" rel="stylesheet">
 </head>
@@ -29,7 +30,7 @@
             <label class="logo"><span class="text-primary">Prot</span>foliyo</label>
             <ul class="link_Nav">
                 <li><a class="active" href="#">Home</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="#about">About</a></li>
                 <li><a href="#">Skills</a></li>
                 <li><a href="#">Gallery</a></li>
                 <li><a href="#">Certificate</a></li>
@@ -46,12 +47,13 @@
     <!--Home page sectioning -->
     <section><!--Image sectioning -->
         <img alt="Image" class="img" src="assets/images/background.png">
-        <article class="carousel-caption justify-content-center"> <!--Paragraph sectioning -->
-            <h1 class="text-primary text-size-1 "><span class="auto-type"></span></h1>
-            <h1 class="text-black text-size-2 ">I am <span class="auto-type1 text-green text-size-2"></span></h1>
-            <h1 class="text-black text-size-3 "><span class="auto-type2"></span></h1>
+        <article> <!--Paragraph sectioning -->
+            <div class="carousel-caption justify-content-center">
+                <h1 class="text-primary text-size-1 "><span class="auto-type"></span></h1>
+                <h1 class="text-black text-size-2 ">I am <span class="auto-type1 text-green text-size-2"></span></h1>
+                <h1 class="text-black text-size-3 "><span class="auto-type2"></span></h1>
+            </div>
         </article>
-
         <div class="box"><!--Animated Background -->
             <div></div>
             <div></div>
@@ -68,11 +70,13 @@
 
         <section> <!--Button sectioning -->
             <div class="button-content">
-            <button class="btn-Hire-Me">Hire Me <i class='fas fa-arrow-circle-right' id="arrow_details"></i> <div class="button-Circle"></div> </button>
-        </div>
+                <button class="btn-Hire-Me">Hire Me <i class='fas fa-arrow-circle-right' id="arrow_details"></i>
+                    <div class="button-Circle"></div>
+                </button>
+            </div>
         </section>
 
-        <section> <!--- SocialMedia link sectioning -->
+        <section> <!--Head sectioning -->
             <div class="follow-content">
                 <h2 class="text-black follow-content-text">Follow Me :</h2>
                 <div class="wrapper">
@@ -100,6 +104,8 @@
             </div>
         </section>
 
+        <nav> <!--SocialMedia link sectioning --> </nav>
+
         <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
         <script>
             const typed2 = new Typed(".auto-type", {
@@ -125,25 +131,28 @@
         </script>
     </section>
 
-    <hr>
+
     <!--About page sectioning -->
-    <section>
+    <section id="about">
         <article> <!--Header Paragraph sectioning -->
             <h4>About</h4>
-            <h1>About Me</h1>
+            <h1><span>About</span> Me</h1>
         </article>
+        <div></div>
+        <div></div>
 
-        <article> <!--Paragraph sectioning 1 -->
-            <p>I am a software engineering student at IJSE (Institute of Java Software Engineering) and currently
-                completing
-                my second semester.</p>
+        <article id="paragraphOne"> <!--Paragraph sectioning 1 -->
+            <p>I am a software engineering student at IJSE (Institute of Java<br>
+                Software Engineering) and currently completingmy second<br>
+                semester.</p>
         </article>
 
         <article> <!--Paragraph sectioning 2 -->
-            <p>Highly motivated and enthusiastic student studying Software Engineering at IJSE. Eager to learn new
-                technologies and always willing to innovate new things that can enhance existing technology. An
-                easy-going
-                person with a positive attitude and the ability to work in good teams.</p>
+            <p>Highly motivated and enthusiastic student studying Software<br>
+                Engineering at IJSE. Eager to learn new technologies and always<br>
+                willing to innovate new things that can enhance existing<br>
+                technology. An easy-going person with a positive attitude and<br>
+                the ability to work in good teams.</p>
         </article>
 
         <article> <!--Paragraph sectioning 3-->
@@ -187,8 +196,11 @@
     <section>
         <article> <!--Header Paragraph sectioning -->
             <h4>Skills</h4>
-            <h1>My Skills</h1>
+            <h1><span>My </span>Skills</h1>
         </article>
+        <div></div>
+        <div></div>
+
         <section> <!--Language Details sectioning --></section>
         <section> <!--Language using Tool Details sectioning --></section>
     </section>
@@ -198,8 +210,11 @@
     <section>
         <article> <!--Header Paragraph sectioning -->
             <h4>Gallery</h4>
-            <h1>Photo Album</h1>
+            <h1><span>Photo</span> Album</h1>
         </article>
+        <div></div>
+        <div></div>
+
         <section> <!--Image sectioning 1 --></section>
         <section> <!--Image sectioning 2 --></section>
     </section>
@@ -209,8 +224,11 @@
     <section>
         <article> <!--Header Paragraph sectioning -->
             <h4>Certificate</h4>
-            <h1>My Achievements</h1>
+            <h1><span>My</span> Achievements</h1>
         </article>
+        <div></div>
+        <div></div>
+
         <section> <!--Image sectioning  --></section>
     </section>
 
@@ -219,8 +237,11 @@
     <section>
         <article> <!--Header Paragraph sectioning -->
             <h4>Projects</h4>
-            <h1>My Portfolio</h1>
+            <h1><span>My </span>Portfolio</h1>
         </article>
+        <div></div>
+        <div></div>
+
         <section> <!--First (Java) Button sectioning  --></section>
         <section> <!--Second (HTML) Button sectioning  --></section>
         <section> <!--Third (CSS) Button sectioning  --></section>
@@ -235,8 +256,11 @@
     <section>
         <article> <!--Header Paragraph sectioning -->
             <h4>Services</h4>
-            <h1>What I Do </h1>
+            <h1><span>What</span> I Do </h1>
         </article>
+        <div></div>
+        <div></div>
+
         <section><!--Button Sectioning --></section>
         <section> <!--First (Development) Button sectioning  -->
 
@@ -302,8 +326,11 @@
     <section>
         <article> <!--Header Paragraph sectioning -->
             <h4>Hire Me</h4>
-            <h1>Pricing Plane</h1>
+            <h1><span>Pricing</span> Plane</h1>
         </article>
+        <div></div>
+        <div></div>
+
         <section><!--Button Sectioning --></section>
         <section> <!--First (Basic) Button sectioning  -->
             <h3>BASIC</h3>
@@ -350,8 +377,11 @@
     <section>
         <article> <!--Header Paragraph sectioning -->
             <h4>Testimonials</h4>
-            <h1>What My Clients Say</h1>
+            <h1><span>What My </span>Clients Say</h1>
         </article>
+        <div></div>
+        <div></div>
+
         <article> <!--Client Says sectioning  -->
             <p>Loved the template design, documentation, customizability and the customer support from Marketify team! I
                 am
@@ -368,30 +398,14 @@
     <section>
         <article> <!--Header Paragraph sectioning -->
             <h4>Contact </h4>
-            <h1>Contact With Me</h1>
-            <br><br>
+            <h1><span>Contact With </span> Me</h1>
         </article>
+        <div></div>
+        <div></div>
         <section> <!--Box sectioning --></section>
-
-        <section> <!--Contact Details Box sectioning -->
-            <form action="details" id="contactForm" method="post">
-
-                    <input id="txtName" name="customerName" placeholder="Name" required type="text">
-                    <br><br>
-                    <input id="txtEmail" name="customerEmail" placeholder="E-mail" required type="email">
-                    <br><br>
-                    <input id="txtSubject" name="subject" placeholder="Subject" required type="text">
-                    <br><br>
-                    <textarea cols="50" id="txtComment" name="comment" placeholder="Comment" rows="10"></textarea>
-                    <br><br>
-                    <button form="contactForm" formaction="sendMassage" formmethod="post">Send Massage</button>
-                    <br><br>
-
-            </form>
-        </section>
-
+        <section> <!--Contact Details Box sectioning --></section>
         <article> <!-- Paragraph Header sectioning -->
-            <h1>Get In Touch</h1>
+            <h2>Get In Touch</h2>
         </article>
         <article> <!-- Paragraph  sectioning -->
             <p>Always available for freelancing if the right project comes along, Feel free to contact me.</p>
