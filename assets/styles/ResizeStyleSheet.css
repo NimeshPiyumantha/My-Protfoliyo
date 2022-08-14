@@ -177,7 +177,7 @@
         border-radius: 100px;
         border: none;
         color: #ECF0F3;
-        padding: 10px 14px;
+        padding: 15px 18px;
         text-align: left;
         text-decoration: none;
         display: inline-block;
@@ -193,13 +193,13 @@
         position: relative;
         display: block;
         float: left;
-        margin-top: -25%;
-        margin-left: 7%;
+        margin-top: -26%;
+        margin-left: 8%;
     }
 
     .button-Circle {
-        height: 30px;
-        width: 30px;
+        height: 32px;
+        width: 32px;
         float: right;
         margin-left: 7px;
         background: #F9FAFB;
