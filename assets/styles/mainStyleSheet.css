@@ -96,6 +96,11 @@ a.active, a:hover {
 }
 
 /** Main - Home */
+#Home {
+    height: 939px;
+    width: 100%;
+}
+
 .img {
     background-repeat: no-repeat;
     background-size: cover;
@@ -103,7 +108,6 @@ a.active, a:hover {
 }
 
 /** Main - Home- Type Text */
-
 .text-size-1 {
     margin-bottom: 0.7rem;
     font-family: Poppins, sans-serif;
@@ -278,8 +282,8 @@ a.active, a:hover {
 .button-content {
     position: relative;
     display: inline-block;
-    top: -450px;
-    left: 8%;
+    bottom: 450px;
+    left: 200px;
 }
 
 .button-Circle {
@@ -395,8 +399,8 @@ a.active, a:hover {
 .follow-content {
     position: relative;
     display: inline-block;
-    left: 173px;
-    top: -390px;
+    bottom: 300px;
+    right: 30px;
 }
 
 .follow-content-text {
