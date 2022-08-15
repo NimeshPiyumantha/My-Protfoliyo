@@ -5,6 +5,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Podkova&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arbutus&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -136,9 +138,9 @@ a.active, a:hover {
 
 .carousel-caption {
     position: relative;
-    padding-left:150px ;
     padding-top: 10%;
     text-align: left;
+    padding-left: 150px;
 }
 
 /** Main - Home -Animate Background */
@@ -263,7 +265,7 @@ a.active, a:hover {
     border-radius: 100px;
     border: none;
     color: #ECF0F3;
-    padding: 15px 18px;
+    padding: 15px 23px;
     text-align: left;
     text-decoration: none;
     display: inline-block;
@@ -275,17 +277,16 @@ a.active, a:hover {
 
 .button-content {
     position: relative;
-    display: block;
-    float: left;
-    margin-top: -25%;
-    margin-left: 7%;
+    display: inline-block;
+    top: -450px;
+    left: 8%;
 }
 
 .button-Circle {
-    height: 50px;
-    width: 50px;
+    height: 52px;
+    width: 52px;
     float: right;
-    margin-left: 7px;
+    margin-left: 19px;
     background: #F9FAFB;
     border-radius: 50px;
     cursor: pointer;
@@ -296,9 +297,10 @@ a.active, a:hover {
 #arrow_details {
     color: #2ED573;
     position: absolute;
-    padding-top: 8px;
+    left: 173px;
+    bottom: 25px;
     z-index: 1;
-    padding-left: 15px;
+
 }
 
 /**  Home_Content_Social Media Navigation */
@@ -392,11 +394,9 @@ a.active, a:hover {
 
 .follow-content {
     position: relative;
-    display: block;
-    float: left;
-    width: 100%;
-    margin-top: -17%;
-    padding-left:150px ;
+    display: inline-block;
+    left: 173px;
+    top: -390px;
 }
 
 .follow-content-text {
