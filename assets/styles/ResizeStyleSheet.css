@@ -177,7 +177,7 @@
         border-radius: 100px;
         border: none;
         color: #ECF0F3;
-        padding: 15px 18px;
+        padding: 12px 18px;
         text-align: left;
         text-decoration: none;
         display: inline-block;
@@ -191,17 +191,16 @@
 
     .button-content {
         position: relative;
-        display: block;
-        float: left;
-        margin-top: -26%;
-        margin-left: 8%;
+        display: inline-block;
+        top: -250px;
+        left: 7%;
     }
 
     .button-Circle {
-        height: 32px;
-        width: 32px;
+        height: 30px;
+        width: 30px;
         float: right;
-        margin-left: 7px;
+        margin-left: 19px;
         background: #F9FAFB;
         border-radius: 50px;
         cursor: pointer;
@@ -212,9 +211,9 @@
     #arrow_details {
         color: #2ED573;
         position: absolute;
+        left: 195px;
+        bottom: 17px;
         z-index: 1;
-        padding-top: 6px;
-        padding-left: 12px;
     }
 
     /**  Home_Content_Social Media Navigation */
@@ -260,17 +259,15 @@
 
     .follow-content {
         position: relative;
-        display: block;
-        float: left;
-        width: 50%;
-        margin-top: -17%;
+        display: inline-block;
+        left: 16%;
+        top: -230px;
     }
 
     .follow-content-text {
-        font-size: 25px;
+        font-size: 30px;
         font-weight: bolder;
-        margin-bottom: 1rem;
-        margin-top: 20px;
+        margin-bottom: 1.5rem;
     }
 
 }
