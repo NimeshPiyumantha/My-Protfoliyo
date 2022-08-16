@@ -406,3 +406,9 @@ a.active, a:hover {
     font-weight: bolder;
     margin-bottom: 2rem;
 }
+
+/**-------------------------------------------- Main - About --------------------------------------------**/
+#About{
+    width: 1903px;
+    height: 2300px;
+}
