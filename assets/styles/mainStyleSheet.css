@@ -463,3 +463,9 @@ body > main > section#About > div:nth-child(3) {
     left: 45%;
     border-radius: 3px;
 }
+
+/** Main - About Image Section */
+#image {
+    width: 1903px;
+    height: 600px;
+}
