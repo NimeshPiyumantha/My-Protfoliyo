@@ -47,7 +47,6 @@ label.logo {
     color: #2C3E50;
     line-height: 80px;
     padding: 0 50px;
-
 }
 
 .head .link_Nav {
@@ -373,7 +372,6 @@ a.active, a:hover {
     line-height: 100px;
     margin-left: 10px;
     transition: all 0.3s ease-out;
-
 }
 
 .wrapper .button:nth-child(1) span {
