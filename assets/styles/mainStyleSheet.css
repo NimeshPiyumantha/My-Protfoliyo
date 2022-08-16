@@ -454,3 +454,12 @@ body > main > section#About > div:nth-child(2) {
     border-radius: 3px;
 }
 
+body > main > section#About > div:nth-child(3) {
+    width: 100px;
+    height: 7px;
+    position: relative;
+    background: #2ED573;
+    margin-top: 0.5em;
+    left: 45%;
+    border-radius: 3px;
+}
