@@ -550,3 +550,18 @@ body > main > section#About > section#image > div#circleOne h2 {
     padding-left: 28px;
     padding-bottom: 20px;
 }
+
+/** Main - About Section Circle Two Div  */
+body > main > section#About > section#image > div#circleTwo {
+    width: 164px;
+    height: 164px;
+    background: #F9FAFB;
+    border-radius: 100%;
+    opacity: 99%;
+    position: relative;
+    bottom: 970px;
+    left: 1500px;
+    display: inline-block;
+    z-index: 1;
+    box-shadow: inset 4px 4px 8px #ecf0f1, inset 5px 5px 9px #ecf0f1, inset 4px 4px 18px #ecf0f1;
+}
