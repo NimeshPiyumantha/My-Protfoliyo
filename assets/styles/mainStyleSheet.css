@@ -516,3 +516,17 @@ body > main > section#About > article#paragraphTwo p {
     left: 1180px;
     z-index: 1;
 }
+
+/** Main - About Section Circle One Div  */
+body > main > section#About > section#image > div#circleOne {
+    width: 164px;
+    height: 164px;
+    background: #F9FAFB;
+    border-radius: 100%;
+    position: relative;
+    opacity: 99%;
+    bottom: 700px;
+    left: 1250px;
+    z-index: 1;
+    box-shadow: inset 4px 4px 8px #ecf0f1, inset 5px 5px 9px #ecf0f1, inset 4px 4px 18px #ecf0f1;
+}
