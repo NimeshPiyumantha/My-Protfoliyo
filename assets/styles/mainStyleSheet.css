@@ -412,3 +412,14 @@ a.active, a:hover {
     width: 1903px;
     height: 2300px;
 }
+/** Main - About Header */
+body > main > section > article h4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    color: #2ED573 !important;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 3px;
+    padding-top: 1em;
+}
