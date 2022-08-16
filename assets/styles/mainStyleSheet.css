@@ -565,3 +565,23 @@ body > main > section#About > section#image > div#circleTwo {
     z-index: 1;
     box-shadow: inset 4px 4px 8px #ecf0f1, inset 5px 5px 9px #ecf0f1, inset 4px 4px 18px #ecf0f1;
 }
+
+body > main > section#About > section#image > div#circleTwo h1 {
+    font-family: "Arbutus", sans-serif;
+    font-weight: bolder;
+    font-size: 35px;
+    color: #2C3E50 !important;
+    text-decoration: none;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+body > main > section#About > section#image > div#circleTwo h2 {
+    font-family: "Podkova", sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+    color: #2C3E50 !important;
+    text-decoration: none;
+    padding-left: 28px;
+    padding-bottom: 20px;
+}
