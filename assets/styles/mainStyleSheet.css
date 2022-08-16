@@ -490,6 +490,16 @@ body > main > section#About > article#paragraphOne p {
     padding-bottom: 1.5em;
 }
 
+body > main > section#About > article#paragraphTwo p {
+    font-family: "Podkova", sans-serif;
+    font-weight: lighter;
+    font-size: 27px;
+    color: #2C3E50 !important;
+    text-decoration: none;
+    position: relative;
+    padding-bottom: 1.5em;
+    margin-left: 250px;
+}
 
 
 /** Main - About Image Section */
