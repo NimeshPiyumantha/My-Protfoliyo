@@ -443,3 +443,14 @@ body > main > section > article > h1 > span {
     text-align: center;
     border-radius: 3px;
 }
+
+/** Main - About Header Underline */
+body > main > section#About > div:nth-child(2) {
+    width: 135px;
+    height: 7px;
+    background: #2ED573;
+    position: relative;
+    left: 45%;
+    border-radius: 3px;
+}
+
