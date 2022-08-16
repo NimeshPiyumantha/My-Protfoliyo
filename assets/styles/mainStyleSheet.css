@@ -501,9 +501,18 @@ body > main > section#About > article#paragraphTwo p {
     margin-left: 250px;
 }
 
-
 /** Main - About Image Section */
 #image {
     width: 1903px;
     height: 600px;
+}
+
+#aboutImg {
+    position: relative;
+    height: 100%;
+    width: 454px;
+    border-radius: 20px;
+    bottom: 300px;
+    left: 1180px;
+    z-index: 1;
 }
