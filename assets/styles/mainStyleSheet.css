@@ -423,3 +423,13 @@ body > main > section > article h4 {
     border-radius: 3px;
     padding-top: 1em;
 }
+
+body > main > section > article > h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #2C3E50 !important;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 3px;
+}
