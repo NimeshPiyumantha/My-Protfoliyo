@@ -464,6 +464,19 @@ body > main > section#About > div:nth-child(3) {
     border-radius: 3px;
 }
 
+/** Main - About Header Circle */
+body > main > section#About > div#circle {
+    width: 90px;
+    height: 90px;
+    background: #FFFFFF;
+    border: 8px solid #FF6348;
+    position: relative;
+    border-radius: 100%;
+    opacity: 60%;
+    bottom: 130px;
+    right: 45px;
+}
+
 /** Main - About Image Section */
 #image {
     width: 1903px;
