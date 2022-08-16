@@ -433,3 +433,13 @@ body > main > section > article > h1 {
     text-align: center;
     border-radius: 3px;
 }
+
+body > main > section > article > h1 > span {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #FF6348 !important;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 3px;
+}
