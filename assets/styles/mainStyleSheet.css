@@ -613,3 +613,11 @@ body > main > section#About > section#image > div#circleTwo h2 {
     bottom: 460px;
     margin-left: 190px;
 }
+
+body > main > section#About > article#details > h3:nth-child(1) {
+    font-family: "Poppins", sans-serif;
+    font-weight: lighter;
+    font-size: 36px;
+    color: #2C3E50 !important;
+    margin-bottom: -55px;
+}
