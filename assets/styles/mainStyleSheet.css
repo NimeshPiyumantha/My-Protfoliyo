@@ -621,3 +621,7 @@ body > main > section#About > article#details > h3:nth-child(1) {
     color: #2C3E50 !important;
     margin-bottom: -55px;
 }
+
+body > main > section#About > article#details > h3:nth-child(1) span {
+    font-weight: bold;
+}
