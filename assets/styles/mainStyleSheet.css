@@ -709,7 +709,6 @@ body > main > section#About > article#details > h3:nth-child(7) {
     margin-bottom: -55px;
 }
 
-
 body > main > section#About > article#details > h3:nth-child(7) span {
     font-weight: bold;
 }
@@ -723,4 +722,8 @@ body > main > section#About > article#details > h3:nth-child(8) {
     text-decoration: none;
     padding-left: 590px;
     padding-bottom: 0.3em;
+}
+
+body > main > section#About > article#details > h3:nth-child(8) span {
+    font-weight: bold;
 }
