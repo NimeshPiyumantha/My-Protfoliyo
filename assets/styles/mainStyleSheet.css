@@ -585,3 +585,10 @@ body > main > section#About > section#image > div#circleTwo h2 {
     padding-left: 28px;
     padding-bottom: 20px;
 }
+
+/** Main - About Section Vector One Div  */
+#vectorOne {
+    position: relative;
+    bottom: 785px;
+    right: 64px;
+}
