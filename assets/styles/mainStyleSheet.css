@@ -694,3 +694,7 @@ body > main > section#About > article#details > h3:nth-child(6) {
     padding-left: 590px;
     padding-bottom: 0.3em;
 }
+
+body > main > section#About > article#details > h3:nth-child(6) span {
+    font-weight: bold;
+}
