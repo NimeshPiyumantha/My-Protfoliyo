@@ -606,3 +606,10 @@ body > main > section#About > section#image > div#circleTwo h2 {
     left: 1270px;
     bottom: 890px;
 }
+
+/** Main - About Section Article h3 First Child */
+#details {
+    position: relative;
+    bottom: 460px;
+    margin-left: 190px;
+}
