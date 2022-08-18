@@ -741,3 +741,14 @@ body > main > section#About > article#details > h3:nth-child(9) {
 body > main > section#About > article#details > h3:nth-child(9) span {
     font-weight: bold;
 }
+
+/** Main - About Section Article h3 Tenth Child */
+body > main > section#About > article#details > h3:nth-child(10) {
+    font-family: "Poppins", sans-serif;
+    font-weight: lighter;
+    font-size: 36px;
+    color: #2C3E50 !important;
+    text-decoration: none;
+    padding-left: 590px;
+    padding-bottom: 0.3em;
+}
