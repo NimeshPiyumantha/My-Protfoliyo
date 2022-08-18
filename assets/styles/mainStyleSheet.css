@@ -679,3 +679,7 @@ body > main > section#About > article#details > h3:nth-child(5) {
     text-decoration: none;
     margin-bottom: -55px;
 }
+
+body > main > section#About > article#details > h3:nth-child(5) span {
+    font-weight: bold;
+}
