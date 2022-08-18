@@ -592,3 +592,10 @@ body > main > section#About > section#image > div#circleTwo h2 {
     bottom: 785px;
     right: 64px;
 }
+
+/** Main - About Section Vector Two Div  */
+#vectorTwo {
+    position: relative;
+    bottom: 1330px;
+    left: 135px;
+}
