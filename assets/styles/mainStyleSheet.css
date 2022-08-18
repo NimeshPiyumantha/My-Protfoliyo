@@ -640,3 +640,13 @@ body > main > section#About > article#details > h3:nth-child(2) {
 body > main > section#About > article#details > h3:nth-child(2) span {
     font-weight: bold;
 }
+
+/** Main - About Section Article h3 Third Child */
+body > main > section#About > article#details > h3:nth-child(3) {
+    font-family: "Poppins", sans-serif;
+    font-weight: lighter;
+    font-size: 36px;
+    color: #2C3E50 !important;
+    text-decoration: none;
+    margin-bottom: -55px;
+}
