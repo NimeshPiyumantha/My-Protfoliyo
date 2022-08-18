@@ -599,3 +599,10 @@ body > main > section#About > section#image > div#circleTwo h2 {
     bottom: 1330px;
     left: 135px;
 }
+
+/** Main - About Section Vector Star Div  */
+#vectorStar {
+    position: relative;
+    left: 1270px;
+    bottom: 890px;
+}
