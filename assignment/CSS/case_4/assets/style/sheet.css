@@ -26,3 +26,16 @@ body > section > div {
     font-weight: bolder;
 }
 
+/*  Paragraph  */
+body > section > p {
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    font-size: 100px;
+    font-weight: bolder;
+}
