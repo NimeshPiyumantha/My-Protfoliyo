@@ -66,3 +66,20 @@ body>section:nth-child(3){
 body > section:nth-child(3) > div > p {
     margin-top: 100px;
 }
+
+/*Absolute Blue Circle */
+body>section:nth-child(4){
+    position: absolute;
+    background-color: #1C98BC;
+    width: 230px;
+    height: 230px;
+    border-radius: 230px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+body > section:nth-child(4) > div > p {
+    margin-top: 100px;
+}
