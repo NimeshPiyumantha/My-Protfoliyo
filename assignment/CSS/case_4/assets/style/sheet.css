@@ -63,3 +63,11 @@ body > section:nth-child(3) > div {
 body > section:nth-child(3) {
     background-color: #5F5951;
 }
+
+/*  Card 4  */
+body > section:nth-child(4) > div {
+    background-color: #F13D29;
+}
+body > section:nth-child(4) {
+    background-color: #7C322A;
+}
