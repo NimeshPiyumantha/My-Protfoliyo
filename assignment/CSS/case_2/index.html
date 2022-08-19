@@ -3,19 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <title>Case 2</title>
-    <link rel="stylesheet" href="/assets/styles/normalize.css">
+    <link href="/assets/styles/normalize.css" rel="stylesheet">
 
     <style>
+        *{
+            font-family: 'Poppins', sans-serif;
+        }
 
+        header{
+            background: white;
+            box-shadow: 0px -1px 8px 2px #1c1717e8;
+            position: relative;
+            height: 73px;
+        }
+        header>img{
+            width: 190px;
+            position: relative;
+            top: 20px;
+            left: 10px;
+        }
+        header>nav{
+            position: absolute;
+            right: 40px;
+            top: 0;
+        }
+
+        header>nav>ul>li{
+            display: inline-block;
+            padding: 10px;
+            font-family: 'Poppins', sans-serif;
+            color: rgba(46, 41, 41, 0.96);
+        }
     </style>
 </head>
 <body>
 <header>
+    <img src="assets/img/favicon.png" alt="Logo">
     <nav>
         <ul>
             <li>Home</li>
             <li>Services</li>
-            <li>Contacts</li>
+            <li>Contact</li>
             <li>About Us</li>
         </ul>
     </nav>
