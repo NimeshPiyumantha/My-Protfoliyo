@@ -83,3 +83,19 @@ body>section:nth-child(4){
 body > section:nth-child(4) > div > p {
     margin-top: 100px;
 }
+
+/*Absolute Red Circle */
+body>section:nth-child(5){
+    position: absolute;
+    background-color: #FF6452;
+    width: 230px;
+    height: 230px;
+    border-radius: 230px;
+    bottom: 365px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+body > section:nth-child(5) > div > p {
+    margin-top: 80px;
+}
