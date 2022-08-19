@@ -121,3 +121,17 @@ main > section >p{
     font-weight: bolder;
 }
 
+/*   Footer    */
+body > footer {
+    height: 100px;
+    background-color: dimgray;
+}
+
+body > footer > p {
+    margin-top: 0;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
