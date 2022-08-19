@@ -9,3 +9,20 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body > section {
+    position: relative;
+    height: 1000px;
+}
+
+body > section > div {
+    position: sticky;
+    top: 0;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    z-index: 1;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
