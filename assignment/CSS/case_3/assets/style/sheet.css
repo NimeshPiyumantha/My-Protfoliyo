@@ -1,0 +1,31 @@
+/**
+ * @author : Nimesh Piyumantha
+ * @since : 0.1.0
+ **/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    position: relative;
+    height: 300vh;
+}
+
+/*Fixed Gray Circle */
+body > div:nth-child(1) {
+    border: 19px solid gray;
+    width: 260px;
+    height: 260px;
+    border-radius: 260px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    z-index: 1;
+}
+
