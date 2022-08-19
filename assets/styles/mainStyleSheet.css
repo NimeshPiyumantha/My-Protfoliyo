@@ -268,7 +268,7 @@ a.active, a:hover {
     border-radius: 100px;
     border: none;
     color: #ECF0F3;
-    padding: 15px 23px;
+    padding: 20px 18px 10px 20px;
     text-align: left;
     text-decoration: none;
     display: inline-block;
@@ -295,15 +295,15 @@ a.active, a:hover {
     cursor: pointer;
     box-shadow: 10px 10px 10px rgba(1, 1, 1, 0.1);
     position: relative;
+    bottom: 5px;
 }
 
 #arrow_details {
     color: #2ED573;
     position: absolute;
-    left: 173px;
+    left: 170px;
     bottom: 25px;
     z-index: 1;
-
 }
 
 /**  Home_Content_Social Media Navigation */
@@ -408,10 +408,11 @@ a.active, a:hover {
 }
 
 /**-------------------------------------------- Main - About --------------------------------------------**/
-#About{
+#About {
     width: 1903px;
     height: 2300px;
 }
+
 /** Main - About Header */
 body > main > section > article h4 {
     font-family: "Poppins", sans-serif;
@@ -432,6 +433,8 @@ body > main > section > article > h1 {
     text-decoration: none;
     text-align: center;
     border-radius: 3px;
+    margin-top: 5px;
+    margin-bottom: 7px;
 }
 
 body > main > section > article > h1 > span {
@@ -486,7 +489,7 @@ body > main > section#About > article#paragraphOne p {
     text-decoration: none;
     position: relative;
     margin-left: 250px;
-    right: 0;
+    right: 45px;
     padding-bottom: 1.5em;
 }
 
@@ -497,8 +500,8 @@ body > main > section#About > article#paragraphTwo p {
     color: #2C3E50 !important;
     text-decoration: none;
     position: relative;
-    padding-bottom: 1.5em;
     margin-left: 250px;
+    right: 45px;
 }
 
 /** Main - About Image Section */
@@ -537,8 +540,9 @@ body > main > section#About > section#image > div#circleOne h1 {
     font-size: 35px;
     color: #2C3E50 !important;
     text-decoration: none;
-    padding-left: 70px;
-    padding-top: 20px;
+    position: relative;
+    left: 70px;
+    top: 30px;
 }
 
 body > main > section#About > section#image > div#circleOne h2 {
@@ -547,8 +551,9 @@ body > main > section#About > section#image > div#circleOne h2 {
     font-size: 25px;
     color: #2C3E50 !important;
     text-decoration: none;
-    padding-left: 28px;
-    padding-bottom: 20px;
+    position: relative;
+    left: 25px;
+    top: 7px;
 }
 
 /** Main - About Section Circle Two Div  */
@@ -572,8 +577,9 @@ body > main > section#About > section#image > div#circleTwo h1 {
     font-size: 35px;
     color: #2C3E50 !important;
     text-decoration: none;
-    padding-left: 50px;
-    padding-top: 20px;
+    position: relative;
+    left: 50px;
+    top: 15px;
 }
 
 body > main > section#About > section#image > div#circleTwo h2 {
@@ -582,8 +588,9 @@ body > main > section#About > section#image > div#circleTwo h2 {
     font-size: 25px;
     color: #2C3E50 !important;
     text-decoration: none;
-    padding-left: 28px;
-    padding-bottom: 20px;
+    position: relative;
+    left: 30px;
+    bottom: 8px;
 }
 
 /** Main - About Section Vector One Div  */
@@ -596,7 +603,7 @@ body > main > section#About > section#image > div#circleTwo h2 {
 /** Main - About Section Vector Two Div  */
 #vectorTwo {
     position: relative;
-    bottom: 1330px;
+    bottom: 1310px;
     left: 135px;
 }
 
@@ -610,7 +617,7 @@ body > main > section#About > section#image > div#circleTwo h2 {
 /** Main - About Section Article h3 First Child */
 #details {
     position: relative;
-    bottom: 460px;
+    bottom: 420px;
     margin-left: 190px;
 }
 
@@ -634,7 +641,7 @@ body > main > section#About > article#details > h3:nth-child(2) {
     color: #2C3E50 !important;
     text-decoration: none;
     padding-left: 590px;
-    padding-bottom: 0.3em;
+    padding-bottom: 1em;
 }
 
 body > main > section#About > article#details > h3:nth-child(2) span {
@@ -663,7 +670,7 @@ body > main > section#About > article#details > h3:nth-child(4) {
     color: #2C3E50 !important;
     text-decoration: none;
     padding-left: 590px;
-    padding-bottom: 0.3em;
+    padding-bottom: 1em;
 }
 
 body > main > section#About > article#details > h3:nth-child(4) span {
@@ -692,7 +699,7 @@ body > main > section#About > article#details > h3:nth-child(6) {
     color: #2C3E50 !important;
     text-decoration: none;
     padding-left: 590px;
-    padding-bottom: 0.3em;
+    padding-bottom: 1em;
 }
 
 body > main > section#About > article#details > h3:nth-child(6) span {
@@ -721,7 +728,7 @@ body > main > section#About > article#details > h3:nth-child(8) {
     color: #2C3E50 !important;
     text-decoration: none;
     padding-left: 590px;
-    padding-bottom: 0.3em;
+    padding-bottom: 1em;
 }
 
 body > main > section#About > article#details > h3:nth-child(8) span {
@@ -750,7 +757,7 @@ body > main > section#About > article#details > h3:nth-child(10) {
     color: #2C3E50 !important;
     text-decoration: none;
     padding-left: 590px;
-    padding-bottom: 0.3em;
+    padding-bottom: 1em;
 }
 
 body > main > section#About > article#details > h3:nth-child(10) span {
