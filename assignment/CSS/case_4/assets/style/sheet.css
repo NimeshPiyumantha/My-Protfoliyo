@@ -47,3 +47,11 @@ body > section:nth-child(1) > div {
 body > section:nth-child(1) {
     background-color: white;
 }
+
+/*  Card 2  */
+body > section:nth-child(2) > div {
+    background-color: #004583;
+}
+body > section:nth-child(2) {
+    background-color: #5BB7FF;
+}
