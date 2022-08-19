@@ -92,6 +92,7 @@ main > section > section {
 main > section > section > div {
     position: absolute;
     padding-top: 10px;
+    padding-left: 15px;
     height: 100%;
     width: calc(100% / 3);
 }
