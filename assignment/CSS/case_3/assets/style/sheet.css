@@ -29,3 +29,17 @@ body > div:nth-child(1) {
     z-index: 1;
 }
 
+/*Fixed red Circle */
+body > div:nth-child(2) {
+    border: 19px solid red;
+    width: 230px;
+    height: 230px;
+    border-radius: 230px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    z-index: 1;
+}
