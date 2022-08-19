@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Absolute Position</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+
+      body>section{
+          width: 50vw;
+          height: 50vh;
+          position: absolute;
+      }
+
+      body > section:nth-child(1) {
+          background: red;
+          left: 0;
+          top: 0;
+      }
+
+      body > section:nth-child(2) {
+          background: Green;
+          Right: 0;
+          top: 0;
+      }
+
+      body > section:nth-child(3) {
+          background: Yellow;
+          left: 0;
+          bottom: 0;
+      }
+
+      body > section:nth-child(4) {
+          background: deeppink;
+          right: 0;
+          bottom: 0;
+      }
+
+      body > aside {
+          width: 140px;
+          height: 140px;
+          background: white;
+          position: absolute;
+      }
+
+      body > aside:nth-child(5) {
+          left: 0;
+          top: 0;
+          border-bottom-right-radius: 100%;
+      }
+
+      body > aside:nth-child(6) {
+          top: 0;
+          right: 0;
+          border-bottom-left-radius: 100%;
+      }
+
+      body > aside:nth-child(7) {
+          bottom: 0;
+          left: 0;
+          border-top-right-radius: 100%;
+      }
+
+      body > aside:nth-child(8) {
+          bottom: 0;
+          right: 0;
+          border-top-left-radius: 100%;
+      }
+
+      body > article {
+          width: 150px;
+          height: 150px;
+          position: absolute;
+      }
+
+      body > article:nth-child(9) {
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          margin: auto;
+          background: white;
+      }
+
+      body > article:nth-child(10) {
+          width: 90px;
+          height: 90px;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          border-radius: 100%;
+          margin: auto;
+          background: red;
+      }
+
+      body > div {
+          width: 150px;
+          height: 80px;
+          background: white;
+          position: absolute;
+      }
+
+      body > div:nth-child(11) {
+          left: 0;
+          right: 0;
+          margin: auto;
+          border-bottom-left-radius: 120px;
+          border-bottom-right-radius: 120px;
+      }
+
+        body > div:nth-child(12) {
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            border-top-left-radius: 120px;
+            border-top-right-radius: 120px;
+        }
+
+        section > div {
+            width: 150px;
+            height: 150px;
+            background: white;
+            border-radius: 100%;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        section > div > div {
+            width: 75px;
+            height: 75px;
+            background: red;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+
+    </style>
+</head>
+<body>
+
+<!--Red Square-->
+<section>
+    <div>
+        <div></div>
+    </div>
+</section>
+
+<!--Green Square-->
+<section>
+    <div>
+        <div></div>
+    </div>
+</section>
+
+<!--Yellow Square-->
+<section>
+    <div>
+        <div></div>
+    </div>
+</section>
+
+<!--Pink Square-->
+<section>
+    <div>
+        <div></div>
+    </div>
+</section>
+
+<!--White Circle-->
+<aside> </aside>
+<aside> </aside>
+<aside> </aside>
+<aside> </aside>
+
+<!--Center Circle-->
+<article> </article>
+<article> </article>
+
+<!--Position Circle-->
+<div></div>
+<div></div>
+
+
+</body>
+</html>
