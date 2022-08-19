@@ -39,3 +39,11 @@ body > section > p {
     font-size: 100px;
     font-weight: bolder;
 }
+
+/*  Card 1  */
+body > section:nth-child(1) > div {
+    background-color: #FE351F;
+}
+body > section:nth-child(1) {
+    background-color: white;
+}
