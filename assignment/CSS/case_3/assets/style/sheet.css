@@ -43,3 +43,26 @@ body > div:nth-child(2) {
     margin: auto;
     z-index: 1;
 }
+
+body > section > div {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*Absolute Pink Circle */
+body>section:nth-child(3){
+    position: absolute;
+    background-color: #943F7B;
+    width: 230px;
+    height: 230px;
+    border-radius: 230px;
+    top: 366px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+body > section:nth-child(3) > div > p {
+    margin-top: 100px;
+}
