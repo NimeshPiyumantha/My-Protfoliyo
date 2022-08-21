@@ -124,15 +124,15 @@ main > section >p{
 
 /*   Footer    */
 body > footer {
-    height: 100px;
+    height: 50px;
     background-color: dimgray;
 }
 
 body > footer > p {
     margin-top: 0;
     text-align: center;
-    padding: 20px;
+    padding: 5px;
     color: white;
-    font-size: 50px;
+    font-size: 30px;
     font-weight: bold;
 }
