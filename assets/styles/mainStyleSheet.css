@@ -988,3 +988,15 @@ body > main > section#About > section#education > section#Ordinary > h3#OSecond 
     font-size: 30px;
     color: #2C3E50 !important;
 }
+
+body > main > section#About > section#education > section#Ordinary > p {
+    font-family: "Poppins", sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+    color: #2C3E50 !important;
+    position: relative;
+    box-sizing: border-box;
+    display: inline-block;
+    left: 205px;
+    bottom: 5px;
+}
