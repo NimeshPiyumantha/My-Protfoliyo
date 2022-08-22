@@ -1009,3 +1009,9 @@ body > main > section#About > section#education > section#Ordinary > p {
     height: 500px;
     z-index: 1;
 }
+
+#education_2 {
+    display: inline-block;
+    position: relative;
+    left: 110px;
+}
