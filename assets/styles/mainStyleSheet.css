@@ -981,3 +981,10 @@ body > main > section#About > section#education > section#Ordinary > h3#OSecond 
     left: 205px;
     bottom: 20px;
 }
+
+body > main > section#About > section#education > section#Ordinary > h3#OSecond span {
+    font-family: "Poppins", sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+    color: #2C3E50 !important;
+}
