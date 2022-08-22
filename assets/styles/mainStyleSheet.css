@@ -888,3 +888,7 @@ body > main > section#About > section#education > article > h4 {
     margin-top: -140px;
     text-align: center;
 }
+
+body > main > section#About > section#education > article > h4 > span {
+    color: #2C3E50 !important;
+}
