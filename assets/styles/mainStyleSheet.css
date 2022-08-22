@@ -811,3 +811,23 @@ body > main > section#About > article#details > h3:nth-child(10) span {
     bottom: 300px;
     left: 600px;
 }
+
+.button-CircleTwo {
+    height: 50px;
+    width: 50px;
+    float: right;
+    background: #F9FAFB;
+    border-radius: 50px;
+    cursor: pointer;
+    position: relative;
+    bottom: 5px;
+    box-shadow: 0 -1px 8px 2px #1c171748;
+}
+
+#download_arrow {
+    color: #FF6348;
+    position: relative;
+    left: 42px;
+    top: 2px;
+    z-index: 1;
+}
