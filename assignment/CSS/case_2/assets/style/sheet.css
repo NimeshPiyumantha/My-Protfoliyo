@@ -12,9 +12,12 @@
 /*   Header    */
 header {
     background: white;
-    box-shadow: 0 -1px 8px 2px #1c1717e8;
-    position: relative;
+    box-shadow: 0px -1px 8px 2px #1c1717e8;
+    position: fixed;
+    width: 100%;
+    top: 0;
     height: 73px;
+    z-index: 2;
 }
 
 header > img {
@@ -26,42 +29,63 @@ header > img {
 
 header > nav {
     position: absolute;
-    right: 20px;
+    right: 40px;
     top: 0;
     font-size: 24px;
 }
 
 header > nav > ul > li {
-    padding: 0 10px 0 10px;
     display: inline-block;
+    cursor: pointer;
+    padding: 10px;
     font-family: 'Poppins', sans-serif;
     color: rgba(46, 41, 41, 0.96);
+    font-size: 19px;
+    border-right: 2px solid rgba(46, 41, 41, 0.58);
 }
 
-header > nav > ul > li:hover {
-    cursor: pointer;
-    color: red;
+header > nav > ul > li:first-child {
+    border-left: 2px solid rgba(46, 41, 41, 0.58);
+}
+
+header ul > li:hover a {
+    color: rgba(228, 12, 12, 0.89);
+}
+
+header ul > li:hover i {
+    color: #c21e1e;
+}
+
+header ul > li > i {
+    padding-right: 6px;
+}
+
+header ul > li > a {
+    color: rgba(46, 41, 41, 0.96);
+    text-decoration: none;
 }
 
 /*   Body    */
 body > main {
     position: relative;
+    margin-top: 73px;
 }
 
 /*   Body - Nav   */
 main > nav {
-    width: 270px;
-    background-color: rebeccapurple;
     position: absolute;
+    background: #24327f;
     top: 0;
     bottom: 0;
-    color: white;
+    width: 270px;
 }
 
-main > nav > ul {
+main > nav > ul > li {
+    color: white;
     list-style: none;
-    font-size: 25px;
-    margin-top: 39px;
+    padding-top: 40px;
+    font-size: 19px;
+    cursor: pointer;
 }
 
 main > nav > ul > li {
@@ -71,52 +95,61 @@ main > nav > ul > li {
     margin-left: 13px;
 }
 
-main > nav > ul > li:hover {
-    cursor: pointer;
-    color: red;
+main ul > li:hover a {
+    color: #eee309;
+}
+
+main ul > li:hover i {
+    color: #ff9500;
+}
+
+main ul > li > i {
+    padding-right: 15px;
+    font-size: 20px;
+    color: #ccffcd;
+}
+
+main ul > li > a {
+    color: #ccffcd;
+    text-decoration: none;
 }
 
 /*   Body -Section  */
 main > section {
     margin-left: 270px;
     padding: 10px;
-    min-height: 587px;
 }
 
 /*   Body - Gif   */
-main > section > section {
+main > section > section:first-child {
     height: 300px;
     position: relative;
 }
 
-main > section > section > div {
+main > section > section:first-child > div {
     position: absolute;
-    padding-top: 10px;
-    padding-left: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.33);
     height: 100%;
-    width: calc(83vw / 3);
+    width: calc(100%/3);
 }
 
-main > section > section > div:nth-child(1) {
-    border-right: 5px solid white;
+main > section > section:first-child> div:nth-child(1) {
     left: 0;
-    background-size: cover;
+    background: url("/assignment/CSS/case_2/assets/img/gif.gif");
 }
 
 main > section > section > div:nth-child(2) {
-    border-left: 5px solid white;
-    left: calc(83vw/ 3);
-    background-size: cover
+    left: calc(100% / 3);
+    background: url("/assignment/CSS/case_2/assets/img/gif.gif");
 }
 
 main > section > section > div:nth-child(3) {
-    border-left: 2px solid white;
-    left: calc(83vw/ 3 * 2);
-    background-size: cover;
+    right: 0;
+    background: url("/assignment/CSS/case_2/assets/img/gif.gif");
 }
 
 /*   Body -Section-Paragraph  */
-main > section >p{
+main > section > p {
     color: #2C3E50;
     font-size: 15px;
     font-weight: bolder;
