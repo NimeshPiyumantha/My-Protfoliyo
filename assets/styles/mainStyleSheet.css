@@ -831,3 +831,21 @@ body > main > section#About > article#details > h3:nth-child(10) span {
     top: 2px;
     z-index: 1;
 }
+
+/** Main - About Hire Me Button */
+.btn-Hire-MeTwo {
+    background-color: #2ED573;
+    border-radius: 100px;
+    padding: 20px 18px 10px 20px;
+    border: none;
+    color: #ECF0F3;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 33px;
+    font-family: Poppins, sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+    -webkit-text-size-adjust: 100%;
+    box-shadow: 0 -1px 8px 2px #1c1717e8;
+}
