@@ -1060,3 +1060,10 @@ body > main > section#About > section#education > section#Advanced > h3#ASecond 
     display: inline-block;
     left: 230px;
 }
+
+body > main > section#About > section#education > section#Advanced > h3#ASecond span {
+    font-family: "Poppins", sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+    color: #2C3E50 !important;
+}
