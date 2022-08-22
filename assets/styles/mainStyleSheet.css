@@ -912,3 +912,10 @@ body > main > section#About > section#education > div:nth-child(3) {
     left: 855px;
     margin-top: 1em;
 }
+
+/** Main -  About Section Educational Section */
+/** Main -  About Section Educational Section Ordinary Level Section */
+#education {
+    width: 1903px;
+    height: 100px;
+}
