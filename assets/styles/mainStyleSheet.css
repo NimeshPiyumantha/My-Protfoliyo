@@ -1015,3 +1015,13 @@ body > main > section#About > section#education > section#Ordinary > p {
     position: relative;
     left: 110px;
 }
+
+body > main > section#About > section#education > section#Advanced > div:nth-child(2) {
+    height: 219px;
+    width: 3px;
+    background: #2C3E50;
+    display: inline-block;
+    position: relative;
+    top: 210px;
+    left: 55px;
+}
