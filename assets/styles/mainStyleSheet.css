@@ -957,3 +957,15 @@ body > main > section#About > section#education > section#Ordinary > div:nth-chi
     bottom: 18px;
     box-shadow: 0 -1px 8px 2px #1c1717e8;
 }
+
+body > main > section#About > section#education > section#Ordinary > h3#OFirst {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    color: #2C3E50 !important;
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    right: 450px;
+    bottom: 30px;
+}
