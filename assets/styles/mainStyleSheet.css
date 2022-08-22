@@ -892,3 +892,23 @@ body > main > section#About > section#education > article > h4 {
 body > main > section#About > section#education > article > h4 > span {
     color: #2C3E50 !important;
 }
+
+/** Main -  About Section Educational Section Underline */
+body > main > section#About > section#education > div:nth-child(2) {
+    width: 135px;
+    height: 7px;
+    background: #2ED573;
+    border-radius: 3px;
+    position: absolute;
+    left: 855px;
+}
+
+body > main > section#About > section#education > div:nth-child(3) {
+    width: 100px;
+    height: 7px;
+    background: #2ED573;
+    border-radius: 3px;
+    position: absolute;
+    left: 855px;
+    margin-top: 1em;
+}
