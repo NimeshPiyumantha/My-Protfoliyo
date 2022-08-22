@@ -857,3 +857,24 @@ body > main > section#About > article#details > h3:nth-child(10) span {
     bottom: 80px;
     left: 500px;
 }
+
+.button-CircleThree {
+    height: 50px;
+    width: 50px;
+    float: right;
+    margin-left: 19px;
+    background: #F9FAFB;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 -1px 8px 2px #1c171748;
+    position: relative;
+    bottom: 5px;
+}
+
+#HireMe_arrow {
+    color: #2ED573;
+    position: absolute;
+    left: 168px;
+    top: 24px;
+    z-index: 1;
+}
