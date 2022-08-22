@@ -849,3 +849,11 @@ body > main > section#About > article#details > h3:nth-child(10) span {
     -webkit-text-size-adjust: 100%;
     box-shadow: 0 -1px 8px 2px #1c1717e8;
 }
+
+.hireMe_Button {
+    position: relative;
+    display: inline-block;
+    float: left;
+    bottom: 80px;
+    left: 500px;
+}
