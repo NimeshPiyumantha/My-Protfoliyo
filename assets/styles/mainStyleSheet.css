@@ -969,3 +969,15 @@ body > main > section#About > section#education > section#Ordinary > h3#OFirst {
     right: 450px;
     bottom: 30px;
 }
+
+body > main > section#About > section#education > section#Ordinary > h3#OSecond {
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+    font-size: 36px;
+    color: #2C3E50 !important;
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    left: 205px;
+    bottom: 20px;
+}
