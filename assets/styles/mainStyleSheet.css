@@ -919,3 +919,12 @@ body > main > section#About > section#education > div:nth-child(3) {
     width: 1903px;
     height: 100px;
 }
+
+#Ordinary {
+    position: relative;
+    top: 10px;
+    left: 27px;
+    width: 950px;
+    height: 500px;
+    z-index: 1;
+}
