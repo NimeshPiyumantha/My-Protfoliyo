@@ -12,7 +12,7 @@
 /*   Header    */
 header {
     background: white;
-    box-shadow: 0px -1px 8px 2px #1c1717e8;
+    box-shadow: 0 -1px 8px 2px #1c1717e8;
     position: relative;
     height: 73px;
 }
@@ -26,7 +26,7 @@ header > img {
 
 header > nav {
     position: absolute;
-    right: 40px;
+    right: 20px;
     top: 0;
     font-size: 24px;
 }
@@ -94,7 +94,7 @@ main > section > section > div {
     padding-top: 10px;
     padding-left: 15px;
     height: 100%;
-    width: calc(100% / 3);
+    width: calc(83vw / 3);
 }
 
 main > section > section > div:nth-child(1) {
@@ -105,13 +105,13 @@ main > section > section > div:nth-child(1) {
 
 main > section > section > div:nth-child(2) {
     border-left: 5px solid white;
-    left: calc(100% / 3);
+    left: calc(83vw/ 3);
     background-size: cover
 }
 
 main > section > section > div:nth-child(3) {
-    border-left: 5px solid white;
-    left: calc(100% / 3 * 2);
+    border-left: 2px solid white;
+    left: calc(83vw/ 3 * 2);
     background-size: cover;
 }
 
