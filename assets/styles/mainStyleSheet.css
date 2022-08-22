@@ -878,3 +878,13 @@ body > main > section#About > article#details > h3:nth-child(10) span {
     top: 24px;
     z-index: 1;
 }
+
+/** Main - About Section Educational Section */
+body > main > section#About > section#education > article > h4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #FF6348 !important;
+    margin-top: -140px;
+    text-align: center;
+}
