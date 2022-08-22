@@ -1000,3 +1000,12 @@ body > main > section#About > section#education > section#Ordinary > p {
     left: 205px;
     bottom: 5px;
 }
+
+/** Main -  About Section Educational Section Advanced Level Section **/
+#Advanced {
+    position: relative;
+    bottom: 25px;
+    width: 950px;
+    height: 500px;
+    z-index: 1;
+}
