@@ -15,6 +15,17 @@
     box-sizing: border-box;
 }
 
+/**  Customize Scrollbar  **/
+::-webkit-scrollbar {
+    width: 10px;
+    background: #2ED573;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FF6348;
+    border-radius: 5px;
+}
+
 /** Colors */
 .text-primary {
     color: #FF6348 !important;
@@ -37,7 +48,11 @@
 .head {
     background: #F8F7F3;
     height: 90px;
+    top: 0;
     width: 100%;
+    position: fixed;
+    box-shadow: 0 -1px 8px 2px #1c1717e8;
+    z-index: 2;
 }
 
 label.logo {
@@ -95,6 +110,11 @@ a.active, a:hover {
 }
 
 /** Main - Home */
+main {
+    position: relative;
+    margin-top: 90px;
+}
+
 #Home {
     height: 939px;
     width: 100%;
@@ -153,10 +173,11 @@ a.active, a:hover {
     height: 30px;
     border-radius: 20px;
     opacity: 0.5;
+    top: 0;
 }
 
 .box div:nth-child(1) {
-    top: 12%;
+    top: 15%;
     left: 42%;
     animation: animate 10s linear infinite;
     background-color: transparent;
@@ -164,7 +185,7 @@ a.active, a:hover {
 }
 
 .box div:nth-child(2) {
-    top: 70%;
+    top: 14%;
     left: 50%;
     animation: animate 7s linear infinite;
     background-color: transparent;
@@ -172,7 +193,7 @@ a.active, a:hover {
 }
 
 .box div:nth-child(3) {
-    top: 17%;
+    top: 10%;
     left: 6%;
     animation: animate 9s linear infinite;
     background-color: rgba(230, 126, 34, 1.0);
@@ -180,7 +201,7 @@ a.active, a:hover {
 }
 
 .box div:nth-child(4) {
-    top: 20%;
+    top: 3%;
     left: 60%;
     animation: animate 10s linear infinite;
     background-color: rgba(22, 160, 133, 1.0);
@@ -188,7 +209,7 @@ a.active, a:hover {
 }
 
 .box div:nth-child(5) {
-    top: 67%;
+    top: 5%;
     left: 10%;
     animation: animate 6s linear infinite;
     background-color: transparent;
@@ -196,7 +217,7 @@ a.active, a:hover {
 }
 
 .box div:nth-child(6) {
-    top: 80%;
+    top: 8%;
     left: 70%;
     animation: animate 12s linear infinite;
     background-color: transparent;
@@ -204,7 +225,7 @@ a.active, a:hover {
 }
 
 .box div:nth-child(7) {
-    top: 60%;
+    top: 11%;
     left: 80%;
     animation: animate 15s linear infinite;
     background-color: transparent;
@@ -212,7 +233,7 @@ a.active, a:hover {
 }
 
 .box div:nth-child(8) {
-    top: 32%;
+    top: 15%;
     left: 25%;
     animation: animate 16s linear infinite;
     background-color: rgba(22, 160, 133, 1.0);
@@ -220,7 +241,7 @@ a.active, a:hover {
 }
 
 .box div:nth-child(9) {
-    top: 90%;
+    top: 13%;
     left: 25%;
     animation: animate 9s linear infinite;
     background-color: rgba(230, 126, 34, 1.0);
@@ -228,24 +249,24 @@ a.active, a:hover {
 }
 
 .box div:nth-child(10) {
-    top: 20%;
-    left: 80%;
+    top: 12%;
+    left: 90%;
     animation: animate 5s linear infinite;
     background-color: transparent;
     border: 3px solid rgba(22, 160, 133, 1.0);
 }
 
 .box div:nth-child(11) {
-    top: 56%;
-    left: 95%;
+    top: 7%;
+    left: 50%;
     animation: animate 10s linear infinite;
     background-color: rgba(44, 62, 80, 1.0);
     border: transparent;
 }
 
 .box div:nth-child(12) {
-    top: 42%;
-    left: 100%;
+    top: 9%;
+    left: 80%;
     animation: animate 10s linear infinite;
     background-color: rgba(44, 62, 80, 1.0);
     border: transparent;
@@ -266,6 +287,7 @@ a.active, a:hover {
 .btn-Hire-Me {
     background-color: #2ED573;
     border-radius: 100px;
+    box-shadow: 0 -1px 8px 2px #1c1717e8;
     border: none;
     color: #ECF0F3;
     padding: 20px 18px 10px 20px;
@@ -293,9 +315,9 @@ a.active, a:hover {
     background: #F9FAFB;
     border-radius: 50px;
     cursor: pointer;
-    box-shadow: 10px 10px 10px rgba(1, 1, 1, 0.1);
     position: relative;
     bottom: 5px;
+    box-shadow: 0 -1px 8px 2px #1c171748;
 }
 
 #arrow_details {
@@ -317,8 +339,8 @@ a.active, a:hover {
     background: #95A5A6;
     border-radius: 50px;
     cursor: pointer;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease-out;
+    box-shadow: 0 -1px 8px 2px #1c1717e8;
 }
 
 .wrapper .button:hover {
@@ -422,7 +444,7 @@ body > main > section > article h4 {
     text-decoration: none;
     text-align: center;
     border-radius: 3px;
-    padding-top: 1em;
+    padding-top: 3em;
 }
 
 body > main > section > article > h1 {
@@ -476,7 +498,7 @@ body > main > section#About > div#circle {
     position: relative;
     border-radius: 100%;
     opacity: 60%;
-    bottom: 130px;
+    bottom: 100px;
     right: 45px;
 }
 
@@ -512,6 +534,7 @@ body > main > section#About > article#paragraphTwo p {
 
 #aboutImg {
     position: relative;
+    box-shadow: 0 -1px 8px 2px #1c1717e8;
     height: 100%;
     width: 454px;
     border-radius: 20px;
@@ -524,6 +547,7 @@ body > main > section#About > article#paragraphTwo p {
 body > main > section#About > section#image > div#circleOne {
     width: 164px;
     height: 164px;
+    box-shadow: 0 -1px 8px 2px #1c1717e8;
     background: #F9FAFB;
     border-radius: 100%;
     position: relative;
@@ -531,7 +555,6 @@ body > main > section#About > section#image > div#circleOne {
     bottom: 700px;
     left: 1250px;
     z-index: 1;
-    box-shadow: inset 4px 4px 8px #ecf0f1, inset 5px 5px 9px #ecf0f1, inset 4px 4px 18px #ecf0f1;
 }
 
 body > main > section#About > section#image > div#circleOne h1 {
@@ -560,6 +583,7 @@ body > main > section#About > section#image > div#circleOne h2 {
 body > main > section#About > section#image > div#circleTwo {
     width: 164px;
     height: 164px;
+    box-shadow: 0 -1px 8px 2px #1c1717e8;
     background: #F9FAFB;
     border-radius: 100%;
     opacity: 99%;
@@ -568,7 +592,6 @@ body > main > section#About > section#image > div#circleTwo {
     left: 1500px;
     display: inline-block;
     z-index: 1;
-    box-shadow: inset 4px 4px 8px #ecf0f1, inset 5px 5px 9px #ecf0f1, inset 4px 4px 18px #ecf0f1;
 }
 
 body > main > section#About > section#image > div#circleTwo h1 {
