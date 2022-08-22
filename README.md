@@ -26,9 +26,14 @@ https://github.com/NimeshPiyumantha/My-Protfoliyo.git
 ##  Connect with me
 #### If you have any bugs or issues , If you want to explain my code please contact me on :
 <div align="center">
+ <br><b>MAIL ME</b>&nbsp;
+  <a href="mailto:nimeshpiyumantha11@gmail.com">
+      <img width="20px" src="https://github.com/NimeshPiyumantha/red-alpha/blob/main/gmail.svg" />
+  </a></p>
+ 
+ </div>
+ 
 
-#### nimeshpiyumantha11@gmail.com
-</div>
 
 ##
 <p align="center">
