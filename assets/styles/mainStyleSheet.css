@@ -935,3 +935,13 @@ body > main > section#About > section#education > div:nth-child(3) {
     top: 10px;
     right: 270px;
 }
+
+body > main > section#About > section#education > section#Ordinary > div:nth-child(2) {
+    height: 219px;
+    width: 3px;
+    background: #2C3E50;
+    display: inline-block;
+    position: relative;
+    right: 325px;
+    top: 220px;
+}
