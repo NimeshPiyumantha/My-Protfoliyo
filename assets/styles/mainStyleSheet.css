@@ -945,3 +945,15 @@ body > main > section#About > section#education > section#Ordinary > div:nth-chi
     right: 325px;
     top: 220px;
 }
+
+body > main > section#About > section#education > section#Ordinary > div:nth-child(3) {
+    height: 50px;
+    width: 200px;
+    background: #D9D9D9;
+    border-radius: 50px;
+    display: inline-block;
+    position: relative;
+    right: 270px;
+    bottom: 18px;
+    box-shadow: 0 -1px 8px 2px #1c1717e8;
+}
