@@ -112,11 +112,11 @@ a.active, a:hover {
 /** Main - Home */
 main {
     position: relative;
-    margin-top: 90px;
+    margin-top: 70px;
 }
 
 #Home {
-    height: 939px;
+    height: 977px;
     width: 100%;
 }
 
@@ -177,7 +177,7 @@ main {
 }
 
 .box div:nth-child(1) {
-    top: 15%;
+    top: 13%;
     left: 42%;
     animation: animate 10s linear infinite;
     background-color: transparent;
@@ -185,7 +185,7 @@ main {
 }
 
 .box div:nth-child(2) {
-    top: 14%;
+    top: 12%;
     left: 50%;
     animation: animate 7s linear infinite;
     background-color: transparent;
@@ -233,7 +233,7 @@ main {
 }
 
 .box div:nth-child(8) {
-    top: 15%;
+    top: 12%;
     left: 25%;
     animation: animate 16s linear infinite;
     background-color: rgba(22, 160, 133, 1.0);
@@ -432,7 +432,7 @@ main {
 /**-------------------------------------------- Main - About --------------------------------------------**/
 #About {
     width: 1903px;
-    height: 2300px;
+    height: 2400px;
 }
 
 /** Main - About Header */
