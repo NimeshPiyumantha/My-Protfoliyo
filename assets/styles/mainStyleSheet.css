@@ -786,3 +786,20 @@ body > main > section#About > article#details > h3:nth-child(10) {
 body > main > section#About > article#details > h3:nth-child(10) span {
     font-weight: bold;
 }
+
+/** Main - About Download CV Button */
+.btn-DownloadTwo {
+    background-color: #FF6348;
+    border-radius: 100px;
+    padding: 20px 18px 10px 20px;
+    border: none;
+    color: #ECF0F3;
+    text-align: left;
+    display: inline-block;
+    font-size: 33px;
+    font-family: Poppins, sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+    -webkit-text-size-adjust: 100%;
+    box-shadow: 0 -1px 8px 2px #1c1717e8;
+}
