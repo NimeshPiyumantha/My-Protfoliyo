@@ -52,7 +52,7 @@
     width: 100%;
     position: fixed;
     box-shadow: 0 -1px 8px 2px #1c1717e8;
-    z-index: 2;
+    z-index: 3;
 }
 
 label.logo {
@@ -640,7 +640,7 @@ body > main > section#About > section#image > div#circleTwo h2 {
 /** Main - About Section Article h3 First Child */
 #details {
     position: relative;
-    bottom: 420px;
+    bottom: 450px;
     margin-left: 190px;
 }
 
@@ -649,7 +649,7 @@ body > main > section#About > article#details > h3:nth-child(1) {
     font-weight: lighter;
     font-size: 36px;
     color: #2C3E50 !important;
-    margin-bottom: -55px;
+    margin-bottom: -41px;
 }
 
 body > main > section#About > article#details > h3:nth-child(1) span {
@@ -678,7 +678,7 @@ body > main > section#About > article#details > h3:nth-child(3) {
     font-size: 36px;
     color: #2C3E50 !important;
     text-decoration: none;
-    margin-bottom: -55px;
+    margin-bottom: -41px;
 }
 
 body > main > section#About > article#details > h3:nth-child(3) span {
@@ -707,7 +707,7 @@ body > main > section#About > article#details > h3:nth-child(5) {
     font-size: 36px;
     color: #2C3E50 !important;
     text-decoration: none;
-    margin-bottom: -55px;
+    margin-bottom: -41px;
 }
 
 body > main > section#About > article#details > h3:nth-child(5) span {
@@ -736,7 +736,7 @@ body > main > section#About > article#details > h3:nth-child(7) {
     font-size: 36px;
     color: #2C3E50 !important;
     text-decoration: none;
-    margin-bottom: -55px;
+    margin-bottom: -41px;
 }
 
 body > main > section#About > article#details > h3:nth-child(7) span {
@@ -765,7 +765,7 @@ body > main > section#About > article#details > h3:nth-child(9) {
     font-size: 36px;
     color: #2C3E50 !important;
     text-decoration: none;
-    margin-bottom: -55px;
+    margin-bottom: -41px;
 }
 
 body > main > section#About > article#details > h3:nth-child(9) span {
