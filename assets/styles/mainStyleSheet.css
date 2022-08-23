@@ -1149,3 +1149,15 @@ body > main > section#About > section#education > section#HNDLevel > h3#HSecond 
     font-size: 30px;
     color: #2C3E50 !important;
 }
+
+body > main > section#About > section#education > section#HNDLevel > p {
+    font-family: "Poppins", sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+    color: #2C3E50 !important;
+    position: relative;
+    box-sizing: border-box;
+    display: inline-block;
+    left: 180px;
+    top: 20px;
+}
