@@ -1338,3 +1338,16 @@ body > main > section#About > section#design > div#circle7 {
     bottom: -350px;
     left: 1740px;
 }
+
+body > main > section#About > section#design > div#circle8 {
+    height: 75px;
+    width: 75px;
+    background: #2ED573;
+    opacity: 22%;
+    border-radius: 100%;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px #F9FAFB;
+    position: relative;
+    bottom: -310px;
+    left: 1770px;
+}
