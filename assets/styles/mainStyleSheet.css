@@ -1358,3 +1358,9 @@ body > main > section#About > section#design > div#circle8 {
     bottom: 600px;
     left: 300px;
 }
+
+#vector3 {
+    position: relative;
+    bottom: 600px;
+    left: 545px;
+}
