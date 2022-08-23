@@ -430,6 +430,10 @@ main {
     margin-bottom: 2rem;
 }
 
+/** Fixed Button */
+#section#fixed_icon {
+    position: absolute;
+}
 
 /**-------------------------------------------- Main - About --------------------------------------------**/
 #About {
