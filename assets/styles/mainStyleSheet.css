@@ -1161,3 +1161,13 @@ body > main > section#About > section#education > section#HNDLevel > p {
     left: 180px;
     top: 20px;
 }
+
+/** Main -  About Section Educational Section Degree Level Section **/
+#DegreeLevel {
+    position: relative;
+    bottom: 1025px;
+    left: 950px;
+    width: 950px;
+    height: 500px;
+    z-index: 1;
+}
