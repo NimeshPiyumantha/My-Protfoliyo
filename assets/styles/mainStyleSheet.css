@@ -1242,7 +1242,8 @@ body > main > section#About > section#education > section#DegreeLevel > p {
     top: 15px;
 }
 
-/** Main - About Section Educational Section Designs Top Circle */
+/** Main - About Section Educational Section Designs */
+/**  Top Circle Group 1*/
 body > main > section#About > section#design > div#circle1 {
     height: 75px;
     width: 75px;
