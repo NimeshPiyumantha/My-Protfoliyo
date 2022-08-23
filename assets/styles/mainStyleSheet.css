@@ -1269,3 +1269,17 @@ body > main > section#About > section#design > div#circle2 {
     bottom: 150px;
     left: 225px;
 }
+
+/**  Top Circle Group 2*/
+body > main > section#About > section#design > div#circle3 {
+    height: 75px;
+    width: 75px;
+    background: #FF6348;
+    border-radius: 100%;
+    opacity: 60%;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px #F9FAFB;
+    position: relative;
+    bottom: 250px;
+    left: 1220px;
+}
