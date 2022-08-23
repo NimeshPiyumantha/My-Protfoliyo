@@ -1255,3 +1255,16 @@ body > main > section#About > section#design > div#circle1 {
     bottom: 100px;
     left: 195px;
 }
+
+body > main > section#About > section#design > div#circle2 {
+    height: 75px;
+    width: 75px;
+    background: #2ED573;
+    opacity: 22%;
+    border-radius: 100%;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px #F9FAFB;
+    position: relative;
+    bottom: 150px;
+    left: 225px;
+}
