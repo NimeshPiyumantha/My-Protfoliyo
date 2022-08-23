@@ -1171,3 +1171,9 @@ body > main > section#About > section#education > section#HNDLevel > p {
     height: 500px;
     z-index: 1;
 }
+
+#education_4 {
+    display: inline-block;
+    position: relative;
+    left: 60px;
+}
