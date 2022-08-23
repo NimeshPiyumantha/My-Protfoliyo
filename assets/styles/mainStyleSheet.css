@@ -1089,3 +1089,11 @@ body > main > section#About > section#education > section#Advanced > p {
     height: 500px;
     z-index: 1;
 }
+
+#education_3 {
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    left: 60px;
+}
+
