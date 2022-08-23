@@ -1142,3 +1142,10 @@ body > main > section#About > section#education > section#HNDLevel > h3#HSecond 
     left: 180px;
     top: 8px;
 }
+
+body > main > section#About > section#education > section#HNDLevel > h3#HSecond span {
+    font-family: "Poppins", sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+    color: #2C3E50 !important;
+}
