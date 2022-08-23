@@ -1177,3 +1177,13 @@ body > main > section#About > section#education > section#HNDLevel > p {
     position: relative;
     left: 60px;
 }
+
+body > main > section#About > section#education > section#DegreeLevel > div:nth-child(2) {
+    height: 219px;
+    width: 3px;
+    background: #2C3E50;
+    display: inline-block;
+    position: relative;
+    top: 210px;
+    left: 2px;
+}
