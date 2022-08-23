@@ -1067,3 +1067,15 @@ body > main > section#About > section#education > section#Advanced > h3#ASecond 
     font-size: 30px;
     color: #2C3E50 !important;
 }
+
+body > main > section#About > section#education > section#Advanced > p {
+    font-family: "Poppins", sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+    color: #2C3E50 !important;
+    position: relative;
+    box-sizing: border-box;
+    display: inline-block;
+    left: 230px;
+    top: 15px;
+}
