@@ -85,13 +85,13 @@ nav ul li a {
     border-radius: 3px;
 }
 
-a:hover {
+nav ul li a:hover {
     text-decoration: overline;
     text-decoration-thickness: 10px;
     border-radius: 4px;
 }
 
-a.active, a:hover {
+nav ul li a.active, a:hover {
     color: #2ED573;
 }
 
@@ -382,6 +382,7 @@ main {
     font-size: 40px;
     line-height: 100px;
     transition: all 0.3s ease-out;
+    color: #2C3E50;
 }
 
 .wrapper .button:hover .icon i {
@@ -428,6 +429,7 @@ main {
     font-weight: bolder;
     margin-bottom: 2rem;
 }
+
 
 /**-------------------------------------------- Main - About --------------------------------------------**/
 #About {
