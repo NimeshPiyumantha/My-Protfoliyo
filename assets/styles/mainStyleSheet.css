@@ -1324,3 +1324,17 @@ body > main > section#About > section#design > div#circle6 {
     bottom: -460px;
     left: 820px;
 }
+
+/**  Bottom Circle Group 2*/
+body > main > section#About > section#design > div#circle7 {
+    height: 75px;
+    width: 75px;
+    border: 8px solid #2ED573;
+    opacity: 60%;
+    border-radius: 100%;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px #F9FAFB;
+    position: relative;
+    bottom: -350px;
+    left: 1740px;
+}
