@@ -1079,3 +1079,13 @@ body > main > section#About > section#education > section#Advanced > p {
     left: 230px;
     top: 15px;
 }
+
+/** Main -  About Section Educational Section HND Level Section **/
+#HNDLevel {
+    position: relative;
+    bottom: 990px;
+    left: 950px;
+    width: 950px;
+    height: 500px;
+    z-index: 1;
+}
