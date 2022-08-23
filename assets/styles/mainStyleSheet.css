@@ -1283,3 +1283,16 @@ body > main > section#About > section#design > div#circle3 {
     bottom: 250px;
     left: 1220px;
 }
+
+body > main > section#About > section#design > div#circle4 {
+    height: 75px;
+    width: 75px;
+    background: #FF6348;
+    opacity: 22%;
+    border-radius: 100%;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px #F9FAFB;
+    position: relative;
+    bottom: 300px;
+    left: 1250px;
+}
