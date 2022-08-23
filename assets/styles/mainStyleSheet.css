@@ -462,6 +462,22 @@ main > section#Home > section#fixed_icon > div:nth-child(1) i:hover {
     color: #ecf0f1;
 }
 
+/** Fixed Button -Call*/
+main > section#Home > section#fixed_icon div:nth-child(2) {
+    background: #2ED573;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    box-shadow: 0 -1px 8px 2px #1c1717e8;
+    z-index: 2;
+}
+main > section#Home > section#fixed_icon > div:nth-child(2):hover {
+    background: #e74c3c;
+}
+
 /**-------------------------------------------- Main - About --------------------------------------------**/
 #About {
     width: 1903px;
