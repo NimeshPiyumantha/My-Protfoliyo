@@ -478,6 +478,17 @@ main > section#Home > section#fixed_icon > div:nth-child(2):hover {
     background: #e74c3c;
 }
 
+main > section#Home > section#fixed_icon div:nth-child(2) i {
+    color: #2C3E50;
+    font-size: 30px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+main > section#Home > section#fixed_icon > div:nth-child(2) i:hover {
+    color: #ecf0f1;
+}
+
 /**-------------------------------------------- Main - About --------------------------------------------**/
 #About {
     width: 1903px;
