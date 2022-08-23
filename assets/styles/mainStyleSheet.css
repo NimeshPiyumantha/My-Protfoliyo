@@ -1299,3 +1299,15 @@ body > main > section#About > section#design > div#circle4 {
 
 /** Main - About Section Educational Section Designs bottom Circle */
 /**  Top Circle Group 1*/
+body > main > section#About > section#design > div#circle5 {
+    height: 75px;
+    width: 75px;
+    background: #FF6348;
+    border-radius: 100%;
+    opacity: 60%;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px #F9FAFB;
+    position: relative;
+    bottom: -500px;
+    left: 800px;
+}
