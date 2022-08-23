@@ -1211,3 +1211,14 @@ body > main > section#About > section#education > section#DegreeLevel > h3#DFirs
     right: 126px;
     bottom: 30px;
 }
+
+body > main > section#About > section#education > section#DegreeLevel > h3#DSecond {
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+    font-size: 36px;
+    color: #2C3E50 !important;
+    position: relative;
+    box-sizing: border-box;
+    display: inline-block;
+    left: 180px;
+}
