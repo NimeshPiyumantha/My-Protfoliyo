@@ -1596,3 +1596,14 @@ body > main > section#Skills > section#Language > div:first-child > div:nth-chil
     left: 145px;
     box-shadow: 0 -1px 8px 2px #1c1717e8;
 }
+
+body > main > section#Skills > section#Language > div:first-child > div:nth-child(3) > div:nth-child(3) {
+    background-image: url("assets/vector/svg/nodejs.png");
+    background-size: cover;
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    border-radius: 15px;
+    right: 0;
+    box-shadow: 0 -1px 8px 2px #1c1717e8;
+}
