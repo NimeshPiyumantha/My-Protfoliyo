@@ -1467,3 +1467,12 @@ body > main > section#Skills > div:nth-child(2) i {
     left: 60px;
     top: 120px;
 }
+
+/** Main - Skills  Footer */
+body > main > section#Skills > div:nth-child(3) i {
+    color: #2C3E50;
+    font-size: 100px;
+    position: absolute;
+    right: 80px;
+    bottom: 120px;
+}
