@@ -1867,3 +1867,14 @@ body > main > section#Skills > section#Tool > div:first-child > div:nth-child(4)
     left: 145px;
     box-shadow: 0 -1px 8px 2px #1c1717e8;
 }
+
+body > main > section#Skills > section#Tool > div:first-child > div:nth-child(4) > div:nth-child(3) {
+    background-image: url("assets/vector/svg/icons8-adobe-xd.svg");
+    background-size: cover;
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    border-radius: 15px;
+    right: 0;
+    box-shadow: 0 -1px 8px 2px #1c1717e8;
+}
