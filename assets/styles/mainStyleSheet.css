@@ -1433,3 +1433,7 @@ body > main > section#About > section#design > div#circle8 {
     height: 1250px;
     position: relative;
 }
+
+section#Skills {
+    position: relative;
+}
