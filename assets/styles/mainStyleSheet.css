@@ -1457,3 +1457,13 @@ body > main > section#Skills > article > div:nth-child(4) {
     left: 46%;
     border-radius: 3px;
 }
+
+/** Main - Skills Header Vector */
+/** Main - Skills Header  */
+body > main > section#Skills > div:nth-child(2) i {
+    color: #2C3E50;
+    font-size: 100px;
+    position: absolute;
+    left: 60px;
+    top: 120px;
+}
