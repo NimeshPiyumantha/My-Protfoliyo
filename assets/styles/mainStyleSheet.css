@@ -1937,3 +1937,10 @@ body > main > section#Skills > section#Tool > div:first-child > div:nth-child(5)
     left: 210px;
     top: 160px;
 }
+
+/* Circle 1*/
+#box-circle1 {
+    position: absolute;
+    bottom: 87px;
+    left: 120px;
+}
