@@ -1799,3 +1799,14 @@ body > main > section#Skills > section#Tool > div:first-child > div:nth-child(3)
     top: 200px;
     margin: auto;
 }
+
+body > main > section#Skills > section#Tool > div:first-child > div:nth-child(3) > div:nth-child(1) {
+    background-image: url("assets/vector/svg/icons8-android-studio.svg");
+    background-size: cover;
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    border-radius: 15px;
+    left: 0;
+    box-shadow: 0 -1px 8px 2px #1c1717e8;
+}
