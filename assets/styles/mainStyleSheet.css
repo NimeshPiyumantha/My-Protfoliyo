@@ -1476,3 +1476,11 @@ body > main > section#Skills > div:nth-child(3) i {
     right: 80px;
     bottom: 120px;
 }
+
+/** Main - Skills - Language */
+body > main > section#Skills > section#Language {
+    position: absolute;
+    left: 265px;
+    top: 300px;
+    z-index: 1;
+}
