@@ -1516,3 +1516,16 @@ body > main > section#Skills > section#Language > div:first-child > div:nth-chil
     text-align: center;
     margin-top: calc(40px / 2);
 }
+
+/** Main - Skills - Language First Row */
+body > main > section#Skills > section#Language > div:first-child > div:nth-child(2) {
+    background: #FFFFFF;
+    position: relative;
+    width: 400px;
+    height: 150px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 200px;
+    margin: auto;
+}
