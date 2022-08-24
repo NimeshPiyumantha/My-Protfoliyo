@@ -1507,3 +1507,12 @@ body > main > section#Skills > section#Language > div:first-child > div:nth-chil
     margin: auto;
     box-shadow: 0 -1px 8px 2px #1c1717e8;
 }
+
+body > main > section#Skills > section#Language > div:first-child > div:nth-child(1) h1 {
+    font-size: 35px;
+    font-family: Poppins, serif;
+    font-weight: bolder;
+    color: #F8F7F3;
+    text-align: center;
+    margin-top: calc(40px / 2);
+}
