@@ -1944,3 +1944,10 @@ body > main > section#Skills > section#Tool > div:first-child > div:nth-child(5)
     bottom: 87px;
     left: 120px;
 }
+
+/* Circle 2*/
+#box-circle2 {
+    position: absolute;
+    top: 215px;
+    right: 120px;
+}
