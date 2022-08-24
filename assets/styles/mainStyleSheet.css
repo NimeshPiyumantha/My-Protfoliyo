@@ -1930,3 +1930,10 @@ body > main > section#Skills > section#Tool > div:first-child > div:nth-child(5)
     right: 0;
     box-shadow: 0 -1px 8px 2px #1c1717e8;
 }
+
+/* Main Vector */
+#skill_main_vector {
+    position: absolute;
+    left: 210px;
+    top: 160px;
+}
