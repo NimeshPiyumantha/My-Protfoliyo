@@ -1424,3 +1424,12 @@ body > main > section#About > section#design > div#circle8 {
     bottom: 600px;
     left: 545px;
 }
+
+/**-------------------------------------------- Main - Skills --------------------------------------------**/
+/** Main - Skills Header */
+#Skills {
+    background: #ECF0F3;
+    width: 1903px;
+    height: 1250px;
+    position: relative;
+}
