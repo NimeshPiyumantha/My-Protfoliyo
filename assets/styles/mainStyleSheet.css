@@ -1666,3 +1666,14 @@ body > main > section#Skills > section#Language > div:first-child > div:nth-chil
     top: 200px;
     margin: auto;
 }
+
+body > main > section#Skills > section#Language > div:first-child > div:nth-child(5) > div:nth-child(1) {
+    background-image: url("assets/vector/svg/hibernate.png");
+    background-size: cover;
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    border-radius: 15px;
+    left: 0;
+    box-shadow: 0 -1px 8px 2px #1c1717e8;
+}
