@@ -1531,7 +1531,7 @@ body > main > section#Skills > section#Language > div:first-child > div:nth-chil
 }
 
 body > main > section#Skills > section#Language > div:first-child > div:nth-child(2) > div:nth-child(1) {
-    background-image: url("/assets/vector/svg/java.svg");
+    background-image: url("assets/vector/svg/java.svg");
     background-size: cover;
     position: absolute;
     width: 110px;
