@@ -1708,3 +1708,12 @@ body > main > section#Skills > section#Tool {
     top: 300px;
     z-index: 1;
 }
+
+body > main > section#Skills > section#Tool > div:first-child {
+    background: #FFFFFF;
+    width: 520px;
+    height: 820px;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 0 -1px 8px 2px #1c1717e8;
+}
