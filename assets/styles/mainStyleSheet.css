@@ -1437,3 +1437,13 @@ body > main > section#About > section#design > div#circle8 {
 section#Skills {
     position: relative;
 }
+
+/** Main - Skills Header Underline */
+body > main > section#Skills > article > div:nth-child(3) {
+    width: 135px;
+    height: 7px;
+    background: #2ED573;
+    position: relative;
+    left: 46%;
+    border-radius: 3px;
+}
