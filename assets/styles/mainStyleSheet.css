@@ -1539,3 +1539,14 @@ body > main > section#Skills > section#Language > div:first-child > div:nth-chil
     border-radius: 15px;
     box-shadow: 0 -1px 8px 2px #1c1717e8;
 }
+
+body > main > section#Skills > section#Language > div:first-child > div:nth-child(2) > div:nth-child(2) {
+    background-image: url("assets/vector/svg/html.svg");
+    position: absolute;
+    background-size: cover;
+    width: 110px;
+    height: 110px;
+    border-radius: 15px;
+    left: 150px;
+    box-shadow: 0 -1px 8px 2px #1c1717e8;
+}
