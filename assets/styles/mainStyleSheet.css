@@ -2059,3 +2059,13 @@ body > main > section#Gallery > section#image_section > img:nth-child(3) {
     margin: auto;
     border-radius: 15px;
 }
+
+body > main > section#Gallery > section#image_section > img:nth-child(4) {
+    position: absolute;
+    top: 500px;
+    bottom: 0;
+    left: 840px;
+    right: 0;
+    margin: auto;
+    border-radius: 15px;
+}
