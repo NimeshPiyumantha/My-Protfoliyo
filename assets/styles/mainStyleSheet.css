@@ -1953,3 +1953,9 @@ body > main > section#Skills > section#Tool > div:first-child > div:nth-child(5)
 }
 
 /**-------------------------------------------- Main - Gallery --------------------------------------------**/
+/** Main - Gallery Header */
+#Gallery {
+    width: 1903px;
+    height: 1250px;
+    position: relative;
+}
