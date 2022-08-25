@@ -2019,3 +2019,12 @@ body > main > section#Gallery > section#vector > img:nth-child(4) {
     right: 2px;
     margin: auto;
 }
+
+body > main > section#Gallery > section#vector > img:nth-child(5) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 500px;
+    right: 995px;
+    margin: auto;
+}
