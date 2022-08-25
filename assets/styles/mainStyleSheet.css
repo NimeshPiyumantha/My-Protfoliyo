@@ -116,8 +116,9 @@ main {
 }
 
 #Home {
+    position: relative;
     height: 977px;
-    width: 100%;
+    width: 1903px;
 }
 
 .img {
@@ -177,7 +178,7 @@ main {
 }
 
 .box div:nth-child(1) {
-    top: 13%;
+    top: 12%;
     left: 42%;
     animation: animate 10s linear infinite;
     background-color: transparent;
@@ -185,7 +186,7 @@ main {
 }
 
 .box div:nth-child(2) {
-    top: 12%;
+    top: 70%;
     left: 50%;
     animation: animate 7s linear infinite;
     background-color: transparent;
@@ -193,7 +194,7 @@ main {
 }
 
 .box div:nth-child(3) {
-    top: 10%;
+    top: 17%;
     left: 6%;
     animation: animate 9s linear infinite;
     background-color: rgba(230, 126, 34, 1.0);
@@ -201,7 +202,7 @@ main {
 }
 
 .box div:nth-child(4) {
-    top: 3%;
+    top: 20%;
     left: 60%;
     animation: animate 10s linear infinite;
     background-color: rgba(22, 160, 133, 1.0);
@@ -209,7 +210,7 @@ main {
 }
 
 .box div:nth-child(5) {
-    top: 5%;
+    top: 67%;
     left: 10%;
     animation: animate 6s linear infinite;
     background-color: transparent;
@@ -217,56 +218,56 @@ main {
 }
 
 .box div:nth-child(6) {
-    top: 8%;
-    left: 70%;
+    top:80%;
+    left:70%;
     animation: animate 12s linear infinite;
     background-color: transparent;
     border: 3px solid rgba(44, 62, 80, 1.0);
 }
 
 .box div:nth-child(7) {
-    top: 11%;
-    left: 80%;
+    top:60%;
+    left:80%;
     animation: animate 15s linear infinite;
     background-color: transparent;
     border: 3px solid rgba(22, 160, 133, 1.0);
 }
 
 .box div:nth-child(8) {
-    top: 12%;
-    left: 25%;
+    top:32%;
+    left:25%;
     animation: animate 16s linear infinite;
     background-color: rgba(22, 160, 133, 1.0);
     border: transparent;
 }
 
 .box div:nth-child(9) {
-    top: 13%;
-    left: 25%;
+    top:90%;
+    left:25%;
     animation: animate 9s linear infinite;
     background-color: rgba(230, 126, 34, 1.0);
     border: transparent;
 }
 
 .box div:nth-child(10) {
-    top: 12%;
-    left: 90%;
+    top:20%;
+    left:80%;
     animation: animate 5s linear infinite;
     background-color: transparent;
     border: 3px solid rgba(22, 160, 133, 1.0);
 }
 
 .box div:nth-child(11) {
-    top: 7%;
-    left: 50%;
+    top:20%;
+    left:90%;
     animation: animate 10s linear infinite;
     background-color: rgba(44, 62, 80, 1.0);
     border: transparent;
 }
 
 .box div:nth-child(12) {
-    top: 9%;
-    left: 80%;
+    top:20%;
+    left:95%;
     animation: animate 10s linear infinite;
     background-color: rgba(44, 62, 80, 1.0);
     border: transparent;
