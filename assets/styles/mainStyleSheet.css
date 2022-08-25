@@ -1963,3 +1963,13 @@ body > main > section#Skills > section#Tool > div:first-child > div:nth-child(5)
 section#Gallery {
     position: relative;
 }
+
+/** Main - Gallery Header Underline */
+body > main > section#Gallery > article > div:nth-child(3) {
+    width: 135px;
+    height: 7px;
+    background: #2ED573;
+    position: relative;
+    left: 43%;
+    border-radius: 3px;
+}
