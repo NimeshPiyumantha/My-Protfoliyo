@@ -447,6 +447,7 @@ main > section#Home > section#fixed_icon > div:nth-child(1) {
     box-shadow: 0 -1px 8px 2px #1c1717e8;
     z-index: 2;
 }
+
 main > section#Home > section#fixed_icon > div:nth-child(1):hover {
     background: #e74c3c;
 }
@@ -458,6 +459,7 @@ main > section#Home > section#fixed_icon > div:nth-child(1) i {
     top: 15px;
     left: 15px;
 }
+
 main > section#Home > section#fixed_icon > div:nth-child(1) i:hover {
     color: #ecf0f1;
 }
@@ -474,6 +476,7 @@ main > section#Home > section#fixed_icon div:nth-child(2) {
     box-shadow: 0 -1px 8px 2px #1c1717e8;
     z-index: 2;
 }
+
 main > section#Home > section#fixed_icon > div:nth-child(2):hover {
     background: #e74c3c;
 }
@@ -485,6 +488,7 @@ main > section#Home > section#fixed_icon div:nth-child(2) i {
     top: 15px;
     left: 15px;
 }
+
 main > section#Home > section#fixed_icon > div:nth-child(2) i:hover {
     color: #ecf0f1;
 }
