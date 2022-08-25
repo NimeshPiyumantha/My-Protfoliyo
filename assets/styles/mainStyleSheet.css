@@ -1959,3 +1959,7 @@ body > main > section#Skills > section#Tool > div:first-child > div:nth-child(5)
     height: 1250px;
     position: relative;
 }
+
+section#Gallery {
+    position: relative;
+}
