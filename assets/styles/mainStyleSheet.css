@@ -1536,7 +1536,7 @@ body > main > section#Skills > section#Language > div:first-child > div:nth-chil
 }
 
 body > main > section#Skills > section#Language > div:first-child > div:nth-child(2) > div:nth-child(1) {
-    background-image: url("assets/vector/svg/java.svg");
+    background-image: url("img/vector/svg/java.svg");
     background-size: cover;
     position: absolute;
     width: 110px;
@@ -1546,7 +1546,7 @@ body > main > section#Skills > section#Language > div:first-child > div:nth-chil
 }
 
 body > main > section#Skills > section#Language > div:first-child > div:nth-child(2) > div:nth-child(2) {
-    background-image: url("assets/vector/svg/html.svg");
+    background-image: url("img/vector/svg/html.svg");
     position: absolute;
     background-size: cover;
     width: 110px;
@@ -1557,7 +1557,7 @@ body > main > section#Skills > section#Language > div:first-child > div:nth-chil
 }
 
 body > main > section#Skills > section#Language > div:first-child > div:nth-child(2) > div:nth-child(3) {
-    background-image: url("assets/vector/svg/css.svg");
+    background-image: url("img/vector/svg/css.svg");
     background-size: cover;
     position: absolute;
     width: 110px;
@@ -1581,7 +1581,7 @@ body > main > section#Skills > section#Language > div:first-child > div:nth-chil
 }
 
 body > main > section#Skills > section#Language > div:first-child > div:nth-child(3) > div:nth-child(1) {
-    background-image: url("assets/vector/svg/javascript.svg");
+    background-image: url("img/vector/svg/javascript.svg");
     background-size: cover;
     position: absolute;
     width: 110px;
@@ -1592,7 +1592,7 @@ body > main > section#Skills > section#Language > div:first-child > div:nth-chil
 }
 
 body > main > section#Skills > section#Language > div:first-child > div:nth-child(3) > div:nth-child(2) {
-    background-image: url("assets/vector/svg/pythone.svg");
+    background-image: url("img/vector/svg/pythone.svg");
     background-size: cover;
     position: absolute;
     width: 110px;
@@ -1603,7 +1603,7 @@ body > main > section#Skills > section#Language > div:first-child > div:nth-chil
 }
 
 body > main > section#Skills > section#Language > div:first-child > div:nth-child(3) > div:nth-child(3) {
-    background-image: url("assets/vector/svg/nodejs.png");
+    background-image: url("img/vector/svg/nodejs.png");
     background-size: cover;
     position: absolute;
     width: 110px;
@@ -1627,7 +1627,7 @@ body > main > section#Skills > section#Language > div:first-child > div:nth-chil
 }
 
 body > main > section#Skills > section#Language > div:first-child > div:nth-child(4) > div:nth-child(1) {
-    background-image: url("assets/vector/svg/kotlin.svg");
+    background-image: url("img/vector/svg/kotlin.svg");
     background-size: cover;
     position: absolute;
     width: 110px;
@@ -1638,7 +1638,7 @@ body > main > section#Skills > section#Language > div:first-child > div:nth-chil
 }
 
 body > main > section#Skills > section#Language > div:first-child > div:nth-child(4) > div:nth-child(2) {
-    background-image: url("assets/vector/svg/react.svg");
+    background-image: url("img/vector/svg/react.svg");
     background-size: cover;
     position: absolute;
     width: 110px;
@@ -1649,7 +1649,7 @@ body > main > section#Skills > section#Language > div:first-child > div:nth-chil
 }
 
 body > main > section#Skills > section#Language > div:first-child > div:nth-child(4) > div:nth-child(3) {
-    background-image: url("assets/vector/svg/angular.svg");
+    background-image: url("img/vector/svg/angular.svg");
     background-size: cover;
     position: absolute;
     width: 110px;
@@ -1673,7 +1673,7 @@ body > main > section#Skills > section#Language > div:first-child > div:nth-chil
 }
 
 body > main > section#Skills > section#Language > div:first-child > div:nth-child(5) > div:nth-child(1) {
-    background-image: url("assets/vector/svg/hibernate.png");
+    background-image: url("img/vector/svg/hibernate.png");
     background-size: cover;
     position: absolute;
     width: 110px;
@@ -1684,7 +1684,7 @@ body > main > section#Skills > section#Language > div:first-child > div:nth-chil
 }
 
 body > main > section#Skills > section#Language > div:first-child > div:nth-child(5) > div:nth-child(2) {
-    background-image: url("assets/vector/svg/php.png");
+    background-image: url("img/vector/svg/php.png");
     background-size: cover;
     align-content: center;
     position: absolute;
@@ -1696,7 +1696,7 @@ body > main > section#Skills > section#Language > div:first-child > div:nth-chil
 }
 
 body > main > section#Skills > section#Language > div:first-child > div:nth-child(5) > div:nth-child(3) {
-    background-image: url("assets/vector/svg/C++.png");
+    background-image: url("img/vector/svg/C++.png");
     background-size: cover;
     position: absolute;
     width: 110px;
@@ -1760,7 +1760,7 @@ body > main > section#Skills > section#Tool > div:first-child > div:nth-child(2)
 }
 
 body > main > section#Skills > section#Tool > div:first-child > div:nth-child(2) > div:nth-child(1) {
-    background-image: url("assets/vector/svg/icons8-intellij-idea.svg");
+    background-image: url("img/vector/svg/icons8-intellij-idea.svg");
     background-size: cover;
     position: absolute;
     width: 110px;
@@ -1771,7 +1771,7 @@ body > main > section#Skills > section#Tool > div:first-child > div:nth-child(2)
 }
 
 body > main > section#Skills > section#Tool > div:first-child > div:nth-child(2) > div:nth-child(2) {
-    background-image: url("assets/vector/svg/icons8-visual-studio-code-2019.svg");
+    background-image: url("img/vector/svg/icons8-visual-studio-code-2019.svg");
     background-size: cover;
     position: absolute;
     width: 110px;
@@ -1782,7 +1782,7 @@ body > main > section#Skills > section#Tool > div:first-child > div:nth-child(2)
 }
 
 body > main > section#Skills > section#Tool > div:first-child > div:nth-child(2) > div:nth-child(3) {
-    background-image: url("assets/vector/svg/icons8-figma.svg");
+    background-image: url("img/vector/svg/icons8-figma.svg");
     background-size: cover;
     position: absolute;
     width: 110px;
@@ -1806,7 +1806,7 @@ body > main > section#Skills > section#Tool > div:first-child > div:nth-child(3)
 }
 
 body > main > section#Skills > section#Tool > div:first-child > div:nth-child(3) > div:nth-child(1) {
-    background-image: url("assets/vector/svg/icons8-android-studio.svg");
+    background-image: url("img/vector/svg/icons8-android-studio.svg");
     background-size: cover;
     position: absolute;
     width: 110px;
@@ -1817,7 +1817,7 @@ body > main > section#Skills > section#Tool > div:first-child > div:nth-child(3)
 }
 
 body > main > section#Skills > section#Tool > div:first-child > div:nth-child(3) > div:nth-child(2) {
-    background-image: url("assets/vector/svg/icons8-pycharm.svg");
+    background-image: url("img/vector/svg/icons8-pycharm.svg");
     background-size: cover;
     position: absolute;
     width: 110px;
@@ -1828,7 +1828,7 @@ body > main > section#Skills > section#Tool > div:first-child > div:nth-child(3)
 }
 
 body > main > section#Skills > section#Tool > div:first-child > div:nth-child(3) > div:nth-child(3) {
-    background-image: url("assets/vector/svg/icons8-webstorm.svg");
+    background-image: url("img/vector/svg/icons8-webstorm.svg");
     background-size: cover;
     position: absolute;
     width: 110px;
@@ -1852,7 +1852,7 @@ body > main > section#Skills > section#Tool > div:first-child > div:nth-child(4)
 }
 
 body > main > section#Skills > section#Tool > div:first-child > div:nth-child(4) > div:nth-child(1) {
-    background-image: url("assets/vector/svg/icons8-adobe-photoshop.svg");
+    background-image: url("img/vector/svg/icons8-adobe-photoshop.svg");
     background-size: cover;
     position: absolute;
     width: 110px;
@@ -1863,7 +1863,7 @@ body > main > section#Skills > section#Tool > div:first-child > div:nth-child(4)
 }
 
 body > main > section#Skills > section#Tool > div:first-child > div:nth-child(4) > div:nth-child(2) {
-    background-image: url("assets/vector/svg/icons8-adobe-lightroom.svg");
+    background-image: url("img/vector/svg/icons8-adobe-lightroom.svg");
     background-size: cover;
     position: absolute;
     width: 110px;
@@ -1874,7 +1874,7 @@ body > main > section#Skills > section#Tool > div:first-child > div:nth-child(4)
 }
 
 body > main > section#Skills > section#Tool > div:first-child > div:nth-child(4) > div:nth-child(3) {
-    background-image: url("assets/vector/svg/icons8-adobe-xd.svg");
+    background-image: url("img/vector/svg/icons8-adobe-xd.svg");
     background-size: cover;
     position: absolute;
     width: 110px;
@@ -1898,7 +1898,7 @@ body > main > section#Skills > section#Tool > div:first-child > div:nth-child(5)
 }
 
 body > main > section#Skills > section#Tool > div:first-child > div:nth-child(5) > div:nth-child(1) {
-    background-image: url("assets/vector/svg/postman.png");
+    background-image: url("img/vector/svg/postman.png");
     background-size: 95px;
     background-repeat: no-repeat;
     background-position: center;
@@ -1911,7 +1911,7 @@ body > main > section#Skills > section#Tool > div:first-child > div:nth-child(5)
 }
 
 body > main > section#Skills > section#Tool > div:first-child > div:nth-child(5) > div:nth-child(2) {
-    background-image: url("assets/vector/svg/Java Eclipse.png");
+    background-image: url("img/vector/svg/Java Eclipse.png");
     background-size: 95px;
     background-repeat: no-repeat;
     background-position: center;
@@ -1924,7 +1924,7 @@ body > main > section#Skills > section#Tool > div:first-child > div:nth-child(5)
 }
 
 body > main > section#Skills > section#Tool > div:first-child > div:nth-child(5) > div:nth-child(3) {
-    background-image: url("assets/vector/svg/netbeansnetbeans.png");
+    background-image: url("img/vector/svg/netbeansnetbeans.png");
     background-size: 95px;
     background-repeat: no-repeat;
     background-position: center;

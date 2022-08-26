@@ -7,7 +7,7 @@ This is My Personal Web Project.
 * CSS
 
 ##
-![alt text](https://github.com/NimeshPiyumantha/My-Protfoliyo/blob/main/assets/images/mainMockup.png)
+![alt text](https://github.com/NimeshPiyumantha/My-Protfoliyo/blob/main/assets/styles/img/images/mainMockup.png)
 ##
 
 * My linkedin : https://www.linkedin.com/in/nimesh-piyumantha-33736a222
