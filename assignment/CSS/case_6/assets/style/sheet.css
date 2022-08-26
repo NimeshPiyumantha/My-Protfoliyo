@@ -2,3 +2,19 @@
  * @author : Nimesh Piyumantha
  * @since : 0.1.0
  **/
+
+section{
+    width: 1200px;
+    height: 600px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: grid;
+    /*border: 2px solid red;*/
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(4,1fr);
+    gap: 9px;
+}
