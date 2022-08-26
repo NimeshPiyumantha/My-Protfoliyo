@@ -71,7 +71,7 @@ section > div:nth-child(7){
 }
 
 section > div:nth-child(8){
-    background: url("/assignment/CSS/case_6/assets/img/05.jpg");
+    background: url("/assignment/CSS/case_6/assets/img/5.jpg");
     background-size: cover;
     background-position: center;
     grid-column: 2/4;
