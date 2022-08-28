@@ -2159,3 +2159,13 @@ body > main > section#Achievements > article > div:nth-child(4) {
     left: 41%;
     border-radius: 3px;
 }
+
+/** Main - Achievements Main Image */
+body > main > section#Achievements > section div#images > img:nth-child(1) {
+    position: absolute;
+    width: 1903px;
+    height: 1000px;
+    background-repeat: no-repeat;
+    top: 0;
+    opacity: 20%;
+}
