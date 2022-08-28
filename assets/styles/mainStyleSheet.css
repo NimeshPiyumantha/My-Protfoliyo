@@ -2139,3 +2139,13 @@ body > main > section#Gallery > section#image_section > div:nth-child(11)  {
 section#Achievements {
     position: relative;
 }
+
+/** Main - Achievements Header Underline */
+body > main > section#Achievements > article > div:nth-child(3) {
+    width: 135px;
+    height: 7px;
+    background: #2ED573;
+    position: relative;
+    left: 41%;
+    border-radius: 3px;
+}
