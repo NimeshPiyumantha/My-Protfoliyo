@@ -2128,3 +2128,10 @@ body > main > section#Gallery > section#image_section > div:nth-child(11)  {
 }
 
 /**-------------------------------------------- Main - Achievements --------------------------------------------**/
+/** Main - Achievements Header */
+#Achievements {
+    background: #ECF0F3;
+    width: 1903px;
+    height: 1000px;
+    position: relative;
+}
