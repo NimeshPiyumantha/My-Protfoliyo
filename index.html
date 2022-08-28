@@ -416,7 +416,125 @@
             <div></div>
         </article>
 
-        <section> <!--Image sectioning  --></section>
+        <section> <!--Image sectioning  -->
+            <div id="images">
+                <img alt="Image" src="assets/styles/img/images/Achievement_Main.jpg">
+                <img alt="Image" src="assets/styles/img/vector/svg/Achievement_Main.svg">
+                <img alt="Image" src="assets/styles/img/vector/svg/Achievement_Star1.svg">
+                <img alt="Image" src="assets/styles/img/vector/svg/Achievement_Star2.svg">
+
+            </div>
+
+            <!-- Swiper -->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" style="background-image:url(assets/certificate/DP-web.png)">
+                        <div class="info">
+                            <h5>University of Moratuwa <br> <span>Front-End Web Development</span></h5>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" style="background-image:url(assets/certificate/Dp-webDesign.png)">
+                        <div class="info">
+                            <h5>University of Moratuwa <br> <span>Web Development for Beginners</span></h5>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" style="background-image:url(assets/certificate/python-DP.png)">
+                        <div class="info">
+                            <h5>University of Moratuwa <br> <span>Python for Beginners</span></h5>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" style="background-image:url(assets/certificate/Sololearn_C_plus.png)">
+                        <div class="info">
+                            <h5>Sololearn <br> <span>C++  Course</span></h5>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" style="background-image:url(assets/certificate/Sololearn_C_sharp.png)">
+                        <div class="info">
+                            <h5>Sololearn <br> <span>C#  Course</span></h5>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" style="background-image:url(assets/certificate/Sololearn_CSS.jpg)">
+                        <div class="info">
+                            <h5>Sololearn <br> <span>CSS Course</span></h5>
+                        </div>
+                    </div>
+                    <div class="swiper-slide"
+                         style="background-image:url(assets/certificate/Sololearn_DataScience.png)">
+                        <div class="info">
+                            <h5>Sololearn <br> <span>Data Science Course</span></h5>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" style="background-image:url(assets/certificate/Sololearn_HTML.jpg)">
+                        <div class="info">
+                            <h5>Sololearn <br> <span>HTML Course</span></h5>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" style="background-image:url(assets/certificate/Sololearn_Java.png)">
+                        <div class="info">
+                            <h5>Sololearn <br> <span>Java Course</span></h5>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" style="background-image:url(assets/certificate/Sololearn_JavaScript.png)">
+                        <div class="info">
+                            <h5>Sololearn <br> <span>JavaScript Course</span></h5>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" style="background-image:url(assets/certificate/Sololearn_PHP.jpg)">
+                        <div class="info">
+                            <h5>Sololearn <br> <span>PHP Course</span></h5>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" style="background-image:url(assets/certificate/Sololearn_pythonCore.png)">
+                        <div class="info">
+                            <h5>Sololearn <br> <span>Python Core Course</span></h5>
+                        </div>
+                    </div>
+                    <div class="swiper-slide"
+                         style="background-image:url(assets/certificate/Sololearn_pythonForDtaSci.png)">
+                        <div class="info">
+                            <h5>Sololearn <br> <span>Python for Data Science Course</span></h5>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" style="background-image:url(assets/certificate/Sololearn_R.png)">
+                        <div class="info">
+                            <h5>Sololearn <br> <span>R Course</span></h5>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" style="background-image:url(assets/certificate/Sololearn_SQL.png)">
+                        <div class="info">
+                            <h5>Sololearn <br> <span>SQL Course</span></h5>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" style="background-image:url(assets/certificate/Sololearn_WebDevFun.jpg)">
+                        <div class="info">
+                            <h5>Sololearn <br> <span>Web Development Fundamental Course</span></h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+
+            <script src="assets/styles/swipper/swiper.min.js"></script>
+            <script>
+                var swiper = new Swiper('.swiper-container', {
+                    effect: 'coverflow',
+                    grabCursor: true,
+                    centeredSlides: true,
+                    slidesPerView: 'auto',
+                    coverflowEffect: {
+                        rotate: 60,
+                        stretch: 0,
+                        depth: 100,
+                        modifier: 5,
+                        slideShadows: true,
+                    },
+                    pagination: {
+                        el: '.swiper-pagination',
+                    },
+                });
+            </script>
+        </section>
     </section>
 
     <hr>
