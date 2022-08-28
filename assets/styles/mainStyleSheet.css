@@ -2135,3 +2135,7 @@ body > main > section#Gallery > section#image_section > div:nth-child(11)  {
     height: 1000px;
     position: relative;
 }
+
+section#Achievements {
+    position: relative;
+}
