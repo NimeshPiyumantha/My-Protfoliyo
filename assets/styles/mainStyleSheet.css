@@ -2149,3 +2149,13 @@ body > main > section#Achievements > article > div:nth-child(3) {
     left: 41%;
     border-radius: 3px;
 }
+
+body > main > section#Achievements > article > div:nth-child(4) {
+    width: 100px;
+    height: 7px;
+    position: relative;
+    background: #2ED573;
+    margin-top: 0.5em;
+    left: 41%;
+    border-radius: 3px;
+}
