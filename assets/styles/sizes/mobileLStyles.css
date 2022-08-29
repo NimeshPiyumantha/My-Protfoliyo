@@ -3,8 +3,8 @@
  * @since : 0.1.0
  **/
 
-/** Resize in 1000px  **/
-@media (max-width: 1000px) {
+/** Resize in 425px  **/
+@media (max-width: 425px) {
     /** Header */
     .checkBtn {
         display: block;
@@ -204,7 +204,7 @@
         background: #F9FAFB;
         border-radius: 50px;
         cursor: pointer;
-        box-shadow: 10px 10px 10px rgba(1, 1, 1, 0.1);
+        box-shadow: inset -13px -13px 16px #FFFFFF, inset 13px 13px 16px rgba(13, 39, 80, 0.16);
         position: relative;
     }
 

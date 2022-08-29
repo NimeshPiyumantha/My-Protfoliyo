@@ -318,7 +318,7 @@ main {
     cursor: pointer;
     position: relative;
     bottom: 5px;
-    box-shadow: 0 -1px 8px 2px #1c171748;
+    box-shadow: inset -13px -13px 16px #FFFFFF, inset 13px 13px 16px rgba(13, 39, 80, 0.16);
 }
 
 #arrow_details {
@@ -886,7 +886,7 @@ body > main > section#About > article#details > h3:nth-child(10) span {
     cursor: pointer;
     position: relative;
     bottom: 5px;
-    box-shadow: 0 -1px 8px 2px #1c171748;
+    box-shadow: inset -13px -13px 16px #FFFFFF, inset 13px 13px 16px rgba(13, 39, 80, 0.16);
 }
 
 #download_arrow {
@@ -931,7 +931,7 @@ body > main > section#About > article#details > h3:nth-child(10) span {
     background: #F9FAFB;
     border-radius: 50px;
     cursor: pointer;
-    box-shadow: 0 -1px 8px 2px #1c171748;
+    box-shadow: inset -13px -13px 16px #FFFFFF, inset 13px 13px 16px rgba(13, 39, 80, 0.16);
     position: relative;
     bottom: 5px;
 }
