@@ -5,9 +5,12 @@
 
 @media (max-width: 1536px) {
     /** Header */
+
+    .head {
+        height: 70px;
+    }
+
     label.logo {
-        font-family: "Poppins", sans-serif;
-        font-weight: bold;
         font-size: 35px;
         color: #2C3E50;
         line-height: 80px;
@@ -15,11 +18,8 @@
     }
 
     nav ul li a {
-        font-family: "Poppins", sans-serif;
-        font-weight: bold;
         font-size: 30px;
         color: #2C3E50;
-        text-decoration: none;
         padding: 7px 13px;
         border-radius: 3px;
     }
@@ -199,7 +199,7 @@
         position: absolute;
         width: 78%;
         height: 460px;
-        bottom: 1612px;
+        bottom: 1188px;
         right: 258px;
     }
 
@@ -208,7 +208,7 @@
         position: absolute;
         width: 78%;
         height: 460px;
-        bottom: 1587px;
+        bottom: 1164px;
         left: 103px;
     }
 
@@ -377,7 +377,277 @@
         top: 15px;
     }
 
+    /** Main - About Section Educational Section */
+    body > main > section#About > section#education > article > h4 {
+        font-size: 33px;
+        margin-top: -220px;
+    }
 
+    /** Main -  About Section Educational Section Underline */
+    body > main > section#About > section#education > div:nth-child(2) {
+        left: 680px;
+    }
+
+    body > main > section#About > section#education > div:nth-child(3) {
+        left: 680px;
+    }
+
+    /** Main -  About Section Educational Section */
+    /** Main -  About Section Educational Section Ordinary Level Section */
+    #education {
+        width: 100%;
+        height: 100px;
+    }
+
+    #Ordinary {
+        top: 100px;
+        left: 0;
+        width: calc(100% / 2);
+        height: 420px;
+    }
+
+    #education_1 {
+        top: -85px;
+        right: 210px;
+    }
+
+    body > main > section#About > section#education > section#Ordinary > div:nth-child(2) {
+        height: 219px;
+        width: 3px;
+        right: 265px;
+        top: 125px;
+    }
+
+    body > main > section#About > section#education > section#Ordinary > div:nth-child(3) {
+        height: 50px;
+        width: 200px;
+        right: 210px;
+        bottom: 110px;
+    }
+
+    body > main > section#About > section#education > section#Ordinary > h3#OFirst {
+        font-size: 30px;
+        right: 390px;
+        bottom: 125px;
+    }
+
+    body > main > section#About > section#education > section#Ordinary > h3#OSecond {
+        font-size: 28px;
+        left: 170px;
+        bottom: 160px;
+    }
+
+    body > main > section#About > section#education > section#Ordinary > h3#OSecond span {
+        font-size: 24px;
+    }
+
+    body > main > section#About > section#education > section#Ordinary > p {
+        font-size: 26px;
+        left: 180px;
+        bottom: 140px;
+    }
+
+    /** Main -  About Section Educational Section Advanced Level Section **/
+    #Advanced {
+        left: -60px;
+        bottom: 9px;
+        width: calc(100% / 2);
+        height: 420px;
+    }
+
+    body > main > section#About > section#education > section#Advanced > div:nth-child(2) {
+        top: 210px;
+        left: 55px;
+    }
+
+    body > main > section#About > section#education > section#Advanced > div:nth-child(3) {
+        left: 110px;
+        bottom: 25px;
+    }
+
+    body > main > section#About > section#education > section#Advanced > h3#AFirst {
+        right: 77px;
+        bottom: 38px;
+        font-size: 30px;
+    }
+
+    body > main > section#About > section#education > section#Advanced > h3#ASecond {
+        font-size: 28px;
+        left: 233px;
+        bottom: 12px;
+    }
+
+    body > main > section#About > section#education > section#Advanced > h3#ASecond span {
+        font-size: 24px;
+    }
+
+    body > main > section#About > section#education > section#Advanced > p {
+        font-size: 26px;
+        left: 241px;
+        top: 13px;
+    }
+
+    /** Main -  About Section Educational Section HND Level Section **/
+    #HNDLevel {
+        bottom: 835px;
+        left: 710px;
+        width: calc(100% / 2);
+        height: 420px;
+    }
+
+    body > main > section#About > section#education > section#HNDLevel > div:nth-child(2) {
+        height: 219px;
+        width: 3px;
+        left: 2px;
+        top: 220px;
+    }
+
+    body > main > section#About > section#education > section#HNDLevel > div:nth-child(3) {
+        height: 50px;
+        width: 200px;
+        left: 60px;
+        bottom: 15px;
+    }
+
+    body > main > section#About > section#education > section#HNDLevel > h3#HFirst {
+        font-size: 30px;
+        right: 120px;
+        bottom: 30px;
+    }
+
+    body > main > section#About > section#education > section#HNDLevel > h3#HSecond {
+        font-size: 28px;
+        left: 177px;
+        top: 1px;
+    }
+
+    body > main > section#About > section#education > section#HNDLevel > h3#HSecond span {
+        font-size: 24px;
+    }
+
+    body > main > section#About > section#education > section#HNDLevel > p {
+        font-size: 26px;
+        left: 189px;
+        top: 20px;
+    }
+
+    /** Main -  About Section Educational Section Degree Level Section **/
+    #DegreeLevel {
+        bottom: 849px;
+        left: 710px;
+        width: calc(100% / 2);
+        height: 420px;
+    }
+
+    body > main > section#About > section#education > section#DegreeLevel > div:nth-child(2) {
+        height: 219px;
+        width: 3px;
+        top: 210px;
+        left: 2px;
+    }
+
+    body > main > section#About > section#education > section#DegreeLevel > div:nth-child(3) {
+        bottom: 24px;
+    }
+
+    body > main > section#About > section#education > section#DegreeLevel > h3#DFirst {
+        font-size: 30px;
+        right: 126px;
+        bottom: 37px;
+    }
+
+    body > main > section#About > section#education > section#DegreeLevel > h3#DSecond {
+        font-size: 26px;
+        left: 178px;
+        top: -7px;
+    }
+
+    body > main > section#About > section#education > section#DegreeLevel > h3#DSecond span {
+        font-size: 24px;
+    }
+
+    body > main > section#About > section#education > section#DegreeLevel > p {
+        font-size: 26px;
+        left: 189px;
+        top: 11px;
+    }
+
+    /** Main - About Section Educational Section Designs */
+    /**  Top Circle Group 1*/
+    body > main > section#About > section#design > div#circle1 {
+        height: 60px;
+        width: 60px;
+        bottom: 110px;
+        left: 160px;
+    }
+
+    body > main > section#About > section#design > div#circle2 {
+        height: 60px;
+        width: 60px;
+        bottom: 150px;
+        left: 182px;
+    }
+
+    /**  Top Circle Group 2*/
+    body > main > section#About > section#design > div#circle3 {
+        height: 60px;
+        width: 60px;
+        bottom: 230px;
+        left: 1000px;
+    }
+
+    body > main > section#About > section#design > div#circle4 {
+        height: 60px;
+        width: 60px;
+        bottom: 271px;
+        left: 1027px;
+    }
+
+    /** Main - About Section Educational Section Designs bottom Circle */
+    /**  Bottom Circle Group 1*/
+    body > main > section#About > section#design > div#circle5 {
+        height: 60px;
+        width: 60px;
+        bottom: -464px;
+        left: 614px;
+    }
+
+    body > main > section#About > section#design > div#circle6 {
+        height: 60px;
+        width: 60px;
+        bottom: -425px;
+        left: 642px;
+    }
+
+    /**  Bottom Circle Group 2*/
+    body > main > section#About > section#design > div#circle7 {
+        height: 60px;
+        width: 60px;
+        top: 340px;
+        left: 1421px;
+    }
+
+    body > main > section#About > section#design > div#circle8 {
+        height: 60px;
+        width: 60px;
+        bottom: -301px;
+        left: 1440px;
+    }
+
+    /** Main - About Section Educational Section Designs Center Vector */
+    #vector2 {
+        width: 500px;
+        height: 700px;
+        bottom: 485px;
+        left: 230px;
+    }
+
+    #vector3 {
+        width: 500px;
+        height: 700px;
+        bottom: 485px;
+        left: 420px;
+    }
 
 
 }
