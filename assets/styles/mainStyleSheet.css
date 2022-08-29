@@ -2202,7 +2202,7 @@ body > main > section#Achievements > section div#images > img:nth-child(4) {
 #Project {
     background: #ECF0F3;
     width: 100%;
-    height: 800px;
+    height: 1000px;
     position: relative;
 }
 
@@ -2229,3 +2229,17 @@ body > main > section#Project > article > div:nth-child(4) {
     left: 44%;
     border-radius: 3px;
 }
+
+/** Main - Project Section */
+body > main > section#Project > section#ProjectSection {
+    width: 1600px;
+    height: 500px;
+    position: relative;
+    background: #2ED573;
+    top: 60px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
