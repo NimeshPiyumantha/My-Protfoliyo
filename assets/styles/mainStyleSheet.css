@@ -2198,3 +2198,15 @@ body > main > section#Achievements > section div#images > img:nth-child(4) {
 }
 
 /**-------------------------------------------- Main - Project --------------------------------------------**/
+/** Main - Project Header */
+#Project {
+    background: #ECF0F3;
+    width: 100%;
+    height: 800px;
+    position: relative;
+}
+
+section#Project {
+    position: relative;
+}
+
