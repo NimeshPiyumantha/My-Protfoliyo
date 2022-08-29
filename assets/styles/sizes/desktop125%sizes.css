@@ -24,4 +24,89 @@
         border-radius: 3px;
     }
 
+    /** Main - Home */
+
+    #Home {
+        position: relative;
+        height: 730px;
+        width: 100%;
+    }
+
+    /** Main - Home- Type Text */
+    .text-size-1 {
+        margin-bottom: 0.2rem;
+        font-size: 40px;
+    }
+
+    .text-size-2 {
+        margin-bottom: 0.2rem;
+        font-size: 54px;
+    }
+
+    .text-size-3 {
+        margin-bottom: 0.2rem;
+        font-size: 35px;
+    }
+
+    /**  Home_Content_Hire me Button */
+    .btn-Hire-Me {
+        padding: 15px 0 0  20px;
+        height: 55px;
+        font-size: 25px;
+    }
+
+    .button-content {
+        position: relative;
+        display: inline-block;
+        bottom: 370px;
+        left: 180px;
+    }
+
+    .button-Circle {
+        height: 40px;
+        width: 40px;
+        right: 10px;
+        bottom: 8px;
+    }
+
+    #arrow_details {
+        left: 129px;
+        bottom: 15px;
+    }
+
+    /**  Home_Content_Social Media Navigation */
+    .wrapper .button {
+        height: 80px;
+        width: 80px;
+    }
+
+    .wrapper .button:hover {
+        width: 240px;
+    }
+
+    .wrapper .button .icon {
+        height: 80px;
+        width: 80px;
+    }
+
+    .wrapper .button .icon i {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .wrapper .button span {
+        font-size: 20px;
+        margin-left: 10px;
+        line-height: 30px;
+        transition: all 0.3s ease-out;
+    }
+
+    .follow-content {
+        bottom: 250px;
+        right: 30px;
+    }
+
+    .follow-content-text {
+        font-size: 40px;
+    }
 }
