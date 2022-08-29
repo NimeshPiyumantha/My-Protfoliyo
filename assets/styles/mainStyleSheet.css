@@ -2133,7 +2133,7 @@ body > main > section#Gallery > section#image_section > div:nth-child(11)  {
 #Achievements {
     background: #ECF0F3;
     width: 100%;
-    height: 1000px;
+    height: 800px;
     position: relative;
 }
 
@@ -2165,7 +2165,7 @@ body > main > section#Achievements > article > div:nth-child(4) {
 body > main > section#Achievements > section div#images > img:nth-child(1) {
     position: absolute;
     width:100%;
-    height: 1000px;
+    height: 800px;
     background-repeat: no-repeat;
     top: 0;
     opacity: 20%;
