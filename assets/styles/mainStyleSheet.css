@@ -2210,3 +2210,22 @@ section#Project {
     position: relative;
 }
 
+/** Main - Project Header Underline */
+body > main > section#Project > article > div:nth-child(3) {
+    width: 135px;
+    height: 7px;
+    background: #2ED573;
+    position: relative;
+    left: 44%;
+    border-radius: 3px;
+}
+
+body > main > section#Project > article > div:nth-child(4) {
+    width: 100px;
+    height: 7px;
+    position: relative;
+    background: #2ED573;
+    margin-top: 0.5em;
+    left: 44%;
+    border-radius: 3px;
+}
