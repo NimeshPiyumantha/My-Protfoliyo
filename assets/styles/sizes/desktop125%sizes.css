@@ -4,4 +4,24 @@
  **/
 
 @media (max-width: 1536px) {
+    /** Header */
+    label.logo {
+        font-family: "Poppins", sans-serif;
+        font-weight: bold;
+        font-size: 35px;
+        color: #2C3E50;
+        line-height: 80px;
+        padding: 0 40px;
+    }
+
+    nav ul li a {
+        font-family: "Poppins", sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+        color: #2C3E50;
+        text-decoration: none;
+        padding: 7px 13px;
+        border-radius: 3px;
+    }
+
 }
