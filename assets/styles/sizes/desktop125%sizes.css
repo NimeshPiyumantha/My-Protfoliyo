@@ -25,7 +25,6 @@
     }
 
     /** Main - Home */
-
     #Home {
         position: relative;
         height: 730px;
@@ -50,7 +49,7 @@
 
     /**  Home_Content_Hire me Button */
     .btn-Hire-Me {
-        padding: 15px 0 0  20px;
+        padding: 15px 0 0 20px;
         height: 55px;
         font-size: 25px;
     }
@@ -109,4 +108,276 @@
     .follow-content-text {
         font-size: 40px;
     }
+
+    /**-------------------------------------------- Main - About --------------------------------------------**/
+    #About {
+        width: 100%;
+        height: 2080px;
+    }
+
+    /** Main - About Header */
+    body > main > section > article h4 {
+        font-size: 25px;
+    }
+
+    body > main > section > article > h1 {
+        font-size: 33px;
+    }
+
+    body > main > section > article > h1 > span {
+        font-size: 33px;
+    }
+
+    body > main > section#About > div:nth-child(3) {
+        width: 80px;
+    }
+
+    /** Main - About Header Article */
+    body > main > section#About > article#paragraphOne p {
+        font-size: 24px;
+        margin-left: 150px;
+        bottom: 40px;
+        padding-bottom: 1.5em;
+    }
+
+    body > main > section#About > article#paragraphTwo p {
+        font-size: 24px;
+        margin-left: 150px;
+        bottom: 40px;
+    }
+
+    /** Main - About Image Section */
+    #aboutImg {
+        height: 470px;
+        width: 350px;
+        bottom: 280px;
+        left: 930px;
+    }
+
+    /** Main - About Section Circle One Div  */
+    body > main > section#About > section#image > div#circleOne {
+        width: 135px;
+        height: 135px;
+        bottom: 600px;
+        left: 1000px;
+    }
+
+    body > main > section#About > section#image > div#circleOne h1 {
+        font-size: 30px;
+        left: 60px;
+        top: 25px;
+    }
+
+    body > main > section#About > section#image > div#circleOne h2 {
+        font-size: 20px;
+        left: 25px;
+        top: 7px;
+    }
+
+    /** Main - About Section Circle Two Div  */
+    body > main > section#About > section#image > div#circleTwo {
+        width: 135px;
+        height: 135px;
+        bottom: 510px;
+        left: 1200px;
+    }
+
+    body > main > section#About > section#image > div#circleTwo h1 {
+        font-size: 30px;
+        left: 40px;
+        top: 6px;
+    }
+
+    body > main > section#About > section#image > div#circleTwo h2 {
+        font-size: 20px;
+        left: 30px;
+        bottom: 8px;
+    }
+
+    /** Main - About Section Vector One Div  */
+    #vectorOne {
+        position: absolute;
+        width: 78%;
+        height: 460px;
+        bottom: 1612px;
+        right: 258px;
+    }
+
+    /** Main - About Section Vector Two Div  */
+    #vectorTwo {
+        position: absolute;
+        width: 78%;
+        height: 460px;
+        bottom: 1587px;
+        left: 103px;
+    }
+
+    /** Main - About Section Vector Star Div  */
+    #vectorStar {
+        position: relative;
+        left: 1000px;
+        bottom: 750px;
+    }
+
+    /** Main - About Section Article h3 First Child */
+    #details {
+        position: relative;
+        bottom: 490px;
+        margin-left: 150px;
+    }
+
+    body > main > section#About > article#details > h3:nth-child(1) {
+        font-size: 30px;
+        margin-bottom: -50px;
+    }
+
+    body > main > section#About > article#details > h3:nth-child(1) span {
+        font-weight: bold;
+    }
+
+    /** Main - About Section Article h3 Second Child */
+    body > main > section#About > article#details > h3:nth-child(2) {
+        font-size: 30px;
+        padding-left: 430px;
+        padding-top: 0.5em;
+    }
+
+    body > main > section#About > article#details > h3:nth-child(2) span {
+        font-weight: bold;
+    }
+
+    /** Main - About Section Article h3 Third Child */
+    body > main > section#About > article#details > h3:nth-child(3) {
+        font-size: 30px;
+        margin-bottom: -41px;
+    }
+
+    body > main > section#About > article#details > h3:nth-child(3) span {
+        font-weight: bold;
+    }
+
+    /** Main - About Section Article h3 Fourth Child */
+    body > main > section#About > article#details > h3:nth-child(4) {
+        font-size: 30px;
+        padding-left: 430px;
+    }
+
+    body > main > section#About > article#details > h3:nth-child(4) span {
+        font-weight: bold;
+    }
+
+    /** Main - About Section Article h3 Fifth Child */
+    body > main > section#About > article#details > h3:nth-child(5) {
+        font-size: 30px;
+        margin-bottom: -41px;
+    }
+
+    body > main > section#About > article#details > h3:nth-child(5) span {
+        font-weight: bold;
+    }
+
+    /** Main - About Section Article h3 Sixth Child */
+    body > main > section#About > article#details > h3:nth-child(6) {
+        font-size: 30px;
+        padding-left: 430px;
+    }
+
+    body > main > section#About > article#details > h3:nth-child(6) span {
+        font-weight: bold;
+    }
+
+    /** Main - About Section Article h3 Seventh Child */
+    body > main > section#About > article#details > h3:nth-child(7) {
+        font-size: 30px;
+        margin-bottom: -41px;
+    }
+
+    body > main > section#About > article#details > h3:nth-child(7) span {
+        font-weight: bold;
+    }
+
+    /** Main - About Section Article h3 Eight Child */
+    body > main > section#About > article#details > h3:nth-child(8) {
+        font-size: 30px;
+        padding-left: 430px;
+    }
+
+    body > main > section#About > article#details > h3:nth-child(8) span {
+        font-weight: bold;
+    }
+
+    /** Main - About Section Article h3 Ninth Child */
+    body > main > section#About > article#details > h3:nth-child(9) {
+        font-size: 30px;
+        margin-bottom: -41px;
+    }
+
+    body > main > section#About > article#details > h3:nth-child(9) span {
+        font-weight: bold;
+    }
+
+    /** Main - About Section Article h3 Tenth Child */
+    body > main > section#About > article#details > h3:nth-child(10) {
+        font-size: 30px;
+        padding-left: 430px;
+    }
+
+    body > main > section#About > article#details > h3:nth-child(10) span {
+        font-weight: bold;
+    }
+
+    /** Main - About Download CV Button */
+    .btn-DownloadTwo {
+        padding: 15px 0 0 20px;
+        height: 55px;
+        font-size: 25px;
+    }
+
+    .downloadCv_Button {
+        position: relative;
+        display: inline-block;
+        bottom: 380px;
+        left: 480px;
+    }
+
+    .button-CircleTwo {
+        height: 40px;
+        width: 40px;
+        right: 10px;
+        bottom: 8px;
+    }
+
+    #download_arrow {
+        left: 24px;
+    }
+
+    /** Main - About Hire Me Button */
+    .btn-Hire-MeTwo {
+        padding: 15px 0 0 20px;
+        height: 55px;
+        font-size: 25px;
+    }
+
+    .hireMe_Button {
+        position: relative;
+        display: inline-block;
+        bottom: 55px;
+        left: 370px;
+    }
+
+    .button-CircleThree {
+        height: 40px;
+        width: 40px;
+        right: 10px;
+        bottom: 8px;
+    }
+
+    #HireMe_arrow {
+        left: 129px;
+        top: 15px;
+    }
+
+
+
+
 }
