@@ -1065,75 +1065,39 @@
     /** Main - Project Section HTML Projects */
     body > main > section#Project > section#ProjectSection > div:nth-child(2) {
         width: calc(1100px / 3);
-        height: 450px;
+        height: 400px;
         left: 570px;
-        top: 0;
-        position: absolute;
-        border-radius: 20px;
-        box-shadow: 0 -1px 8px 2px #1c1717e8;
-        background: #ECF0F3;
-        z-index: 1;
     }
 
     /** Main - Project Section HTML Projects Image*/
     body > main > section#Project > section#ProjectSection > div:nth-child(2) > img {
-        height: 250px;
-        width: 350px;
-        border-radius: 20px;
-        box-shadow: 0 -1px 8px 2px #1c1717e8;
-        top: 0;
-        bottom: 130px;
-        left: 0;
-        right: 0;
-        margin: auto;
-        position: absolute;
+        height: 200px;
+        width: 300px;
+        bottom: 100px;
     }
 
     /**  HTML Projects Button */
     .btn-HTML_Project {
-        background-color: #2ED573;
-        border-radius: 100px;
-        box-shadow: 0 -1px 8px 2px #1c1717e8;
-        border: none;
-        color: #ECF0F3;
-        padding: 20px 18px 10px 20px;
-        text-align: left;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 33px;
-        font-family: Poppins, sans-serif;
-        font-weight: bolder;
-        cursor: pointer;
+        padding: 15px 0 0 20px;
+        height: 55px;
+        font-size: 25px;
     }
 
     .HTML_Projects {
-        position: absolute;
-        top: 370px;
-        bottom: 0;
-        left: 70px;
-        right: 0;
-        margin: auto;
+        top: 300px;
+        left: 60px;
     }
 
     .HTML_button-Circle {
-        height: 52px;
-        width: 52px;
-        float: right;
-        margin-left: 19px;
-        background: #F9FAFB;
-        border-radius: 50px;
-        cursor: pointer;
-        position: relative;
-        bottom: 5px;
-        box-shadow: inset -13px -13px 16px #FFFFFF, inset 13px 13px 16px rgba(13, 39, 80, 0.16);
+        height: 40px;
+        width: 40px;
+        right: 10px;
+        bottom: 8px;
     }
 
     #HTML_arrow {
-        color: #2ED573;
-        position: absolute;
-        left: 273px;
-        top: 25px;
-        z-index: 1;
+        left: 205px;
+        top: 15px;
     }
 
     /** Main - Project Section CSS Projects */
