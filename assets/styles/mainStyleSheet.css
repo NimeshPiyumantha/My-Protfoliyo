@@ -2545,7 +2545,7 @@ body > main > section#Project > section#DesignProjects img:nth-child(7) {
 /** Main - Services Header */
 #Services {
     width: 100%;
-    height: 1000px;
+    height: 1200px;
     position: relative;
 }
 
@@ -2571,4 +2571,15 @@ body > main > section#Services > article > div:nth-child(4) {
     margin-top: 0.5em;
     left: 45%;
     border-radius: 3px;
+}
+
+/** Main - Services Background Image*/
+body > main > section#Services > article > div:nth-child(5) {
+    width: 100%;
+    height: 1200px;
+    background: url("img/images/ServicesMain.jpg");
+    background-size: cover;
+    opacity: 30%;
+    position: relative;
+    bottom: 210px;
 }
