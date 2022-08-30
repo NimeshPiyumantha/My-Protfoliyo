@@ -2245,7 +2245,7 @@ body > main > section#Project > section#ProjectSection {
     width: 1600px;
     height: 500px;
     position: relative;
-    top: 60px;
+    top: 100px;
     bottom: 0;
     left: 0;
     right: 0;
@@ -2259,6 +2259,7 @@ body > main > section#Project > section#ProjectSection > div:nth-child(1) {
     left: 0;
     position: absolute;
     border-radius: 20px;
+    background: #ECF0F3;
     box-shadow: 0 -1px 8px 2px #1c1717e8;
 }
 
@@ -2332,6 +2333,7 @@ body > main > section#Project > section#ProjectSection > div:nth-child(2) {
     position: absolute;
     border-radius: 20px;
     box-shadow: 0 -1px 8px 2px #1c1717e8;
+    background: #ECF0F3;
 }
 
 /** Main - Project Section HTML Projects Image*/
@@ -2404,6 +2406,7 @@ body > main > section#Project > section#ProjectSection > div:nth-child(3) {
     position: absolute;
     border-radius: 20px;
     box-shadow: 0 -1px 8px 2px #1c1717e8;
+    background: #ECF0F3;
 }
 
 /** Main - Project Section CSS Projects Image*/
@@ -2467,3 +2470,10 @@ body > main > section#Project > section#ProjectSection > div:nth-child(3) > img 
     z-index: 1;
 }
 
+/** Main - Project Section Background Designs*/
+/** Vector 1 */
+body > main > section#Project >  section#DesignProjects img:nth-child(1) {
+    top: 132px;
+    left: 215px;
+    position: absolute;
+}
