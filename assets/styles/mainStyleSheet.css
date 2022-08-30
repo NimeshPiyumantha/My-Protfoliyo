@@ -2552,3 +2552,13 @@ body > main > section#Project > section#DesignProjects img:nth-child(7) {
 section#Services {
     position: relative;
 }
+
+/** Main - Services Header Underline */
+body > main > section#Services > article > div:nth-child(3) {
+    width: 135px;
+    height: 7px;
+    background: #2ED573;
+    position: relative;
+    left: 44%;
+    border-radius: 3px;
+}
