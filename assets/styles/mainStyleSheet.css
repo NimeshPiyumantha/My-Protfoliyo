@@ -2534,3 +2534,10 @@ body > main > section#Project > section#DesignProjects img:nth-child(6) {
     left: 715px;
     position: absolute;
 }
+
+/** Vector 6 */
+body > main > section#Project > section#DesignProjects img:nth-child(7) {
+    top: 890px;
+    left: 1460px;
+    position: absolute;
+}
