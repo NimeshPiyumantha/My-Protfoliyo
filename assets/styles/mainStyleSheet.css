@@ -2244,38 +2244,6 @@ body > main > section#Project > section#ProjectSection {
 
 /** Main - Project Section Java Projects */
 body > main > section#Project > section#ProjectSection > div:nth-child(1) {
-   width: calc(1400px / 3);
-    height: 500px;
-    left: 0;
-    position: absolute;
-    border-radius: 20px;
-    box-shadow: 0 -1px 8px 2px #1c1717e8;
-}
-
-/** Main - Project Section HTML Projects */
-body > main > section#Project > section#ProjectSection > div:nth-child(2) {
-    width: calc(1400px / 3);
-    height: 500px;
-    left: 570px;
-    top: 0;
-    position: absolute;
-    border-radius: 20px;
-    box-shadow: 0 -1px 8px 2px #1c1717e8;
-}
-
-/** Main - Project Section CSS Projects */
-body > main > section#Project > section#ProjectSection > div:nth-child(3) {
-    width: calc(1400px / 3);
-    height: 500px;
-    right: 0;
-    top: 0;
-    position: absolute;
-    border-radius: 20px;
-    box-shadow: 0 -1px 8px 2px #1c1717e8;
-}
-
-/** Main - Project Section Java Projects */
-body > main > section#Project > section#ProjectSection > div:nth-child(1) {
     width: calc(1400px / 3);
     height: 500px;
     left: 0;
@@ -2342,4 +2310,26 @@ body > main > section#Project > section#ProjectSection > div:nth-child(1)>img {
     left: 268px;
     top: 25px;
     z-index: 1;
+}
+
+/** Main - Project Section HTML Projects */
+body > main > section#Project > section#ProjectSection > div:nth-child(2) {
+    width: calc(1400px / 3);
+    height: 500px;
+    left: 570px;
+    top: 0;
+    position: absolute;
+    border-radius: 20px;
+    box-shadow: 0 -1px 8px 2px #1c1717e8;
+}
+
+/** Main - Project Section CSS Projects */
+body > main > section#Project > section#ProjectSection > div:nth-child(3) {
+    width: calc(1400px / 3);
+    height: 500px;
+    right: 0;
+    top: 0;
+    position: absolute;
+    border-radius: 20px;
+    box-shadow: 0 -1px 8px 2px #1c1717e8;
 }
