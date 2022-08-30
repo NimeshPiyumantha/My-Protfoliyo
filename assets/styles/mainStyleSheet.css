@@ -2261,6 +2261,7 @@ body > main > section#Project > section#ProjectSection > div:nth-child(1) {
     border-radius: 20px;
     background: #ECF0F3;
     box-shadow: 0 -1px 8px 2px #1c1717e8;
+    z-index: 1;
 }
 
 /** Main - Project Section Java Projects Image*/
@@ -2334,6 +2335,7 @@ body > main > section#Project > section#ProjectSection > div:nth-child(2) {
     border-radius: 20px;
     box-shadow: 0 -1px 8px 2px #1c1717e8;
     background: #ECF0F3;
+    z-index: 1;
 }
 
 /** Main - Project Section HTML Projects Image*/
@@ -2407,6 +2409,7 @@ body > main > section#Project > section#ProjectSection > div:nth-child(3) {
     border-radius: 20px;
     box-shadow: 0 -1px 8px 2px #1c1717e8;
     background: #ECF0F3;
+    z-index: 1;
 }
 
 /** Main - Project Section CSS Projects Image*/
@@ -2500,4 +2503,12 @@ body > main > section#Project > section#DesignProjects > section > div:nth-child
     top: 142px;
     left: 1642px;
     opacity: 30%;
+}
+
+/** Vector 2 */
+body > main > section#Project > section#DesignProjects img:nth-child(3) {
+    top: 601px;
+    left: 605px;
+    position: absolute;
+    width: 145px;
 }
