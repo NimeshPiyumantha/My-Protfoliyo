@@ -2520,3 +2520,10 @@ body > main > section#Project > section#DesignProjects img:nth-child(4) {
     position: absolute;
     width: 145px;
 }
+
+/** Vector 4 */
+body > main > section#Project > section#DesignProjects img:nth-child(5) {
+    top: 830px;
+    left: 235px;
+    position: absolute;
+}
