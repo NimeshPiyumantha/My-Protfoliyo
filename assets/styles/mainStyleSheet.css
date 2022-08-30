@@ -2512,3 +2512,11 @@ body > main > section#Project > section#DesignProjects img:nth-child(3) {
     position: absolute;
     width: 145px;
 }
+
+/** Vector 3 */
+body > main > section#Project > section#DesignProjects img:nth-child(4) {
+    top: 490px;
+    left: 1168px;
+    position: absolute;
+    width: 145px;
+}
