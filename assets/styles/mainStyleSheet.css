@@ -2273,3 +2273,26 @@ body > main > section#Project > section#ProjectSection > div:nth-child(3) {
     border-radius: 20px;
     box-shadow: 0 -1px 8px 2px #1c1717e8;
 }
+
+/** Main - Project Section Java Projects */
+body > main > section#Project > section#ProjectSection > div:nth-child(1) {
+    width: calc(1400px / 3);
+    height: 500px;
+    left: 0;
+    position: absolute;
+    border-radius: 20px;
+    box-shadow: 0 -1px 8px 2px #1c1717e8;
+}
+
+body > main > section#Project > section#ProjectSection > div:nth-child(1)>img {
+    height: 250px;
+    width: 350px;
+    border-radius: 20px;
+    box-shadow: 0 -1px 8px 2px #1c1717e8;
+    top:0;
+    bottom: 160px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+}
