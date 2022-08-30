@@ -655,6 +655,11 @@
         height: 1100px;
     }
 
+    body > main > section#Skills > article > div:nth-child(5) {
+        height: 1100px;
+        top: -175px;
+    }
+
     /** Main - Skills Header Vector */
     /** Main - Skills Header  */
     body > main > section#Skills > div:nth-child(2) i {

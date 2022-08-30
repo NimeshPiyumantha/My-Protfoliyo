@@ -613,7 +613,7 @@ body > main > section#About > article#paragraphTwo p {
 body > main > section#About > section#image > div#circleOne {
     width: 164px;
     height: 164px;
-    box-shadow: inset -13px -13px 16px #FFFFFF, inset 13px 13px 16px rgba(13, 39, 80, 0.16) ,0 -1px 8px 2px #1c1717e8;
+    box-shadow: inset -13px -13px 16px #FFFFFF, inset 13px 13px 16px rgba(13, 39, 80, 0.16), 0 -1px 8px 2px #1c1717e8;
     background: #F9FAFB;
     border-radius: 100%;
     position: relative;
@@ -649,7 +649,7 @@ body > main > section#About > section#image > div#circleOne h2 {
 body > main > section#About > section#image > div#circleTwo {
     width: 164px;
     height: 164px;
-    box-shadow: inset -13px -13px 16px #FFFFFF, inset 13px 13px 16px rgba(13, 39, 80, 0.16) ,0 -1px 8px 2px #1c1717e8;
+    box-shadow: inset -13px -13px 16px #FFFFFF, inset 13px 13px 16px rgba(13, 39, 80, 0.16), 0 -1px 8px 2px #1c1717e8;
     background: #F9FAFB;
     border-radius: 100%;
     opacity: 99%;
@@ -1434,7 +1434,6 @@ body > main > section#About > section#design > div#circle8 {
 /**-------------------------------------------- Main - Skills --------------------------------------------**/
 /** Main - Skills Header */
 #Skills {
-    background: #ECF0F3;
     width: 100%;
     height: 1250px;
     position: relative;
@@ -1452,6 +1451,7 @@ body > main > section#Skills > article > div:nth-child(3) {
     position: relative;
     left: 46%;
     border-radius: 3px;
+    z-index: 1;
 }
 
 body > main > section#Skills > article > div:nth-child(4) {
@@ -1462,6 +1462,17 @@ body > main > section#Skills > article > div:nth-child(4) {
     margin-top: 0.5em;
     left: 46%;
     border-radius: 3px;
+    z-index: 1;
+}
+
+body > main > section#Skills > article > div:nth-child(5) {
+    background: url("img/images/skillsMain.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 1250px;
+    opacity: 30%;
+    position: relative;
+    bottom: 210px;
 }
 
 /** Main - Skills Header Vector */
@@ -2049,13 +2060,13 @@ body > main > section#Gallery > section#image_section > div {
     box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.68);
 }
 
-body > main > section#Gallery > section#image_section > div:hover{
+body > main > section#Gallery > section#image_section > div:hover {
     cursor: pointer;
     box-shadow: 2px 5px 3px 3px rgba(0, 0, 0, 0.68);
 }
 
 /** Main - Gallery Images Section */
-body > main > section#Gallery > section#image_section > div:nth-child(1)  {
+body > main > section#Gallery > section#image_section > div:nth-child(1) {
     grid-column: 1/2;
     grid-row: 1/4;
     background: url("img/images/about-1.jpg");
@@ -2063,19 +2074,19 @@ body > main > section#Gallery > section#image_section > div:nth-child(1)  {
     background-size: cover;
 }
 
-body > main > section#Gallery > section#image_section > div:nth-child(2){
+body > main > section#Gallery > section#image_section > div:nth-child(2) {
     background: url("img/images/about-5.jpg");
     background-position: center;
     background-size: cover;
 }
 
-body > main > section#Gallery > section#image_section > div:nth-child(3)  {
+body > main > section#Gallery > section#image_section > div:nth-child(3) {
     background: url("img/images/about-4.jpg");
     background-position: center;
     background-size: cover;
 }
 
-body > main > section#Gallery > section#image_section > div:nth-child(4)  {
+body > main > section#Gallery > section#image_section > div:nth-child(4) {
     background: url("img/images/aboutMain.jpg");
     grid-column: 4/4;
     grid-row: 1/3;
@@ -2083,7 +2094,7 @@ body > main > section#Gallery > section#image_section > div:nth-child(4)  {
     background-size: cover;
 }
 
-body > main > section#Gallery > section#image_section > div:nth-child(5)  {
+body > main > section#Gallery > section#image_section > div:nth-child(5) {
     grid-column: 2/4;
     grid-row: 2/4;
     background: url("img/images/about-6.jpg");
@@ -2097,7 +2108,7 @@ body > main > section#Gallery > section#image_section > div:nth-child(6) {
     background-size: cover;
 }
 
-body > main > section#Gallery > section#image_section > div:nth-child(7)  {
+body > main > section#Gallery > section#image_section > div:nth-child(7) {
     grid-column: 1/3;
     grid-row: 4/6;
     background: url("img/images/about-8.jpeg");
@@ -2105,24 +2116,25 @@ body > main > section#Gallery > section#image_section > div:nth-child(7)  {
     background-size: cover;
 }
 
-body > main > section#Gallery > section#image_section > div:nth-child(8)  {
+body > main > section#Gallery > section#image_section > div:nth-child(8) {
     background: url("img/images/about-3.jpg");
     background-position: center;
     background-size: cover;
 }
 
-body > main > section#Gallery > section#image_section > div:nth-child(9)  {
+body > main > section#Gallery > section#image_section > div:nth-child(9) {
     background: url("img/images/about-7.jpg");
     background-position: center;
     background-size: cover;
 }
 
-body > main > section#Gallery > section#image_section > div:nth-child(10)  {
+body > main > section#Gallery > section#image_section > div:nth-child(10) {
     background: url("img/images/about-9.jpeg");
     background-position: revert;
     background-size: cover;
 }
-body > main > section#Gallery > section#image_section > div:nth-child(11)  {
+
+body > main > section#Gallery > section#image_section > div:nth-child(11) {
     background: url("img/images/about-2.jpg");
     background-position: center;
     background-size: cover;
@@ -2131,7 +2143,6 @@ body > main > section#Gallery > section#image_section > div:nth-child(11)  {
 /**-------------------------------------------- Main - Achievements --------------------------------------------**/
 /** Main - Achievements Header */
 #Achievements {
-    background: #ECF0F3;
     width: 100%;
     height: 800px;
     position: relative;
@@ -2164,11 +2175,11 @@ body > main > section#Achievements > article > div:nth-child(4) {
 /** Main - Achievements Main Image */
 body > main > section#Achievements > section div#images > img:nth-child(1) {
     position: absolute;
-    width:100%;
+    width: 100%;
     height: 800px;
     background-repeat: no-repeat;
     top: 0;
-    opacity: 20%;
+    opacity: 30%;
 }
 
 /** Main - Achievements Main Vector */
@@ -2252,12 +2263,12 @@ body > main > section#Project > section#ProjectSection > div:nth-child(1) {
 }
 
 /** Main - Project Section Java Projects Image*/
-body > main > section#Project > section#ProjectSection > div:nth-child(1)>img {
+body > main > section#Project > section#ProjectSection > div:nth-child(1) > img {
     height: 250px;
     width: 350px;
     border-radius: 20px;
     box-shadow: 0 -1px 8px 2px #1c1717e8;
-    top:0;
+    top: 0;
     bottom: 130px;
     left: 0;
     right: 0;
@@ -2284,7 +2295,7 @@ body > main > section#Project > section#ProjectSection > div:nth-child(1)>img {
 
 .Java_Projects {
     position: absolute;
-    top:370px ;
+    top: 370px;
     bottom: 0;
     left: 70px;
     right: 0;
@@ -2324,12 +2335,12 @@ body > main > section#Project > section#ProjectSection > div:nth-child(2) {
 }
 
 /** Main - Project Section HTML Projects Image*/
-body > main > section#Project > section#ProjectSection > div:nth-child(2)>img {
+body > main > section#Project > section#ProjectSection > div:nth-child(2) > img {
     height: 250px;
     width: 350px;
     border-radius: 20px;
     box-shadow: 0 -1px 8px 2px #1c1717e8;
-    top:0;
+    top: 0;
     bottom: 130px;
     left: 0;
     right: 0;
@@ -2356,7 +2367,7 @@ body > main > section#Project > section#ProjectSection > div:nth-child(2)>img {
 
 .HTML_Projects {
     position: absolute;
-    top:370px ;
+    top: 370px;
     bottom: 0;
     left: 70px;
     right: 0;
@@ -2396,12 +2407,12 @@ body > main > section#Project > section#ProjectSection > div:nth-child(3) {
 }
 
 /** Main - Project Section CSS Projects Image*/
-body > main > section#Project > section#ProjectSection > div:nth-child(3)>img {
+body > main > section#Project > section#ProjectSection > div:nth-child(3) > img {
     height: 250px;
     width: 350px;
     border-radius: 20px;
     box-shadow: 0 -1px 8px 2px #1c1717e8;
-    top:0;
+    top: 0;
     bottom: 130px;
     left: 0;
     right: 0;
@@ -2428,7 +2439,7 @@ body > main > section#Project > section#ProjectSection > div:nth-child(3)>img {
 
 .CSS_Projects {
     position: absolute;
-    top:370px ;
+    top: 370px;
     bottom: 0;
     left: 70px;
     right: 0;
