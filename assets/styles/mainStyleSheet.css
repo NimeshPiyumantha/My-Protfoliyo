@@ -2580,6 +2580,7 @@ body > main > section#Services > article > div:nth-child(5) {
     background: url("img/images/ServicesMain.jpg");
     background-size: cover;
     opacity: 30%;
-    position: relative;
-    bottom: 210px;
+    position: absolute;
+    bottom: -2px;
 }
+

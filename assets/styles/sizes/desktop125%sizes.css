@@ -1200,7 +1200,5 @@
 
     /**-------------------------------------------- Main - Services --------------------------------------------**/
     /** Main - Services Header */
-    body > main > section#Services > article > div:nth-child(5) {
-        bottom: 175px;
-    }
+
 }
