@@ -2323,7 +2323,6 @@ body > main > section#Project > section#ProjectSection > div:nth-child(2) {
     box-shadow: 0 -1px 8px 2px #1c1717e8;
 }
 
-
 body > main > section#Project > section#ProjectSection > div:nth-child(2)>img {
     height: 250px;
     width: 350px;
@@ -2335,6 +2334,53 @@ body > main > section#Project > section#ProjectSection > div:nth-child(2)>img {
     right: 0;
     margin: auto;
     position: absolute;
+}
+
+/**  HTML Projects Button */
+.btn-HTML_Project {
+    background-color: #2ED573;
+    border-radius: 100px;
+    box-shadow: 0 -1px 8px 2px #1c1717e8;
+    border: none;
+    color: #ECF0F3;
+    padding: 20px 18px 10px 20px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 33px;
+    font-family: Poppins, sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.HTML_Projects {
+    position: absolute;
+    top:370px ;
+    bottom: 0;
+    left: 70px;
+    right: 0;
+    margin: auto;
+}
+
+.HTML_button-Circle {
+    height: 52px;
+    width: 52px;
+    float: right;
+    margin-left: 19px;
+    background: #F9FAFB;
+    border-radius: 50px;
+    cursor: pointer;
+    position: relative;
+    bottom: 5px;
+    box-shadow: inset -13px -13px 16px #FFFFFF, inset 13px 13px 16px rgba(13, 39, 80, 0.16);
+}
+
+#HTML_arrow {
+    color: #2ED573;
+    position: absolute;
+    left: 270px;
+    top: 25px;
+    z-index: 1;
 }
 
 /** Main - Project Section CSS Projects */
