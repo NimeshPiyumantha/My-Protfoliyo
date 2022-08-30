@@ -1065,7 +1065,7 @@
 
     #Java_arrow {
         left: 203px;
-        top: 16px;
+        top: 15px;
     }
 
     /** Main - Project Section HTML Projects */
@@ -1197,5 +1197,8 @@
         top: 750px;
         left: 1160px;
     }
+
+    /**-------------------------------------------- Main - Services --------------------------------------------**/
+    /** Main - Services Header */
 
 }
