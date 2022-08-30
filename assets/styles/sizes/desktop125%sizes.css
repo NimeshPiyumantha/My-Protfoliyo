@@ -1178,14 +1178,12 @@
     body > main > section#Project > section#DesignProjects img:nth-child(5) {
         top: 695px;
         left: 200px;
-        position: absolute;
     }
 
     /** Vector 5 */
     body > main > section#Project > section#DesignProjects img:nth-child(6) {
-        top: 890px;
-        left: 715px;
-        position: absolute;
+        top: 750px;
+        left: 570px;
     }
 
     /** Vector 6 */
