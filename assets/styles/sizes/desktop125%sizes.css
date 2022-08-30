@@ -1140,32 +1140,24 @@
     /** Main - Project Section Background Designs*/
     /** Vector 1 */
     body > main > section#Project > section#DesignProjects img:nth-child(1) {
-        top: 132px;
-        left: 215px;
-        position: absolute;
+        top: 100px;
+        width: 80px;
+        height: 80px;
     }
 
     /** Circle Design */
     body > main > section#Project > section#DesignProjects > section > div:nth-child(1) {
-        width: 80px;
-        height: 80px;
-        border: 8px solid #2ED573;
-        position: absolute;
-        border-radius: 100%;
-        top: 114px;
-        left: 1610px;
-        opacity: 70%;
+        width: 60px;
+        height: 60px;
+        top: 100px;
+        left: 1290px;
     }
 
     body > main > section#Project > section#DesignProjects > section > div:nth-child(2) {
-        width: 80px;
-        height: 80px;
-        background: #2ED573;
-        position: absolute;
-        border-radius: 100%;
-        top: 142px;
-        left: 1642px;
-        opacity: 30%;
+        width: 60px;
+        height: 60px;
+        top: 122px;
+        left: 1310px;
     }
 
     /** Vector 2 */
