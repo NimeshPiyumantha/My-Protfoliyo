@@ -1066,7 +1066,7 @@
     body > main > section#Project > section#ProjectSection > div:nth-child(2) {
         width: calc(1100px / 3);
         height: 400px;
-        left: 570px;
+        left: 455px;
     }
 
     /** Main - Project Section HTML Projects Image*/
@@ -1146,7 +1146,6 @@
     }
 
     /** Circle Design */
-
     body > main > section#Project > section#DesignProjects > section > div:nth-child(1) {
         width: 80px;
         height: 80px;

@@ -2482,7 +2482,6 @@ body > main > section#Project > section#DesignProjects img:nth-child(1) {
 }
 
 /** Circle Design */
-
 body > main > section#Project > section#DesignProjects > section > div:nth-child(1) {
     width: 80px;
     height: 80px;
