@@ -2527,3 +2527,10 @@ body > main > section#Project > section#DesignProjects img:nth-child(5) {
     left: 235px;
     position: absolute;
 }
+
+/** Vector 5 */
+body > main > section#Project > section#DesignProjects img:nth-child(6) {
+    top: 890px;
+    left: 715px;
+    position: absolute;
+}
