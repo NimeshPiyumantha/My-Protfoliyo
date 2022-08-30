@@ -1019,6 +1019,12 @@
 
     /**-------------------------------------------- Main - Project --------------------------------------------**/
 
+    #Project {
+        width: 100%;
+        height: 850px;
+        position: relative;
+    }
+
     /** Main - Project Section */
     body > main > section#Project > section#ProjectSection {
         width: 1270px;
