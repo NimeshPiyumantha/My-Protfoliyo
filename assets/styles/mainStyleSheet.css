@@ -2543,3 +2543,12 @@ body > main > section#Project > section#DesignProjects img:nth-child(7) {
 
 /**-------------------------------------------- Main - Services --------------------------------------------**/
 /** Main - Services Header */
+#Services {
+    width: 100%;
+    height: 1000px;
+    position: relative;
+}
+
+section#Services {
+    position: relative;
+}
