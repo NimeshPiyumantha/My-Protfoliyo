@@ -2395,3 +2395,17 @@ body > main > section#Project > section#ProjectSection > div:nth-child(3) {
     border-radius: 20px;
     box-shadow: 0 -1px 8px 2px #1c1717e8;
 }
+
+/** Main - Project Section CSS Projects Image*/
+body > main > section#Project > section#ProjectSection > div:nth-child(3)>img {
+    height: 250px;
+    width: 350px;
+    border-radius: 20px;
+    box-shadow: 0 -1px 8px 2px #1c1717e8;
+    top:0;
+    bottom: 130px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+}
