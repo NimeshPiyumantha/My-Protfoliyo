@@ -2881,7 +2881,7 @@ body > main > section#Services > section#MainSection > div:nth-child(2) > div:fi
     height: 120px;
     background: #F9FAFB;
     border-radius: 100%;
-    box-shadow: inset -13px -13px 16px #F9FAFB, inset 13px 13px 16px rgba(13, 39, 80, 0.16), inset 13px 13px 16px rgba(13, 39, 80, 0.16);
+    box-shadow: 0 -1px 8px 2px #1c1717e8, inset -13px -13px 16px #F9FAFB, inset 13px 13px 16px rgba(13, 39, 80, 0.16), inset 13px 13px 16px rgba(13, 39, 80, 0.16);
     top: 120px;
     bottom: 0;
     left: 0;
@@ -2924,7 +2924,7 @@ body > main > section#Services > section#MainSection > div:nth-child(3) > div:fi
     height: 120px;
     background: #F9FAFB;
     border-radius: 100%;
-    box-shadow: inset -13px -13px 16px #F9FAFB, inset 13px 13px 16px rgba(13, 39, 80, 0.16), inset 13px 13px 16px rgba(13, 39, 80, 0.16);
+    box-shadow: 0 -1px 8px 2px #1c1717e8, inset -13px -13px 16px #F9FAFB, inset 13px 13px 16px rgba(13, 39, 80, 0.16), inset 13px 13px 16px rgba(13, 39, 80, 0.16);
     top: 120px;
     bottom: 0;
     left: 0;
