@@ -2837,6 +2837,16 @@ body > main > section#Services > section#MainSection > div:nth-child(2) {
     box-shadow: 0 -1px 8px 2px #1c1717e8;
 }
 
+body > main > section#Services > section#MainSection > div:nth-child(2) > div:first-child {
+    position: absolute;
+    width: calc(1650px / 4);
+    height: 130px;
+    background: #FF6348;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: inset -13px -13px 16px #FF6348, inset 13px 13px 16px rgba(13, 39, 80, 0.16);
+}
+
 /** Main - Services Development - Section - App Development */
 body > main > section#Services > section#MainSection > div:nth-child(3) {
     position: absolute;
