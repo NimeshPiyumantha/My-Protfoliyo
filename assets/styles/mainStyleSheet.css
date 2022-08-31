@@ -2811,7 +2811,7 @@ body > main > section#Services > section#MainSection > div:nth-child(1) {
     position: absolute;
     width: calc(1650px / 4);
     height: 550px;
-    background: #2ED573;
+    background: #ECF0F3;
     left: 0;
     border-radius: 20px;
 }
@@ -2821,7 +2821,7 @@ body > main > section#Services > section#MainSection > div:nth-child(2) {
     position: absolute;
     width: calc(1650px / 4);
     height: 550px;
-    background: #2ED573;
+    background: #ECF0F3;
     border-radius: 20px;
     left:520px;
 }
@@ -2831,7 +2831,7 @@ body > main > section#Services > section#MainSection > div:nth-child(3) {
     position: absolute;
     width: calc(1650px / 4);
     height: 550px;
-    background: #2ED573;
+    background: #ECF0F3;
     right: 0;
     border-radius: 20px;
 }
