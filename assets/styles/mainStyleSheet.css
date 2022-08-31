@@ -3035,3 +3035,17 @@ body > main > section#HireMe > article > div:nth-child(4) {
     border-radius: 3px;
     z-index: 1;
 }
+
+/** Main - HireMe Section Main */
+body > main > section#HireMe > section#HireMe_Main {
+    width: 1600px;
+    height: 700px;
+    background: #2ED573;
+    position: absolute;
+    top: 200px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
