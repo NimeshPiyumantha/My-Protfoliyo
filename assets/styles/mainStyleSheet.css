@@ -1445,13 +1445,6 @@ section#Skills {
 
 /** Main - Skills About Header */
 body > main > section#Skills > article h4 {
-    font-family: "Poppins", sans-serif;
-    font-weight: bold;
-    font-size: 32px;
-    color: #2ED573 !important;
-    text-decoration: none;
-    border-radius: 3px;
-    padding-top: 3em;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -1462,15 +1455,6 @@ body > main > section#Skills > article h4 {
 }
 
 body > main > section#Skills > article > h1 {
-    font-family: "Poppins", sans-serif;
-    font-weight: bold;
-    font-size: 40px;
-    color: #2C3E50 !important;
-    text-decoration: none;
-    text-align: center;
-    border-radius: 3px;
-    margin-top: 5px;
-    margin-bottom: 7px;
     position: absolute;
     top: 135px;
     bottom: 0;
@@ -2190,6 +2174,27 @@ section#Achievements {
     position: relative;
 }
 
+/** Main - Achievements About Header */
+body > main > section#Achievements > article h4 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 1;
+}
+
+body > main > section#Achievements > article > h1 {
+    position: absolute;
+    top: 140px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 1;
+}
+
 /** Main - Achievements Header Underline */
 body > main > section#Achievements > article > div:nth-child(3) {
     width: 135px;
@@ -2197,7 +2202,9 @@ body > main > section#Achievements > article > div:nth-child(3) {
     background: #2ED573;
     position: relative;
     left: 41%;
+    top: 195px;
     border-radius: 3px;
+    z-index: 1;
 }
 
 body > main > section#Achievements > article > div:nth-child(4) {
@@ -2207,7 +2214,9 @@ body > main > section#Achievements > article > div:nth-child(4) {
     background: #2ED573;
     margin-top: 0.5em;
     left: 41%;
+    top: 195px;
     border-radius: 3px;
+    z-index: 1;
 }
 
 /** Main - Achievements Main Image */
