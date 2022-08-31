@@ -2806,3 +2806,12 @@ body > main > section#Services > section#MainSection {
     margin: auto;
 }
 
+/** Main - Services Development - Section - Enterprise Application */
+body > main > section#Services > section#MainSection > div:nth-child(1) {
+    position: absolute;
+    width: calc(1650px / 4);
+    height: 550px;
+    background: #2ED573;
+    left: 0;
+    border-radius: 20px;
+}
