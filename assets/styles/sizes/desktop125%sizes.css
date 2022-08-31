@@ -1217,4 +1217,12 @@
         left: 45px;
         top: -90px;
     }
+
+    /** Main - Services Background Design Aside one-Second Circle*/
+    body > main > section#Services > section#ServicesBGDesign > aside:first-child > div:nth-child(2) {
+        width: 60px;
+        height: 60px;
+        left: 75px;
+        top: -72px;
+    }
 }
