@@ -1200,5 +1200,13 @@
 
     /**-------------------------------------------- Main - Services --------------------------------------------**/
     /** Main - Services Header */
+    #Services {
+        height: 1300px;
+    }
 
+    /** Main - Services Background Image*/
+    body > main > section#Services > article > div:nth-child(5) {
+        height: 1200px;
+        top: 0;
+    }
 }
