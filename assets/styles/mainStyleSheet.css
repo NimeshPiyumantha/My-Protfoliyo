@@ -2858,6 +2858,17 @@ body > main > section#Services > section#MainSection > div:nth-child(1) > h2 {
     font-size: 26px;
 }
 
+body > main > section#Services > section#MainSection > div:nth-child(1) > p {
+    position: absolute;
+    top: 255px;
+    left: 63px;
+    color: #57606F;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    padding-right: 60px;
+    border-left-width: 30px;
+}
+
 /** Main - Services Development - Section - Web Development */
 body > main > section#Services > section#MainSection > div:nth-child(2) {
     position: absolute;
