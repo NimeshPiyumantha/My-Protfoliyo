@@ -1343,6 +1343,7 @@
         width: 1200px;
         height: 500px;
         top: 440px;
+        z-index: 1;
     }
 
     /** Main - Services Development - Section - Enterprise Application */
