@@ -2985,3 +2985,14 @@ body > main > section#Services > section#MainSection > div:nth-child(3) > h2 {
     font-weight: bolder;
     font-size: 26px;
 }
+
+body > main > section#Services > section#MainSection > div:nth-child(3) > p {
+    position: absolute;
+    top: 255px;
+    left: 63px;
+    color: #57606F;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    padding-right: 60px;
+    border-left-width: 30px;
+}
