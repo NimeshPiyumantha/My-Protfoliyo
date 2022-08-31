@@ -2826,3 +2826,12 @@ body > main > section#Services > section#MainSection > div:nth-child(2) {
     left:520px;
 }
 
+/** Main - Services Development - Section - App Development */
+body > main > section#Services > section#MainSection > div:nth-child(3) {
+    position: absolute;
+    width: calc(1650px / 4);
+    height: 550px;
+    background: #2ED573;
+    right: 0;
+    border-radius: 20px;
+}
