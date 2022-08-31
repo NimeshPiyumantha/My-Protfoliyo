@@ -1239,12 +1239,12 @@
     /**-------------------------------------------- Main - Services --------------------------------------------**/
     /** Main - Services Header */
     #Services {
-        height: 1300px;
+        height: 1050px;
     }
 
     /** Main - Services Background Image*/
     body > main > section#Services > article > div:nth-child(5) {
-        height: 1300px;
+        height: 1050px;
         top: 0;
     }
 
@@ -1303,7 +1303,6 @@
     /** Main - Services Background Vector*/
     body > main > section#Services > section#ServicesBGDesign > img {
         width: 1460px;
-        display: none;
     }
 
     /** Main - Services Background Button - Development*/
@@ -1337,5 +1336,118 @@
     body > main > section#Services > section#ServicesButton > div#Marketing > a > button {
         font-size: 25px;
         padding: 18px 52px 18px 52px;
+    }
+
+    /** Main - Services Development - Section*/
+    body > main > section#Services > section#MainSection {
+        width: 1200px;
+        height: 500px;
+        top: 440px;
+    }
+
+    /** Main - Services Development - Section - Enterprise Application */
+    body > main > section#Services > section#MainSection > div:nth-child(1) {
+        width: calc(1400px / 4);
+        height: 500px;
+    }
+
+    body > main > section#Services > section#MainSection > div:nth-child(1) > div:first-child {
+        width: calc(1400px / 4);
+        height: 110px;
+    }
+
+    body > main > section#Services > section#MainSection > div:nth-child(1) > div:first-child > div:first-child {
+        width: 100px;
+        height: 100px;
+        top: 100px;
+    }
+
+    body > main > section#Services > section#MainSection > div:nth-child(1) > div:first-child > div:first-child > i {
+        font-size: 50px;
+        top: 25px;
+        left: 20px;
+    }
+
+    body > main > section#Services > section#MainSection > div:nth-child(1) > h2 {
+        top: 170px;
+        left: 50px;
+        font-size: 22px;
+    }
+
+    body > main > section#Services > section#MainSection > div:nth-child(1) > p {
+        top: 210px;
+        left: 40px;
+        font-size: 18px;
+    }
+
+    /** Main - Services Development - Section - Web Development */
+    body > main > section#Services > section#MainSection > div:nth-child(2) {
+        width: calc(1400px / 4);
+        height: 500px;
+        left: 430px;
+    }
+
+    body > main > section#Services > section#MainSection > div:nth-child(2) > div:first-child {
+        width: calc(1400px / 4);
+        height: 110px;
+    }
+
+    body > main > section#Services > section#MainSection > div:nth-child(2) > div:first-child > div:first-child {
+        width: 100px;
+        height: 100px;
+        top: 100px;
+    }
+
+    body > main > section#Services > section#MainSection > div:nth-child(2) > div:first-child > div:first-child > i {
+        font-size: 50px;
+        top: 25px;
+        left: 20px;
+    }
+
+    body > main > section#Services > section#MainSection > div:nth-child(2) > h2 {
+        top: 170px;
+        left: 50px;
+        font-size: 22px;
+    }
+
+    body > main > section#Services > section#MainSection > div:nth-child(2) > p {
+        top: 210px;
+        left: 40px;
+        font-size: 18px;
+    }
+
+    /** Main - Services Development - Section - App Development */
+    body > main > section#Services > section#MainSection > div:nth-child(3) {
+        width: calc(1400px / 4);
+        height: 500px;
+    }
+
+    body > main > section#Services > section#MainSection > div:nth-child(3) > div:first-child {
+        width: calc(1400px / 4);
+        height: 110px;
+    }
+
+    body > main > section#Services > section#MainSection > div:nth-child(3) > div:first-child > div:first-child {
+        width: 100px;
+        height: 100px;
+        top: 100px;
+    }
+
+    body > main > section#Services > section#MainSection > div:nth-child(3) > div:first-child > div:first-child > i {
+        font-size: 50px;
+        top: 25px;
+        left: 30px;
+    }
+
+    body > main > section#Services > section#MainSection > div:nth-child(3) > h2 {
+        top: 170px;
+        left: 50px;
+        font-size: 22px;
+    }
+
+    body > main > section#Services > section#MainSection > div:nth-child(3) > p {
+        top: 210px;
+        left: 40px;
+        font-size: 18px;
     }
 }
