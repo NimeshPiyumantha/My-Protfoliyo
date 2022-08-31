@@ -2792,3 +2792,17 @@ body > main > section#Services > section#ServicesButton > div#Marketing > a > bu
     font-weight: bolder;
     cursor: pointer;
 }
+
+/** Main - Services Development - Section*/
+body > main > section#Services > section#MainSection {
+    position: relative;
+    width: 1450px;
+    height: 550px;
+    background: #F47F24;
+    top: 460px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
