@@ -657,7 +657,26 @@
 
     body > main > section#Skills > article > div:nth-child(5) {
         height: 1100px;
-        top: -175px;
+    }
+
+    /** Main - Skills About Header */
+    body > main > section#Skills > article h4 {
+        top: -22px;
+    }
+
+    body > main > section#Skills > article > h1 {
+        top: 110px;
+    }
+
+    /** Main - Skills Header Underline */
+    body > main > section#Skills > article > div:nth-child(3) {
+        top: 165px;
+        left: 45%;
+    }
+
+    body > main > section#Skills > article > div:nth-child(4) {
+        top: 167px;
+        left: 45%;
     }
 
     /** Main - Skills Header Vector */

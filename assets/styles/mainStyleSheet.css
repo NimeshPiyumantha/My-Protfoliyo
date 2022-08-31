@@ -1443,6 +1443,42 @@ section#Skills {
     position: relative;
 }
 
+/** Main - Skills About Header */
+body > main > section#Skills > article h4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    color: #2ED573 !important;
+    text-decoration: none;
+    border-radius: 3px;
+    padding-top: 3em;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 1;
+}
+
+body > main > section#Skills > article > h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #2C3E50 !important;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 3px;
+    margin-top: 5px;
+    margin-bottom: 7px;
+    position: absolute;
+    top: 135px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
 /** Main - Skills Header Underline */
 body > main > section#Skills > article > div:nth-child(3) {
     width: 135px;
@@ -1452,6 +1488,7 @@ body > main > section#Skills > article > div:nth-child(3) {
     left: 46%;
     border-radius: 3px;
     z-index: 1;
+    top: 195px;
 }
 
 body > main > section#Skills > article > div:nth-child(4) {
@@ -1463,6 +1500,7 @@ body > main > section#Skills > article > div:nth-child(4) {
     left: 46%;
     border-radius: 3px;
     z-index: 1;
+    top: 197px;
 }
 
 body > main > section#Skills > article > div:nth-child(5) {
@@ -1472,7 +1510,7 @@ body > main > section#Skills > article > div:nth-child(5) {
     height: 1250px;
     opacity: 30%;
     position: relative;
-    bottom: 210px;
+    bottom: 21px;
 }
 
 /** Main - Skills Header Vector */
@@ -2547,6 +2585,7 @@ body > main > section#Project > section#DesignProjects img:nth-child(7) {
     width: 100%;
     height: 1500px;
     position: relative;
+    background: #F47F24;
 }
 
 section#Services {
@@ -2574,14 +2613,11 @@ body > main > section#Services > article > div:nth-child(4) {
 }
 
 /** Main - Services Background Image*/
-body > main > section#Services > article > div:nth-child(5) {
+body > main > section#Services > section:nth-child(1) img {
     width: 100%;
-    height: 1500px;
-    background: url("img/images/ServicesMain.jpg");
-    background-size: cover;
-    opacity: 30%;
+    height: 100%;
     position: absolute;
-    bottom: -2px;
+    object-fit: none;
 }
 
 /** Main - Services Background Design*/
@@ -2629,7 +2665,7 @@ body > main > section#Services > section#ServicesBGDesign > aside:nth-child(2) >
 }
 
 /** Main - Services Background Design Aside Two-Second Circle*/
-body > main > section#Services > section#ServicesBGDesign > aside:nth-child(2)> div:nth-child(2) {
+body > main > section#Services > section#ServicesBGDesign > aside:nth-child(2) > div:nth-child(2) {
     width: 70px;
     height: 70px;
     background: #2ED573;
@@ -2650,5 +2686,22 @@ body > main > section#Services > section#ServicesBGDesign > img {
     left: 0;
     margin: auto;
     display: none;
+}
+
+body > main > section#Services > section#ServicesButton > div#Development > a > button {
+    background-color: #2ED573;
+    border-radius: 100px;
+    box-shadow: 0 -1px 8px 2px #1c1717e8;
+    border: none;
+    color: #ECF0F3;
+    padding: 20px 18px 10px 20px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 33px;
+    font-family: Poppins, sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+    position: absolute;
 }
 
