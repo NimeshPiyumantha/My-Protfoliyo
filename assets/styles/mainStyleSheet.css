@@ -2912,6 +2912,16 @@ body > main > section#Services > section#MainSection > div:nth-child(2) > div:fi
     left: 25px;
 }
 
+body > main > section#Services > section#MainSection > div:nth-child(2) > h2 {
+    position: absolute;
+    top: 205px;
+    left: 75px;
+    font-family: Inter, sans-serif;
+    color: #2C3E50;
+    font-weight: bolder;
+    font-size: 26px;
+}
+
 /** Main - Services Development - Section - App Development */
 body > main > section#Services > section#MainSection > div:nth-child(3) {
     position: absolute;
