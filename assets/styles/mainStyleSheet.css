@@ -3070,3 +3070,14 @@ body > main > section#HireMe > section#HireMe_Main > section:nth-child(2) {
     left: 572px;
     margin: auto;
 }
+
+/** Main - HireMe Section Main - Advanced*/
+body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) {
+    width: calc(1800px / 4);
+    height: 600px;
+    position: absolute;
+    background: #ECF0F3;
+    top: 0;
+    right: 0;
+    margin: auto;
+}
