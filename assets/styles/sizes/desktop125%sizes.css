@@ -1310,11 +1310,20 @@
     /** Main - Services Background Button - Development*/
     body > main > section#Services > section#ServicesButton > div#Development {
         top: 300px;
-        left: 400px;
+        left: 345px;
     }
 
     body > main > section#Services > section#ServicesButton > div#Development > a > button {
         font-size: 25px;
     }
 
+    /** Main - Services Background Button - Design*/
+    body > main > section#Services > section#ServicesButton > div#SDesign {
+        top: 300px;
+        left: 620px;
+    }
+
+    body > main > section#Services > section#ServicesButton > div#SDesign > a > button {
+        font-size: 25px;
+    }
 }
