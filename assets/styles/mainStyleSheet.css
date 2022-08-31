@@ -2616,7 +2616,7 @@ body > main > section#Services > section#ServicesBGDesign > aside:first-child > 
 }
 
 /** Main - Services Background Design Aside Two-First Circle*/
-body > main > section#Services > section#ServicesBGDesign > aside:last-child > div:nth-child(1) {
+body > main > section#Services > section#ServicesBGDesign > aside:nth-child(2) > div:nth-child(1) {
     width: 70px;
     height: 70px;
     border: 8px solid #2ED573;
@@ -2629,7 +2629,7 @@ body > main > section#Services > section#ServicesBGDesign > aside:last-child > d
 }
 
 /** Main - Services Background Design Aside Two-Second Circle*/
-body > main > section#Services > section#ServicesBGDesign > aside:last-child > div:nth-child(2) {
+body > main > section#Services > section#ServicesBGDesign > aside:nth-child(2)> div:nth-child(2) {
     width: 70px;
     height: 70px;
     background: #2ED573;
