@@ -2999,3 +2999,27 @@ body > main > section#Services > section#MainSection > div:nth-child(3) > p {
     padding-right: 60px;
     border-left-width: 30px;
 }
+
+/**-------------------------------------------- Main - Services --------------------------------------------**/
+/** Main - Services Header */
+#HireMe {
+    width: 100%;
+    height: 1100px;
+    position: relative;
+}
+
+section#HireMe {
+    position: relative;
+}
+
+/** Main - HireMe Header Underline */
+body > main > section#HireMe > article > div:nth-child(3) {
+    width: 135px;
+    height: 7px;
+    background: #2ED573;
+    position: absolute;
+    left: 43%;
+    top: 195px;
+    border-radius: 3px;
+    z-index: 1;
+}
