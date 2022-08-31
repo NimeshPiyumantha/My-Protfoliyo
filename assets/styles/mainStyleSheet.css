@@ -2844,8 +2844,8 @@ body > main > section#Services > section#MainSection > div:nth-child(1) > div:fi
   font-size: 60px;
     color: #FF6348;
     position: absolute;
-    top: 26px;
-    left: 26px;
+    top: 30px;
+    left: 25px;
 }
 
 /** Main - Services Development - Section - Web Development */
@@ -2881,6 +2881,14 @@ body > main > section#Services > section#MainSection > div:nth-child(2) > div:fi
     left: 0;
     right: 0;
     margin: auto;
+}
+
+body > main > section#Services > section#MainSection > div:nth-child(2) > div:first-child > div:first-child > i{
+    font-size: 60px;
+    color: #FF6348;
+    position: absolute;
+    top: 30px;
+    left: 25px;
 }
 
 /** Main - Services Development - Section - App Development */
