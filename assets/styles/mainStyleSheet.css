@@ -2584,3 +2584,20 @@ body > main > section#Services > article > div:nth-child(5) {
     bottom: -2px;
 }
 
+/** Main - Services Background Design*/
+body > main > section#Services > section#ServicesBGDesign > aside:first-child {
+    position: relative;
+}
+
+/** Main - Services Background Design Aside one-First Circle*/
+body > main > section#Services > section#ServicesBGDesign > aside:first-child > div:nth-child(1) {
+    width: 80px;
+    height: 80px;
+    border: 8px solid #FF6348;
+    opacity: 80%;
+    position: absolute;
+    top: -100px;
+    left: 41px;
+    margin: auto;
+    border-radius: 100%;
+}
