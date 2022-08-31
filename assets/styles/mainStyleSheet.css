@@ -2840,8 +2840,8 @@ body > main > section#Services > section#MainSection > div:nth-child(1) > div:fi
     margin: auto;
 }
 
-body > main > section#Services > section#MainSection > div:nth-child(1) > div:first-child > div:first-child > i{
-  font-size: 60px;
+body > main > section#Services > section#MainSection > div:nth-child(1) > div:first-child > div:first-child > i {
+    font-size: 60px;
     color: #FF6348;
     position: absolute;
     top: 30px;
@@ -2904,7 +2904,7 @@ body > main > section#Services > section#MainSection > div:nth-child(2) > div:fi
     margin: auto;
 }
 
-body > main > section#Services > section#MainSection > div:nth-child(2) > div:first-child > div:first-child > i{
+body > main > section#Services > section#MainSection > div:nth-child(2) > div:first-child > div:first-child > i {
     font-size: 60px;
     color: #FF6348;
     position: absolute;
@@ -2920,6 +2920,17 @@ body > main > section#Services > section#MainSection > div:nth-child(2) > h2 {
     color: #2C3E50;
     font-weight: bolder;
     font-size: 26px;
+}
+
+body > main > section#Services > section#MainSection > div:nth-child(2) > p {
+    position: absolute;
+    top: 255px;
+    left: 63px;
+    color: #57606F;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    padding-right: 60px;
+    border-left-width: 30px;
 }
 
 /** Main - Services Development - Section - App Development */
@@ -2957,7 +2968,7 @@ body > main > section#Services > section#MainSection > div:nth-child(3) > div:fi
     margin: auto;
 }
 
-body > main > section#Services > section#MainSection > div:nth-child(3) > div:first-child > div:first-child > i{
+body > main > section#Services > section#MainSection > div:nth-child(3) > div:first-child > div:first-child > i {
     font-size: 60px;
     color: #FF6348;
     position: absolute;
