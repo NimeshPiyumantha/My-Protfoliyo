@@ -2725,7 +2725,7 @@ body > main > section#Services > section#ServicesBGDesign > img {
 body > main > section#Services > section#ServicesButton > div#Development {
 position: absolute;
     top: 300px;
-    left: 450px;
+    left: 430px;
     cursor: pointer;
 }
 
@@ -2749,7 +2749,7 @@ body > main > section#Services > section#ServicesButton > div#Development > a > 
 body > main > section#Services > section#ServicesButton > div#SDesign {
     position: absolute;
     top: 300px;
-    left: 790px;
+    left: 770px;
     cursor: pointer;
 }
 
@@ -2773,7 +2773,7 @@ body > main > section#Services > section#ServicesButton > div#SDesign > a > butt
 body > main > section#Services > section#ServicesButton > div#Marketing {
     position: absolute;
     top: 300px;
-    left: 1140px;
+    left: 1120px;
     cursor: pointer;
 }
 
