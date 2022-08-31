@@ -3049,3 +3049,14 @@ body > main > section#HireMe > section#HireMe_Main {
     margin: auto;
 }
 
+/** Main - HireMe Section Main - Basic*/
+body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) {
+    width: calc(1800px / 4);
+    height: 600px;
+    position: absolute;
+    background: #ECF0F3;
+    top: 0;
+    left: 0;
+    margin: auto;
+}
+
