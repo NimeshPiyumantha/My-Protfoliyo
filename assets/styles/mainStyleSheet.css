@@ -2592,7 +2592,7 @@ body > main > section#Project > section#DesignProjects img:nth-child(7) {
 /** Main - Services Header */
 #Services {
     width: 100%;
-    height: 1500px;
+    height: 1100px;
     position: relative;
 }
 
@@ -2718,7 +2718,7 @@ body > main > section#Services > section#ServicesBGDesign > img {
     right: 0;
     left: 0;
     margin: auto;
-    display: none;
+
 }
 
 /** Main - Services Background Button - Development*/
@@ -2808,7 +2808,7 @@ body > main > section#Services > section#MainSection {
 /** Main - Services Development - Section - Enterprise Application */
 body > main > section#Services > section#MainSection > div:nth-child(1) {
     position: absolute;
-    width: calc(1650px / 4);
+    width: calc(1600px / 4);
     height: 550px;
     background: #ECF0F3;
     left: 0;
@@ -2818,7 +2818,7 @@ body > main > section#Services > section#MainSection > div:nth-child(1) {
 
 body > main > section#Services > section#MainSection > div:nth-child(1) > div:first-child {
     position: absolute;
-    width: calc(1650px / 4);
+    width: calc(1600px / 4);
     height: 130px;
     background: #FF6348;
     border-top-left-radius: 20px;
@@ -2850,14 +2850,18 @@ body > main > section#Services > section#MainSection > div:nth-child(1) > div:fi
 
 body > main > section#Services > section#MainSection > div:nth-child(1) > h2 {
     position: absolute;
-    top: 200px;
-    left: 95px;
+    top: 205px;
+    left: 75px;
+    font-family: Inter, sans-serif;
+    color: #2C3E50;
+    font-weight: bolder;
+    font-size: 26px;
 }
 
 /** Main - Services Development - Section - Web Development */
 body > main > section#Services > section#MainSection > div:nth-child(2) {
     position: absolute;
-    width: calc(1650px / 4);
+    width: calc(1600px / 4);
     height: 550px;
     background: #ECF0F3;
     border-radius: 20px;
@@ -2867,7 +2871,7 @@ body > main > section#Services > section#MainSection > div:nth-child(2) {
 
 body > main > section#Services > section#MainSection > div:nth-child(2) > div:first-child {
     position: absolute;
-    width: calc(1650px / 4);
+    width: calc(1600px / 4);
     height: 130px;
     background: #FF6348;
     border-top-left-radius: 20px;
@@ -2900,7 +2904,7 @@ body > main > section#Services > section#MainSection > div:nth-child(2) > div:fi
 /** Main - Services Development - Section - App Development */
 body > main > section#Services > section#MainSection > div:nth-child(3) {
     position: absolute;
-    width: calc(1650px / 4);
+    width: calc(1600px / 4);
     height: 550px;
     background: #ECF0F3;
     right: 0;
@@ -2910,7 +2914,7 @@ body > main > section#Services > section#MainSection > div:nth-child(3) {
 
 body > main > section#Services > section#MainSection > div:nth-child(3) > div:first-child {
     position: absolute;
-    width: calc(1650px / 4);
+    width: calc(1600px / 4);
     height: 130px;
     background: #FF6348;
     border-top-left-radius: 20px;
