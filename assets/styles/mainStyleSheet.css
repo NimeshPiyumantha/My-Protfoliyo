@@ -2840,6 +2840,14 @@ body > main > section#Services > section#MainSection > div:nth-child(1) > div:fi
     margin: auto;
 }
 
+body > main > section#Services > section#MainSection > div:nth-child(1) > div:first-child > div:first-child > i{
+  font-size: 60px;
+    color: #FF6348;
+    position: absolute;
+    top: 26px;
+    left: 26px;
+}
+
 /** Main - Services Development - Section - Web Development */
 body > main > section#Services > section#MainSection > div:nth-child(2) {
     position: absolute;
