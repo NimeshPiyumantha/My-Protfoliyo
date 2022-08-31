@@ -1206,7 +1206,7 @@
 
     /** Main - Services Background Image*/
     body > main > section#Services > article > div:nth-child(5) {
-        height: 1200px;
+        height: 1300px;
         top: 0;
     }
 
@@ -1224,5 +1224,13 @@
         height: 60px;
         left: 75px;
         top: -72px;
+    }
+
+    /** Main - Services Background Design Aside Two-First Circle*/
+    body > main > section#Services > section#ServicesBGDesign > aside:nth-child(2) > div:nth-child(1) {
+        width: 60px;
+        height: 60px;
+        right: 150px;
+        top: 90px;
     }
 }
