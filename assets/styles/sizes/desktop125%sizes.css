@@ -1241,4 +1241,10 @@
         right: 121px;
         top: 104px;
     }
+
+    /** Main - Services Background Vector*/
+    body > main > section#Services > section#ServicesBGDesign > img {
+        width: 1460px;
+        display: none;
+    }
 }
