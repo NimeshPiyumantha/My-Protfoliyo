@@ -2628,3 +2628,16 @@ body > main > section#Services > section#ServicesBGDesign > aside:last-child > d
     border-radius: 100%;
 }
 
+/** Main - Services Background Design Aside Two-Second Circle*/
+body > main > section#Services > section#ServicesBGDesign > aside:last-child > div:nth-child(2) {
+    width: 70px;
+    height: 70px;
+    background: #2ED573;
+    opacity: 60%;
+    position: absolute;
+    top: 135px;
+    right: 118px;
+    margin: auto;
+    border-radius: 100%;
+}
+
