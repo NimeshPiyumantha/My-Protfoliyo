@@ -2815,3 +2815,14 @@ body > main > section#Services > section#MainSection > div:nth-child(1) {
     left: 0;
     border-radius: 20px;
 }
+
+/** Main - Services Development - Section - Web Development */
+body > main > section#Services > section#MainSection > div:nth-child(2) {
+    position: absolute;
+    width: calc(1650px / 4);
+    height: 550px;
+    background: #2ED573;
+    border-radius: 20px;
+    left:520px;
+}
+
