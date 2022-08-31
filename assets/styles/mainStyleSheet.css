@@ -2649,5 +2649,6 @@ body > main > section#Services > section#ServicesBGDesign > img {
     right: 0;
     left: 0;
     margin: auto;
+    display: none;
 }
 
