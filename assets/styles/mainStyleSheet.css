@@ -3111,6 +3111,16 @@ body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) > p{
     margin: auto;
 }
 
+body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) > div:nth-child(4){
+    background: #2ED573;
+    width: 300px;
+    height: 8px;
+    top: 270px;
+    left: 70px;
+    margin: auto;
+    position: absolute;
+}
+
 /** Main - HireMe Section Main - Premium*/
 body > main > section#HireMe > section#HireMe_Main > section:nth-child(2) {
     width: calc(1800px / 4);
