@@ -2798,7 +2798,6 @@ body > main > section#Services > section#MainSection {
     position: relative;
     width: 1450px;
     height: 550px;
-    background: #F47F24;
     top: 460px;
     left: 0;
     right: 0;
@@ -2814,6 +2813,17 @@ body > main > section#Services > section#MainSection > div:nth-child(1) {
     background: #ECF0F3;
     left: 0;
     border-radius: 20px;
+    box-shadow: 0 -1px 8px 2px #1c1717e8;
+}
+
+body > main > section#Services > section#MainSection > div:nth-child(1) > div:first-child {
+    position: absolute;
+    width: calc(1650px / 4);
+    height: 130px;
+    background: #FF6348;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: inset -13px -13px 16px #FF6348, inset 13px 13px 16px rgba(13, 39, 80, 0.16);
 }
 
 /** Main - Services Development - Section - Web Development */
@@ -2823,7 +2833,8 @@ body > main > section#Services > section#MainSection > div:nth-child(2) {
     height: 550px;
     background: #ECF0F3;
     border-radius: 20px;
-    left:520px;
+    left: 520px;
+    box-shadow: 0 -1px 8px 2px #1c1717e8;
 }
 
 /** Main - Services Development - Section - App Development */
@@ -2834,4 +2845,5 @@ body > main > section#Services > section#MainSection > div:nth-child(3) {
     background: #ECF0F3;
     right: 0;
     border-radius: 20px;
+    box-shadow: 0 -1px 8px 2px #1c1717e8;
 }
