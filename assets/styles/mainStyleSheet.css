@@ -2591,13 +2591,40 @@ body > main > section#Services > section#ServicesBGDesign > aside:first-child {
 
 /** Main - Services Background Design Aside one-First Circle*/
 body > main > section#Services > section#ServicesBGDesign > aside:first-child > div:nth-child(1) {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     border: 8px solid #FF6348;
-    opacity: 80%;
+    opacity: 60%;
     position: absolute;
     top: -100px;
     left: 41px;
     margin: auto;
     border-radius: 100%;
 }
+
+/** Main - Services Background Design Aside one-Second Circle*/
+body > main > section#Services > section#ServicesBGDesign > aside:first-child > div:nth-child(2) {
+    width: 70px;
+    height: 70px;
+    background: #FF6348;
+    opacity: 40%;
+    position: absolute;
+    top: -75px;
+    left: 75px;
+    margin: auto;
+    border-radius: 100%;
+}
+
+/** Main - Services Background Design Aside Two-First Circle*/
+body > main > section#Services > section#ServicesBGDesign > aside:last-child > div:nth-child(1) {
+    width: 70px;
+    height: 70px;
+    border: 8px solid #2ED573;
+    opacity: 60%;
+    position: absolute;
+    top: 110px;
+    right: 150px;
+    margin: auto;
+    border-radius: 100%;
+}
+
