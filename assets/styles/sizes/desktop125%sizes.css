@@ -1786,14 +1786,9 @@
 
     /** Main - Testimonials Client says Section h1,h2*/
     body > main > section#Testimonials > section:nth-child(3) > div:nth-child(2) > div:nth-child(2) {
-        position: absolute;
-        width: 300px;
-        height: 70px;
-        top: 170px;
+        top: 250px;
         right: 0;
-        left: 450px;
-        bottom: 0;
-        margin: auto;
+        left: 390px;
     }
 
     body > main > section#Testimonials > section:nth-child(3) > div:nth-child(2) > div:nth-child(2) > h1 {
