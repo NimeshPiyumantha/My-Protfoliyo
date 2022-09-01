@@ -3266,6 +3266,22 @@ body > main > section#HireMe > section#HireMe_Main > section:nth-child(2) > div#
     left: 65px;
 }
 
+body > main > section#HireMe > section#HireMe_Main > section:nth-child(2) > div#PREMIUM > a > button {
+    background-color: #2ED573;
+    border-radius: 100px;
+    box-shadow: 0 -1px 8px 2px #1c1717e8;
+    border: none;
+    color: #ECF0F3;
+    padding: 15px 17px 0 17px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    font-family: Poppins, sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
 /** Main - HireMe Section Main - Advanced*/
 body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) {
     width: calc(1800px / 4);
