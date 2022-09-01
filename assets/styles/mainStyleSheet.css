@@ -3539,3 +3539,26 @@ body > main > section#Testimonials > article > h1 {
     z-index: 1;
 }
 
+/** Main - Testimonials Header Underline */
+body > main > section#Testimonials > article > div:nth-child(3) {
+    width: 135px;
+    height: 7px;
+    background: #2ED573;
+    position: absolute;
+    left: 40%;
+    top: 195px;
+    border-radius: 3px;
+    z-index: 1;
+}
+
+body > main > section#Testimonials > article > div:nth-child(4) {
+    width: 100px;
+    height: 7px;
+    position: absolute;
+    background: #2ED573;
+    margin-top: 0.5em;
+    left: 40%;
+    top: 202px;
+    border-radius: 3px;
+    z-index: 1;
+}
