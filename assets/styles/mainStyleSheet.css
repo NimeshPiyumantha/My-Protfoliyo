@@ -3435,7 +3435,8 @@ body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > div#
     z-index: 1;
 }
 
-/** Main - HireMe Section BGDesigns - First Design */
+/** Main - HireMe Section BGDesigns -  Design */
+/*First Group*/
 /** First Circle */
 body > main > section#HireMe > section#BGDesigns > div:nth-child(1) > div:nth-child(1) {
     height: 70px;
@@ -3482,4 +3483,18 @@ body > main > section#HireMe > section#BGDesigns > img:nth-child(4) {
     position: absolute;
     left: 1070px;
     bottom: 28px;
+}
+
+/*Second Group*/
+/** First Circle */
+body > main > section#HireMe > section#BGDesigns > div:nth-child(5) > div:nth-child(1) {
+    height: 70px;
+    width: 70px;
+    border: 8px solid #2ED573;
+    border-radius: 100%;
+    opacity: 70%;
+    position: absolute;
+    bottom: 55px;
+    right: 180px;
+    z-index: 1;
 }
