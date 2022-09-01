@@ -3393,3 +3393,40 @@ body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > div#
     top: 500px;
     left: 65px;
 }
+
+body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > div#ADVANCED > a > button {
+    background-color: #2ED573;
+    border-radius: 100px;
+    box-shadow: 0 -1px 8px 2px #1c1717e8;
+    border: none;
+    color: #ECF0F3;
+    padding: 15px 17px 0 17px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    font-family: Poppins, sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > div#ADVANCED > a > button div{
+    height: 47px;
+    width: 47px;
+    float: right;
+    margin-left: 19px;
+    background: #F9FAFB;
+    border-radius: 50px;
+    cursor: pointer;
+    position: relative;
+    bottom: 9px;
+    box-shadow: inset -13px -13px 16px #FFFFFF, inset 13px 13px 16px rgba(13, 39, 80, 0.16);
+}
+
+body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > div#ADVANCED > a > button i{
+    color: #2ED573;
+    position: absolute;
+    left: 249px;
+    top: 15px;
+    z-index: 1;
+}
