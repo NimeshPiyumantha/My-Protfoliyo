@@ -3609,10 +3609,12 @@ body > main > section#Testimonials > section:nth-child(3) > div:nth-child(1) > p
 
 /** Main - Testimonials Client says Section Image*/
 body > main > section#Testimonials > section:nth-child(3) > div:nth-child(2) > div:nth-child(1) {
-    width: 170px;
-    height: 170px;
-    background: #2C3E50;
-    top: 100px;
+    width: 200px;
+    height: 200px;
+    background: url("img/images/Testimonials 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 150px;
     bottom: 0;
     left: -150px;
     right: 0;
@@ -3626,9 +3628,9 @@ body > main > section#Testimonials > section:nth-child(3) > div:nth-child(2) > d
     position: absolute;
     width: 300px;
     height: 70px;
-    top: 90px;
+    top: 150px;
     right: 0;
-    left: 380px;
+    left: 400px;
     bottom: 0;
     margin: auto;
 }
