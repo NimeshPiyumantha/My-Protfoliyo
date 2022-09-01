@@ -3469,3 +3469,10 @@ body > main > section#HireMe > section#BGDesigns > img:nth-child(2) {
     right: 170px;
     top: 110px;
 }
+
+/** Vector two */
+body > main > section#HireMe > section#BGDesigns > img:nth-child(3) {
+    position: absolute;
+    left: 330px;
+    bottom: 110px;
+}
