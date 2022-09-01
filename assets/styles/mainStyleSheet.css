@@ -3329,3 +3329,13 @@ body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > div:
     right: 0;
     margin: auto;
 }
+
+body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > div:nth-child(1) > h3 {
+    font-size: 35px;
+    font-family: Poppins, sans-serif;
+    font-weight: bolder;
+    color: #F8F7F3;
+    top: 17px;
+    left: 171px;
+    position: absolute;
+}
