@@ -1501,14 +1501,9 @@
     }
 
     body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) > p {
-        font-size: 28px;
-        color: #2C3E50;
-        font-family: Poppins, sans-serif;
-        font-weight: bolder;
-        position: absolute;
-        top: 185px;
-        left: 38px;
-        margin: auto;
+        font-size: 18px;
+        top: 148px;
+        left: 72px;
     }
 
     body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) > div:nth-child(4) {
