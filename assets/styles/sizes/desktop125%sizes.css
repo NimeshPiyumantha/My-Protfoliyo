@@ -1613,130 +1613,71 @@
 
     /** Main - HireMe Section Main - ADVANCED*/
     body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) {
-        width: calc(1800px / 4);
-        height: 600px;
-        position: absolute;
-        background: #ECF0F3;
-        top: 0;
-        right: 0;
-        margin: auto;
-        border-radius: 20px;
-        box-shadow: 0 -1px 8px 2px #1c1717e8, inset -13px -13px 16px #F9FAFB, inset 13px 13px 16px rgba(13, 39, 80, 0.16), inset 13px 13px 16px rgba(13, 39, 80, 0.16);
+        width: calc(1500px / 4);
+        height: 480px;
     }
 
     body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > div:nth-child(1) {
-        width: 300px;
-        height: 70px;
-        background: #FF6348;
-        border-bottom-left-radius: 50px;
-        border-bottom-right-radius: 50px;
-        box-shadow: 0 -1px 8px 2px #1c1717e8;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        margin: auto;
+        width: 250px;
+        height: 60px;
     }
 
     body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > div:nth-child(1) > h3 {
-        font-size: 35px;
-        font-family: Poppins, sans-serif;
-        font-weight: bolder;
-        color: #F8F7F3;
-        top: 17px;
-        left: 135px;
-        position: absolute;
+        font-size: 30px;
+        top: 15px;
+        left: 145px;
     }
 
-
     body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > h2 {
-        font-size: 40px;
-        font-family: Poppins, sans-serif;
-        font-weight: bolder;
-        color: #2C3E50;
-        top: 105px;
+        font-size: 30px;
+        top: 95px;
         left: 95px;
-        position: absolute;
     }
 
     body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > h2 > sup {
-        font-size: 28px;
+        font-size: 18px;
     }
 
     body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > p {
-        font-size: 28px;
-        color: #2C3E50;
-        font-family: Poppins, sans-serif;
-        font-weight: bolder;
-        position: absolute;
-        top: 185px;
-        left: 38px;
-        margin: auto;
+        font-size: 18px;
+        top: 148px;
+        left: 72px;
     }
 
     body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > div:nth-child(4) {
-        background: #2ED573;
-        width: 300px;
+        width: 220px;
         height: 8px;
-        top: 270px;
-        left: 70px;
-        margin: auto;
-        position: absolute;
+        top: 202px;
+        left: 78px;
     }
 
     body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > p:nth-child(5) {
-        font-size: 28px;
-        color: #2C3E50;
-        font-family: Poppins, sans-serif;
-        font-weight: bolder;
-        position: absolute;
-        top: 300px;
-        left: 70px;
-        text-align: center;
+        font-size: 22px;
+        top: 230px;
+        left: 65px;
     }
 
     /** Main - HireMe Section Main - ADVANCED Button */
     body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > div#ADVANCE {
         position: absolute;
-        top: 500px;
+        top: 400px;
         left: 65px;
     }
 
     body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > div#ADVANCE > a > button {
-        background-color: #2ED573;
-        border-radius: 100px;
-        box-shadow: 0 -1px 8px 2px #1c1717e8;
-        border: none;
-        color: #ECF0F3;
-        padding: 15px 17px 0 17px;
-        text-align: left;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 30px;
-        font-family: Poppins, sans-serif;
-        font-weight: bolder;
-        cursor: pointer;
+        padding: 12px 12px 0 12px;
+        font-size: 25px;
     }
 
     body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > div#ADVANCE > a > button div {
-        height: 47px;
-        width: 47px;
-        float: right;
-        margin-left: 19px;
-        background: #F9FAFB;
-        border-radius: 50px;
-        cursor: pointer;
-        position: relative;
-        bottom: 9px;
-        box-shadow: inset -13px -13px 16px #FFFFFF, inset 13px 13px 16px rgba(13, 39, 80, 0.16);
+        height: 40px;
+        width: 40px;
+        bottom: 6px;
     }
 
     body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > div#ADVANCE > a > button i {
-        color: #2ED573;
-        position: absolute;
-        left: 249px;
-        top: 15px;
-        z-index: 1;
+        left: 208px;
+        top: 14px;
     }
 
     /** Main - HireMe Section BGDesigns -  Design */
