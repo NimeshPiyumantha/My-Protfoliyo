@@ -3062,7 +3062,7 @@ body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) {
     box-shadow: 0 -1px 8px 2px #1c1717e8, inset -13px -13px 16px #F9FAFB, inset 13px 13px 16px rgba(13, 39, 80, 0.16), inset 13px 13px 16px rgba(13, 39, 80, 0.16);
 }
 
-body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) > div:nth-child(1){
+body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) > div:nth-child(1) {
     width: 300px;
     height: 70px;
     background: #FF6348;
@@ -3076,7 +3076,7 @@ body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) > div:
     margin: auto;
 }
 
-body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) > div:nth-child(1) > h3{
+body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) > div:nth-child(1) > h3 {
     font-size: 35px;
     font-family: Poppins, sans-serif;
     font-weight: bolder;
@@ -3096,11 +3096,11 @@ body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) > h2 {
     position: absolute;
 }
 
-body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) > h2 >sup{
+body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) > h2 > sup {
     font-size: 28px;
 }
 
-body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) > p{
+body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) > p {
     font-size: 28px;
     color: #2C3E50;
     font-family: Poppins, sans-serif;
@@ -3111,7 +3111,7 @@ body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) > p{
     margin: auto;
 }
 
-body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) > div:nth-child(4){
+body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) > div:nth-child(4) {
     background: #2ED573;
     width: 300px;
     height: 8px;
@@ -3121,7 +3121,7 @@ body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) > div:
     position: absolute;
 }
 
-body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) > p:nth-child(5){
+body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) > p:nth-child(5) {
     font-size: 28px;
     color: #2C3E50;
     font-family: Poppins, sans-serif;
@@ -3130,6 +3130,29 @@ body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) > p:nt
     top: 300px;
     left: 70px;
     text-align: center;
+}
+
+/** Main - HireMe Section Main - Button */
+body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) > div#BASIC {
+    position: absolute;
+    top: 490px;
+    left: 65px;
+}
+
+body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) > div#BASIC > a > button {
+    background-color: #2ED573;
+    border-radius: 100px;
+    box-shadow: 0 -1px 8px 2px #1c1717e8;
+    border: none;
+    color: #ECF0F3;
+    padding: 20px 18px 10px 20px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 33px;
+    font-family: Poppins, sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
 }
 
 /** Main - HireMe Section Main - Premium*/
