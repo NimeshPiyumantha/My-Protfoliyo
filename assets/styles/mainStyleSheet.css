@@ -3409,7 +3409,7 @@ body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > div#
     cursor: pointer;
 }
 
-body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > div#ADVANCE > a > button div{
+body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > div#ADVANCE > a > button div {
     height: 47px;
     width: 47px;
     float: right;
@@ -3422,7 +3422,7 @@ body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > div#
     box-shadow: inset -13px -13px 16px #FFFFFF, inset 13px 13px 16px rgba(13, 39, 80, 0.16);
 }
 
-body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > div#ADVANCE > a > button i{
+body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > div#ADVANCE > a > button i {
     color: #2ED573;
     position: absolute;
     left: 249px;
@@ -3431,13 +3431,28 @@ body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > div#
 }
 
 /** Main - HireMe Section BGDesigns - First Design */
-body > main >section#HireMe > section#BGDesigns>div:nth-child(1) > div:nth-child(1){
-    height: 80px;
-    width: 80px;
+/** First Circle */
+body > main > section#HireMe > section#BGDesigns > div:nth-child(1) > div:nth-child(1) {
+    height: 70px;
+    width: 70px;
     border: 8px solid #2ED573;
     border-radius: 100%;
     opacity: 70%;
     position: absolute;
     top: 110px;
     left: 160px;
+    z-index: 1;
+}
+
+/** Second Circle */
+body > main > section#HireMe > section#BGDesigns > div:nth-child(1) > div:nth-child(2) {
+    height: 70px;
+    width: 70px;
+    background: #2ED573;
+    border-radius: 100%;
+    opacity: 30%;
+    position: absolute;
+    top: 135px;
+    left: 193px;
+    box-shadow: 0 -1px 8px 2px #1c1717e8;
 }
