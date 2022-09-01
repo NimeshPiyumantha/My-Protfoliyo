@@ -3009,7 +3009,7 @@ body > main > section#Services > section#MainSection > div:nth-child(3) > p {
 /** Main - Services Header */
 #HireMe {
     width: 100%;
-    height: 1100px;
+    height: 1000px;
     position: relative;
 }
 
@@ -3046,7 +3046,7 @@ body > main > section#HireMe > section#HireMe_Main {
     width: 1600px;
     height: 700px;
     position: absolute;
-    top: 200px;
+    top: 300px;
     left: 0;
     right: 0;
     bottom: 0;
@@ -3474,12 +3474,12 @@ body > main > section#HireMe > section#BGDesigns > img:nth-child(2) {
 body > main > section#HireMe > section#BGDesigns > img:nth-child(3) {
     position: absolute;
     left: 330px;
-    bottom: 110px;
+    bottom: 28px;
 }
 
 /** Vector three */
 body > main > section#HireMe > section#BGDesigns > img:nth-child(4) {
     position: absolute;
     left: 1070px;
-    bottom: 110px;
+    bottom: 28px;
 }
