@@ -3649,3 +3649,13 @@ body > main > section#Testimonials > section:nth-child(3) > div:nth-child(2) > d
     font-family: Poppins, serif;
     color: #2C3E50;
 }
+
+/** Main - Testimonials Background Design*/
+body > main > section#Testimonials > section:nth-child(4) > img:nth-child(1){
+    position: absolute;
+    top: -450px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
