@@ -3365,3 +3365,13 @@ body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > p {
     left: 38px;
     margin: auto;
 }
+
+body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > div:nth-child(4) {
+    background: #2ED573;
+    width: 300px;
+    height: 8px;
+    top: 270px;
+    left: 70px;
+    margin: auto;
+    position: absolute;
+}
