@@ -3376,7 +3376,7 @@ body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > div:
     position: absolute;
 }
 
-body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) > p:nth-child(5) {
+body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > p:nth-child(5) {
     font-size: 28px;
     color: #2C3E50;
     font-family: Poppins, sans-serif;
@@ -3385,4 +3385,11 @@ body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) > p:nt
     top: 300px;
     left: 70px;
     text-align: center;
+}
+
+/** Main - HireMe Section Main - ADVANCED Button */
+body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > div#ADVANCED {
+    position: absolute;
+    top: 500px;
+    left: 65px;
 }
