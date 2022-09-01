@@ -3476,3 +3476,10 @@ body > main > section#HireMe > section#BGDesigns > img:nth-child(3) {
     left: 330px;
     bottom: 110px;
 }
+
+/** Vector three */
+body > main > section#HireMe > section#BGDesigns > img:nth-child(4) {
+    position: absolute;
+    left: 1070px;
+    bottom: 110px;
+}
