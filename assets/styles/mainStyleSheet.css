@@ -3684,11 +3684,12 @@ body > main > section#Testimonials > section:nth-child(4) > div:nth-child(4) {
     height: 80px;
     border: 8px solid #FF6348;
     position: absolute;
-    top: 220px;
+    top: 165px;
     left: 310px;
     margin: auto;
     border-radius: 100%;
     opacity: 70%;
+    box-shadow: 0 -1px 8px 2px #1c1717e8;
 }
 
 body > main > section#Testimonials > section:nth-child(4) > div:nth-child(5) {
@@ -3709,8 +3710,8 @@ body > main > section#Testimonials > section:nth-child(4) > div:nth-child(6) {
     height: 50px;
     background: #ECCC68;
     position: absolute;
-    top: 690px;
-    left: 240px;
+    top: 665px;
+    left: 261px;
     margin: auto;
     border-radius: 100%;
     opacity: 70%;
@@ -3755,5 +3756,12 @@ body > main > section#Testimonials > section:nth-child(4) > img:nth-child(11) {
     width: 140px;
     top: 470px;
     left: 217px;
+    margin: auto;
+}
+body > main > section#Testimonials > section:nth-child(4) > img:nth-child(12) {
+    position: absolute;
+    width: 140px;
+    bottom: 183px;
+    right: 195px;
     margin: auto;
 }
