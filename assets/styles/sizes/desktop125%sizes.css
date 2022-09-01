@@ -1475,15 +1475,8 @@
 
     /** Main - HireMe Section Main - Basic*/
     body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) {
-        width: calc(1800px / 4);
-        height: 600px;
-        position: absolute;
-        background: #ECF0F3;
-        top: 0;
-        left: 0;
-        margin: auto;
-        border-radius: 20px;
-        box-shadow: 0 -1px 8px 2px #1c1717e8, inset -13px -13px 16px #F9FAFB, inset 13px 13px 16px rgba(13, 39, 80, 0.16), inset 13px 13px 16px rgba(13, 39, 80, 0.16);
+        width: calc(1500px / 4);
+        height: 500px;
     }
 
     body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) > div:nth-child(1) {
