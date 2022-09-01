@@ -1458,7 +1458,6 @@
         height: 900px;
     }
 
-
     /** Main - HireMe Header Underline */
     body > main > section#HireMe > article > div:nth-child(3) {
         top: 155px;
@@ -1470,15 +1469,8 @@
 
     /** Main - HireMe Section Main */
     body > main > section#HireMe > section#HireMe_Main {
-        width: 1600px;
-        height: 700px;
-        position: absolute;
-        top: 300px;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        margin: auto;
-        z-index: 1;
+        width: 1300px;
+        height: 600px;
     }
 
     /** Main - HireMe Section Main - Basic*/
