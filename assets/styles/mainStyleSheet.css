@@ -3040,7 +3040,6 @@ body > main > section#HireMe > article > div:nth-child(4) {
 body > main > section#HireMe > section#HireMe_Main {
     width: 1600px;
     height: 700px;
-    background: #2ED573;
     position: absolute;
     top: 200px;
     left: 0;
@@ -3388,13 +3387,13 @@ body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > p:nt
 }
 
 /** Main - HireMe Section Main - ADVANCED Button */
-body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > div#ADVANCED {
+body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > div#ADVANCE {
     position: absolute;
     top: 500px;
     left: 65px;
 }
 
-body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > div#ADVANCED > a > button {
+body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > div#ADVANCE > a > button {
     background-color: #2ED573;
     border-radius: 100px;
     box-shadow: 0 -1px 8px 2px #1c1717e8;
@@ -3410,7 +3409,7 @@ body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > div#
     cursor: pointer;
 }
 
-body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > div#ADVANCED > a > button div{
+body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > div#ADVANCE > a > button div{
     height: 47px;
     width: 47px;
     float: right;
@@ -3423,7 +3422,7 @@ body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > div#
     box-shadow: inset -13px -13px 16px #FFFFFF, inset 13px 13px 16px rgba(13, 39, 80, 0.16);
 }
 
-body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > div#ADVANCED > a > button i{
+body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > div#ADVANCE > a > button i{
     color: #2ED573;
     position: absolute;
     left: 249px;
