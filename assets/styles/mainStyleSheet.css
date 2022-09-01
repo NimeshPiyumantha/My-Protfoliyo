@@ -3733,3 +3733,11 @@ body > main > section#Testimonials > section:nth-child(4) > img:nth-child(8) {
     right: 108px;
     margin: auto;
 }
+
+body > main > section#Testimonials > section:nth-child(4) > img:nth-child(9) {
+    position: absolute;
+    width: 140px;
+    top: 140px;
+    left: 120px;
+    margin: auto;
+}
