@@ -3490,7 +3490,7 @@ body > main > section#HireMe > section#BGDesigns > img:nth-child(4) {
 body > main > section#HireMe > section#BGDesigns > div:nth-child(5) > div:nth-child(1) {
     height: 70px;
     width: 70px;
-    border: 8px solid #2ED573;
+    border: 8px solid #FF6348;
     border-radius: 100%;
     opacity: 70%;
     position: absolute;
@@ -3502,7 +3502,7 @@ body > main > section#HireMe > section#BGDesigns > div:nth-child(5) > div:nth-ch
 body > main > section#HireMe > section#BGDesigns > div:nth-child(5) > div:nth-child(2) {
     height: 70px;
     width: 70px;
-    background: #2ED573;
+    background: #FF6348;
     border-radius: 100%;
     opacity: 30%;
     position: absolute;
@@ -3515,9 +3515,10 @@ body > main > section#HireMe > section#BGDesigns > div:nth-child(5) > div:nth-ch
 /** Main - Testimonials Header */
 #Testimonials {
     width: 100%;
-    height: 1050px;
+    height: 1100px;
     position: relative;
 }
+
 /** Main - Services About Header */
 body > main > section#Testimonials > article h4 {
     position: absolute;
@@ -3570,3 +3571,20 @@ body > main > section#Testimonials > section:nth-child(1) img {
     position: absolute;
     opacity: 30%;
 }
+
+/** Main - Testimonials Client says Section*/
+body > main > section#Testimonials > section:nth-child(3) {
+    width: 1500px;
+    height: 500px;
+    background: #F47F24;
+    top: 200px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 1;
+    position: absolute;
+}
+
+
+
