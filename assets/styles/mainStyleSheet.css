@@ -3132,7 +3132,7 @@ body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) > p:nt
     text-align: center;
 }
 
-/** Main - HireMe Section Main - Button */
+/** Main - HireMe Section Main -BASIC  Button */
 body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) > div#BASIC {
     position: absolute;
     top: 500px;
@@ -3185,6 +3185,8 @@ body > main > section#HireMe > section#HireMe_Main > section:nth-child(2) {
     top: 0;
     left: 572px;
     margin: auto;
+    border-radius: 20px;
+    box-shadow: 0 -1px 8px 2px #1c1717e8, inset -13px -13px 16px #F9FAFB, inset 13px 13px 16px rgba(13, 39, 80, 0.16), inset 13px 13px 16px rgba(13, 39, 80, 0.16);
 }
 
 body > main > section#HireMe > section#HireMe_Main > section:nth-child(2) > div:nth-child(1) {
@@ -3199,6 +3201,16 @@ body > main > section#HireMe > section#HireMe_Main > section:nth-child(2) > div:
     bottom: 0;
     right: 0;
     margin: auto;
+}
+
+body > main > section#HireMe > section#HireMe_Main > section:nth-child(2) > div:nth-child(1) > h3 {
+    font-size: 35px;
+    font-family: Poppins, sans-serif;
+    font-weight: bolder;
+    color: #F8F7F3;
+    top: 17px;
+    left: 150px;
+    position: absolute;
 }
 
 /** Main - HireMe Section Main - Advanced*/
