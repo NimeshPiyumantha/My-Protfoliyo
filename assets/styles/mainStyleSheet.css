@@ -3303,7 +3303,7 @@ body > main > section#HireMe > section#HireMe_Main > section:nth-child(2) > div#
     z-index: 1;
 }
 
-/** Main - HireMe Section Main - Advanced*/
+/** Main - HireMe Section Main - ADVANCED*/
 body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) {
     width: calc(1800px / 4);
     height: 600px;
@@ -3314,4 +3314,18 @@ body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) {
     margin: auto;
     border-radius: 20px;
     box-shadow: 0 -1px 8px 2px #1c1717e8, inset -13px -13px 16px #F9FAFB, inset 13px 13px 16px rgba(13, 39, 80, 0.16), inset 13px 13px 16px rgba(13, 39, 80, 0.16);
+}
+
+body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > div:nth-child(1) {
+    width: 300px;
+    height: 70px;
+    background: #FF6348;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 0 -1px 8px 2px #1c1717e8;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
 }
