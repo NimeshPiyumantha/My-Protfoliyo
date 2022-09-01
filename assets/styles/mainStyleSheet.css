@@ -3461,3 +3461,11 @@ body > main > section#HireMe > section#BGDesigns > div:nth-child(1) > div:nth-ch
     left: 193px;
     box-shadow: 0 -1px 8px 2px #1c1717e8;
 }
+
+/** Vector One */
+body > main > section#HireMe > section#BGDesigns > img:nth-child(2) {
+    position: absolute;
+    width: 120px;
+    right: 170px;
+    top: 110px;
+}
