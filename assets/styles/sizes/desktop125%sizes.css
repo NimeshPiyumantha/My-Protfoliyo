@@ -1480,27 +1480,14 @@
     }
 
     body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) > div:nth-child(1) {
-        width: 300px;
-        height: 70px;
-        background: #FF6348;
-        border-bottom-left-radius: 50px;
-        border-bottom-right-radius: 50px;
-        box-shadow: 0 -1px 8px 2px #1c1717e8;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        margin: auto;
+        width: 250px;
+        height: 60px;
     }
 
     body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) > div:nth-child(1) > h3 {
-        font-size: 35px;
-        font-family: Poppins, sans-serif;
-        font-weight: bolder;
-        color: #F8F7F3;
-        top: 17px;
-        left: 171px;
-        position: absolute;
+        font-size: 30px;
+        top: 15px;
+        left: 145px;
     }
 
     body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) > h2 {
