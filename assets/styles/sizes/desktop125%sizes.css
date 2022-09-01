@@ -1546,6 +1546,7 @@
     body > main > section#HireMe > section#HireMe_Main > section:nth-child(2) {
         width: calc(1500px / 4);
         height: 480px;
+        left: 465px;
     }
 
     body > main > section#HireMe > section#HireMe_Main > section:nth-child(2) > div:nth-child(1) {
@@ -1556,7 +1557,7 @@
     body > main > section#HireMe > section#HireMe_Main > section:nth-child(2) > div:nth-child(1) > h3 {
         font-size: 30px;
         top: 15px;
-        left: 145px;
+        left: 125px;
     }
 
     body > main > section#HireMe > section#HireMe_Main > section:nth-child(2) > h2 {
@@ -1625,7 +1626,7 @@
     body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > div:nth-child(1) > h3 {
         font-size: 30px;
         top: 15px;
-        left: 145px;
+        left: 112px;
     }
 
     body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > h2 {
