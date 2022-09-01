@@ -3510,3 +3510,11 @@ body > main > section#HireMe > section#BGDesigns > div:nth-child(5) > div:nth-ch
     right: 160px;
     box-shadow: 0 -1px 8px 2px #1c1717e8;
 }
+
+/**-------------------------------------------- Main - Testimonials --------------------------------------------**/
+/** Main - Testimonials Header */
+#Testimonials {
+    width: 100%;
+    height: 1050px;
+    position: relative;
+}
