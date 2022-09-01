@@ -3725,3 +3725,11 @@ body > main > section#Testimonials > section:nth-child(4) > img:nth-child(7) {
     left: 103px;
     margin: auto;
 }
+
+body > main > section#Testimonials > section:nth-child(4) > img:nth-child(8) {
+    position: absolute;
+    width: 140px;
+    top: 140px;
+    right: 108px;
+    margin: auto;
+}
