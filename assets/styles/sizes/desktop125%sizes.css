@@ -1507,13 +1507,10 @@
     }
 
     body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) > div:nth-child(4) {
-        background: #2ED573;
-        width: 300px;
+        width: 220px;
         height: 8px;
-        top: 270px;
-        left: 70px;
-        margin: auto;
-        position: absolute;
+        top: 202px;
+        left: 78px;
     }
 
     body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) > p:nth-child(5) {
