@@ -3429,3 +3429,15 @@ body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > div#
     top: 15px;
     z-index: 1;
 }
+
+/** Main - HireMe Section BGDesigns - First Design */
+body > main >section#HireMe > section#BGDesigns>div:nth-child(1) > div:nth-child(1){
+    height: 80px;
+    width: 80px;
+    border: 8px solid #2ED573;
+    border-radius: 100%;
+    opacity: 70%;
+    position: absolute;
+    top: 110px;
+    left: 160px;
+}
