@@ -1687,13 +1687,8 @@
     body > main > section#HireMe > section#BGDesigns > div:nth-child(1) > div:nth-child(1) {
         height: 70px;
         width: 70px;
-        border: 8px solid #2ED573;
-        border-radius: 100%;
-        opacity: 70%;
-        position: absolute;
         top: 110px;
-        left: 160px;
-        z-index: 1;
+        left: 100px;
     }
 
     /** Second Circle */
@@ -1705,7 +1700,7 @@
         opacity: 30%;
         position: absolute;
         top: 135px;
-        left: 193px;
+        left: 130px;
         box-shadow: 0 -1px 8px 2px #1c1717e8;
     }
 
@@ -1713,47 +1708,33 @@
     body > main > section#HireMe > section#BGDesigns > img:nth-child(2) {
         position: absolute;
         width: 120px;
-        right: 170px;
+        right: 130px;
         top: 110px;
     }
 
     /** Vector two */
     body > main > section#HireMe > section#BGDesigns > img:nth-child(3) {
         position: absolute;
-        left: 330px;
+        left: 280px;
         bottom: 35px;
     }
 
     /** Vector three */
     body > main > section#HireMe > section#BGDesigns > img:nth-child(4) {
-        position: absolute;
-        left: 1070px;
+        left: 850px;
         bottom: 35px;
     }
 
     /*Second Group*/
     /** First Circle */
     body > main > section#HireMe > section#BGDesigns > div:nth-child(5) > div:nth-child(1) {
-        height: 70px;
-        width: 70px;
-        border: 8px solid #2ED573;
-        border-radius: 100%;
-        opacity: 70%;
-        position: absolute;
         bottom: 75px;
-        right: 180px;
+        right: 150px;
     }
 
     /** Second Circle */
     body > main > section#HireMe > section#BGDesigns > div:nth-child(5) > div:nth-child(2) {
-        height: 70px;
-        width: 70px;
-        background: #2ED573;
-        border-radius: 100%;
-        opacity: 30%;
-        position: absolute;
         bottom: 35px;
-        right: 160px;
-        box-shadow: 0 -1px 8px 2px #1c1717e8;
+        right: 130px;
     }
 }
