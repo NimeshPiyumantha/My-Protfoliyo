@@ -3586,5 +3586,25 @@ body > main > section#Testimonials > section:nth-child(3) {
     position: absolute;
 }
 
+/** Main - Testimonials Client says Section Paragraph*/
+body > main > section#Testimonials > section:nth-child(3) > div:nth-child(1) {
+    width: 1000px;
+    height: 300px;
+    top: -175px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 1;
+    position: absolute;
+}
 
+body > main > section#Testimonials > section:nth-child(3) > div:nth-child(1) > p {
+    position: absolute;
+    font-size: 30px;
+    font-family: Poppins, serif;
+    color: #2C3E50;
+    font-weight: bolder;
+    text-align: center;
+}
 
