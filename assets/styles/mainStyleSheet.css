@@ -3223,6 +3223,10 @@ body > main > section#HireMe > section#HireMe_Main > section:nth-child(2) > h2 {
     position: absolute;
 }
 
+body > main > section#HireMe > section#HireMe_Main > section:nth-child(2) > h2 > sup {
+    font-size: 28px;
+}
+
 /** Main - HireMe Section Main - Advanced*/
 body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) {
     width: calc(1800px / 4);
