@@ -3213,6 +3213,16 @@ body > main > section#HireMe > section#HireMe_Main > section:nth-child(2) > div:
     position: absolute;
 }
 
+body > main > section#HireMe > section#HireMe_Main > section:nth-child(2) > h2 {
+    font-size: 40px;
+    font-family: Poppins, sans-serif;
+    font-weight: bolder;
+    color: #2C3E50;
+    top: 105px;
+    left: 95px;
+    position: absolute;
+}
+
 /** Main - HireMe Section Main - Advanced*/
 body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) {
     width: calc(1800px / 4);
