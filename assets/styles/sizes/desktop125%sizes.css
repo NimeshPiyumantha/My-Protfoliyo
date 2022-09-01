@@ -1797,40 +1797,39 @@
         color: #2C3E50;
     }
 
-    body > main > section#Testimonials > section:nth-child(4) > img:nth-child(8) {
-        position: absolute;
+    body > main > section#Testimonials > section:nth-child(4) > img:nth-child(7) {
         width: 140px;
-        top: 90px;
+        bottom: -562px;
+        left: 103px;
+    }
+
+    body > main > section#Testimonials > section:nth-child(4) > img:nth-child(8) {
+        width: 140px;
+        top: 140px;
         right: 108px;
-        margin: auto;
     }
 
     body > main > section#Testimonials > section:nth-child(4) > img:nth-child(9) {
         width: 140px;
         top: 140px;
-        left: 140px;
+        left: 120px;
     }
 
     body > main > section#Testimonials > section:nth-child(4) > img:nth-child(10) {
         width: 140px;
-        bottom: 313px;
-        right: 52px;
+        bottom: 320px;
+        right: 62px;
     }
 
     body > main > section#Testimonials > section:nth-child(4) > img:nth-child(11) {
+        width: 140px;
         top: 420px;
+        left: 207px;
     }
 
     body > main > section#Testimonials > section:nth-child(4) > img:nth-child(12) {
-        position: absolute;
         width: 140px;
-        bottom: 125px;
-        right: 225px;
-        margin: auto;
+        bottom: 140px;
+        right: 175px;
     }
-
-    body > main > section#Testimonials > section:nth-child(4) > div:nth-child(6) {
-
-    }
-
 }
