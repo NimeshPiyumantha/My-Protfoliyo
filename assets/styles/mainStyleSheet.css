@@ -3259,6 +3259,13 @@ body > main > section#HireMe > section#HireMe_Main > section:nth-child(2) > p:nt
     text-align: center;
 }
 
+/** Main - HireMe Section Main -Premium Button */
+body > main > section#HireMe > section#HireMe_Main > section:nth-child(2) > div#PREMIUM {
+    position: absolute;
+    top: 500px;
+    left: 65px;
+}
+
 /** Main - HireMe Section Main - Advanced*/
 body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) {
     width: calc(1800px / 4);
