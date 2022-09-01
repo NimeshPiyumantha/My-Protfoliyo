@@ -3703,3 +3703,16 @@ body > main > section#Testimonials > section:nth-child(4) > div:nth-child(5) {
     opacity: 70%;
     box-shadow: 0 -1px 8px 2px #1c1717e8;
 }
+
+body > main > section#Testimonials > section:nth-child(4) > div:nth-child(6) {
+    width: 50px;
+    height: 50px;
+    background: #ECCC68;
+    position: absolute;
+    top: 690px;
+    left: 240px;
+    margin: auto;
+    border-radius: 100%;
+    opacity: 70%;
+    box-shadow: 0 -1px 8px 2px #1c1717e8;
+}
