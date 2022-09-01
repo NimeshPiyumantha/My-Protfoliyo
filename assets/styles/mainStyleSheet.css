@@ -3749,3 +3749,11 @@ body > main > section#Testimonials > section:nth-child(4) > img:nth-child(10) {
     right: 52px;
     margin: auto;
 }
+
+body > main > section#Testimonials > section:nth-child(4) > img:nth-child(11) {
+    position: absolute;
+    width: 140px;
+    top: 470px;
+    left: 217px;
+    margin: auto;
+}
