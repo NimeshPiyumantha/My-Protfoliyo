@@ -1330,10 +1330,10 @@ body > main > section#About > section#design > div#circle2 {
     opacity: 22%;
     border-radius: 100%;
     cursor: pointer;
-    box-shadow: 10px 10px 10px #F9FAFB;
     position: relative;
     bottom: 150px;
     left: 225px;
+    box-shadow: 0 -1px 8px 2px #1c1717e8;
 }
 
 /**  Top Circle Group 2*/
@@ -1344,10 +1344,11 @@ body > main > section#About > section#design > div#circle3 {
     border-radius: 100%;
     opacity: 60%;
     cursor: pointer;
-    box-shadow: 10px 10px 10px #F9FAFB;
+    box-shadow: 0 -1px 8px 2px #1c1717e8;
     position: relative;
     bottom: 250px;
     left: 1220px;
+    z-index: 1;
 }
 
 body > main > section#About > section#design > div#circle4 {
@@ -1357,10 +1358,10 @@ body > main > section#About > section#design > div#circle4 {
     opacity: 22%;
     border-radius: 100%;
     cursor: pointer;
-    box-shadow: 10px 10px 10px #F9FAFB;
     position: relative;
     bottom: 300px;
     left: 1250px;
+    box-shadow: 0 -1px 8px 2px #1c1717e8;
 }
 
 /** Main - About Section Educational Section Designs bottom Circle */
@@ -1372,10 +1373,11 @@ body > main > section#About > section#design > div#circle5 {
     border-radius: 100%;
     opacity: 60%;
     cursor: pointer;
-    box-shadow: 10px 10px 10px #F9FAFB;
+    box-shadow: 0 -1px 8px 2px #1c1717e8;
     position: relative;
     bottom: -500px;
     left: 800px;
+    z-index: 1;
 }
 
 body > main > section#About > section#design > div#circle6 {
@@ -1385,7 +1387,7 @@ body > main > section#About > section#design > div#circle6 {
     opacity: 22%;
     border-radius: 100%;
     cursor: pointer;
-    box-shadow: 10px 10px 10px #F9FAFB;
+    box-shadow: 0 -1px 8px 2px #1c1717e8;
     position: relative;
     bottom: -460px;
     left: 820px;
@@ -1412,7 +1414,7 @@ body > main > section#About > section#design > div#circle8 {
     opacity: 22%;
     border-radius: 100%;
     cursor: pointer;
-    box-shadow: 10px 10px 10px #F9FAFB;
+    box-shadow: 0 -1px 8px 2px #1c1717e8;
     position: relative;
     bottom: -310px;
     left: 1770px;
@@ -2549,6 +2551,7 @@ body > main > section#Project > section#DesignProjects > section > div:nth-child
     top: 142px;
     left: 1642px;
     opacity: 30%;
+    box-shadow: 0 -1px 8px 2px #1c1717e8;
 }
 
 /** Vector 2 */
@@ -2682,6 +2685,7 @@ body > main > section#Services > section#ServicesBGDesign > aside:first-child > 
     left: 75px;
     margin: auto;
     border-radius: 100%;
+    box-shadow: 0 -1px 8px 2px #1c1717e8;
 }
 
 /** Main - Services Background Design Aside Two-First Circle*/
@@ -2708,6 +2712,7 @@ body > main > section#Services > section#ServicesBGDesign > aside:nth-child(2) >
     right: 118px;
     margin: auto;
     border-radius: 100%;
+    box-shadow: 0 -1px 8px 2px #1c1717e8;
 }
 
 /** Main - Services Background Vector*/
