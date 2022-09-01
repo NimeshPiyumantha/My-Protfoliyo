@@ -3135,7 +3135,7 @@ body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) > p:nt
 /** Main - HireMe Section Main - Button */
 body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) > div#BASIC {
     position: absolute;
-    top: 490px;
+    top: 500px;
     left: 65px;
 }
 
@@ -3184,6 +3184,20 @@ body > main > section#HireMe > section#HireMe_Main > section:nth-child(2) {
     background: #ECF0F3;
     top: 0;
     left: 572px;
+    margin: auto;
+}
+
+body > main > section#HireMe > section#HireMe_Main > section:nth-child(2) > div:nth-child(1) {
+    width: 300px;
+    height: 70px;
+    background: #FF6348;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 0 -1px 8px 2px #1c1717e8;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
     margin: auto;
 }
 
