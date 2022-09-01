@@ -3684,11 +3684,22 @@ body > main > section#Testimonials > section:nth-child(4) > div:nth-child(4) {
     height: 80px;
     border: 8px solid #FF6348;
     position: absolute;
-    top: -560px;
-    bottom: 0;
-    left: -1130px;
-    right: 0;
+    top: 220px;
+    left: 310px;
     margin: auto;
     border-radius: 100%;
     opacity: 70%;
+}
+
+body > main > section#Testimonials > section:nth-child(4) > div:nth-child(5) {
+    width: 50px;
+    height: 50px;
+    background: #2ED573;
+    position: absolute;
+    top: 380px;
+    left: 145px;
+    margin: auto;
+    border-radius: 100%;
+    opacity: 70%;
+    box-shadow: 0 -1px 8px 2px #1c1717e8;
 }
