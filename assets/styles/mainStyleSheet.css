@@ -91,7 +91,7 @@ nav ul li a:hover {
     border-radius: 4px;
 }
 
-nav ul li a.active, a:hover {
+nav > ul > li > a.active, a:hover {
     color: #2ED573;
 }
 
@@ -4031,4 +4031,88 @@ body > main > section#Contact > section:nth-child(5) > div:nth-child(4) h3 {
     bottom: 25px;
     left: 42px;
     font-size: 18px;
+}
+
+/** Main - Contact Details - Social Media*/
+body > main > section#Contact > nav:nth-child(6) {
+    width: 506px;
+    height: 100px;
+    position: absolute;
+    top: 705px;
+    right: 164px;
+}
+
+.social-menu ul {
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.social-menu ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+.social-menu ul li .fa {
+    color: #000000;
+    font-size: 35px;
+    line-height: 50px;
+    transition: 0.5s;
+}
+
+.social-menu > ul > li .fa:hover {
+    color: #F8F7F3;
+}
+
+.social-menu ul > li > a >i{
+    font-size: 35px;
+    position: absolute;
+    top: 13px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.social-menu ul > li > a {
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #95A5A6;
+    text-align: center;
+    transition: 0.5s;
+    transform: translate(0,0px);
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.social-menu ul > li > a:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+    border-radius: 100%;
+    color: #F8F7F3;
+}
+
+.social-menu > ul > li:nth-child(1) a:hover {
+    background: #3b5998;
+}
+
+.social-menu > ul > li:nth-child(2) a:hover {
+    background: #0A66C2;
+}
+
+.social-menu > ul > li:nth-child(3) a:hover {
+    background: #1DA1F2;
+}
+
+.social-menu > ul > li:nth-child(4) a:hover {
+    background: #333;
+}
+
+.social-menu > ul > li:nth-child(5) a:hover {
+    background: #F47F24;
 }
