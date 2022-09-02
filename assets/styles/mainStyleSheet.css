@@ -3784,3 +3784,15 @@ body > main > section#Contact > article > div:nth-child(3) {
     border-radius: 3px;
     z-index: 1;
 }
+
+body > main > section#Contact > article > div:nth-child(4) {
+    width: 100px;
+    height: 7px;
+    position: absolute;
+    background: #2ED573;
+    margin-top: 0.5em;
+    left: 41%;
+    top: 158px;
+    border-radius: 3px;
+    z-index: 1;
+}
