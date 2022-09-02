@@ -3814,7 +3814,7 @@ body > main > section#Contact > section:nth-child(2) > div {
 body > main > section#Contact > section:nth-child(3) {
     position: absolute;
     width: 500px;
-    height: 590px;
+    height: 600px;
     background: #ECF0F3;
     box-shadow: 0 -1px 8px 2px #1c1717e8;
     border: 2px solid #000000;
@@ -3923,12 +3923,12 @@ body > main > section#Contact > section:nth-child(3) > div:nth-child(2) > button
 
 /** Main - Contact Details Get In Touch */
 body > main > section#Contact > article:nth-child(4) > h2:nth-child(1) {
-    font-size: 25px;
-    font-family: cursive, sans-serif;
+    font-size: 30px;
+    font-family: Poppins, sans-serif;
     color: #FF6348;
     position: absolute;
-    top: 279px;
-    right: 567px;
+    top: 278px;
+    right: 542px;
 }
 
 /** Main - Contact Details Get In Touch Underline */
