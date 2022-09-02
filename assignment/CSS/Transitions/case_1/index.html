@@ -2,9 +2,95 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Case 1</title>
+
+    <link href="/assets/styles/normalize.css" rel="stylesheet">
+    <link href="fonts/css/all.css" rel="stylesheet">
 </head>
+
+<style>
+    section {
+        width: 230px;
+        height: 500px;
+        position: relative;
+        top: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        font-family: Poppins, serif;
+        right: 175px;
+    }
+
+    section > div {
+        position: relative;
+        height: 50px;
+        width: 100%;
+        border: 2px solid rgba(0, 0, 0, 0.25);;
+        background-color: #903EE7;
+        color: #F8F7F3;
+        box-shadow: 6px 5px 10px 2px #292925;
+        cursor: pointer;
+        left: 0;
+    }
+
+    section > div > h3 {
+        padding-left: 10px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        height: max-content;
+    }
+
+    section > div > i {
+        position: absolute;
+        right: 15px;
+        top: 0;
+        bottom: 0;
+        height: max-content;
+        margin: auto;
+        font-size: 25px;
+    }
+
+    section > div:hover {
+        background-color: green;
+        left: 175px;
+        transition-property: all;
+        transition-duration: 2s;
+    }
+</style>
+
+</head>
+
 <body>
+
+<section>
+    <div>
+        <h3>Menu One</h3>
+        <i class="fa-solid fa-address-book"></i>
+    </div>
+
+    <div>
+        <h3>Menu Two</h3>
+        <i class="fa-solid fa-truck-medical"></i>
+    </div>
+
+    <div>
+        <h3>Menu Three</h3>
+        <i class="fa-solid fa-book-atlas"></i>
+    </div>
+
+    <div>
+        <h3>Menu Four</h3>
+        <i class="fa-solid fa-layer-group"></i>
+    </div>
+
+    <div>
+        <h3>Menu Five</h3>
+        <i class="fa-solid fa-cart-arrow-down"></i>
+    </div>
+</section>
+
 
 </body>
 </html>
