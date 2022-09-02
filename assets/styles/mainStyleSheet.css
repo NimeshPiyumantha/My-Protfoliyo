@@ -3772,3 +3772,15 @@ body > main > section#Testimonials > section:nth-child(4) > img:nth-child(12) {
     height: 1050px;
     position: relative;
 }
+
+/** Main - HireMe Header Underline */
+body > main > section#Contact > article > div:nth-child(3) {
+    width: 135px;
+    height: 7px;
+    background: #2ED573;
+    position: absolute;
+    left: 41%;
+    top: 151px;
+    border-radius: 3px;
+    z-index: 1;
+}
