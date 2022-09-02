@@ -3899,7 +3899,7 @@ body > main > section#Contact > section:nth-child(3) > div:nth-child(2) > button
     cursor: pointer;
 }
 
-body > main > section#Contact > section:nth-child(3) > div:nth-child(2) > button > div{
+body > main > section#Contact > section:nth-child(3) > div:nth-child(2) > button > div {
     height: 40px;
     width: 40px;
     float: right;
@@ -3913,7 +3913,7 @@ body > main > section#Contact > section:nth-child(3) > div:nth-child(2) > button
     box-shadow: inset -13px -13px 16px #FFFFFF, inset 13px 13px 16px rgba(13, 39, 80, 0.16);
 }
 
-body > main > section#Contact > section:nth-child(3) > div:nth-child(2) > button i{
+body > main > section#Contact > section:nth-child(3) > div:nth-child(2) > button i {
     color: #2ED573;
     position: absolute;
     left: 200px;
@@ -3922,9 +3922,9 @@ body > main > section#Contact > section:nth-child(3) > div:nth-child(2) > button
 }
 
 /** Main - Contact Details Get In Touch */
-body > main > section#Contact > article:nth-child(4) > h2:nth-child(1){
+body > main > section#Contact > article:nth-child(4) > h2:nth-child(1) {
     font-size: 25px;
-    font-family: Poppins, sans-serif;
+    font-family: cursive, sans-serif;
     color: #FF6348;
     position: absolute;
     top: 279px;
@@ -3948,7 +3948,23 @@ body > main > section#Contact > article:nth-child(4) > div:nth-child(3) {
     position: absolute;
     background: #2ED573;
     left: 52.50%;
-    top: 328px;
+    top: 326px;
     border-radius: 3px;
+}
+
+/** Main - Contact Details Get In Touch Section*/
+body > main > section#Contact > section:nth-child(5) {
+    width: 486px;
+    height: 356px;
+    background: #2ED573;
+    position: absolute;
+    top: 375px;
+    right: 205px;
+}
+
+body > main > section#Contact > section:nth-child(5)>h2:nth-child(1) {
+    font-size: 24px;
+    font-family: cursive;
+    font-weight: bolder;
 }
 
