@@ -1829,7 +1829,7 @@
 
     body > main > section#Testimonials > section:nth-child(4) > img:nth-child(12) {
         width: 140px;
-        bottom: 140px;
-        right: 175px;
+        bottom: 84px;
+        right: 241px;
     }
 }
