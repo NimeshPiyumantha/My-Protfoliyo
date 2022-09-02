@@ -3773,7 +3773,7 @@ body > main > section#Testimonials > section:nth-child(4) > img:nth-child(12) {
     position: relative;
 }
 
-/** Main - HireMe Header Underline */
+/** Main - Contact Header Underline */
 body > main > section#Contact > article > div:nth-child(3) {
     width: 135px;
     height: 7px;
@@ -3797,6 +3797,7 @@ body > main > section#Contact > article > div:nth-child(4) {
     z-index: 1;
 }
 
+/** Main - Contact Style Box */
 body > main > section#Contact > section:nth-child(2) > div{
     position: absolute;
     width: calc(100% /4);
@@ -3806,4 +3807,17 @@ body > main > section#Contact > section:nth-child(2) > div{
     left: 0;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
+}
+
+/** Main - Contact Details Box sectioning */
+body > main > section#Contact > section:nth-child(3) {
+    position: absolute;
+    width: 500px;
+    height: 571px;
+    background: #ECF0F3;
+    box-shadow: 0 -1px 8px 2px #1c1717e8;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    top: 260px;
+    left: 223px;
 }
