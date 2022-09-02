@@ -135,17 +135,17 @@ main > section > section:first-child > div {
 
 main > section > section:first-child> div:nth-child(1) {
     left: 0;
-    background: url("/assignment/CSS/case_2/assets/img/gif.gif");
+    background: url("/assignment/CSS/Basics/case_2/case_2/assets/img/gif.gif");
 }
 
 main > section > section > div:nth-child(2) {
     left: calc(100% / 3);
-    background: url("/assignment/CSS/case_2/assets/img/gif.gif");
+    background: url("/assignment/CSS/Basics/case_2/case_2/assets/img/gif.gif");
 }
 
 main > section > section > div:nth-child(3) {
     right: 0;
-    background: url("/assignment/CSS/case_2/assets/img/gif.gif");
+    background: url("/assignment/CSS/Basics/case_2/case_2/assets/img/gif.gif");
 }
 
 /*   Body -Section-Paragraph  */

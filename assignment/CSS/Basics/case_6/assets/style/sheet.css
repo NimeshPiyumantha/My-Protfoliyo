@@ -25,7 +25,7 @@ section>div{
 }
 
 section > div:nth-child(1){
-    background: url("/assignment/CSS/case_6/assets/img/1.jpg");
+    background: url("/assignment/CSS/Basics/case_6/case_6/assets/img/1.jpg");
     background-size: cover;
     background-position: center;
     grid-row: 1/2;
@@ -33,13 +33,13 @@ section > div:nth-child(1){
 }
 
 section > div:nth-child(2){
-    background: url("/assignment/CSS/case_6/assets/img/2.webp");
+    background: url("/assignment/CSS/Basics/case_6/case_6/assets/img/2.webp");
     background-size: cover;
     background-position: center;
 }
 
 section > div:nth-child(3) {
-    background: url("/assignment/CSS/case_6/assets/img/4.jpg");
+    background: url("/assignment/CSS/Basics/case_6/case_6/assets/img/4.jpg");
     background-size: cover;
     background-position: center;
     grid-column: 4/5;
@@ -47,31 +47,31 @@ section > div:nth-child(3) {
 }
 
 section > div:nth-child(4){
-    background: url("/assignment/CSS/case_6/assets/img/3.jpg");
+    background: url("/assignment/CSS/Basics/case_6/case_6/assets/img/3.jpg");
     background-size: cover;
     background-position: center;
 }
 
 section > div:nth-child(5){
-    background: url("/assignment/CSS/case_6/assets/img/6.jpg");
+    background: url("/assignment/CSS/Basics/case_6/case_6/assets/img/6.jpg");
     background-size: cover;
     background-position: center;
 }
 
 section > div:nth-child(6){
-    background: url("/assignment/CSS/case_6/assets/img/7.jpg");
+    background: url("/assignment/CSS/Basics/case_6/case_6/assets/img/7.jpg");
     background-size: cover;
     background-position: center;
 }
 
 section > div:nth-child(7){
-    background: url("/assignment/CSS/case_6/assets/img/8.webp");
+    background: url("/assignment/CSS/Basics/case_6/case_6/assets/img/8.webp");
     background-size: cover;
     background-position: center;
 }
 
 section > div:nth-child(8){
-    background: url("/assignment/CSS/case_6/assets/img/5.jpg");
+    background: url("/assignment/CSS/Basics/case_6/case_6/assets/img/5.jpg");
     background-size: cover;
     background-position: center;
     grid-column: 2/4;
