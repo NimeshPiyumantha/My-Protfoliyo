@@ -3968,3 +3968,25 @@ body > main > section#Contact > section:nth-child(5)>h2:nth-child(1) {
     font-weight: bolder;
 }
 
+body > main > section#Contact > section:nth-child(5)>div:nth-child(2) {
+    background: #F47F24;
+    width: 379px;
+    height: 30px;
+    position: absolute;
+    top: 117px;
+    left: 85px;
+}
+
+body > main > section#Contact > section:nth-child(5)>div:nth-child(2) i{
+    font-size: 30px;
+}
+
+body > main > section#Contact > section:nth-child(5)>div:nth-child(2) p{
+    font-family: cursive;
+    font-weight: bolder;
+    position: relative;
+    bottom: 25px;
+    left: 42px;
+    font-size: 18px;
+}
+
