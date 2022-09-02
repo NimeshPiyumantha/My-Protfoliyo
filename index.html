@@ -827,11 +827,16 @@
 
                 <input id="txtSubject" name="subject" pattern="^([A-Z a-z]{5,40})$" placeholder="Subject" required>
 
-                <textarea cols="50" data-validation-required-message="Please enter your message" id="txtMassage" name="Massage" placeholder="Message"
+                <textarea cols="50" data-validation-required-message="Please enter your message" id="txtMassage"
+                          name="Massage" placeholder="Message"
                           required="required" rows="6"></textarea>
-
-
             </form>
+            <div>
+                <button form="ContactForm" formaction="saveCustomer" formmethod="post" formtarget="_blank">Send Massage
+                    <i class="fas fa-arrow-circle-right"></i>
+                    <div></div>
+                </button>
+            </div>
         </section>
         <article> <!-- Paragraph Header sectioning -->
             <h2>Get In Touch</h2>
