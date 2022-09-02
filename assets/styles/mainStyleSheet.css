@@ -3930,3 +3930,25 @@ body > main > section#Contact > article:nth-child(4) > h2:nth-child(1){
     top: 279px;
     right: 567px;
 }
+
+/** Main - Contact Details Get In Touch Underline */
+body > main > section#Contact > article:nth-child(4) > div:nth-child(2) {
+    width: 135px;
+    height: 7px;
+    background: #2ED573;
+    position: absolute;
+    right: 38.70%;
+    top: 312px;
+    border-radius: 3px;
+}
+
+body > main > section#Contact > article:nth-child(4) > div:nth-child(3) {
+    width: 100px;
+    height: 7px;
+    position: absolute;
+    background: #2ED573;
+    left: 52.50%;
+    top: 328px;
+    border-radius: 3px;
+}
+
