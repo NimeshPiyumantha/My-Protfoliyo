@@ -3977,6 +3977,28 @@ body > main > section#Contact > section:nth-child(5)>div:nth-child(2) {
     left: 85px;
 }
 
+body > main > section#Contact > section:nth-child(5)>div:nth-child(3) i{
+    font-size: 30px;
+}
+
+body > main > section#Contact > section:nth-child(5)>div:nth-child(3) h3{
+    font-family: cursive;
+    font-weight: bolder;
+    position: relative;
+    bottom: 25px;
+    left: 42px;
+    font-size: 18px;
+}
+
+body > main > section#Contact > section:nth-child(5)>div:nth-child(3) {
+    background: #F47F24;
+    width: 379px;
+    height: 30px;
+    position: absolute;
+    top: 160px;
+    left: 85px;
+}
+
 body > main > section#Contact > section:nth-child(5)>div:nth-child(2) i{
     font-size: 30px;
 }
