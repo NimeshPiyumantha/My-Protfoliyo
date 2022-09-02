@@ -3814,7 +3814,7 @@ body > main > section#Contact > section:nth-child(2) > div {
 body > main > section#Contact > section:nth-child(3) {
     position: absolute;
     width: 500px;
-    height: 571px;
+    height: 590px;
     background: #ECF0F3;
     box-shadow: 0 -1px 8px 2px #1c1717e8;
     border: 2px solid #000000;
@@ -3859,5 +3859,19 @@ body > main > section#Contact > section:nth-child(3) > form > input:nth-child(3)
     left: 70px;
     border-radius: 15px;
     padding-left: 15px;
+    box-shadow: 0 4px 9px 5px #878585e8;
+}
+
+body > main > section#Contact > section:nth-child(3) > form > textarea:nth-child(4) {
+    width: 330px;
+    height: 152px;
+    font-size: 20px;
+    font-family: Inter, sans-serif;
+    position: absolute;
+    top: 331px;
+    left: 70px;
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
     box-shadow: 0 4px 9px 5px #878585e8;
 }

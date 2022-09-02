@@ -825,7 +825,11 @@
 
                 <input id="txtCusEmail" name="cusEmail" placeholder="E- Mail" required type="email">
 
-                <input id="txtSubject" name="subject" pattern="^([A-Z a-z]{5,40})$" placeholder="Subject">
+                <input id="txtSubject" name="subject" pattern="^([A-Z a-z]{5,40})$" placeholder="Subject" required>
+
+                <textarea cols="50" data-validation-required-message="Please enter your message" id="txtMassage" name="Massage" placeholder="Message"
+                          required="required" rows="6"></textarea>
+
 
             </form>
         </section>
