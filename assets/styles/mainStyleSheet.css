@@ -3821,3 +3821,16 @@ body > main > section#Contact > section:nth-child(3) {
     top: 260px;
     left: 223px;
 }
+
+body > main > section#Contact > section:nth-child(3) >form > input:nth-child(1) {
+    width: 330px;
+    height: 55px;
+    border: 2px solid black;
+    font-size: 20px;
+    font-family: Inter, sans-serif;
+    position: absolute;
+    top: 55px;
+    left: 70px;
+    border-radius: 15px;
+    padding-left: 15px;
+}
