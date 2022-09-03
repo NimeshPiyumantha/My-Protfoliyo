@@ -1836,33 +1836,16 @@
     /**-------------------------------------------- Main - Contact --------------------------------------------**/
     /** Main - Contact Header */
     #Contact {
-        width: 100%;
         height: 1000px;
-        position: relative;
     }
 
     /** Main - Contact Header Underline */
     body > main > section#Contact > article > div:nth-child(3) {
-        width: 135px;
-        height: 7px;
-        background: #2ED573;
-        position: absolute;
-        left: 41.50%;
         top: 150px;
-        border-radius: 3px;
-        z-index: 1;
     }
 
     body > main > section#Contact > article > div:nth-child(4) {
-        width: 100px;
-        height: 7px;
-        position: absolute;
-        background: #2ED573;
-        margin-top: 0.5em;
-        left: 41.50%;
         top: 157px;
-        border-radius: 3px;
-        z-index: 1;
     }
 
     /** Main - Contact Style Box */
