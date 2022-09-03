@@ -4133,3 +4133,14 @@ body > main > section#Contact > section:nth-child(7) > img:nth-child(1) {
     bottom: auto;
     margin: auto;
 }
+
+body > main > section#Contact > section:nth-child(7) > div:nth-child(2) {
+    width: 60px;
+    height: 60px;
+    background: #ECCC68;
+    position: absolute;
+    top: 100px;
+    left: 586px;
+    border-radius: 100%;
+    box-shadow: 0 7px 5px rgba(0, 0, 0, 0.5);
+}
