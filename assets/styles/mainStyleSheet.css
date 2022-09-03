@@ -4401,6 +4401,20 @@ body > footer > section:nth-child(6) h1 {
     position: relative;
 }
 
+body > footer > section:nth-child(6) > form >input:nth-child(1) {
+    width: 320px;
+    height: 46px;
+    font-size: 20px;
+    font-family: Inter, sans-serif;
+    position: absolute;
+    top: 99px;
+    left: 22px;
+    border-radius: 15px;
+    padding-left: 15px;
+    box-shadow: 0 4px 9px 5px #878585e8;
+}
+
+
 /** Footer Section -Footer copyright*/
 body > footer > section:nth-child(7) {
     position: absolute;
@@ -4410,6 +4424,7 @@ body > footer > section:nth-child(7) {
     width: 100%;
     height: 70px;
 }
+
 body > footer > section:nth-child(7) small {
     font-family: cursive;
     font-weight: bolder;
