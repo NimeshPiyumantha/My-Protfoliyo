@@ -1912,84 +1912,61 @@
 
     /** Main - Contact Details Get In Touch Section*/
     body > main > section#Contact > section:nth-child(5) {
-        width: 550px;
-        height: 270px;
-        position: absolute;
-        top: 425px;
-        right: 325px;
+        width: 513px;
+        height: 230px;
+        top: 385px;
+        right: 205px;
     }
 
     body > main > section#Contact > section:nth-child(5) > h2:nth-child(1) {
-        font-size: 28px;
-        font-family: cursive;
-        font-weight: bolder;
+        font-size: 24px;
     }
 
     /** Main - Contact Details Get In Touch Section - Address*/
     body > main > section#Contact > section:nth-child(5) > div:nth-child(2) {
-        width: 379px;
+        width: 406px;
         height: 30px;
-        position: absolute;
-        top: 137px;
+        top: 113px;
         left: 100px;
     }
 
     body > main > section#Contact > section:nth-child(5) > div:nth-child(3) i {
-        font-size: 35px;
+        font-size: 32px;
     }
 
     body > main > section#Contact > section:nth-child(5) > div:nth-child(3) h3 {
-        font-family: cursive;
-        font-weight: bolder;
-        position: relative;
-        bottom: 25px;
-        left: 42px;
         font-size: 20px;
     }
 
     /** Main - Contact Details Get In Touch Section - Phone Number*/
     body > main > section#Contact > section:nth-child(5) > div:nth-child(3) {
-        width: 379px;
+        width: 406px;
         height: 30px;
-        position: absolute;
-        top: 180px;
+        top: 155px;
         left: 100px;
     }
 
     body > main > section#Contact > section:nth-child(5) > div:nth-child(2) i {
-        font-size: 30px;
+        font-size: 32px;
     }
 
     body > main > section#Contact > section:nth-child(5) > div:nth-child(2) p {
-        font-family: cursive;
-        font-weight: bolder;
-        position: relative;
-        bottom: 25px;
-        left: 42px;
         font-size: 20px;
     }
 
     /** Main - Contact Details Get In Touch Section - E-Mail*/
     body > main > section#Contact > section:nth-child(5) > div:nth-child(4) {
-        width: 379px;
+        width: 406px;
         height: 30px;
-        position: absolute;
-        top: 225px;
+        top: 195px;
         left: 100px;
     }
 
     body > main > section#Contact > section:nth-child(5) > div:nth-child(4) i {
-        font-size: 30px;
-        top: 8px;
-        position: absolute;
+        font-size: 32px;
     }
 
     body > main > section#Contact > section:nth-child(5) > div:nth-child(4) h3 {
-        font-family: cursive;
-        font-weight: bolder;
-        position: relative;
-        top: 8px;
-        left: 42px;
         font-size: 20px;
     }
 

@@ -3956,7 +3956,7 @@ body > main > section#Contact > article:nth-child(4) > div:nth-child(3) {
 
 /** Main - Contact Details Get In Touch Section*/
 body > main > section#Contact > section:nth-child(5) {
-    width: 550px;
+    width: 610px;
     height: 270px;
     position: absolute;
     top: 425px;
@@ -3971,10 +3971,32 @@ body > main > section#Contact > section:nth-child(5) > h2:nth-child(1) {
 
 /** Main - Contact Details Get In Touch Section - Address*/
 body > main > section#Contact > section:nth-child(5) > div:nth-child(2) {
-    width: 379px;
+    width: 505px;
     height: 30px;
     position: absolute;
     top: 137px;
+    left: 100px;
+}
+
+body > main > section#Contact > section:nth-child(5) > div:nth-child(2) i {
+    font-size: 35px;
+}
+
+body > main > section#Contact > section:nth-child(5) > div:nth-child(2) p {
+    font-family: cursive;
+    font-weight: bolder;
+    position: relative;
+    bottom: 30px;
+    left: 42px;
+    font-size: 25px;
+}
+
+/** Main - Contact Details Get In Touch Section - Phone Number*/
+body > main > section#Contact > section:nth-child(5) > div:nth-child(3) {
+    width: 505px;
+    height: 30px;
+    position: absolute;
+    top: 180px;
     left: 100px;
 }
 
@@ -3986,36 +4008,14 @@ body > main > section#Contact > section:nth-child(5) > div:nth-child(3) h3 {
     font-family: cursive;
     font-weight: bolder;
     position: relative;
-    bottom: 25px;
+    bottom: 30px;
     left: 42px;
-    font-size: 20px;
-}
-
-/** Main - Contact Details Get In Touch Section - Phone Number*/
-body > main > section#Contact > section:nth-child(5) > div:nth-child(3) {
-    width: 379px;
-    height: 30px;
-    position: absolute;
-    top: 180px;
-    left: 100px;
-}
-
-body > main > section#Contact > section:nth-child(5) > div:nth-child(2) i {
-    font-size: 30px;
-}
-
-body > main > section#Contact > section:nth-child(5) > div:nth-child(2) p {
-    font-family: cursive;
-    font-weight: bolder;
-    position: relative;
-    bottom: 25px;
-    left: 42px;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 /** Main - Contact Details Get In Touch Section - E-Mail*/
 body > main > section#Contact > section:nth-child(5) > div:nth-child(4) {
-    width: 379px;
+    width: 505px;
     height: 30px;
     position: absolute;
     top: 225px;
@@ -4023,8 +4023,7 @@ body > main > section#Contact > section:nth-child(5) > div:nth-child(4) {
 }
 
 body > main > section#Contact > section:nth-child(5) > div:nth-child(4) i {
-    font-size: 30px;
-    top: 8px;
+    font-size: 35px;
     position: absolute;
 }
 
@@ -4032,9 +4031,9 @@ body > main > section#Contact > section:nth-child(5) > div:nth-child(4) h3 {
     font-family: cursive;
     font-weight: bolder;
     position: relative;
-    top: 8px;
     left: 42px;
-    font-size: 20px;
+    font-size: 25px;
+    padding-left: 5px
 }
 
 /** Main - Contact Details - Social Media*/
