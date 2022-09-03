@@ -4414,6 +4414,18 @@ body > footer > section:nth-child(6) > form >input:nth-child(1) {
     box-shadow: 0 4px 9px 5px #878585e8;
 }
 
+body > footer > section:nth-child(6) > form >input:nth-child(2) {
+    width: 320px;
+    height: 46px;
+    font-size: 20px;
+    font-family: Inter, sans-serif;
+    position: absolute;
+    top: 166px;
+    left: 22px;
+    border-radius: 15px;
+    padding-left: 15px;
+    box-shadow: 0 4px 9px 5px #878585e8;
+}
 
 /** Footer Section -Footer copyright*/
 body > footer > section:nth-child(7) {
