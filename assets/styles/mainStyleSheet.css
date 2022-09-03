@@ -4179,3 +4179,10 @@ body > main > section#Contact > section:nth-child(7) > div:nth-child(5) {
     border-radius: 100%;
     box-shadow: 0 7px 5px rgba(0, 0, 0, 0.5);
 }
+
+body > main > section#Contact > section:nth-child(7) > img:nth-child(6) {
+    position: absolute;
+    top: 63px;
+    right: 175px;
+    margin: auto;
+}
