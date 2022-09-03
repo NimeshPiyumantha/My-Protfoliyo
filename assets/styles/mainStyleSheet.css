@@ -4307,11 +4307,81 @@ body > footer > section:nth-child(5) {
     right: 500px;
     width: 446px;
     height: 320px;
-    background: palevioletred;
     z-index: 1;
 }
 
+body > footer > section:nth-child(5) h2 {
+    font-family: Poppins, serif;
+    color: #FF6348;
+    font-size: 30px;
+    display: flex;
+    top: 20px;
+    position: relative;
+}
 
+/** Main - Contact Details Get In Touch Section - Address*/
+body > footer > section:nth-child(5) > div:nth-child(2) {
+    width: 446px;
+    height: 30px;
+    position: absolute;
+    top: 104px;
+}
+
+body > footer > section:nth-child(5) > div:nth-child(2) i {
+    font-size: 30px;
+}
+
+body > footer > section:nth-child(5) > div:nth-child(2) p {
+    font-family: cursive;
+    font-weight: bolder;
+    position: relative;
+    bottom: 30px;
+    left: 42px;
+    font-size: 20px;
+}
+
+/** Main - Contact Details Get In Touch Section - Phone Number*/
+body > footer > section:nth-child(5) > div:nth-child(3) {
+    width: 446px;
+    height: 30px;
+    position: absolute;
+    top: 153px;
+}
+
+body > footer > section:nth-child(5) > div:nth-child(3) i {
+    font-size: 30px;
+}
+
+body > footer > section:nth-child(5) > div:nth-child(3) h3 {
+    font-family: cursive;
+    font-weight: bolder;
+    position: relative;
+    bottom: 30px;
+    left: 42px;
+    font-size: 20px;
+}
+
+/** Main - Contact Details Get In Touch Section - E-Mail*/
+body > footer > section:nth-child(5) > div:nth-child(4) {
+    width: 446px;
+    height: 30px;
+    position: absolute;
+    top: 203px;
+}
+
+body > footer > section:nth-child(5) > div:nth-child(4) i {
+    font-size: 30px;
+    position: absolute;
+}
+
+body > footer > section:nth-child(5) > div:nth-child(4) h3 {
+    font-family: cursive;
+    font-weight: bolder;
+    position: relative;
+    left: 42px;
+    font-size: 20px;
+    padding-left: 5px
+}
 
 /** Footer Section -Quick Contact*/
 body > footer > section:nth-child(6) {
