@@ -4393,6 +4393,7 @@ body > footer > section:nth-child(6) {
     background: palevioletred;
 }
 
+/** Footer Section -Footer copyright*/
 body > footer > section:nth-child(7) {
     position: absolute;
     bottom: 0;
@@ -4400,5 +4401,16 @@ body > footer > section:nth-child(7) {
     left: 0;
     width: 100%;
     height: 70px;
-    background: red;
+}
+body > footer > section:nth-child(7) small {
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 22px;
+    color: #2C3E50;
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: relative;
+    top: 28px;
 }
