@@ -4202,13 +4202,31 @@ body > footer{
     background: green;
 }
 
+/** Footer Section - About*/
 body > footer>article:nth-child(1){
     position: absolute;
     top: 40px;
     left: 150px;
     width: 420px;
     height: 350px;
-    background: palevioletred;
+    background: white;
+}
+
+body > footer>article:nth-child(1) h1{
+    color: #FF6348;
+    font-size: 30px;
+    font-family: Poppins, serif;
+}
+
+body > footer>article:nth-child(1) h1 span{
+    color: #2C3E50;
+}
+
+body > footer>article:nth-child(1) p{
+    color: #2C3E50;
+    font-size: 21px;
+    font-weight: bolder;
+    font-family: Poppins, serif;
 }
 
 body > footer>section:nth-child(2){
