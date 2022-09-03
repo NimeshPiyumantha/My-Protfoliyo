@@ -3770,7 +3770,7 @@ body > main > section#Testimonials > section:nth-child(4) > img:nth-child(12) {
 /** Main - Contact Header */
 #Contact {
     width: 100%;
-    height: 970px;
+    height: 1150px;
     position: relative;
 }
 
@@ -3780,8 +3780,8 @@ body > main > section#Contact > article > div:nth-child(3) {
     height: 7px;
     background: #2ED573;
     position: absolute;
-    left: 41%;
-    top: 151px;
+    left: 41.50%;
+    top: 188px;
     border-radius: 3px;
     z-index: 1;
 }
@@ -3792,8 +3792,8 @@ body > main > section#Contact > article > div:nth-child(4) {
     position: absolute;
     background: #2ED573;
     margin-top: 0.5em;
-    left: 41%;
-    top: 158px;
+    left: 41.50%;
+    top: 195px;
     border-radius: 3px;
     z-index: 1;
 }
@@ -3801,30 +3801,32 @@ body > main > section#Contact > article > div:nth-child(4) {
 /** Main - Contact Style Box */
 body > main > section#Contact > section:nth-child(2) > div {
     position: absolute;
-    width: calc(100% / 4);
+    width: calc(100% / 3.50);
     height: 100%;
     background: #FF6348;
     top: 0;
     left: 0;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
+    z-index: 1;
 }
 
 /** Main - Contact Details Box sectioning */
 body > main > section#Contact > section:nth-child(3) {
     position: absolute;
-    width: 500px;
-    height: 600px;
+    width: 597px;
+    height: 650px;
     background: #ECF0F3;
     box-shadow: 0 -1px 8px 2px #1c1717e8;
     border: 2px solid #000000;
     border-radius: 20px;
-    top: 260px;
-    left: 223px;
+    top: 320px;
+    left: 308px;
+    z-index: 1;
 }
 
 body > main > section#Contact > section:nth-child(3) > form > input:nth-child(1) {
-    width: 330px;
+    width: 445px;
     height: 55px;
     font-size: 20px;
     font-family: Inter, sans-serif;
@@ -3837,7 +3839,7 @@ body > main > section#Contact > section:nth-child(3) > form > input:nth-child(1)
 }
 
 body > main > section#Contact > section:nth-child(3) > form > input:nth-child(2) {
-    width: 330px;
+    width: 445px;
     height: 55px;
     font-size: 20px;
     font-family: Inter, sans-serif;
@@ -3850,7 +3852,7 @@ body > main > section#Contact > section:nth-child(3) > form > input:nth-child(2)
 }
 
 body > main > section#Contact > section:nth-child(3) > form > input:nth-child(3) {
-    width: 330px;
+    width: 445px;
     height: 55px;
     font-size: 20px;
     font-family: Inter, sans-serif;
@@ -3863,7 +3865,7 @@ body > main > section#Contact > section:nth-child(3) > form > input:nth-child(3)
 }
 
 body > main > section#Contact > section:nth-child(3) > form > textarea:nth-child(4) {
-    width: 330px;
+    width: 445px;
     height: 152px;
     font-size: 20px;
     font-family: Inter, sans-serif;
@@ -3879,7 +3881,7 @@ body > main > section#Contact > section:nth-child(3) > form > textarea:nth-child
 /** Main - Contact Details Button */
 body > main > section#Contact > section:nth-child(3) > div:nth-child(2) {
     position: absolute;
-    top: 512px;
+    top: 545px;
     left: 70px;
 }
 
@@ -3927,8 +3929,8 @@ body > main > section#Contact > article:nth-child(4) > h2:nth-child(1) {
     font-family: Poppins, sans-serif;
     color: #FF6348;
     position: absolute;
-    top: 278px;
-    right: 542px;
+    top: 320px;
+    right: 725px;
 }
 
 /** Main - Contact Details Get In Touch Underline */
@@ -3937,8 +3939,8 @@ body > main > section#Contact > article:nth-child(4) > div:nth-child(2) {
     height: 7px;
     background: #2ED573;
     position: absolute;
-    right: 38.70%;
-    top: 312px;
+    left: 52.50%;
+    top: 360px;
     border-radius: 3px;
 }
 
@@ -3948,21 +3950,21 @@ body > main > section#Contact > article:nth-child(4) > div:nth-child(3) {
     position: absolute;
     background: #2ED573;
     left: 52.50%;
-    top: 326px;
+    top: 374px;
     border-radius: 3px;
 }
 
 /** Main - Contact Details Get In Touch Section*/
 body > main > section#Contact > section:nth-child(5) {
-    width: 486px;
-    height: 245px;
+    width: 550px;
+    height: 270px;
     position: absolute;
-    top: 375px;
-    right: 205px;
+    top: 425px;
+    right: 325px;
 }
 
 body > main > section#Contact > section:nth-child(5) > h2:nth-child(1) {
-    font-size: 24px;
+    font-size: 28px;
     font-family: cursive;
     font-weight: bolder;
 }
@@ -3972,12 +3974,12 @@ body > main > section#Contact > section:nth-child(5) > div:nth-child(2) {
     width: 379px;
     height: 30px;
     position: absolute;
-    top: 117px;
-    left: 85px;
+    top: 137px;
+    left: 100px;
 }
 
 body > main > section#Contact > section:nth-child(5) > div:nth-child(3) i {
-    font-size: 30px;
+    font-size: 35px;
 }
 
 body > main > section#Contact > section:nth-child(5) > div:nth-child(3) h3 {
@@ -3986,7 +3988,7 @@ body > main > section#Contact > section:nth-child(5) > div:nth-child(3) h3 {
     position: relative;
     bottom: 25px;
     left: 42px;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 /** Main - Contact Details Get In Touch Section - Phone Number*/
@@ -3994,8 +3996,8 @@ body > main > section#Contact > section:nth-child(5) > div:nth-child(3) {
     width: 379px;
     height: 30px;
     position: absolute;
-    top: 160px;
-    left: 85px;
+    top: 180px;
+    left: 100px;
 }
 
 body > main > section#Contact > section:nth-child(5) > div:nth-child(2) i {
@@ -4008,7 +4010,7 @@ body > main > section#Contact > section:nth-child(5) > div:nth-child(2) p {
     position: relative;
     bottom: 25px;
     left: 42px;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 /** Main - Contact Details Get In Touch Section - E-Mail*/
@@ -4016,21 +4018,23 @@ body > main > section#Contact > section:nth-child(5) > div:nth-child(4) {
     width: 379px;
     height: 30px;
     position: absolute;
-    top: 205px;
-    left: 85px;
+    top: 225px;
+    left: 100px;
 }
 
 body > main > section#Contact > section:nth-child(5) > div:nth-child(4) i {
     font-size: 30px;
+    top: 8px;
+    position: absolute;
 }
 
 body > main > section#Contact > section:nth-child(5) > div:nth-child(4) h3 {
     font-family: cursive;
     font-weight: bolder;
     position: relative;
-    bottom: 25px;
+    top: 8px;
     left: 42px;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 /** Main - Contact Details - Social Media*/
@@ -4038,23 +4042,28 @@ body > main > section#Contact > nav:nth-child(6) {
     width: 506px;
     height: 100px;
     position: absolute;
-    top: 705px;
-    right: 164px;
+    top: 735px;
+    right: 300px;
+    z-index: 1;
 }
 
 .social-menu ul {
-    position: absolute;
-    top: 17%;
-    left: 50%;
+    position: relative;
+    bottom: 0;
+    left: 289px;
+    right: 0;
+    top: 46px;
+    margin: auto;
     transform: translate(-50%, -50%);
     padding: 0;
-    margin: 0;
     display: flex;
 }
+
 .social-menu ul li {
     list-style: none;
     margin: 0 10px;
 }
+
 .social-menu ul li .fa {
     color: #000000;
     font-size: 35px;
@@ -4066,7 +4075,7 @@ body > main > section#Contact > nav:nth-child(6) {
     color: #F8F7F3;
 }
 
-.social-menu ul > li > a >i{
+.social-menu ul > li > a > i {
     font-size: 35px;
     position: absolute;
     top: 13px;
@@ -4085,11 +4094,9 @@ body > main > section#Contact > nav:nth-child(6) {
     background-color: #95A5A6;
     text-align: center;
     transition: 0.5s;
-    transform: translate(0,0px);
-    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+    transform: translate(0, 0px);
+    box-shadow: 0 7px 5px rgba(0, 0, 0, 0.5);
 }
-
-
 
 .social-menu ul > li > a:hover {
     transform: rotate(0deg) skew(0deg) translate(0, -10px);
@@ -4116,3 +4123,4 @@ body > main > section#Contact > nav:nth-child(6) {
 .social-menu > ul > li:nth-child(5) a:hover {
     background: #F47F24;
 }
+
