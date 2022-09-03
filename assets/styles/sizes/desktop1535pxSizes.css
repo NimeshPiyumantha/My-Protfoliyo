@@ -1972,89 +1972,23 @@
 
     /** Main - Contact Details - Social Media*/
     body > main > section#Contact > nav:nth-child(6) {
-        width: 506px;
-        height: 100px;
-        position: absolute;
-        top: 735px;
-        right: 300px;
-        z-index: 1;
+        top: 656px;
+        right: 130px;
     }
 
     .social-menu ul {
-        position: relative;
-        bottom: 0;
         left: 289px;
-        right: 0;
-        top: 46px;
-        margin: auto;
-        transform: translate(-50%, -50%);
-        padding: 0;
-        display: flex;
-    }
-
-    .social-menu ul li {
-        list-style: none;
-        margin: 0 10px;
-    }
-
-    .social-menu ul li .fa {
-        color: #000000;
-        font-size: 35px;
-        line-height: 50px;
-        transition: 0.5s;
-    }
-
-    .social-menu > ul > li .fa:hover {
-        color: #F8F7F3;
+        top: 34px;
     }
 
     .social-menu ul > li > a > i {
-        font-size: 35px;
-        position: absolute;
-        top: 13px;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        margin: auto;
+        font-size: 30px;
+        top: 12px;
     }
 
     .social-menu ul > li > a {
-        position: relative;
-        display: block;
-        width: 60px;
-        height: 60px;
-        border-radius: 50%;
-        background-color: #95A5A6;
-        text-align: center;
-        transition: 0.5s;
-        transform: translate(0, 0px);
-        box-shadow: 0 7px 5px rgba(0, 0, 0, 0.5);
-    }
-
-    .social-menu ul > li > a:hover {
-        transform: rotate(0deg) skew(0deg) translate(0, -10px);
-        border-radius: 100%;
-        color: #F8F7F3;
-    }
-
-    .social-menu > ul > li:nth-child(1) a:hover {
-        background: #3b5998;
-    }
-
-    .social-menu > ul > li:nth-child(2) a:hover {
-        background: #0A66C2;
-    }
-
-    .social-menu > ul > li:nth-child(3) a:hover {
-        background: #1DA1F2;
-    }
-
-    .social-menu > ul > li:nth-child(4) a:hover {
-        background: #333;
-    }
-
-    .social-menu > ul > li:nth-child(5) a:hover {
-        background: #F47F24;
+        width: 50px;
+        height: 50px;
     }
 
     /** Main - Contact Details - Background Design */
