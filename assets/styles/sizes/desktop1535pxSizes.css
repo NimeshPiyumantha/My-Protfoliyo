@@ -1993,64 +1993,43 @@
 
     /** Main - Contact Details - Background Design */
     body > main > section#Contact > section:nth-child(7) > img:nth-child(1) {
-        position: absolute;
-        top: 63px;
-        right: 0;
-        left: 409px;
-        bottom: auto;
-        margin: auto;
+        top: 109px;
+        left: 320px;
+        width: 990px;
     }
 
     body > main > section#Contact > section:nth-child(7) > div:nth-child(2) {
-        width: 60px;
-        height: 60px;
-        background: #ECCC68;
-        position: absolute;
-        top: 100px;
-        left: 586px;
-        border-radius: 100%;
-        box-shadow: 0 7px 5px rgba(0, 0, 0, 0.5);
+        width: 50px;
+        height: 50px;
+        top: 135px;
+        left: 477px;
     }
 
     body > main > section#Contact > section:nth-child(7) > div:nth-child(3) {
-        width: 60px;
-        height: 60px;
-        background: #2ED573;
-        position: absolute;
-        bottom: 197px;
-        right: 223px;
-        border-radius: 100%;
-        box-shadow: 0 7px 5px rgba(0, 0, 0, 0.5);
+        width: 50px;
+        height: 50px;
+        bottom: 124px;
+        right: 181px;
     }
 
     body > main > section#Contact > section:nth-child(7) > div:nth-child(4) {
-        width: 90px;
-        height: 90px;
-        opacity: 70%;
-        border: 8px solid #2ED573;
-        position: absolute;
-        top: 474px;
-        right: 114px;
-        border-radius: 100%;
-        box-shadow: 0 7px 5px rgba(0, 0, 0, 0.5);
+        width: 70px;
+        height: 70px;
+        top: 428px;
+        right: 50px;
     }
 
     body > main > section#Contact > section:nth-child(7) > div:nth-child(5) {
-        width: 90px;
-        height: 90px;
-        opacity: 70%;
-        border: 8px solid #FF6348;
-        position: absolute;
-        bottom: 75px;
-        right: 551px;
-        border-radius: 100%;
-        box-shadow: 0 7px 5px rgba(0, 0, 0, 0.5);
+        width: 70px;
+        height: 70px;
+        bottom: 50px;
+        right: 420px;
     }
 
     body > main > section#Contact > section:nth-child(7) > img:nth-child(6) {
-        position: absolute;
-        top: 63px;
-        right: 175px;
+        top: 130px;
+        right: 126px;
         margin: auto;
+        width: 128px;
     }
 }

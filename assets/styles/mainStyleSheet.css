@@ -4142,6 +4142,7 @@ body > main > section#Contact > section:nth-child(7) > div:nth-child(2) {
     left: 586px;
     border-radius: 100%;
     box-shadow: 0 7px 5px rgba(0, 0, 0, 0.5);
+    opacity: 70%;
 }
 
 body > main > section#Contact > section:nth-child(7) > div:nth-child(3) {
@@ -4153,6 +4154,7 @@ body > main > section#Contact > section:nth-child(7) > div:nth-child(3) {
     right: 223px;
     border-radius: 100%;
     box-shadow: 0 7px 5px rgba(0, 0, 0, 0.5);
+    opacity: 70%;
 }
 
 body > main > section#Contact > section:nth-child(7) > div:nth-child(4) {
