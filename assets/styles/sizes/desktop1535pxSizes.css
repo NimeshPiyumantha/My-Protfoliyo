@@ -1832,4 +1832,425 @@
         bottom: 84px;
         right: 241px;
     }
+
+    /**-------------------------------------------- Main - Contact --------------------------------------------**/
+    /** Main - Contact Header */
+    #Contact {
+        width: 100%;
+        height: 1000px;
+        position: relative;
+    }
+
+    /** Main - Contact Header Underline */
+    body > main > section#Contact > article > div:nth-child(3) {
+        width: 135px;
+        height: 7px;
+        background: #2ED573;
+        position: absolute;
+        left: 41.50%;
+        top: 150px;
+        border-radius: 3px;
+        z-index: 1;
+    }
+
+    body > main > section#Contact > article > div:nth-child(4) {
+        width: 100px;
+        height: 7px;
+        position: absolute;
+        background: #2ED573;
+        margin-top: 0.5em;
+        left: 41.50%;
+        top: 157px;
+        border-radius: 3px;
+        z-index: 1;
+    }
+
+    /** Main - Contact Style Box */
+    body > main > section#Contact > section:nth-child(2) > div {
+        position: absolute;
+        width: calc(100% / 3.50);
+        height: 100%;
+        background: #FF6348;
+        top: 0;
+        left: 0;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        z-index: 1;
+    }
+
+    /** Main - Contact Details Box sectioning */
+    body > main > section#Contact > section:nth-child(3) {
+        position: absolute;
+        width: 597px;
+        height: 650px;
+        background: #ECF0F3;
+        box-shadow: 0 -1px 8px 2px #1c1717e8;
+        border: 2px solid #000000;
+        border-radius: 20px;
+        top: 320px;
+        left: 308px;
+        z-index: 1;
+    }
+
+    body > main > section#Contact > section:nth-child(3) > form > input:nth-child(1) {
+        width: 445px;
+        height: 55px;
+        font-size: 20px;
+        font-family: Inter, sans-serif;
+        position: absolute;
+        top: 55px;
+        left: 70px;
+        border-radius: 15px;
+        padding-left: 15px;
+        box-shadow: 0 4px 9px 5px #878585e8;
+    }
+
+    body > main > section#Contact > section:nth-child(3) > form > input:nth-child(2) {
+        width: 445px;
+        height: 55px;
+        font-size: 20px;
+        font-family: Inter, sans-serif;
+        position: absolute;
+        top: 145px;
+        left: 70px;
+        border-radius: 15px;
+        padding-left: 15px;
+        box-shadow: 0 4px 9px 5px #878585e8;
+    }
+
+    body > main > section#Contact > section:nth-child(3) > form > input:nth-child(3) {
+        width: 445px;
+        height: 55px;
+        font-size: 20px;
+        font-family: Inter, sans-serif;
+        position: absolute;
+        top: 235px;
+        left: 70px;
+        border-radius: 15px;
+        padding-left: 15px;
+        box-shadow: 0 4px 9px 5px #878585e8;
+    }
+
+    body > main > section#Contact > section:nth-child(3) > form > textarea:nth-child(4) {
+        width: 445px;
+        height: 152px;
+        font-size: 20px;
+        font-family: Inter, sans-serif;
+        position: absolute;
+        top: 331px;
+        left: 70px;
+        border-radius: 15px;
+        padding-left: 15px;
+        padding-top: 15px;
+        box-shadow: 0 4px 9px 5px #878585e8;
+    }
+
+    /** Main - Contact Details Button */
+    body > main > section#Contact > section:nth-child(3) > div:nth-child(2) {
+        position: absolute;
+        top: 545px;
+        left: 70px;
+    }
+
+    body > main > section#Contact > section:nth-child(3) > div:nth-child(2) > button {
+        background-color: #2ED573;
+        border-radius: 100px;
+        box-shadow: 0 -1px 8px 2px #1c1717e8;
+        border: none;
+        color: #ECF0F3;
+        text-align: center;
+        display: inline-block;
+        padding: 10px 15px 0 15px;
+        text-decoration: none;
+        font-size: 22px;
+        font-family: Poppins, sans-serif;
+        font-weight: bolder;
+        cursor: pointer;
+    }
+
+    body > main > section#Contact > section:nth-child(3) > div:nth-child(2) > button > div {
+        height: 40px;
+        width: 40px;
+        float: right;
+        margin-left: 9px;
+        background: #F9FAFB;
+        border-radius: 50px;
+        cursor: pointer;
+        position: relative;
+        bottom: 5px;
+        left: 5px;
+        box-shadow: inset -13px -13px 16px #FFFFFF, inset 13px 13px 16px rgba(13, 39, 80, 0.16);
+    }
+
+    body > main > section#Contact > section:nth-child(3) > div:nth-child(2) > button i {
+        color: #2ED573;
+        position: absolute;
+        left: 200px;
+        top: 14px;
+        z-index: 1;
+    }
+
+    /** Main - Contact Details Get In Touch */
+    body > main > section#Contact > article:nth-child(4) > h2:nth-child(1) {
+        font-size: 30px;
+        font-family: Poppins, sans-serif;
+        color: #FF6348;
+        position: absolute;
+        top: 320px;
+        right: 725px;
+    }
+
+    /** Main - Contact Details Get In Touch Underline */
+    body > main > section#Contact > article:nth-child(4) > div:nth-child(2) {
+        width: 135px;
+        height: 7px;
+        background: #2ED573;
+        position: absolute;
+        left: 52.50%;
+        top: 360px;
+        border-radius: 3px;
+    }
+
+    body > main > section#Contact > article:nth-child(4) > div:nth-child(3) {
+        width: 100px;
+        height: 7px;
+        position: absolute;
+        background: #2ED573;
+        left: 52.50%;
+        top: 374px;
+        border-radius: 3px;
+    }
+
+    /** Main - Contact Details Get In Touch Section*/
+    body > main > section#Contact > section:nth-child(5) {
+        width: 550px;
+        height: 270px;
+        position: absolute;
+        top: 425px;
+        right: 325px;
+    }
+
+    body > main > section#Contact > section:nth-child(5) > h2:nth-child(1) {
+        font-size: 28px;
+        font-family: cursive;
+        font-weight: bolder;
+    }
+
+    /** Main - Contact Details Get In Touch Section - Address*/
+    body > main > section#Contact > section:nth-child(5) > div:nth-child(2) {
+        width: 379px;
+        height: 30px;
+        position: absolute;
+        top: 137px;
+        left: 100px;
+    }
+
+    body > main > section#Contact > section:nth-child(5) > div:nth-child(3) i {
+        font-size: 35px;
+    }
+
+    body > main > section#Contact > section:nth-child(5) > div:nth-child(3) h3 {
+        font-family: cursive;
+        font-weight: bolder;
+        position: relative;
+        bottom: 25px;
+        left: 42px;
+        font-size: 20px;
+    }
+
+    /** Main - Contact Details Get In Touch Section - Phone Number*/
+    body > main > section#Contact > section:nth-child(5) > div:nth-child(3) {
+        width: 379px;
+        height: 30px;
+        position: absolute;
+        top: 180px;
+        left: 100px;
+    }
+
+    body > main > section#Contact > section:nth-child(5) > div:nth-child(2) i {
+        font-size: 30px;
+    }
+
+    body > main > section#Contact > section:nth-child(5) > div:nth-child(2) p {
+        font-family: cursive;
+        font-weight: bolder;
+        position: relative;
+        bottom: 25px;
+        left: 42px;
+        font-size: 20px;
+    }
+
+    /** Main - Contact Details Get In Touch Section - E-Mail*/
+    body > main > section#Contact > section:nth-child(5) > div:nth-child(4) {
+        width: 379px;
+        height: 30px;
+        position: absolute;
+        top: 225px;
+        left: 100px;
+    }
+
+    body > main > section#Contact > section:nth-child(5) > div:nth-child(4) i {
+        font-size: 30px;
+        top: 8px;
+        position: absolute;
+    }
+
+    body > main > section#Contact > section:nth-child(5) > div:nth-child(4) h3 {
+        font-family: cursive;
+        font-weight: bolder;
+        position: relative;
+        top: 8px;
+        left: 42px;
+        font-size: 20px;
+    }
+
+    /** Main - Contact Details - Social Media*/
+    body > main > section#Contact > nav:nth-child(6) {
+        width: 506px;
+        height: 100px;
+        position: absolute;
+        top: 735px;
+        right: 300px;
+        z-index: 1;
+    }
+
+    .social-menu ul {
+        position: relative;
+        bottom: 0;
+        left: 289px;
+        right: 0;
+        top: 46px;
+        margin: auto;
+        transform: translate(-50%, -50%);
+        padding: 0;
+        display: flex;
+    }
+
+    .social-menu ul li {
+        list-style: none;
+        margin: 0 10px;
+    }
+
+    .social-menu ul li .fa {
+        color: #000000;
+        font-size: 35px;
+        line-height: 50px;
+        transition: 0.5s;
+    }
+
+    .social-menu > ul > li .fa:hover {
+        color: #F8F7F3;
+    }
+
+    .social-menu ul > li > a > i {
+        font-size: 35px;
+        position: absolute;
+        top: 13px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .social-menu ul > li > a {
+        position: relative;
+        display: block;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: #95A5A6;
+        text-align: center;
+        transition: 0.5s;
+        transform: translate(0, 0px);
+        box-shadow: 0 7px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    .social-menu ul > li > a:hover {
+        transform: rotate(0deg) skew(0deg) translate(0, -10px);
+        border-radius: 100%;
+        color: #F8F7F3;
+    }
+
+    .social-menu > ul > li:nth-child(1) a:hover {
+        background: #3b5998;
+    }
+
+    .social-menu > ul > li:nth-child(2) a:hover {
+        background: #0A66C2;
+    }
+
+    .social-menu > ul > li:nth-child(3) a:hover {
+        background: #1DA1F2;
+    }
+
+    .social-menu > ul > li:nth-child(4) a:hover {
+        background: #333;
+    }
+
+    .social-menu > ul > li:nth-child(5) a:hover {
+        background: #F47F24;
+    }
+
+    /** Main - Contact Details - Background Design */
+    body > main > section#Contact > section:nth-child(7) > img:nth-child(1) {
+        position: absolute;
+        top: 63px;
+        right: 0;
+        left: 409px;
+        bottom: auto;
+        margin: auto;
+    }
+
+    body > main > section#Contact > section:nth-child(7) > div:nth-child(2) {
+        width: 60px;
+        height: 60px;
+        background: #ECCC68;
+        position: absolute;
+        top: 100px;
+        left: 586px;
+        border-radius: 100%;
+        box-shadow: 0 7px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    body > main > section#Contact > section:nth-child(7) > div:nth-child(3) {
+        width: 60px;
+        height: 60px;
+        background: #2ED573;
+        position: absolute;
+        bottom: 197px;
+        right: 223px;
+        border-radius: 100%;
+        box-shadow: 0 7px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    body > main > section#Contact > section:nth-child(7) > div:nth-child(4) {
+        width: 90px;
+        height: 90px;
+        opacity: 70%;
+        border: 8px solid #2ED573;
+        position: absolute;
+        top: 474px;
+        right: 114px;
+        border-radius: 100%;
+        box-shadow: 0 7px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    body > main > section#Contact > section:nth-child(7) > div:nth-child(5) {
+        width: 90px;
+        height: 90px;
+        opacity: 70%;
+        border: 8px solid #FF6348;
+        position: absolute;
+        bottom: 75px;
+        right: 551px;
+        border-radius: 100%;
+        box-shadow: 0 7px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    body > main > section#Contact > section:nth-child(7) > img:nth-child(6) {
+        position: absolute;
+        top: 63px;
+        right: 175px;
+        margin: auto;
+    }
 }
