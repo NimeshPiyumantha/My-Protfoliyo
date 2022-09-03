@@ -4193,3 +4193,13 @@ body > main > section#Iframe  iframe  {
     width: 100%;
     height: 500px;
 }
+
+/** Footer Section*/
+body > footer{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    background: #FFFFFF;
+    top: -26px;
+}
+
