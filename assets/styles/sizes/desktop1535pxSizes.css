@@ -1848,31 +1848,12 @@
         top: 157px;
     }
 
-    /** Main - Contact Style Box */
-    body > main > section#Contact > section:nth-child(2) > div {
-        position: absolute;
-        width: calc(100% / 3.50);
-        height: 100%;
-        background: #FF6348;
-        top: 0;
-        left: 0;
-        border-top-right-radius: 20px;
-        border-bottom-right-radius: 20px;
-        z-index: 1;
-    }
-
     /** Main - Contact Details Box sectioning */
     body > main > section#Contact > section:nth-child(3) {
-        position: absolute;
-        width: 597px;
-        height: 650px;
-        background: #ECF0F3;
-        box-shadow: 0 -1px 8px 2px #1c1717e8;
-        border: 2px solid #000000;
-        border-radius: 20px;
-        top: 320px;
-        left: 308px;
-        z-index: 1;
+        width: 513px;
+        height: 632px;
+        top: 258px;
+        left: 199px;
     }
 
     body > main > section#Contact > section:nth-child(3) > form > input:nth-child(1) {
