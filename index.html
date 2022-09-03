@@ -954,6 +954,20 @@
 
     <section> <!--Contact Box Details sectioning -->
         <h1>Quick Contact</h1>
+
+        <form action="MyCloud" id="QContactForm" method="post">
+
+            <input id="txtQCusName" name="customerName" pattern="^([A-Z a-z]{5,40})$" placeholder="Name" required
+                   type="text">
+
+            <input id="txtQCusEmail" name="cusEmail" placeholder="E- Mail" required type="email">
+        </form>
+        <div>
+            <button form="QContactForm" formaction="saveCustomer" formmethod="post" formtarget="_blank">Send Massage
+                <i class="fas fa-arrow-circle-right"></i>
+                <div></div>
+            </button>
+        </div>
     </section>
 
     <section> <!--Footer Box Details sectioning -->

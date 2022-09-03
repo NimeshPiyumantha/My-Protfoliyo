@@ -4390,7 +4390,15 @@ body > footer > section:nth-child(6) {
     right: 55px;
     width: 382px;
     height: 320px;
-    background: palevioletred;
+    background: white;
+}
+
+body > footer > section:nth-child(6) h1 {
+    font-family: Poppins, serif;
+    color: #FF6348;
+    font-size: 30px;
+    display: flex;
+    position: relative;
 }
 
 /** Footer Section -Footer copyright*/
