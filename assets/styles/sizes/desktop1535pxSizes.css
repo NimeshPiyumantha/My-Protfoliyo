@@ -1857,56 +1857,19 @@
     }
 
     body > main > section#Contact > section:nth-child(3) > form > input:nth-child(1) {
-        width: 445px;
-        height: 55px;
-        font-size: 20px;
-        font-family: Inter, sans-serif;
-        position: absolute;
-        top: 55px;
-        left: 70px;
-        border-radius: 15px;
-        padding-left: 15px;
-        box-shadow: 0 4px 9px 5px #878585e8;
+        width: 360px;
     }
 
     body > main > section#Contact > section:nth-child(3) > form > input:nth-child(2) {
-        width: 445px;
-        height: 55px;
-        font-size: 20px;
-        font-family: Inter, sans-serif;
-        position: absolute;
-        top: 145px;
-        left: 70px;
-        border-radius: 15px;
-        padding-left: 15px;
-        box-shadow: 0 4px 9px 5px #878585e8;
+        width: 360px;
     }
 
     body > main > section#Contact > section:nth-child(3) > form > input:nth-child(3) {
-        width: 445px;
-        height: 55px;
-        font-size: 20px;
-        font-family: Inter, sans-serif;
-        position: absolute;
-        top: 235px;
-        left: 70px;
-        border-radius: 15px;
-        padding-left: 15px;
-        box-shadow: 0 4px 9px 5px #878585e8;
+        width: 360px;
     }
 
     body > main > section#Contact > section:nth-child(3) > form > textarea:nth-child(4) {
-        width: 445px;
-        height: 152px;
-        font-size: 20px;
-        font-family: Inter, sans-serif;
-        position: absolute;
-        top: 331px;
-        left: 70px;
-        border-radius: 15px;
-        padding-left: 15px;
-        padding-top: 15px;
-        box-shadow: 0 4px 9px 5px #878585e8;
+        width: 360px;
     }
 
     /** Main - Contact Details Button */
