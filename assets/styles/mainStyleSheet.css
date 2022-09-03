@@ -4167,3 +4167,15 @@ body > main > section#Contact > section:nth-child(7) > div:nth-child(4) {
     border-radius: 100%;
     box-shadow: 0 7px 5px rgba(0, 0, 0, 0.5);
 }
+
+body > main > section#Contact > section:nth-child(7) > div:nth-child(5) {
+    width: 90px;
+    height: 90px;
+    opacity: 70%;
+    border: 8px solid #FF6348;
+    position: absolute;
+    bottom: 75px;
+    right: 551px;
+    border-radius: 100%;
+    box-shadow: 0 7px 5px rgba(0, 0, 0, 0.5);
+}
