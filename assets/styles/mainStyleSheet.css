@@ -4124,3 +4124,12 @@ body > main > section#Contact > nav:nth-child(6) {
     background: #F47F24;
 }
 
+/** Main - Contact Details - Background Design */
+body > main > section#Contact > section:nth-child(7) > img:nth-child(1) {
+    position: absolute;
+    top: 63px;
+    right: 0;
+    left: 409px;
+    bottom: auto;
+    margin: auto;
+}
