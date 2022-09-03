@@ -1894,33 +1894,20 @@
 
     /** Main - Contact Details Get In Touch */
     body > main > section#Contact > article:nth-child(4) > h2:nth-child(1) {
-        font-size: 30px;
-        font-family: Poppins, sans-serif;
-        color: #FF6348;
-        position: absolute;
-        top: 320px;
-        right: 725px;
+        font-size: 28px;
+        top: 279px;
+        right: 587px;
     }
 
     /** Main - Contact Details Get In Touch Underline */
     body > main > section#Contact > article:nth-child(4) > div:nth-child(2) {
-        width: 135px;
-        height: 7px;
-        background: #2ED573;
-        position: absolute;
-        left: 52.50%;
-        top: 360px;
-        border-radius: 3px;
+        left: 50.50%;
+        top: 320px;
     }
 
     body > main > section#Contact > article:nth-child(4) > div:nth-child(3) {
-        width: 100px;
-        height: 7px;
-        position: absolute;
-        background: #2ED573;
-        left: 52.50%;
-        top: 374px;
-        border-radius: 3px;
+        left: 50.50%;
+        top: 334px;
     }
 
     /** Main - Contact Details Get In Touch Section*/
