@@ -3960,7 +3960,7 @@ body > main > section#Contact > section:nth-child(5) {
     height: 270px;
     position: absolute;
     top: 425px;
-    right: 325px;
+    right: 265px;
 }
 
 body > main > section#Contact > section:nth-child(5) > h2:nth-child(1) {
@@ -4042,7 +4042,7 @@ body > main > section#Contact > nav:nth-child(6) {
     height: 100px;
     position: absolute;
     top: 735px;
-    right: 300px;
+    right: 270px;
     z-index: 1;
 }
 
@@ -4216,6 +4216,7 @@ body > footer>article:nth-child(1) h1{
     color: #FF6348;
     font-size: 30px;
     font-family: Poppins, serif;
+    font-weight: bolder;
 }
 
 body > footer>article:nth-child(1) h1 span{
@@ -4227,15 +4228,42 @@ body > footer>article:nth-child(1) p{
     font-size: 21px;
     font-weight: bolder;
     font-family: Poppins, serif;
+    display: flex;
 }
 
+/** Footer Section - Links*/
 body > footer>section:nth-child(2){
     position: absolute;
     top: 40px;
     left: 650px;
     width: 237px;
     height: 472px;
-    background: palevioletred;
+    background: white;
+}
+
+body > footer>section:nth-child(2) h1{
+    font-family: Poppins, serif;
+    color: #FF6348;
+    font-size: 30px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-around;
+}
+
+body > footer>section:nth-child(2) nav ul li a {
+    font-family: Poppins, serif;
+    color: #2C3E50;
+    font-size: 23px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+body > footer>section:nth-child(2) nav ul li a:hover {
+    color: #2ED573;
+    text-decoration: #FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
 }
 
 body > footer>section:nth-child(3){
