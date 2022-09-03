@@ -4390,7 +4390,6 @@ body > footer > section:nth-child(6) {
     right: 55px;
     width: 382px;
     height: 320px;
-    background: white;
 }
 
 body > footer > section:nth-child(6) h1 {
@@ -4426,6 +4425,91 @@ body > footer > section:nth-child(6) > form >input:nth-child(2) {
     padding-left: 15px;
     box-shadow: 0 4px 9px 5px #878585e8;
 }
+
+/** Main - Contact Details Button */
+body > footer > section:nth-child(6) > div:nth-child(3) {
+    position: absolute;
+    top: 246px;
+    left: 27px;
+}
+
+body > footer > section:nth-child(6) > div:nth-child(3) > button {
+    background-color: #2ED573;
+    border-radius: 100px;
+    box-shadow: 0 -1px 8px 2px #1c1717e8;
+    border: none;
+    color: #ECF0F3;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 15px 0 15px;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: Poppins, sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+body > footer > section:nth-child(6) > div:nth-child(3) > button > div {
+    height: 40px;
+    width: 40px;
+    float: right;
+    margin-left: 9px;
+    background: #F9FAFB;
+    border-radius: 50px;
+    cursor: pointer;
+    position: relative;
+    bottom: 5px;
+    left: 5px;
+    box-shadow: inset -13px -13px 16px #FFFFFF, inset 13px 13px 16px rgba(13, 39, 80, 0.16);
+}
+
+body > footer > section:nth-child(6) > div:nth-child(3) > button i {
+    color: #2ED573;
+    position: absolute;
+    left: 200px;
+    top: 14px;
+    z-index: 1;
+}
+
+
+body > footer > section:nth-child(6) > div:nth-child(3) > button {
+    background-color: #2ED573;
+    border-radius: 100px;
+    box-shadow: 0 -1px 8px 2px #1c1717e8;
+    border: none;
+    color: #ECF0F3;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 15px 0 15px;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: Poppins, sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+body > footer > section:nth-child(6) > div:nth-child(3) > button > div {
+    height: 40px;
+    width: 40px;
+    float: right;
+    margin-left: 9px;
+    background: #F9FAFB;
+    border-radius: 50px;
+    cursor: pointer;
+    position: relative;
+    bottom: 5px;
+    left: 5px;
+    box-shadow: inset -13px -13px 16px #FFFFFF, inset 13px 13px 16px rgba(13, 39, 80, 0.16);
+}
+
+body > footer > section:nth-child(6) > div:nth-child(3) > button i {
+    color: #2ED573;
+    position: absolute;
+    left: 200px;
+    top: 14px;
+    z-index: 1;
+}
+
 
 /** Footer Section -Footer copyright*/
 body > footer > section:nth-child(7) {
