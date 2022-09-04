@@ -2034,13 +2034,6 @@
     }
 
     /**-------------------------------------------- Footer Section  --------------------------------------------**/
-    body > footer {
-        height: 500px;
-    }
-
-    body > footer > section:nth-child(1) {
-        height: 500px;
-    }
 
     /** Footer Section - About*/
     body > footer > article:nth-child(2) {
@@ -2062,7 +2055,7 @@
     /** Footer Section - Social Media*/
     body > footer > section:nth-child(4) {
         position: absolute;
-        bottom: 62px;
+        bottom: 97px;
         left: 94px;
         width: 400px;
         height: 80px;
