@@ -2032,4 +2032,324 @@
         margin: auto;
         width: 128px;
     }
+
+    /**-------------------------------------------- Footer Section  --------------------------------------------**/
+    body > footer {
+        height: 500px;
+    }
+
+    body > footer > section:nth-child(1) {
+        height: 500px;
+    }
+
+    /** Footer Section - About*/
+    body > footer > article:nth-child(2) {
+        left: 41px;
+        width: 395px;
+        height: 240px;
+        background: #F47F24;
+    }
+
+    body > footer > article:nth-child(2) h1 {
+        font-size: 26px;
+    }
+
+    body > footer > article:nth-child(2) p {
+        font-size: 17px;
+    }
+
+    /** Footer Section - Links*/
+    body > footer > section:nth-child(3) {
+        position: absolute;
+        top: 40px;
+        left: 650px;
+        width: 237px;
+        height: 472px;
+        z-index: 1;
+    }
+
+    body > footer > section:nth-child(3) h1 {
+        font-family: Poppins, serif;
+        color: #FF6348;
+        font-size: 30px;
+        font-weight: bolder;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    body > footer > section:nth-child(3) nav ul li a {
+        font-family: Poppins, serif;
+        color: #2C3E50;
+        font-size: 23px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    body > footer > section:nth-child(3) nav ul li a:hover {
+        color: #2ED573;
+        text-decoration: white;
+        text-transform: uppercase;
+        letter-spacing: .1rem;
+    }
+
+    /** Footer Section - Social Media*/
+    body > footer > section:nth-child(4) {
+        position: absolute;
+        bottom: 100px;
+        left: 190px;
+        width: 400px;
+        height: 80px;
+        z-index: 1;
+    }
+
+    body > footer > section:nth-child(4) nav > div.social-menu ul {
+        left: 170px;
+        top: -6px;
+    }
+
+    body > footer > section:nth-child(4) nav > div.social-menu ul li a {
+        width: 50px;
+        height: 50px;
+        position: relative;
+    }
+
+    body > footer > section:nth-child(4) nav > div.social-menu ul > li > a > i {
+        font-size: 30px;
+    }
+
+    /** Footer Section - Get on Touch*/
+    body > footer > section:nth-child(5) {
+        position: absolute;
+        top: 40px;
+        right: 500px;
+        width: 446px;
+        height: 320px;
+        z-index: 1;
+    }
+
+    body > footer > section:nth-child(5) h2 {
+        font-family: Poppins, serif;
+        color: #FF6348;
+        font-size: 30px;
+        display: flex;
+        top: 20px;
+        position: relative;
+    }
+
+    /** Main - Contact Details Get In Touch Section - Address*/
+    body > footer > section:nth-child(5) > div:nth-child(2) {
+        width: 446px;
+        height: 30px;
+        position: absolute;
+        top: 104px;
+    }
+
+    body > footer > section:nth-child(5) > div:nth-child(2) i {
+        font-size: 30px;
+    }
+
+    body > footer > section:nth-child(5) > div:nth-child(2) p {
+        font-family: cursive;
+        font-weight: bolder;
+        position: relative;
+        bottom: 30px;
+        left: 42px;
+        font-size: 20px;
+    }
+
+    /** Main - Contact Details Get In Touch Section - Phone Number*/
+    body > footer > section:nth-child(5) > div:nth-child(3) {
+        width: 446px;
+        height: 30px;
+        position: absolute;
+        top: 153px;
+    }
+
+    body > footer > section:nth-child(5) > div:nth-child(3) i {
+        font-size: 30px;
+    }
+
+    body > footer > section:nth-child(5) > div:nth-child(3) h3 {
+        font-family: cursive;
+        font-weight: bolder;
+        position: relative;
+        bottom: 30px;
+        left: 42px;
+        font-size: 20px;
+    }
+
+    /** Main - Contact Details Get In Touch Section - E-Mail*/
+    body > footer > section:nth-child(5) > div:nth-child(4) {
+        width: 446px;
+        height: 30px;
+        position: absolute;
+        top: 203px;
+    }
+
+    body > footer > section:nth-child(5) > div:nth-child(4) i {
+        font-size: 30px;
+        position: absolute;
+    }
+
+    body > footer > section:nth-child(5) > div:nth-child(4) h3 {
+        font-family: cursive;
+        font-weight: bolder;
+        position: relative;
+        left: 42px;
+        font-size: 20px;
+        padding-left: 5px
+    }
+
+    /** Footer Section -Quick Contact*/
+    body > footer > section:nth-child(6) {
+        position: absolute;
+        top: 40px;
+        right: 55px;
+        width: 382px;
+        height: 320px;
+    }
+
+    body > footer > section:nth-child(6) h1 {
+        font-family: Poppins, serif;
+        color: #FF6348;
+        font-size: 30px;
+        display: flex;
+        position: relative;
+    }
+
+    body > footer > section:nth-child(6) > form >input:nth-child(1) {
+        width: 320px;
+        height: 46px;
+        font-size: 20px;
+        font-family: Inter, sans-serif;
+        position: absolute;
+        top: 99px;
+        left: 22px;
+        border-radius: 15px;
+        padding-left: 15px;
+        box-shadow: 0 4px 9px 5px #878585e8;
+    }
+
+    body > footer > section:nth-child(6) > form >input:nth-child(2) {
+        width: 320px;
+        height: 46px;
+        font-size: 20px;
+        font-family: Inter, sans-serif;
+        position: absolute;
+        top: 166px;
+        left: 22px;
+        border-radius: 15px;
+        padding-left: 15px;
+        box-shadow: 0 4px 9px 5px #878585e8;
+    }
+
+    /** Main - Contact Details Button */
+    body > footer > section:nth-child(6) > div:nth-child(3) {
+        position: absolute;
+        top: 246px;
+        left: 27px;
+    }
+
+    body > footer > section:nth-child(6) > div:nth-child(3) > button {
+        background-color: #2ED573;
+        border-radius: 100px;
+        box-shadow: 0 -1px 8px 2px #1c1717e8;
+        border: none;
+        color: #ECF0F3;
+        text-align: center;
+        display: inline-block;
+        padding: 10px 15px 0 15px;
+        text-decoration: none;
+        font-size: 22px;
+        font-family: Poppins, sans-serif;
+        font-weight: bolder;
+        cursor: pointer;
+    }
+
+    body > footer > section:nth-child(6) > div:nth-child(3) > button > div {
+        height: 40px;
+        width: 40px;
+        float: right;
+        margin-left: 9px;
+        background: #F9FAFB;
+        border-radius: 50px;
+        cursor: pointer;
+        position: relative;
+        bottom: 5px;
+        left: 5px;
+        box-shadow: inset -13px -13px 16px #FFFFFF, inset 13px 13px 16px rgba(13, 39, 80, 0.16);
+    }
+
+    body > footer > section:nth-child(6) > div:nth-child(3) > button i {
+        color: #2ED573;
+        position: absolute;
+        left: 200px;
+        top: 14px;
+        z-index: 1;
+    }
+
+
+    body > footer > section:nth-child(6) > div:nth-child(3) > button {
+        background-color: #2ED573;
+        border-radius: 100px;
+        box-shadow: 0 -1px 8px 2px #1c1717e8;
+        border: none;
+        color: #ECF0F3;
+        text-align: center;
+        display: inline-block;
+        padding: 10px 15px 0 15px;
+        text-decoration: none;
+        font-size: 22px;
+        font-family: Poppins, sans-serif;
+        font-weight: bolder;
+        cursor: pointer;
+    }
+
+    body > footer > section:nth-child(6) > div:nth-child(3) > button > div {
+        height: 40px;
+        width: 40px;
+        float: right;
+        margin-left: 9px;
+        background: #F9FAFB;
+        border-radius: 50px;
+        cursor: pointer;
+        position: relative;
+        bottom: 5px;
+        left: 5px;
+        box-shadow: inset -13px -13px 16px #FFFFFF, inset 13px 13px 16px rgba(13, 39, 80, 0.16);
+    }
+
+    body > footer > section:nth-child(6) > div:nth-child(3) > button i {
+        color: #2ED573;
+        position: absolute;
+        left: 200px;
+        top: 14px;
+        z-index: 1;
+    }
+
+
+    /** Footer Section -Footer copyright*/
+    body > footer > section:nth-child(7) {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        width: 100%;
+        height: 70px;
+    }
+
+    body > footer > section:nth-child(7) small {
+        font-family: cursive;
+        font-weight: bolder;
+        font-size: 22px;
+        color: #2C3E50;
+        display: flex;
+        align-content: space-around;
+        flex-wrap: wrap;
+        flex-direction: column;
+        position: relative;
+        top: 28px;
+    }
+
 }
