@@ -2289,237 +2289,112 @@ body > main > section#Project > article > div:nth-child(4) {
     border-radius: 3px;
 }
 
-/** Main - Project Section */
+/** Main - Project Section CSS Projects */
 body > main > section#Project > section#ProjectSection {
-    width: 1600px;
+    width: 1400px;
     height: 500px;
-    position: relative;
-    top: 100px;
+    display: flex;
+    position: absolute;
+    top: 150px;
     bottom: 0;
     left: 0;
     right: 0;
     margin: auto;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+body > main > section#Project > section#ProjectSection >div{
+    width: calc(1500px / 4);
+    height: 450px;
+    border-radius: 20px;
+    background: #ECF0F3;
+    box-shadow: 0 -1px 8px 2px #1c1717e8;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/**  Projects Button */
+.Projects {
+    background-color: #2ED573;
+    border-radius: 20px;
+    box-shadow: 0 -1px 8px 2px #1c1717e8;
+    border: none;
+    color: #ECF0F3;
+    padding: 15px 15px 15px 15px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 33px;
+    font-family: Poppins, sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
 }
 
 /** Main - Project Section Java Projects */
-body > main > section#Project > section#ProjectSection > div:nth-child(1) {
-    width: calc(1400px / 3);
-    height: 500px;
-    left: 0;
-    position: absolute;
-    border-radius: 20px;
-    background: #ECF0F3;
-    box-shadow: 0 -1px 8px 2px #1c1717e8;
-    z-index: 1;
-}
-
-/** Main - Project Section Java Projects Image*/
-body > main > section#Project > section#ProjectSection > div:nth-child(1) > img {
-    height: 250px;
-    width: 350px;
+body > main > section#Project > section#ProjectSection >div:nth-child(1) > img{
+    height: 220px;
+    width: 320px;
     border-radius: 20px;
     box-shadow: 0 -1px 8px 2px #1c1717e8;
-    top: 0;
-    bottom: 130px;
-    left: 0;
-    right: 0;
-    margin: auto;
-    position: absolute;
-}
-
-/**  Java Projects Button */
-.btn-java_Project {
-    background-color: #2ED573;
-    border-radius: 100px;
-    box-shadow: 0 -1px 8px 2px #1c1717e8;
-    border: none;
-    color: #ECF0F3;
-    padding: 20px 18px 10px 20px;
-    text-align: left;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 33px;
-    font-family: Poppins, sans-serif;
-    font-weight: bolder;
-    cursor: pointer;
+    position: relative;
+    top: 45px;
 }
 
 .Java_Projects {
-    position: absolute;
-    top: 370px;
+    position: relative;
+    top: 22px;
     bottom: 0;
-    left: 70px;
+    left: 0;
     right: 0;
     margin: auto;
-}
-
-.Java_button-Circle {
-    height: 52px;
-    width: 52px;
-    float: right;
-    margin-left: 19px;
-    background: #F9FAFB;
-    border-radius: 50px;
-    cursor: pointer;
-    position: relative;
-    bottom: 5px;
-    box-shadow: inset -13px -13px 16px #FFFFFF, inset 13px 13px 16px rgba(13, 39, 80, 0.16);
-}
-
-#Java_arrow {
-    color: #2ED573;
-    position: absolute;
-    left: 268px;
-    top: 25px;
-    z-index: 1;
+    display: inline-block;
 }
 
 /** Main - Project Section HTML Projects */
-body > main > section#Project > section#ProjectSection > div:nth-child(2) {
-    width: calc(1400px / 3);
-    height: 500px;
-    left: 570px;
-    top: 0;
-    position: absolute;
+body > main > section#Project > section#ProjectSection >div:nth-child(2) > img{
+    height: 220px;
+    width: 320px;
     border-radius: 20px;
     box-shadow: 0 -1px 8px 2px #1c1717e8;
-    background: #ECF0F3;
-    z-index: 1;
+    position: relative;
+    top: 45px;
 }
 
-/** Main - Project Section HTML Projects Image*/
-body > main > section#Project > section#ProjectSection > div:nth-child(2) > img {
-    height: 250px;
-    width: 350px;
-    border-radius: 20px;
-    box-shadow: 0 -1px 8px 2px #1c1717e8;
-    top: 0;
-    bottom: 130px;
-    left: 0;
-    right: 0;
-    margin: auto;
-    position: absolute;
-}
-
-/**  HTML Projects Button */
-.btn-HTML_Project {
-    background-color: #2ED573;
-    border-radius: 100px;
-    box-shadow: 0 -1px 8px 2px #1c1717e8;
-    border: none;
-    color: #ECF0F3;
-    padding: 20px 18px 10px 20px;
-    text-align: left;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 33px;
-    font-family: Poppins, sans-serif;
-    font-weight: bolder;
-    cursor: pointer;
-}
+/**  Java Projects Button */
 
 .HTML_Projects {
-    position: absolute;
-    top: 370px;
-    bottom: 0;
-    left: 70px;
-    right: 0;
-    margin: auto;
-}
-
-.HTML_button-Circle {
-    height: 52px;
-    width: 52px;
-    float: right;
-    margin-left: 19px;
-    background: #F9FAFB;
-    border-radius: 50px;
-    cursor: pointer;
     position: relative;
-    bottom: 5px;
-    box-shadow: inset -13px -13px 16px #FFFFFF, inset 13px 13px 16px rgba(13, 39, 80, 0.16);
-}
-
-#HTML_arrow {
-    color: #2ED573;
-    position: absolute;
-    left: 273px;
-    top: 25px;
-    z-index: 1;
-}
-
-/** Main - Project Section CSS Projects */
-body > main > section#Project > section#ProjectSection > div:nth-child(3) {
-    width: calc(1400px / 3);
-    height: 500px;
-    right: 0;
-    top: 0;
-    position: absolute;
-    border-radius: 20px;
-    box-shadow: 0 -1px 8px 2px #1c1717e8;
-    background: #ECF0F3;
-    z-index: 1;
-}
-
-/** Main - Project Section CSS Projects Image*/
-body > main > section#Project > section#ProjectSection > div:nth-child(3) > img {
-    height: 250px;
-    width: 350px;
-    border-radius: 20px;
-    box-shadow: 0 -1px 8px 2px #1c1717e8;
-    top: 0;
-    bottom: 130px;
+    top: 22px;
+    bottom: 0;
     left: 0;
     right: 0;
     margin: auto;
-    position: absolute;
-}
-
-/**  HTML Projects Button */
-.btn-CSS_Project {
-    background-color: #2ED573;
-    border-radius: 100px;
-    box-shadow: 0 -1px 8px 2px #1c1717e8;
-    border: none;
-    color: #ECF0F3;
-    padding: 20px 18px 10px 20px;
-    text-align: left;
-    text-decoration: none;
     display: inline-block;
-    font-size: 33px;
-    font-family: Poppins, sans-serif;
-    font-weight: bolder;
-    cursor: pointer;
 }
 
-.CSS_Projects {
-    position: absolute;
-    top: 370px;
+/** Main - Project Section Python Projects */
+body > main > section#Project > section#ProjectSection >div:nth-child(3) > img{
+    height: 220px;
+    width: 320px;
+    border-radius: 20px;
+    box-shadow: 0 -1px 8px 2px #1c1717e8;
+    position: relative;
+    top: 45px;
+}
+
+/**  Python Projects Button */
+.python_Projects {
+    position: relative;
+    top: 22px;
     bottom: 0;
-    left: 70px;
+    left: 0;
     right: 0;
     margin: auto;
-}
-
-.CSS_button-Circle {
-    height: 52px;
-    width: 52px;
-    float: right;
-    margin-left: 19px;
-    background: #F9FAFB;
-    border-radius: 50px;
-    cursor: pointer;
-    position: relative;
-    bottom: 5px;
-    box-shadow: inset -13px -13px 16px #FFFFFF, inset 13px 13px 16px rgba(13, 39, 80, 0.16);
-}
-
-#CSS_arrow {
-    color: #2ED573;
-    position: absolute;
-    left: 253px;
-    top: 25px;
-    z-index: 1;
+    display: inline-block;
 }
 
 /** Main - Project Section Background Designs*/
@@ -2557,37 +2432,37 @@ body > main > section#Project > section#DesignProjects > section > div:nth-child
 /** Vector 2 */
 body > main > section#Project > section#DesignProjects img:nth-child(3) {
     top: 601px;
-    left: 605px;
+    left: 683px;
     position: absolute;
-    width: 145px;
+    width: 100px;
 }
 
 /** Vector 3 */
 body > main > section#Project > section#DesignProjects img:nth-child(4) {
     top: 490px;
-    left: 1168px;
+    left: 1128px;
     position: absolute;
-    width: 145px;
+    width: 100px;
 }
 
 /** Vector 4 */
 body > main > section#Project > section#DesignProjects img:nth-child(5) {
     top: 830px;
-    left: 235px;
+    left: 402px;
     position: absolute;
 }
 
 /** Vector 5 */
 body > main > section#Project > section#DesignProjects img:nth-child(6) {
     top: 890px;
-    left: 715px;
+    left: 761px;
     position: absolute;
 }
 
 /** Vector 6 */
 body > main > section#Project > section#DesignProjects img:nth-child(7) {
     top: 890px;
-    left: 1460px;
+    left: 1311px;
     position: absolute;
 }
 

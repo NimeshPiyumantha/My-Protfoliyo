@@ -1063,124 +1063,6 @@
         position: relative;
     }
 
-    /** Main - Project Section */
-    body > main > section#Project > section#ProjectSection {
-        width: 1270px;
-        height: 450px;
-    }
-
-    /** Main - Project Section Java Projects */
-    body > main > section#Project > section#ProjectSection > div:nth-child(1) {
-        width: calc(1100px / 3);
-        height: 400px;
-    }
-
-    /** Main - Project Section Java Projects Image*/
-    body > main > section#Project > section#ProjectSection > div:nth-child(1) > img {
-        height: 200px;
-        width: 300px;
-        bottom: 100px;
-    }
-
-    /**  Java Projects Button */
-    .btn-java_Project {
-        padding: 15px 0 0 20px;
-        height: 55px;
-        font-size: 25px;
-    }
-
-    .Java_Projects {
-        top: 300px;
-        left: 60px;
-    }
-
-    .Java_button-Circle {
-        height: 40px;
-        width: 40px;
-        right: 10px;
-        bottom: 8px;
-    }
-
-    #Java_arrow {
-        left: 203px;
-        top: 15px;
-    }
-
-    /** Main - Project Section HTML Projects */
-    body > main > section#Project > section#ProjectSection > div:nth-child(2) {
-        width: calc(1100px / 3);
-        height: 400px;
-        left: 455px;
-    }
-
-    /** Main - Project Section HTML Projects Image*/
-    body > main > section#Project > section#ProjectSection > div:nth-child(2) > img {
-        height: 200px;
-        width: 300px;
-        bottom: 100px;
-    }
-
-    /**  HTML Projects Button */
-    .btn-HTML_Project {
-        padding: 15px 0 0 20px;
-        height: 55px;
-        font-size: 25px;
-    }
-
-    .HTML_Projects {
-        top: 300px;
-        left: 60px;
-    }
-
-    .HTML_button-Circle {
-        height: 40px;
-        width: 40px;
-        right: 10px;
-        bottom: 8px;
-    }
-
-    #HTML_arrow {
-        left: 205px;
-        top: 15px;
-    }
-
-    /** Main - Project Section CSS Projects */
-    body > main > section#Project > section#ProjectSection > div:nth-child(3) {
-        width: calc(1100px / 3);
-        height: 400px;
-    }
-
-    /** Main - Project Section CSS Projects Image*/
-    body > main > section#Project > section#ProjectSection > div:nth-child(3) > img {
-        height: 200px;
-        width: 300px;
-        bottom: 100px;
-    }
-
-    /**  HTML Projects Button */
-    .btn-CSS_Project {
-        padding: 15px 0 0 20px;
-        height: 55px;
-        font-size: 25px;
-    }
-
-    .CSS_Projects {
-        top: 300px;
-        left: 60px;
-    }
-
-    .CSS_button-Circle {
-        height: 40px;
-        width: 40px;
-        right: 10px;
-        bottom: 8px;
-    }
-
-    #CSS_arrow {
-        left: 191px;
-        top: 14px;
-    }
-
     /** Main - Project Section Background Designs*/
     /** Vector 1 */
     body > main > section#Project > section#DesignProjects img:nth-child(1) {
@@ -1220,7 +1102,7 @@
 
     /** Vector 4 */
     body > main > section#Project > section#DesignProjects img:nth-child(5) {
-        top: 695px;
+        top: 735px;
         left: 200px;
     }
 
