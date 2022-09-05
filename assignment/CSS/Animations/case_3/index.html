@@ -3,8 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <title>Case 3</title>
+    <link href="/assets/styles/normalize.css" rel="stylesheet">
 </head>
-<body>
+<style>
+    main {
+        width: 900px;
+        height: 480px;
+        box-shadow: 1px 3px 5px 1px #736060;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        overflow: hidden; /*if the content overflow from the container we can hide it or we can give them a scroll bar to handle it*/
+    }
 
+    main > section {
+        height: 100%;
+        width: 400%;
+        display: flex;
+        animation-name: slider-animation;
+        animation-duration: 10s;
+        animation-delay: 1s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-direction: alternate;
+    }
+
+    main > section > div {
+        height: 100%;
+        width: 100%;
+    }
+
+    main > section > div:nth-child(1) {
+        background: url("assets/img/01.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+
+    main > section > div:nth-child(2) {
+        background: url("assets/img/02.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+
+    main > section > div:nth-child(3) {
+        background: url("assets/img/03.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+
+    main > section > div:nth-child(4) {
+        background: url("assets/img/04.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+
+    main > section > div:nth-child(5) {
+        background: url("assets/img/05.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+
+    @keyframes slider-animation {
+        0% {
+            transform: translateX(0);
+        }
+        25% {
+            transform: translateX(-25%);
+        }
+        50% {
+            transform: translateX(-50%);
+        }
+        100% {
+            transform: translateX(-75%);
+        }
+    }
+
+</style>
+
+
+<body>
+<main>
+    <section>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </section>
+</main>
 </body>
 </html>
