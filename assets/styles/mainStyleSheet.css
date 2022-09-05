@@ -1519,14 +1519,30 @@ body > main > section#Skills > div:nth-child(3) i {
 }
 
 /** Main - Skills - Language */
-body > main > section#Skills > section#Language {
+
+body > main > section#Skills > section:nth-child(4) {
+    width: 1377px;
+    height: 825px;
     position: absolute;
-    left: 265px;
-    top: 300px;
+    top: 250px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
     z-index: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
-body > main > section#Skills > section#Language > div:first-child {
+body > main > section#Skills > section:nth-child(4) > section#Language {
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    display: flex;
+}
+
+body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child {
     background: #FFFFFF;
     width: 520px;
     height: 820px;
@@ -1536,7 +1552,7 @@ body > main > section#Skills > section#Language > div:first-child {
 }
 
 /** Main - Skills - Language Header*/
-body > main > section#Skills > section#Language > div:first-child > div:nth-child(1) {
+body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(1) {
     background: #FF6348;
     position: absolute;
     width: 350px;
@@ -1549,7 +1565,7 @@ body > main > section#Skills > section#Language > div:first-child > div:nth-chil
     box-shadow: 0 -1px 8px 2px #1c1717e8;
 }
 
-body > main > section#Skills > section#Language > div:first-child > div:nth-child(1) h1 {
+body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(1) h1 {
     font-size: 35px;
     font-family: Poppins, serif;
     font-weight: bolder;
@@ -1559,7 +1575,7 @@ body > main > section#Skills > section#Language > div:first-child > div:nth-chil
 }
 
 /** Main - Skills - Language First Row */
-body > main > section#Skills > section#Language > div:first-child > div:nth-child(2) {
+body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(2) {
     background: #FFFFFF;
     position: relative;
     width: 400px;
@@ -1571,7 +1587,7 @@ body > main > section#Skills > section#Language > div:first-child > div:nth-chil
     margin: auto;
 }
 
-body > main > section#Skills > section#Language > div:first-child > div:nth-child(2) > div:nth-child(1) {
+body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(2) > div:nth-child(1) {
     background-image: url("img/vector/svg/java.svg");
     background-size: cover;
     position: absolute;
@@ -1581,7 +1597,7 @@ body > main > section#Skills > section#Language > div:first-child > div:nth-chil
     box-shadow: 0 -1px 8px 2px #1c1717e8;
 }
 
-body > main > section#Skills > section#Language > div:first-child > div:nth-child(2) > div:nth-child(2) {
+body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(2) > div:nth-child(2) {
     background-image: url("img/vector/svg/html.svg");
     position: absolute;
     background-size: cover;
@@ -1592,7 +1608,7 @@ body > main > section#Skills > section#Language > div:first-child > div:nth-chil
     box-shadow: 0 -1px 8px 2px #1c1717e8;
 }
 
-body > main > section#Skills > section#Language > div:first-child > div:nth-child(2) > div:nth-child(3) {
+body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(2) > div:nth-child(3) {
     background-image: url("img/vector/svg/css.svg");
     background-size: cover;
     position: absolute;
@@ -1604,7 +1620,7 @@ body > main > section#Skills > section#Language > div:first-child > div:nth-chil
 }
 
 /** Main - Skills - Language Second Row */
-body > main > section#Skills > section#Language > div:first-child > div:nth-child(3) {
+body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(3) {
     background: #FFFFFF;
     position: relative;
     width: 400px;
@@ -1616,7 +1632,7 @@ body > main > section#Skills > section#Language > div:first-child > div:nth-chil
     margin: auto;
 }
 
-body > main > section#Skills > section#Language > div:first-child > div:nth-child(3) > div:nth-child(1) {
+body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(3) > div:nth-child(1) {
     background-image: url("img/vector/svg/javascript.svg");
     background-size: cover;
     position: absolute;
@@ -1627,7 +1643,7 @@ body > main > section#Skills > section#Language > div:first-child > div:nth-chil
     box-shadow: 0 -1px 8px 2px #1c1717e8;
 }
 
-body > main > section#Skills > section#Language > div:first-child > div:nth-child(3) > div:nth-child(2) {
+body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(3) > div:nth-child(2) {
     background-image: url("img/vector/svg/pythone.svg");
     background-size: cover;
     position: absolute;
@@ -1638,7 +1654,7 @@ body > main > section#Skills > section#Language > div:first-child > div:nth-chil
     box-shadow: 0 -1px 8px 2px #1c1717e8;
 }
 
-body > main > section#Skills > section#Language > div:first-child > div:nth-child(3) > div:nth-child(3) {
+body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(3) > div:nth-child(3) {
     background-image: url("img/vector/svg/nodejs.png");
     background-size: cover;
     position: absolute;
@@ -1650,7 +1666,7 @@ body > main > section#Skills > section#Language > div:first-child > div:nth-chil
 }
 
 /** Main - Skills - Language Third Row */
-body > main > section#Skills > section#Language > div:first-child > div:nth-child(4) {
+body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(4) {
     background: #FFFFFF;
     position: relative;
     width: 400px;
@@ -1662,7 +1678,7 @@ body > main > section#Skills > section#Language > div:first-child > div:nth-chil
     margin: auto;
 }
 
-body > main > section#Skills > section#Language > div:first-child > div:nth-child(4) > div:nth-child(1) {
+body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(4) > div:nth-child(1) {
     background-image: url("img/vector/svg/kotlin.svg");
     background-size: cover;
     position: absolute;
@@ -1673,7 +1689,7 @@ body > main > section#Skills > section#Language > div:first-child > div:nth-chil
     box-shadow: 0 -1px 8px 2px #1c1717e8;
 }
 
-body > main > section#Skills > section#Language > div:first-child > div:nth-child(4) > div:nth-child(2) {
+body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(4) > div:nth-child(2) {
     background-image: url("img/vector/svg/react.svg");
     background-size: cover;
     position: absolute;
@@ -1684,7 +1700,7 @@ body > main > section#Skills > section#Language > div:first-child > div:nth-chil
     box-shadow: 0 -1px 8px 2px #1c1717e8;
 }
 
-body > main > section#Skills > section#Language > div:first-child > div:nth-child(4) > div:nth-child(3) {
+body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(4) > div:nth-child(3) {
     background-image: url("img/vector/svg/angular.svg");
     background-size: cover;
     position: absolute;
@@ -1696,7 +1712,7 @@ body > main > section#Skills > section#Language > div:first-child > div:nth-chil
 }
 
 /** Main - Skills - Language Fourth Row */
-body > main > section#Skills > section#Language > div:first-child > div:nth-child(5) {
+body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(5) {
     background: #FFFFFF;
     position: relative;
     width: 400px;
@@ -1708,7 +1724,7 @@ body > main > section#Skills > section#Language > div:first-child > div:nth-chil
     margin: auto;
 }
 
-body > main > section#Skills > section#Language > div:first-child > div:nth-child(5) > div:nth-child(1) {
+body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(5) > div:nth-child(1) {
     background-image: url("img/vector/svg/hibernate.png");
     background-size: cover;
     position: absolute;
@@ -1719,7 +1735,7 @@ body > main > section#Skills > section#Language > div:first-child > div:nth-chil
     box-shadow: 0 -1px 8px 2px #1c1717e8;
 }
 
-body > main > section#Skills > section#Language > div:first-child > div:nth-child(5) > div:nth-child(2) {
+body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(5) > div:nth-child(2) {
     background-image: url("img/vector/svg/php.png");
     background-size: cover;
     align-content: center;
@@ -1731,7 +1747,7 @@ body > main > section#Skills > section#Language > div:first-child > div:nth-chil
     box-shadow: 0 -1px 8px 2px #1c1717e8;
 }
 
-body > main > section#Skills > section#Language > div:first-child > div:nth-child(5) > div:nth-child(3) {
+body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(5) > div:nth-child(3) {
     background-image: url("img/vector/svg/C++.png");
     background-size: cover;
     position: absolute;
@@ -1743,14 +1759,13 @@ body > main > section#Skills > section#Language > div:first-child > div:nth-chil
 }
 
 /** Main - Skills - Tool */
-body > main > section#Skills > section#Tool {
+body > main > section#Skills > section:nth-child(4) > section#Tool {
     position: absolute;
-    right: 265px;
-    top: 300px;
+    right: 0;
     z-index: 1;
 }
 
-body > main > section#Skills > section#Tool > div:first-child {
+body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child {
     background: #FFFFFF;
     width: 520px;
     height: 820px;
@@ -1760,7 +1775,7 @@ body > main > section#Skills > section#Tool > div:first-child {
 }
 
 /** Main - Skills - Language Header*/
-body > main > section#Skills > section#Tool > div:first-child > div:nth-child(1) {
+body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(1) {
     background: #FF6348;
     position: absolute;
     width: 350px;
@@ -1773,7 +1788,7 @@ body > main > section#Skills > section#Tool > div:first-child > div:nth-child(1)
     box-shadow: 0 -1px 8px 2px #1c1717e8;
 }
 
-body > main > section#Skills > section#Tool > div:first-child > div:nth-child(1) h1 {
+body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(1) h1 {
     font-size: 35px;
     font-family: Poppins, serif;
     font-weight: bolder;
@@ -1783,7 +1798,7 @@ body > main > section#Skills > section#Tool > div:first-child > div:nth-child(1)
 }
 
 /** Main - Skills - Language First Row */
-body > main > section#Skills > section#Tool > div:first-child > div:nth-child(2) {
+body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(2) {
     background: #FFFFFF;
     position: relative;
     width: 400px;
@@ -1795,7 +1810,7 @@ body > main > section#Skills > section#Tool > div:first-child > div:nth-child(2)
     margin: auto;
 }
 
-body > main > section#Skills > section#Tool > div:first-child > div:nth-child(2) > div:nth-child(1) {
+body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(2) > div:nth-child(1) {
     background-image: url("img/vector/svg/icons8-intellij-idea.svg");
     background-size: cover;
     position: absolute;
@@ -1806,7 +1821,7 @@ body > main > section#Skills > section#Tool > div:first-child > div:nth-child(2)
     box-shadow: 0 -1px 8px 2px #1c1717e8;
 }
 
-body > main > section#Skills > section#Tool > div:first-child > div:nth-child(2) > div:nth-child(2) {
+body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(2) > div:nth-child(2) {
     background-image: url("img/vector/svg/icons8-visual-studio-code-2019.svg");
     background-size: cover;
     position: absolute;
@@ -1817,7 +1832,7 @@ body > main > section#Skills > section#Tool > div:first-child > div:nth-child(2)
     box-shadow: 0 -1px 8px 2px #1c1717e8;
 }
 
-body > main > section#Skills > section#Tool > div:first-child > div:nth-child(2) > div:nth-child(3) {
+body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(2) > div:nth-child(3) {
     background-image: url("img/vector/svg/icons8-figma.svg");
     background-size: cover;
     position: absolute;
@@ -1829,7 +1844,7 @@ body > main > section#Skills > section#Tool > div:first-child > div:nth-child(2)
 }
 
 /** Main - Skills - Language Second Row */
-body > main > section#Skills > section#Tool > div:first-child > div:nth-child(3) {
+body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(3) {
     background: #FFFFFF;
     position: relative;
     width: 400px;
@@ -1841,7 +1856,7 @@ body > main > section#Skills > section#Tool > div:first-child > div:nth-child(3)
     margin: auto;
 }
 
-body > main > section#Skills > section#Tool > div:first-child > div:nth-child(3) > div:nth-child(1) {
+body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(3) > div:nth-child(1) {
     background-image: url("img/vector/svg/icons8-android-studio.svg");
     background-size: cover;
     position: absolute;
@@ -1852,7 +1867,7 @@ body > main > section#Skills > section#Tool > div:first-child > div:nth-child(3)
     box-shadow: 0 -1px 8px 2px #1c1717e8;
 }
 
-body > main > section#Skills > section#Tool > div:first-child > div:nth-child(3) > div:nth-child(2) {
+body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(3) > div:nth-child(2) {
     background-image: url("img/vector/svg/icons8-pycharm.svg");
     background-size: cover;
     position: absolute;
@@ -1863,7 +1878,7 @@ body > main > section#Skills > section#Tool > div:first-child > div:nth-child(3)
     box-shadow: 0 -1px 8px 2px #1c1717e8;
 }
 
-body > main > section#Skills > section#Tool > div:first-child > div:nth-child(3) > div:nth-child(3) {
+body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(3) > div:nth-child(3) {
     background-image: url("img/vector/svg/icons8-webstorm.svg");
     background-size: cover;
     position: absolute;
@@ -1875,7 +1890,7 @@ body > main > section#Skills > section#Tool > div:first-child > div:nth-child(3)
 }
 
 /** Main - Skills - Language Third Row */
-body > main > section#Skills > section#Tool > div:first-child > div:nth-child(4) {
+body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(4) {
     background: #FFFFFF;
     position: relative;
     width: 400px;
@@ -1887,7 +1902,7 @@ body > main > section#Skills > section#Tool > div:first-child > div:nth-child(4)
     margin: auto;
 }
 
-body > main > section#Skills > section#Tool > div:first-child > div:nth-child(4) > div:nth-child(1) {
+body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(4) > div:nth-child(1) {
     background-image: url("img/vector/svg/icons8-adobe-photoshop.svg");
     background-size: cover;
     position: absolute;
@@ -1898,7 +1913,7 @@ body > main > section#Skills > section#Tool > div:first-child > div:nth-child(4)
     box-shadow: 0 -1px 8px 2px #1c1717e8;
 }
 
-body > main > section#Skills > section#Tool > div:first-child > div:nth-child(4) > div:nth-child(2) {
+body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(4) > div:nth-child(2) {
     background-image: url("img/vector/svg/icons8-adobe-lightroom.svg");
     background-size: cover;
     position: absolute;
@@ -1909,7 +1924,7 @@ body > main > section#Skills > section#Tool > div:first-child > div:nth-child(4)
     box-shadow: 0 -1px 8px 2px #1c1717e8;
 }
 
-body > main > section#Skills > section#Tool > div:first-child > div:nth-child(4) > div:nth-child(3) {
+body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(4) > div:nth-child(3) {
     background-image: url("img/vector/svg/icons8-adobe-xd.svg");
     background-size: cover;
     position: absolute;
@@ -1921,7 +1936,7 @@ body > main > section#Skills > section#Tool > div:first-child > div:nth-child(4)
 }
 
 /** Main - Skills - Language Fourth Row */
-body > main > section#Skills > section#Tool > div:first-child > div:nth-child(5) {
+body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(5) {
     background: #FFFFFF;
     position: relative;
     width: 400px;
@@ -1933,7 +1948,7 @@ body > main > section#Skills > section#Tool > div:first-child > div:nth-child(5)
     margin: auto;
 }
 
-body > main > section#Skills > section#Tool > div:first-child > div:nth-child(5) > div:nth-child(1) {
+body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(5) > div:nth-child(1) {
     background-image: url("img/vector/svg/postman.png");
     background-size: 95px;
     background-repeat: no-repeat;
@@ -1946,7 +1961,7 @@ body > main > section#Skills > section#Tool > div:first-child > div:nth-child(5)
     box-shadow: 0 -1px 8px 2px #1c1717e8;
 }
 
-body > main > section#Skills > section#Tool > div:first-child > div:nth-child(5) > div:nth-child(2) {
+body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(5) > div:nth-child(2) {
     background-image: url("img/vector/svg/Java Eclipse.png");
     background-size: 95px;
     background-repeat: no-repeat;
@@ -1959,7 +1974,7 @@ body > main > section#Skills > section#Tool > div:first-child > div:nth-child(5)
     box-shadow: 0 -1px 8px 2px #1c1717e8;
 }
 
-body > main > section#Skills > section#Tool > div:first-child > div:nth-child(5) > div:nth-child(3) {
+body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(5) > div:nth-child(3) {
     background-image: url("img/vector/svg/netbeansnetbeans.png");
     background-size: 95px;
     background-repeat: no-repeat;
@@ -2305,7 +2320,7 @@ body > main > section#Project > section#ProjectSection {
     overflow: hidden;
 }
 
-body > main > section#Project > section#ProjectSection >div{
+body > main > section#Project > section#ProjectSection > div {
     width: calc(1500px / 4);
     height: 450px;
     border-radius: 20px;
@@ -2335,7 +2350,7 @@ body > main > section#Project > section#ProjectSection >div{
 }
 
 /** Main - Project Section Java Projects */
-body > main > section#Project > section#ProjectSection >div:nth-child(1) > img{
+body > main > section#Project > section#ProjectSection > div:nth-child(1) > img {
     height: 220px;
     width: 320px;
     border-radius: 20px;
@@ -2355,7 +2370,7 @@ body > main > section#Project > section#ProjectSection >div:nth-child(1) > img{
 }
 
 /** Main - Project Section HTML Projects */
-body > main > section#Project > section#ProjectSection >div:nth-child(2) > img{
+body > main > section#Project > section#ProjectSection > div:nth-child(2) > img {
     height: 220px;
     width: 320px;
     border-radius: 20px;
@@ -2377,7 +2392,7 @@ body > main > section#Project > section#ProjectSection >div:nth-child(2) > img{
 }
 
 /** Main - Project Section Python Projects */
-body > main > section#Project > section#ProjectSection >div:nth-child(3) > img{
+body > main > section#Project > section#ProjectSection > div:nth-child(3) > img {
     height: 220px;
     width: 320px;
     border-radius: 20px;
@@ -2600,7 +2615,8 @@ body > main > section#Services > section#ServicesBGDesign > img {
     margin: auto;
 
 }
-body > main > section#Services > section#ServicesButton{
+
+body > main > section#Services > section#ServicesButton {
     width: 1000px;
     height: 125px;
     position: absolute;
@@ -4285,7 +4301,7 @@ body > footer > section:nth-child(6) h1 {
     position: relative;
 }
 
-body > footer > section:nth-child(6) > form >input:nth-child(1) {
+body > footer > section:nth-child(6) > form > input:nth-child(1) {
     width: 320px;
     height: 46px;
     font-size: 20px;
@@ -4298,7 +4314,7 @@ body > footer > section:nth-child(6) > form >input:nth-child(1) {
     box-shadow: 0 4px 9px 5px #878585e8;
 }
 
-body > footer > section:nth-child(6) > form >input:nth-child(2) {
+body > footer > section:nth-child(6) > form > input:nth-child(2) {
     width: 320px;
     height: 46px;
     font-size: 20px;
