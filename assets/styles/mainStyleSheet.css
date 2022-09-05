@@ -3737,6 +3737,7 @@ body > main > section#Contact > section:nth-child(3) > form > input:nth-child(1)
     border-radius: 15px;
     padding-left: 15px;
     box-shadow: 0 4px 9px 5px #878585e8;
+    border: none;
 }
 
 body > main > section#Contact > section:nth-child(3) > form > input:nth-child(2) {
@@ -3750,6 +3751,7 @@ body > main > section#Contact > section:nth-child(3) > form > input:nth-child(2)
     border-radius: 15px;
     padding-left: 15px;
     box-shadow: 0 4px 9px 5px #878585e8;
+    border: none;
 }
 
 body > main > section#Contact > section:nth-child(3) > form > input:nth-child(3) {
@@ -3763,6 +3765,7 @@ body > main > section#Contact > section:nth-child(3) > form > input:nth-child(3)
     border-radius: 15px;
     padding-left: 15px;
     box-shadow: 0 4px 9px 5px #878585e8;
+    border: none;
 }
 
 body > main > section#Contact > section:nth-child(3) > form > textarea:nth-child(4) {
@@ -3777,6 +3780,7 @@ body > main > section#Contact > section:nth-child(3) > form > textarea:nth-child
     padding-left: 15px;
     padding-top: 15px;
     box-shadow: 0 4px 9px 5px #878585e8;
+    border: none;
 }
 
 /** Main - Contact Details Button */
@@ -3832,6 +3836,7 @@ body > main > section#Contact > article:nth-child(4) > h2:nth-child(1) {
     position: absolute;
     top: 320px;
     right: 725px;
+    display: flex;
 }
 
 /** Main - Contact Details Get In Touch Underline */
@@ -3843,6 +3848,8 @@ body > main > section#Contact > article:nth-child(4) > div:nth-child(2) {
     left: 52.50%;
     top: 360px;
     border-radius: 3px;
+    display: flex;
+    align-items: center;
 }
 
 body > main > section#Contact > article:nth-child(4) > div:nth-child(3) {
@@ -4205,7 +4212,7 @@ body > footer > section:nth-child(4) nav > div.social-menu ul > li > a > i {
 body > footer > section:nth-child(5) {
     position: absolute;
     top: 40px;
-    right: 500px;
+    right: 450px;
     width: 446px;
     height: 320px;
     z-index: 1;

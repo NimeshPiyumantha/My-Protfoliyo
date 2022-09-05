@@ -684,6 +684,8 @@
     body > main > section#Skills > section:nth-child(4) {
         width: 1200px;
         height: 825px;
+        top: 247px;
+        left: 0;
     }
 
     body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child {
@@ -912,7 +914,7 @@
     #box-circle1 {
         position: absolute;
         bottom: 75px;
-        left: 45px;
+        left: 28px;
         width: 12%;
     }
 
@@ -1883,7 +1885,7 @@
     body > footer > section:nth-child(5) {
         position: absolute;
         top: 40px;
-        right: 395px;
+        right: 350px;
         width: 417px;
         height: 320px;
         z-index: 1;
