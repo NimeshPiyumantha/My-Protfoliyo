@@ -1686,141 +1686,43 @@
         font-size: 25px;
     }
 
-    /** Main - Contact Details Get In Touch */
-    body > main > section#Contact > article:nth-child(4) > h2:nth-child(1) {
-        font-size: 28px;
-        top: 279px;
-        right: 587px;
-    }
-
-    /** Main - Contact Details Get In Touch Underline */
-    body > main > section#Contact > article:nth-child(4) > div:nth-child(2) {
-        left: 50.50%;
-        top: 320px;
-    }
-
-    body > main > section#Contact > article:nth-child(4) > div:nth-child(3) {
-        left: 50.50%;
-        top: 334px;
-    }
-
-    /** Main - Contact Details Get In Touch Section*/
-    body > main > section#Contact > section:nth-child(5) {
-        width: 513px;
-        height: 230px;
-        top: 385px;
-        right: 205px;
-    }
-
-    body > main > section#Contact > section:nth-child(5) > h2:nth-child(1) {
-        font-size: 24px;
-    }
-
-    /** Main - Contact Details Get In Touch Section - Address*/
-    body > main > section#Contact > section:nth-child(5) > div:nth-child(2) {
-        width: 406px;
-        height: 30px;
-        top: 113px;
-        left: 100px;
-    }
-
-    body > main > section#Contact > section:nth-child(5) > div:nth-child(3) i {
-        font-size: 32px;
-    }
-
-    body > main > section#Contact > section:nth-child(5) > div:nth-child(3) h3 {
-        font-size: 20px;
-    }
-
-    /** Main - Contact Details Get In Touch Section - Phone Number*/
-    body > main > section#Contact > section:nth-child(5) > div:nth-child(3) {
-        width: 406px;
-        height: 30px;
-        top: 155px;
-        left: 100px;
-    }
-
-    body > main > section#Contact > section:nth-child(5) > div:nth-child(2) i {
-        font-size: 32px;
-    }
-
-    body > main > section#Contact > section:nth-child(5) > div:nth-child(2) p {
-        font-size: 20px;
-    }
-
-    /** Main - Contact Details Get In Touch Section - E-Mail*/
-    body > main > section#Contact > section:nth-child(5) > div:nth-child(4) {
-        width: 406px;
-        height: 30px;
-        top: 195px;
-        left: 100px;
-    }
-
-    body > main > section#Contact > section:nth-child(5) > div:nth-child(4) i {
-        font-size: 32px;
-    }
-
-    body > main > section#Contact > section:nth-child(5) > div:nth-child(4) h3 {
-        font-size: 20px;
-    }
-
-    /** Main - Contact Details - Social Media*/
-    body > main > section#Contact > nav:nth-child(6) {
-        top: 656px;
-        right: 130px;
-    }
-
-    .social-menu ul {
-        left: 289px;
-        top: 34px;
-    }
-
-    .social-menu ul > li > a > i {
-        font-size: 30px;
-        top: 12px;
-    }
-
-    .social-menu ul > li > a {
-        width: 50px;
-        height: 50px;
-    }
 
     /** Main - Contact Details - Background Design */
-    body > main > section#Contact > section:nth-child(7) > img:nth-child(1) {
+    body > main > section#Contact > section:nth-child(5) > img:nth-child(1) {
         top: 109px;
         left: 320px;
         width: 990px;
     }
 
-    body > main > section#Contact > section:nth-child(7) > div:nth-child(2) {
+    body > main > section#Contact > section:nth-child(5) > div:nth-child(2) {
         width: 50px;
         height: 50px;
         top: 135px;
         left: 477px;
     }
 
-    body > main > section#Contact > section:nth-child(7) > div:nth-child(3) {
+    body > main > section#Contact > section:nth-child(5) > div:nth-child(3) {
         width: 50px;
         height: 50px;
         bottom: 124px;
         right: 181px;
     }
 
-    body > main > section#Contact > section:nth-child(7) > div:nth-child(4) {
+    body > main > section#Contact > section:nth-child(5) > div:nth-child(4) {
         width: 70px;
         height: 70px;
         top: 428px;
         right: 50px;
     }
 
-    body > main > section#Contact > section:nth-child(7) > div:nth-child(5) {
+    body > main > section#Contact > section:nth-child(5) > div:nth-child(5) {
         width: 70px;
         height: 70px;
         bottom: 50px;
         right: 420px;
     }
 
-    body > main > section#Contact > section:nth-child(7) > img:nth-child(6) {
+    body > main > section#Contact > section:nth-child(5) > img:nth-child(6) {
         top: 130px;
         right: 126px;
         margin: auto;
