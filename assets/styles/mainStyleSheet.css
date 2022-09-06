@@ -127,46 +127,6 @@ main {
     width: 100%;
 }
 
-/** Main - Home- Type Text */
-.text-size-1 {
-    margin-bottom: 0.7rem;
-    font-family: Poppins, sans-serif;
-    font-size: 60px;
-    font-weight: bolder;
-    align-items: center;
-}
-
-.text-size-2 {
-    margin-bottom: 0.7rem;
-    font-family: Poppins, sans-serif;
-    font-size: 70px;
-    font-weight: bolder;
-    align-items: center;
-}
-
-.text-size-3 {
-    margin-bottom: 0.7rem;
-    font-family: Poppins, sans-serif;
-    font-size: 45px;
-    font-weight: bolder;
-    align-items: center;
-}
-
-.justify-content-center {
-    position: center;
-    display: block;
-    float: left;
-    width: 100%;
-    margin-top: -52%;
-}
-
-.carousel-caption {
-    position: relative;
-    padding-top: 10%;
-    text-align: left;
-    padding-left: 150px;
-}
-
 /** Main - Home -Animate Background */
 .box div {
     position: absolute;
@@ -284,6 +244,56 @@ main {
     }
 }
 
+/** Main - Home- Main Content */
+body >main >section#Home >section:nth-child(2){
+    position: absolute;
+    width: 1200px;
+    height: 730px;
+    top: 157px;
+    left: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+body >main >section#Home >section:nth-child(2)>section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+body >main >section#Home >section:nth-child(2)>section:nth-child(1){
+    height: 400px;
+}
+body >main >section#Home >section:nth-child(2)>section:nth-child(1) >div{
+    height: 120px;
+    display: flex;
+}
+body >main >section#Home >section:nth-child(2)>section:nth-child(1) >div:nth-child(1) h1{
+    font-family: Poppins, sans-serif;
+    font-size: 60px;
+    font-weight: bolder;
+    align-items: center;
+}
+body >main >section#Home >section:nth-child(2)>section:nth-child(1) >div:nth-child(2) h1{
+    font-family: Poppins, sans-serif;
+    font-size: 70px;
+    font-weight: bolder;
+    align-items: center;
+}
+body >main >section#Home >section:nth-child(2)>section:nth-child(1) >div:nth-child(3) h1{
+    font-family: Poppins, sans-serif;
+    font-size: 45px;
+    font-weight: bolder;
+    align-items: center;
+}
+
+body >main >section#Home >section:nth-child(2)>section:nth-child(2){
+    height: 80px;
+    margin-left: 50px;
+}
+
 /**  Home_Content_Hire me Button */
 .btn-Hire-Me {
     background-color: #2ED573;
@@ -300,14 +310,10 @@ main {
     font-weight: bolder;
     cursor: pointer;
 }
-
 .button-content {
     position: relative;
     display: inline-block;
-    bottom: 450px;
-    left: 200px;
 }
-
 .button-Circle {
     height: 52px;
     width: 52px;
@@ -320,7 +326,6 @@ main {
     bottom: 5px;
     box-shadow: inset -13px -13px 16px #FFFFFF, inset 13px 13px 16px rgba(13, 39, 80, 0.16);
 }
-
 #arrow_details {
     color: #2ED573;
     position: absolute;
@@ -329,9 +334,14 @@ main {
     z-index: 1;
 }
 
+body >main >section#Home >section:nth-child(2)>section:nth-child(3){
+    height: 220px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
 /**  Home_Content_Social Media Navigation */
 .wrapper .button {
-    display: inline-block;
+    display: flex;
     height: 100px;
     width: 100px;
     float: left;
@@ -362,19 +372,15 @@ main {
 .wrapper .button:nth-child(1):hover .icon {
     background: #3b5998;
 }
-
 .wrapper .button:nth-child(2):hover .icon {
     background: #0A66C2;
 }
-
 .wrapper .button:nth-child(3):hover .icon {
     background: #1DA1F2;
 }
-
 .wrapper .button:nth-child(4):hover .icon {
     background: #333;
 }
-
 .wrapper .button:nth-child(5):hover .icon {
     background: #F47F24;
 }
@@ -389,7 +395,6 @@ main {
 .wrapper .button:hover .icon i {
     color: #fff;
 }
-
 .wrapper .button span {
     font-size: 26px;
     font-weight: bolder;
@@ -397,23 +402,18 @@ main {
     margin-left: 10px;
     transition: all 0.3s ease-out;
 }
-
 .wrapper .button:nth-child(1) span {
     color: #3b5998;
 }
-
 .wrapper .button:nth-child(2) span {
     color: #0A66C2;
 }
-
 .wrapper .button:nth-child(3) span {
     color: #1DA1F2;
 }
-
 .wrapper .button:nth-child(4) span {
     color: #333;
 }
-
 .wrapper .button:nth-child(5) span {
     color: #F47F24;
 }
@@ -421,10 +421,8 @@ main {
 .follow-content {
     position: relative;
     display: inline-block;
-    bottom: 300px;
-    right: 30px;
+    margin-top: 10px;
 }
-
 .follow-content-text {
     font-size: 50px;
     font-weight: bolder;
@@ -4004,7 +4002,7 @@ body > main > section#Contact > section:nth-child(4) > article:nth-child(1) > di
     display: flex;
     align-items: center;
     position: relative;
-    top: 34px;
+    top: 36px;
     right: 186px;
 }
 
@@ -4014,7 +4012,7 @@ body > main > section#Contact > section:nth-child(4) > article:nth-child(1) > di
     background: #2ED573;
     border-radius: 3px;
     position: relative;
-    top: 45px;
+    top: 48px;
     right: 321px;
 }
 
