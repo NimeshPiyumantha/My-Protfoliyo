@@ -1559,99 +1559,73 @@
     }
 
     /**-------------------------------------------- Main - Testimonials --------------------------------------------**/
-    /** Main - Testimonials Header */
-    #Testimonials {
-        height: 1000px;
-    }
-
-    body > main > section#Testimonials > article > h1 {
-        top: 107px;
-    }
-
-    /** Main - Testimonials Header Underline */
-    body > main > section#Testimonials > article > div:nth-child(3) {
-        left: 39%;
-        top: 152px;
-    }
-
-    body > main > section#Testimonials > article > div:nth-child(4) {
-        left: 39%;
-        top: 158px;
-    }
-
-    /** Main - Testimonials Client says Section*/
-    body > main > section#Testimonials > section:nth-child(3) {
+    /** Main - Testimonials Client says*/
+    body > main > section#Testimonials > section#Says {
         width: 1000px;
-        height: 450px;
-        top: 200px;
+        height: 330px;
+        left: 100px;
+        top: 120px;
     }
 
-    /** Main - Testimonials Client says Section Paragraph*/
-    body > main > section#Testimonials > section:nth-child(3) > div:nth-child(1) {
-        top: -180px;
-        width: 780px;
-        height: 250px;
+    body > main > section#Testimonials > section#Says > section > div {
+        height: 312px;
+        width: 312px;
     }
 
-    body > main > section#Testimonials > section:nth-child(3) > div:nth-child(1) > p {
-        font-size: 30px;
+    /* Client says one */
+    body > main > section#Testimonials > section#Says > section > div:nth-child(1) > div:nth-child(1) > p {
+        font-size: 18px;
     }
 
-    /** Main - Testimonials Client says Section Image*/
-    body > main > section#Testimonials > section:nth-child(3) > div:nth-child(2) > div:nth-child(1) {
-        width: 200px;
-        height: 200px;
-        top: 250px;
+    body > main > section#Testimonials > section#Says > section > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) {
+        width: 100px;
+        height: 100px;
     }
 
-    /** Main - Testimonials Client says Section h1,h2*/
-    body > main > section#Testimonials > section:nth-child(3) > div:nth-child(2) > div:nth-child(2) {
-        top: 250px;
-        right: 0;
-        left: 390px;
+    body > main > section#Testimonials > section#Says > section > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) h1 {
+        font-size: 24px;
     }
 
-    body > main > section#Testimonials > section:nth-child(3) > div:nth-child(2) > div:nth-child(2) > h2 {
-        font-size: 30px;
-        font-family: Poppins, serif;
-        color: #2C3E50;
+    body > main > section#Testimonials > section#Says > section > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) h2 {
+        font-size: 16px;
     }
 
-    body > main > section#Testimonials > section:nth-child(4) > img:nth-child(7) {
-        width: 140px;
-        bottom: -562px;
-        left: 103px;
+    /* Client says two */
+    body > main > section#Testimonials > section#Says > section > div:nth-child(2) > div:nth-child(1) > p {
+        font-size: 18px;
     }
 
-    body > main > section#Testimonials > section:nth-child(4) > img:nth-child(8) {
-        width: 140px;
-        top: 140px;
-        right: 108px;
+    body > main > section#Testimonials > section#Says > section > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) {
+        width: 100px;
+        height: 100px;
     }
 
-    body > main > section#Testimonials > section:nth-child(4) > img:nth-child(9) {
-        width: 140px;
-        top: 140px;
-        left: 120px;
+    body > main > section#Testimonials > section#Says > section > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) h1 {
+        font-size: 24px;
     }
 
-    body > main > section#Testimonials > section:nth-child(4) > img:nth-child(10) {
-        width: 140px;
-        bottom: 320px;
-        right: 62px;
+    body > main > section#Testimonials > section#Says > section > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) h2 {
+        font-size: 16px;
     }
 
-    body > main > section#Testimonials > section:nth-child(4) > img:nth-child(11) {
-        width: 140px;
-        top: 420px;
-        left: 207px;
+    /* Client says three */
+    body > main > section#Testimonials > section#Says > section > div:nth-child(3) > div:nth-child(1) > p {
+        font-size: 18px;
     }
 
-    body > main > section#Testimonials > section:nth-child(4) > img:nth-child(12) {
-        width: 140px;
-        bottom: 84px;
-        right: 241px;
+    body > main > section#Testimonials > section#Says > section > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) {
+        width: 100px;
+        height: 100px;
     }
+
+    body > main > section#Testimonials > section#Says > section > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) h1 {
+        font-size: 24px;
+    }
+
+    body > main > section#Testimonials > section#Says > section > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) h2 {
+        font-size: 16px;
+    }
+
 
     /**-------------------------------------------- Main - Contact --------------------------------------------**/
     /** Main - Contact Header */

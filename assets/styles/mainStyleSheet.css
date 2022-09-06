@@ -3416,7 +3416,7 @@ body > main > section#HireMe > section#BGDesigns > div:nth-child(5) > div:nth-ch
 /** Main - Testimonials Header */
 #Testimonials {
     width: 100%;
-    height: 1100px;
+    height: 1000px;
     position: relative;
 }
 
@@ -3473,99 +3473,232 @@ body > main > section#Testimonials > section:nth-child(1) img {
     opacity: 30%;
 }
 
-/** Main - Testimonials Client says Section*/
-body > main > section#Testimonials > section:nth-child(3) {
-    width: 1500px;
-    height: 500px;
-    top: 200px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    z-index: 1;
+/** Main - Testimonials Client says*/
+body > main > section#Testimonials > section#Says {
+    width: 1220px;
+    height: 360px;
     position: absolute;
+    inset: 150px 0 0 28px;
+    margin: auto;
+    overflow: hidden;
+    z-index: 1;
 }
 
-/** Main - Testimonials Client says Section Paragraph*/
-body > main > section#Testimonials > section:nth-child(3) > div:nth-child(1) {
-    width: 1000px;
-    height: 300px;
-    top: -175px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    z-index: 1;
-    position: absolute;
+body > main > section#Testimonials > section#Says > section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 99%;
+    height: 100%;
 }
 
-body > main > section#Testimonials > section:nth-child(3) > div:nth-child(1) > p {
-    position: absolute;
-    font-size: 30px;
-    font-family: Poppins, serif;
+body > main > section#Testimonials > section#Says > section > div {
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.67);
+    height: 344px;
+    width: 357px;
+    border-radius: 50px;
+    cursor: grab;
+}
+
+/* Client says one */
+body > main > section#Testimonials > section#Says > section > div:nth-child(1) {
+    background: #ECF0F3;
+}
+
+body > main > section#Testimonials > section#Says > section > div:nth-child(1):hover {
+    background: #7bed9f;
+}
+
+body > main > section#Testimonials > section#Says > section > div:nth-child(1) > div:nth-child(1) > p {
     color: #2C3E50;
     font-weight: bolder;
-    text-align: center;
+    font-family: 'Inconsolata', serif;
+    font-size: 20px;
+    margin: 0 25px 0 30px;
+    display: flow-root;
+    position: relative;
+    top: 30px;
 }
 
-/** Main - Testimonials Client says Section Image*/
-body > main > section#Testimonials > section:nth-child(3) > div:nth-child(2) > div:nth-child(1) {
-    width: 230px;
-    height: 230px;
-    background: url("img/images/Testimonials 1.png");
-    background-repeat: no-repeat;
+body > main > section#Testimonials > section#Says > section > div:nth-child(1) > div:nth-child(1) > p:hover {
+    color: #ff4757;
+}
+
+body > main > section#Testimonials > section#Says > section > div:nth-child(1) > div:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 60px;
+}
+
+body > main > section#Testimonials > section#Says > section > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) {
+    width: 120px;
+    height: 120px;
+    margin-left: 30px;
+    border-radius: 100%;
+    border: 8px solid #903EE7;
+    background:url("img/images/Testimonials 1.png") ;
     background-size: cover;
-    top: 190px;
-    bottom: 0;
-    left: -150px;
-    right: 0;
-    margin: auto;
-    position: absolute;
-    border-radius: 40%;
+    background-repeat: no-repeat;
 }
 
-/** Main - Testimonials Client says Section h1,h2*/
-body > main > section#Testimonials > section:nth-child(3) > div:nth-child(2) > div:nth-child(2) {
-    position: absolute;
-    width: 300px;
-    height: 70px;
-    top: 170px;
-    right: 0;
-    left: 450px;
-    bottom: 0;
-    margin: auto;
+body > main > section#Testimonials > section#Says > section > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) {
+    position: relative;
+    top: 15px;
 }
 
-body > main > section#Testimonials > section:nth-child(3) > div:nth-child(2) > div:nth-child(2) > h1 {
-    font-size: 35px;
-    font-family: Poppins, serif;
+body > main > section#Testimonials > section#Says > section > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) h1 {
+    font-size: 28px;
+    margin-left: 12px;
+    font-family: Inter, sans-serif;
+}
+
+body > main > section#Testimonials > section#Says > section > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) h2 {
+    font-size: 20px;
+    margin-left: 20px;
+    font-family: Inter, sans-serif;
+    position: relative;
+    bottom: 12px;
+}
+
+/* Client says two */
+body > main > section#Testimonials > section#Says > section > div:nth-child(2) {
+    background: #ECF0F3;
+}
+
+body > main > section#Testimonials > section#Says > section > div:nth-child(2):hover {
+    background: #7bed9f;
+}
+
+body > main > section#Testimonials > section#Says > section > div:nth-child(2) > div:nth-child(1) > p {
     color: #2C3E50;
     font-weight: bolder;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    font-family: 'Inconsolata', serif;
+    font-size: 20px;
+    margin: 0 25px 0 30px;
+    display: flow-root;
+    position: relative;
+    top: 30px;
 }
 
-body > main > section#Testimonials > section:nth-child(3) > div:nth-child(2) > div:nth-child(2) > h2 {
-    font-size: 30px;
-    font-family: Poppins, serif;
+body > main > section#Testimonials > section#Says > section > div:nth-child(2) > div:nth-child(1) > p:hover {
+    color: #ff4757;
+}
+
+body > main > section#Testimonials > section#Says > section > div:nth-child(2) > div:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 80px;
+}
+
+body > main > section#Testimonials > section#Says > section > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) {
+    width: 120px;
+    height: 120px;
+    margin-left: 30px;
+    border-radius: 100%;
+    border: 8px solid #903EE7;
+    background:url("img/images/Testimonials 3.png") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body > main > section#Testimonials > section#Says > section > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) {
+    position: relative;
+    top: 15px;
+}
+
+body > main > section#Testimonials > section#Says > section > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) h1 {
+    font-size: 28px;
+    margin-left: 12px;
+    font-family: Inter, sans-serif;
+}
+
+body > main > section#Testimonials > section#Says > section > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) h2 {
+    font-size: 20px;
+    margin-left: 20px;
+    font-family: Inter, sans-serif;
+    position: relative;
+    bottom: 12px;
+}
+
+/* Client says Three */
+body > main > section#Testimonials > section#Says > section > div:nth-child(3) {
+    background: #ECF0F3;
+}
+
+body > main > section#Testimonials > section#Says > section > div:nth-child(3):hover {
+    background: #7bed9f;
+}
+
+body > main > section#Testimonials > section#Says > section > div:nth-child(3) > div:nth-child(1) > p {
     color: #2C3E50;
+    font-weight: bolder;
+    font-family: 'Inconsolata', serif;
+    font-size: 20px;
+    margin: 0 25px 0 30px;
+    display: flow-root;
+    position: relative;
+    top: 30px;
+}
+
+body > main > section#Testimonials > section#Says > section > div:nth-child(3) > div:nth-child(1) > p:hover {
+    color: #ff4757;
+}
+
+body > main > section#Testimonials > section#Says > section > div:nth-child(3) > div:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 80px;
+}
+
+body > main > section#Testimonials > section#Says > section > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) {
+    width: 120px;
+    height: 120px;
+    margin-left: 30px;
+    border-radius: 100%;
+    border: 8px solid #903EE7;
+    background:url("img/images/Testimonials 2.png") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body > main > section#Testimonials > section#Says > section > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) {
+    position: relative;
+    top: 15px;
+}
+
+body > main > section#Testimonials > section#Says > section > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) h1 {
+    font-size: 28px;
+    margin-left: 12px;
+    font-family: Inter, sans-serif;
+}
+
+body > main > section#Testimonials > section#Says > section > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) h2 {
+    font-size: 20px;
+    margin-left: 20px;
+    font-family: Inter, sans-serif;
+    position: relative;
+    bottom: 12px;
 }
 
 /** Main - Testimonials Background Design*/
 body > main > section#Testimonials > section:nth-child(4) > img:nth-child(1) {
     position: absolute;
-    top: -450px;
+    top: -400px;
     bottom: 0;
     right: 0;
     left: 0;
     margin: auto;
+    z-index: 1;
 }
 
 body > main > section#Testimonials > section:nth-child(4) > img:nth-child(2) {
     position: absolute;
     top: 0;
     bottom: 0;
-    left: 135px;
+    left: 80px;
     margin: auto;
     opacity: 35%;
 }
@@ -3586,7 +3719,7 @@ body > main > section#Testimonials > section:nth-child(4) > div:nth-child(4) {
     border: 8px solid #FF6348;
     position: absolute;
     top: 165px;
-    left: 310px;
+    left: 255px;
     margin: auto;
     border-radius: 100%;
     opacity: 70%;
@@ -3599,7 +3732,7 @@ body > main > section#Testimonials > section:nth-child(4) > div:nth-child(5) {
     background: #2ED573;
     position: absolute;
     top: 380px;
-    left: 145px;
+    left: 110px;
     margin: auto;
     border-radius: 100%;
     opacity: 70%;
@@ -3612,7 +3745,7 @@ body > main > section#Testimonials > section:nth-child(4) > div:nth-child(6) {
     background: #ECCC68;
     position: absolute;
     top: 640px;
-    left: 261px;
+    left: 210px;
     border-radius: 100%;
     opacity: 70%;
     box-shadow: 0 -1px 8px 2px #1c1717e8;
@@ -3623,7 +3756,7 @@ body > main > section#Testimonials > section:nth-child(4) > img:nth-child(7) {
     width: 140px;
     top: 0;
     bottom: -562px;
-    left: 103px;
+    left: 47px;
     margin: auto;
 }
 
@@ -3639,7 +3772,7 @@ body > main > section#Testimonials > section:nth-child(4) > img:nth-child(9) {
     position: absolute;
     width: 140px;
     top: 140px;
-    left: 120px;
+    left: 86px;
     margin: auto;
 }
 
@@ -3655,7 +3788,7 @@ body > main > section#Testimonials > section:nth-child(4) > img:nth-child(11) {
     position: absolute;
     width: 140px;
     top: 470px;
-    left: 217px;
+    left: 152px;
     margin: auto;
 }
 
