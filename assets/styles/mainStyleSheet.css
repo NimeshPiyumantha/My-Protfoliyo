@@ -3537,7 +3537,7 @@ body > main > section#Testimonials > section#Says > section > div:nth-child(1) >
     margin-left: 30px;
     border-radius: 100%;
     border: 8px solid #903EE7;
-    background:url("img/images/Testimonials 1.png") ;
+    background: url("img/images/Testimonials 1.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -3598,7 +3598,7 @@ body > main > section#Testimonials > section#Says > section > div:nth-child(2) >
     margin-left: 30px;
     border-radius: 100%;
     border: 8px solid #903EE7;
-    background:url("img/images/Testimonials 3.png") ;
+    background: url("img/images/Testimonials 3.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -3659,7 +3659,7 @@ body > main > section#Testimonials > section#Says > section > div:nth-child(3) >
     margin-left: 30px;
     border-radius: 100%;
     border: 8px solid #903EE7;
-    background:url("img/images/Testimonials 2.png") ;
+    background: url("img/images/Testimonials 2.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -4252,28 +4252,48 @@ body > footer > section:nth-child(1) {
     opacity: 30%;
 }
 
+body > footer > section:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: 550px;
+}
+
+body > footer > section:nth-child(2) > section:nth-child(1) {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+body > footer > section:nth-child(2) > section:nth-child(1) section {
+    width: 355px;
+    height: 450px;
+}
+
 /** Footer Section - About*/
-body > footer > article:nth-child(2) {
-    position: absolute;
-    top: 40px;
-    left: 150px;
-    width: 420px;
-    height: 350px;
+body > footer > section:nth-child(2) > section:nth-child(1) > section > article:nth-child(1) {
+    width: 410px;
+    height: 280px;
     z-index: 1;
 }
 
-body > footer > article:nth-child(2) h1 {
+body > footer > section:nth-child(2) > section:nth-child(1) > section > article:nth-child(1) h1 {
     color: #FF6348;
     font-size: 30px;
     font-family: Poppins, serif;
     font-weight: bolder;
 }
 
-body > footer > article:nth-child(2) h1 span {
+body > footer > section:nth-child(2) > section:nth-child(1) > section > article:nth-child(1) h1 span {
     color: #2C3E50;
 }
 
-body > footer > article:nth-child(2) p {
+body > footer > section:nth-child(2) > section:nth-child(1) > section > article:nth-child(1) p {
     color: #2C3E50;
     font-size: 21px;
     font-weight: bolder;
@@ -4281,17 +4301,31 @@ body > footer > article:nth-child(2) p {
     display: flex;
 }
 
-/** Footer Section - Links*/
-body > footer > section:nth-child(3) {
-    position: absolute;
-    top: 40px;
-    left: 650px;
-    width: 237px;
-    height: 472px;
+/** Footer Section - Social Media*/
+body > footer > section:nth-child(2) > section:nth-child(1) > section > section:nth-child(2) {
+    width: 380px;
+    height: 170px;
     z-index: 1;
 }
 
-body > footer > section:nth-child(3) h1 {
+body > footer > section:nth-child(2) > section:nth-child(1) > section > section:nth-child(2) nav > div.social-menu ul {
+    position: relative;
+    left: 200px;
+    top: 60px;
+}
+
+body > footer > section:nth-child(2) > section:nth-child(1) > section > section:nth-child(2) nav > div.social-menu ul li a {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+body > footer > section:nth-child(2) > section:nth-child(1) > section > section:nth-child(2) nav > div.social-menu ul > li > a > i {
+    font-size: 30px;
+}
+
+/** Footer Section - Links*/
+body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(2) h1 {
     font-family: Poppins, serif;
     color: #FF6348;
     font-size: 30px;
@@ -4300,7 +4334,7 @@ body > footer > section:nth-child(3) h1 {
     justify-content: space-around;
 }
 
-body > footer > section:nth-child(3) nav ul li a {
+body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(2) nav ul li a {
     font-family: Poppins, serif;
     color: #2C3E50;
     font-size: 23px;
@@ -4309,49 +4343,15 @@ body > footer > section:nth-child(3) nav ul li a {
     align-items: center;
 }
 
-body > footer > section:nth-child(3) nav ul li a:hover {
+body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(2) nav ul li a:hover {
     color: #2ED573;
     text-decoration: white;
     text-transform: uppercase;
     letter-spacing: .1rem;
 }
 
-/** Footer Section - Social Media*/
-body > footer > section:nth-child(4) {
-    position: absolute;
-    bottom: 100px;
-    left: 190px;
-    width: 400px;
-    height: 80px;
-    z-index: 1;
-}
-
-body > footer > section:nth-child(4) nav > div.social-menu ul {
-    left: 170px;
-    top: -6px;
-}
-
-body > footer > section:nth-child(4) nav > div.social-menu ul li a {
-    width: 50px;
-    height: 50px;
-    position: relative;
-}
-
-body > footer > section:nth-child(4) nav > div.social-menu ul > li > a > i {
-    font-size: 30px;
-}
-
 /** Footer Section - Get on Touch*/
-body > footer > section:nth-child(5) {
-    position: absolute;
-    top: 40px;
-    right: 450px;
-    width: 446px;
-    height: 320px;
-    z-index: 1;
-}
-
-body > footer > section:nth-child(5) h2 {
+body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(3) h2 {
     font-family: Poppins, serif;
     color: #FF6348;
     font-size: 30px;
@@ -4361,18 +4361,18 @@ body > footer > section:nth-child(5) h2 {
 }
 
 /** Main - Contact Details Get In Touch Section - Address*/
-body > footer > section:nth-child(5) > div:nth-child(2) {
+body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(3) > div:nth-child(2) {
     width: 446px;
     height: 30px;
     position: absolute;
     top: 104px;
 }
 
-body > footer > section:nth-child(5) > div:nth-child(2) i {
+body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(3) > div:nth-child(2) i {
     font-size: 30px;
 }
 
-body > footer > section:nth-child(5) > div:nth-child(2) p {
+body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(3) > div:nth-child(2) p {
     font-family: cursive;
     font-weight: bolder;
     position: relative;
@@ -4382,18 +4382,18 @@ body > footer > section:nth-child(5) > div:nth-child(2) p {
 }
 
 /** Main - Contact Details Get In Touch Section - Phone Number*/
-body > footer > section:nth-child(5) > div:nth-child(3) {
+body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(3) > div:nth-child(3) {
     width: 446px;
     height: 30px;
     position: absolute;
     top: 153px;
 }
 
-body > footer > section:nth-child(5) > div:nth-child(3) i {
+body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(3) > div:nth-child(3) i {
     font-size: 30px;
 }
 
-body > footer > section:nth-child(5) > div:nth-child(3) h3 {
+body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(3) > div:nth-child(3) h3 {
     font-family: cursive;
     font-weight: bolder;
     position: relative;
@@ -4403,19 +4403,19 @@ body > footer > section:nth-child(5) > div:nth-child(3) h3 {
 }
 
 /** Main - Contact Details Get In Touch Section - E-Mail*/
-body > footer > section:nth-child(5) > div:nth-child(4) {
+body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(3) > div:nth-child(4) {
     width: 446px;
     height: 30px;
     position: absolute;
     top: 203px;
 }
 
-body > footer > section:nth-child(5) > div:nth-child(4) i {
+body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(3) > div:nth-child(4) i {
     font-size: 30px;
     position: absolute;
 }
 
-body > footer > section:nth-child(5) > div:nth-child(4) h3 {
+body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(3) > div:nth-child(4) h3 {
     font-family: cursive;
     font-weight: bolder;
     position: relative;
@@ -4424,16 +4424,7 @@ body > footer > section:nth-child(5) > div:nth-child(4) h3 {
     padding-left: 5px
 }
 
-/** Footer Section -Quick Contact*/
-body > footer > section:nth-child(6) {
-    position: absolute;
-    top: 40px;
-    right: 55px;
-    width: 382px;
-    height: 320px;
-}
-
-body > footer > section:nth-child(6) h1 {
+body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(4) h1 {
     font-family: Poppins, serif;
     color: #FF6348;
     font-size: 30px;
@@ -4441,40 +4432,27 @@ body > footer > section:nth-child(6) h1 {
     position: relative;
 }
 
-body > footer > section:nth-child(6) > form > input:nth-child(1) {
+body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(4) > form > input {
+    background: #FFFFFF;
     width: 320px;
     height: 46px;
+    margin-top: 20px;
+    margin-left: 30px;
     font-size: 20px;
     font-family: Inter, sans-serif;
-    position: absolute;
-    top: 99px;
-    left: 22px;
-    border-radius: 15px;
-    padding-left: 15px;
-    box-shadow: 0 4px 9px 5px #878585e8;
-}
-
-body > footer > section:nth-child(6) > form > input:nth-child(2) {
-    width: 320px;
-    height: 46px;
-    font-size: 20px;
-    font-family: Inter, sans-serif;
-    position: absolute;
-    top: 166px;
-    left: 22px;
     border-radius: 15px;
     padding-left: 15px;
     box-shadow: 0 4px 9px 5px #878585e8;
 }
 
 /** Main - Contact Details Button */
-body > footer > section:nth-child(6) > div:nth-child(3) {
-    position: absolute;
-    top: 246px;
-    left: 27px;
+body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(4) > div:nth-child(3) {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 30px;
 }
 
-body > footer > section:nth-child(6) > div:nth-child(3) > button {
+body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(4) > div:nth-child(3) > button {
     background-color: #2ED573;
     border-radius: 100px;
     box-shadow: 0 -1px 8px 2px #1c1717e8;
@@ -4482,7 +4460,7 @@ body > footer > section:nth-child(6) > div:nth-child(3) > button {
     color: #ECF0F3;
     text-align: center;
     display: inline-block;
-    padding: 10px 15px 0 15px;
+    padding: 12px 0 0 15px;
     text-decoration: none;
     font-size: 22px;
     font-family: Poppins, sans-serif;
@@ -4490,7 +4468,7 @@ body > footer > section:nth-child(6) > div:nth-child(3) > button {
     cursor: pointer;
 }
 
-body > footer > section:nth-child(6) > div:nth-child(3) > button > div {
+body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(4) > div:nth-child(3) > button > div {
     height: 40px;
     width: 40px;
     float: right;
@@ -4500,69 +4478,21 @@ body > footer > section:nth-child(6) > div:nth-child(3) > button > div {
     cursor: pointer;
     position: relative;
     bottom: 5px;
-    left: 5px;
+    right: 11px;
     box-shadow: inset -13px -13px 16px #FFFFFF, inset 13px 13px 16px rgba(13, 39, 80, 0.16);
 }
 
-body > footer > section:nth-child(6) > div:nth-child(3) > button i {
-    color: #2ED573;
-    position: absolute;
-    left: 200px;
-    top: 14px;
-    z-index: 1;
-}
-
-
-body > footer > section:nth-child(6) > div:nth-child(3) > button {
-    background-color: #2ED573;
-    border-radius: 100px;
-    box-shadow: 0 -1px 8px 2px #1c1717e8;
-    border: none;
-    color: #ECF0F3;
-    text-align: center;
-    display: inline-block;
-    padding: 10px 15px 0 15px;
-    text-decoration: none;
-    font-size: 22px;
-    font-family: Poppins, sans-serif;
-    font-weight: bolder;
-    cursor: pointer;
-}
-
-body > footer > section:nth-child(6) > div:nth-child(3) > button > div {
-    height: 40px;
-    width: 40px;
-    float: right;
-    margin-left: 9px;
-    background: #F9FAFB;
-    border-radius: 50px;
-    cursor: pointer;
+body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(4) > div:nth-child(3) > button > i {
+    left: 30px;
+    top: 2px;
     position: relative;
-    bottom: 5px;
-    left: 5px;
-    box-shadow: inset -13px -13px 16px #FFFFFF, inset 13px 13px 16px rgba(13, 39, 80, 0.16);
-}
-
-body > footer > section:nth-child(6) > div:nth-child(3) > button i {
-    color: #2ED573;
-    position: absolute;
-    left: 200px;
-    top: 14px;
     z-index: 1;
+    color: #2ED573;
+    font-size: 25px;
 }
-
 
 /** Footer Section -Footer copyright*/
-body > footer > section:nth-child(7) {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    width: 100%;
-    height: 70px;
-}
-
-body > footer > section:nth-child(7) small {
+body > footer > section:nth-child(2) > section:nth-child(2) small {
     font-family: cursive;
     font-weight: bolder;
     font-size: 22px;
