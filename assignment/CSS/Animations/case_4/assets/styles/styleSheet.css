@@ -110,3 +110,26 @@ body > main > div:nth-child(4) > img:nth-child(2) {
     width: 75px;
     height: 75px;
 }
+
+/**
+* Car wheel animation and keyframes style
+*/
+body > main > div:nth-child(4) > img {
+    animation-name: Wheels;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+@keyframes Wheels {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(720deg);
+    }
+    100% {
+        transform: rotate(540deg);
+    }
+}
