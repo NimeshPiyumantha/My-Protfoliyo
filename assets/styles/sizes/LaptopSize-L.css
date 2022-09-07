@@ -1779,5 +1779,106 @@
         bottom: 131px;
     }
 
+    /**-------------------------------------------- Main - Contact --------------------------------------------**/
+    /** Main - Contact Header */
+    #Contact {
+        height: 1000px;
+    }
+
+    /** Main - Contact Header Underline */
+    body > main > section#Contact > article > div:nth-child(3) {
+        top: 150px;
+    }
+
+    body > main > section#Contact > article > div:nth-child(4) {
+        top: 157px;
+    }
+
+    /** Main - Contact Details Box sectioning */
+    body > main > section#Contact > section:nth-child(3) {
+        width: 513px;
+        height: 632px;
+        top: 258px;
+        left: 199px;
+    }
+
+    body > main > section#Contact > section:nth-child(3) > form > input:nth-child(1) {
+        width: 360px;
+    }
+
+    body > main > section#Contact > section:nth-child(3) > form > input:nth-child(2) {
+        width: 360px;
+    }
+
+    body > main > section#Contact > section:nth-child(3) > form > input:nth-child(3) {
+        width: 360px;
+    }
+
+    body > main > section#Contact > section:nth-child(3) > form > textarea:nth-child(4) {
+        width: 360px;
+    }
+
+    /** Main - Contact Details Button */
+    body > main > section#Contact > section:nth-child(3) > div:nth-child(2) {
+        top: 536px;
+    }
+
+    body > main > section#Contact > section:nth-child(3) > div:nth-child(2) > button {
+        padding: 14px 12px 0 12px;
+        font-size: 20px;
+    }
+
+    body > main > section#Contact > section:nth-child(3) > div:nth-child(2) > button > div {
+        bottom: 7px;
+    }
+
+    body > main > section#Contact > section:nth-child(3) > div:nth-child(2) > button i {
+        left: 182px;
+        top: 14px;
+        font-size: 25px;
+    }
+
+
+    /** Main - Contact Details - Background Design */
+    body > main > section#Contact > section:nth-child(5) > img:nth-child(1) {
+        top: 109px;
+        left: 320px;
+        width: 990px;
+    }
+
+    body > main > section#Contact > section:nth-child(5) > div:nth-child(2) {
+        width: 50px;
+        height: 50px;
+        top: 135px;
+        left: 477px;
+    }
+
+    body > main > section#Contact > section:nth-child(5) > div:nth-child(3) {
+        width: 50px;
+        height: 50px;
+        bottom: 124px;
+        right: 181px;
+    }
+
+    body > main > section#Contact > section:nth-child(5) > div:nth-child(4) {
+        width: 70px;
+        height: 70px;
+        top: 428px;
+        right: 50px;
+    }
+
+    body > main > section#Contact > section:nth-child(5) > div:nth-child(5) {
+        width: 70px;
+        height: 70px;
+        bottom: 50px;
+        right: 420px;
+    }
+
+    body > main > section#Contact > section:nth-child(5) > img:nth-child(6) {
+        top: 130px;
+        right: 126px;
+        margin: auto;
+        width: 128px;
+    }
 
 }
