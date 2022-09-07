@@ -223,5 +223,545 @@
         margin-bottom: 2rem;
     }
 
+    /**-------------------------------------------- Main - About --------------------------------------------**/
+    #About {
+        width: 100%;
+        height: 2080px;
+    }
+
+    /** Main - About Header */
+    body > main > section > article h4 {
+        font-size: 25px;
+    }
+
+    body > main > section > article > h1 {
+        font-size: 33px;
+    }
+
+    body > main > section > article > h1 > span {
+        font-size: 33px;
+    }
+
+    body > main > section#About > div:nth-child(3) {
+        width: 80px;
+    }
+
+    /** Main - About Header Article */
+    body > main > section#About > article#paragraphOne p {
+        font-size: 24px;
+        margin-left: 150px;
+        bottom: 40px;
+        padding-bottom: 1.5em;
+    }
+
+    body > main > section#About > article#paragraphTwo p {
+        font-size: 24px;
+        margin-left: 150px;
+        bottom: 40px;
+    }
+
+    /** Main - About Image Section */
+    #aboutImg {
+        height: 470px;
+        width: 350px;
+        bottom: 280px;
+        left: 901px;
+    }
+
+    /** Main - About Section Circle One Div  */
+    body > main > section#About > section#image > div#circleOne {
+        width: 135px;
+        height: 135px;
+        bottom: 600px;
+        left: 978px;
+    }
+
+    body > main > section#About > section#image > div#circleOne h1 {
+        font-size: 30px;
+        left: 60px;
+        top: 25px;
+    }
+
+    body > main > section#About > section#image > div#circleOne h2 {
+        font-size: 20px;
+        left: 25px;
+        top: 7px;
+    }
+
+    /** Main - About Section Circle Two Div  */
+    body > main > section#About > section#image > div#circleTwo {
+        width: 135px;
+        height: 135px;
+        bottom: 507px;
+        left: 1164px;
+    }
+
+    body > main > section#About > section#image > div#circleTwo h1 {
+        font-size: 30px;
+        left: 40px;
+        top: 6px;
+    }
+
+    body > main > section#About > section#image > div#circleTwo h2 {
+        font-size: 20px;
+        left: 30px;
+        bottom: 8px;
+    }
+
+    /** Main - About Section Vector One Div  */
+    #vectorOne {
+        position: absolute;
+        width: 78%;
+        height: 460px;
+        bottom: 1188px;
+        right: 210px;
+    }
+
+    /** Main - About Section Vector Two Div  */
+    #vectorTwo {
+        position: absolute;
+        width: 78%;
+        height: 460px;
+        bottom: 1163px;
+        left: 130px;
+    }
+
+    /** Main - About Section Vector Star Div  */
+    #vectorStar {
+        position: relative;
+        left: 1000px;
+        bottom: 750px;
+    }
+
+    /** Main - About Section Article h3 First Child */
+    #details {
+        position: relative;
+        bottom: 490px;
+        margin-left: 150px;
+    }
+
+    body > main > section#About > article#details > h3:nth-child(1) {
+        font-size: 30px;
+        margin-bottom: -50px;
+    }
+
+    body > main > section#About > article#details > h3:nth-child(1) span {
+        font-weight: bold;
+    }
+
+    /** Main - About Section Article h3 Second Child */
+    body > main > section#About > article#details > h3:nth-child(2) {
+        font-size: 30px;
+        padding-left: 430px;
+        padding-top: 0.5em;
+    }
+
+    body > main > section#About > article#details > h3:nth-child(2) span {
+        font-weight: bold;
+    }
+
+    /** Main - About Section Article h3 Third Child */
+    body > main > section#About > article#details > h3:nth-child(3) {
+        font-size: 30px;
+        margin-bottom: -41px;
+    }
+
+    body > main > section#About > article#details > h3:nth-child(3) span {
+        font-weight: bold;
+    }
+
+    /** Main - About Section Article h3 Fourth Child */
+    body > main > section#About > article#details > h3:nth-child(4) {
+        font-size: 30px;
+        padding-left: 430px;
+    }
+
+    body > main > section#About > article#details > h3:nth-child(4) span {
+        font-weight: bold;
+    }
+
+    /** Main - About Section Article h3 Fifth Child */
+    body > main > section#About > article#details > h3:nth-child(5) {
+        font-size: 30px;
+        margin-bottom: -41px;
+    }
+
+    body > main > section#About > article#details > h3:nth-child(5) span {
+        font-weight: bold;
+    }
+
+    /** Main - About Section Article h3 Sixth Child */
+    body > main > section#About > article#details > h3:nth-child(6) {
+        font-size: 30px;
+        padding-left: 430px;
+    }
+
+    body > main > section#About > article#details > h3:nth-child(6) span {
+        font-weight: bold;
+    }
+
+    /** Main - About Section Article h3 Seventh Child */
+    body > main > section#About > article#details > h3:nth-child(7) {
+        font-size: 30px;
+        margin-bottom: -41px;
+    }
+
+    body > main > section#About > article#details > h3:nth-child(7) span {
+        font-weight: bold;
+    }
+
+    /** Main - About Section Article h3 Eight Child */
+    body > main > section#About > article#details > h3:nth-child(8) {
+        font-size: 30px;
+        padding-left: 430px;
+    }
+
+    body > main > section#About > article#details > h3:nth-child(8) span {
+        font-weight: bold;
+    }
+
+    /** Main - About Section Article h3 Ninth Child */
+    body > main > section#About > article#details > h3:nth-child(9) {
+        font-size: 30px;
+        margin-bottom: -41px;
+    }
+
+    body > main > section#About > article#details > h3:nth-child(9) span {
+        font-weight: bold;
+    }
+
+    /** Main - About Section Article h3 Tenth Child */
+    body > main > section#About > article#details > h3:nth-child(10) {
+        font-size: 30px;
+        padding-left: 430px;
+    }
+
+    body > main > section#About > article#details > h3:nth-child(10) span {
+        font-weight: bold;
+    }
+
+    /** Main - About Download CV Button */
+    .btn-DownloadTwo {
+        padding: 15px 0 0 20px;
+        height: 55px;
+        font-size: 25px;
+    }
+
+    .downloadCv_Button {
+        position: relative;
+        display: inline-block;
+        bottom: 380px;
+        left: 480px;
+    }
+
+    .button-CircleTwo {
+        height: 40px;
+        width: 40px;
+        right: 10px;
+        bottom: 8px;
+    }
+
+    #download_arrow {
+        left: 24px;
+    }
+
+    /** Main - About Hire Me Button */
+    .btn-Hire-MeTwo {
+        padding: 15px 0 0 20px;
+        height: 55px;
+        font-size: 25px;
+    }
+
+    .hireMe_Button {
+        position: relative;
+        display: inline-block;
+        bottom: 55px;
+        left: 370px;
+    }
+
+    .button-CircleThree {
+        height: 40px;
+        width: 40px;
+        right: 10px;
+        bottom: 8px;
+    }
+
+    #HireMe_arrow {
+        left: 129px;
+        top: 15px;
+    }
+
+    /** Main - About Section Educational Section */
+    body > main > section#About > section#education > article > h4 {
+        font-size: 33px;
+        margin-top: -220px;
+    }
+
+    /** Main -  About Section Educational Section Underline */
+    body > main > section#About > section#education > div:nth-child(2) {
+        left: 680px;
+    }
+
+    body > main > section#About > section#education > div:nth-child(3) {
+        left: 680px;
+    }
+
+    /** Main -  About Section Educational Section */
+    /** Main -  About Section Educational Section Ordinary Level Section */
+    #education {
+        width: 100%;
+        height: 100px;
+    }
+
+    #Ordinary {
+        top: 100px;
+        left: -36px;
+        width: calc(100% / 2);
+        height: 420px;
+    }
+
+    #education_1 {
+        top: -85px;
+        right: 210px;
+    }
+
+    body > main > section#About > section#education > section#Ordinary > div:nth-child(2) {
+        height: 219px;
+        width: 3px;
+        right: 265px;
+        top: 125px;
+    }
+
+    body > main > section#About > section#education > section#Ordinary > div:nth-child(3) {
+        height: 50px;
+        width: 200px;
+        right: 210px;
+        bottom: 110px;
+    }
+
+    body > main > section#About > section#education > section#Ordinary > h3#OFirst {
+        font-size: 30px;
+        right: 75px;
+        bottom: 157px;
+    }
+
+    body > main > section#About > section#education > section#Ordinary > h3#OSecond {
+        font-size: 28px;
+        left: 170px;
+        bottom: 160px;
+    }
+
+    body > main > section#About > section#education > section#Ordinary > h3#OSecond span {
+        font-size: 24px;
+    }
+
+    body > main > section#About > section#education > section#Ordinary > p {
+        font-size: 26px;
+        left: 180px;
+        bottom: 140px;
+    }
+
+    /** Main -  About Section Educational Section Advanced Level Section **/
+    #Advanced {
+        left: -95px;
+        bottom: 9px;
+        width: calc(100% / 2);
+        height: 420px;
+    }
+
+    body > main > section#About > section#education > section#Advanced > div:nth-child(2) {
+        top: 210px;
+        left: 55px;
+    }
+
+    body > main > section#About > section#education > section#Advanced > div:nth-child(3) {
+        left: 110px;
+        bottom: 25px;
+    }
+
+    body > main > section#About > section#education > section#Advanced > h3#AFirst {
+        right: 77px;
+        bottom: 38px;
+        font-size: 30px;
+    }
+
+    body > main > section#About > section#education > section#Advanced > h3#ASecond {
+        font-size: 28px;
+        left: 233px;
+        bottom: 12px;
+    }
+
+    body > main > section#About > section#education > section#Advanced > h3#ASecond span {
+        font-size: 24px;
+    }
+
+    body > main > section#About > section#education > section#Advanced > p {
+        font-size: 26px;
+        left: 241px;
+        top: 13px;
+    }
+
+    /** Main -  About Section Educational Section HND Level Section **/
+    #HNDLevel {
+        bottom: 835px;
+        left: 633px;
+        width: calc(100% / 2);
+        height: 420px;
+    }
+
+    body > main > section#About > section#education > section#HNDLevel > div:nth-child(2) {
+        height: 219px;
+        width: 3px;
+        left: 2px;
+        top: 220px;
+    }
+
+    body > main > section#About > section#education > section#HNDLevel > div:nth-child(3) {
+        height: 50px;
+        width: 200px;
+        left: 60px;
+        bottom: 15px;
+    }
+
+    body > main > section#About > section#education > section#HNDLevel > h3#HFirst {
+        font-size: 30px;
+        right: 120px;
+        bottom: 30px;
+    }
+
+    body > main > section#About > section#education > section#HNDLevel > h3#HSecond {
+        font-size: 28px;
+        left: 177px;
+        top: 1px;
+    }
+
+    body > main > section#About > section#education > section#HNDLevel > h3#HSecond span {
+        font-size: 24px;
+    }
+
+    body > main > section#About > section#education > section#HNDLevel > p {
+        font-size: 26px;
+        left: 189px;
+        top: 20px;
+    }
+
+    /** Main -  About Section Educational Section Degree Level Section **/
+    #DegreeLevel {
+        bottom: 849px;
+        left: 633px;
+        width: calc(100% / 2);
+        height: 420px;
+    }
+
+    body > main > section#About > section#education > section#DegreeLevel > div:nth-child(2) {
+        height: 219px;
+        width: 3px;
+        top: 210px;
+        left: 2px;
+    }
+
+    body > main > section#About > section#education > section#DegreeLevel > div:nth-child(3) {
+        bottom: 24px;
+    }
+
+    body > main > section#About > section#education > section#DegreeLevel > h3#DFirst {
+        font-size: 30px;
+        right: 126px;
+        bottom: 37px;
+    }
+
+    body > main > section#About > section#education > section#DegreeLevel > h3#DSecond {
+        font-size: 26px;
+        left: 178px;
+        top: -7px;
+    }
+
+    body > main > section#About > section#education > section#DegreeLevel > h3#DSecond span {
+        font-size: 24px;
+    }
+
+    body > main > section#About > section#education > section#DegreeLevel > p {
+        font-size: 26px;
+        left: 189px;
+        top: 11px;
+    }
+
+    /** Main - About Section Educational Section Designs */
+    /**  Top Circle Group 1*/
+    body > main > section#About > section#design > div#circle1 {
+        height: 60px;
+        width: 60px;
+        bottom: 110px;
+        left: 160px;
+    }
+
+    body > main > section#About > section#design > div#circle2 {
+        height: 60px;
+        width: 60px;
+        bottom: 150px;
+        left: 182px;
+    }
+
+    /**  Top Circle Group 2*/
+    body > main > section#About > section#design > div#circle3 {
+        height: 60px;
+        width: 60px;
+        bottom: 230px;
+        left: 1000px;
+    }
+
+    body > main > section#About > section#design > div#circle4 {
+        height: 60px;
+        width: 60px;
+        bottom: 271px;
+        left: 1027px;
+    }
+
+    /** Main - About Section Educational Section Designs bottom Circle */
+    /**  Bottom Circle Group 1*/
+    body > main > section#About > section#design > div#circle5 {
+        height: 60px;
+        width: 60px;
+        bottom: -462px;
+        left: 565px;
+    }
+
+    body > main > section#About > section#design > div#circle6 {
+        height: 60px;
+        width: 60px;
+        bottom: -425px;
+        left: 600px;
+    }
+
+    /**  Bottom Circle Group 2*/
+    body > main > section#About > section#design > div#circle7 {
+        height: 60px;
+        width: 60px;
+        top: 340px;
+        left: 1207px;
+    }
+
+    body > main > section#About > section#design > div#circle8 {
+        height: 60px;
+        width: 60px;
+        bottom: -301px;
+        left: 1238px;
+    }
+
+    /** Main - About Section Educational Section Designs Center Vector */
+    #vector2 {
+        width: 400px;
+        height: 700px;
+        bottom: 485px;
+        left: 230px;
+    }
+
+    #vector3 {
+        width: 400px;
+        height: 700px;
+        bottom: 485px;
+        left: 420px;
+    }
+
 
 }
