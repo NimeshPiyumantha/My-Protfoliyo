@@ -19,6 +19,27 @@ body > main > section:first-child {
     position: relative;
 }
 
+/**
+* City Animation and keyframes. Style
+*/
+body > main > section:nth-child(2) {
+    width: max-content;
+    position: absolute;
+    height: 300px;
+    top: 290px;
+    animation-name: city;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes city {
+    from {
+        margin-left: 0;
+    }
+    to {
+        margin-left: -270vw;
+    }
+}
+
 
 
 
