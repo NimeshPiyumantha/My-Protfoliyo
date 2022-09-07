@@ -1675,6 +1675,109 @@
         right: 130px;
     }
 
+    /**-------------------------------------------- Main - Testimonials --------------------------------------------**/
+    /** Main - Testimonials Client says*/
+    body > main > section#Testimonials > section#Says {
+        width: 1000px;
+        height: 330px;
+        left: 100px;
+        top: 106px;
+    }
+
+    body > main > section#Testimonials > section#Says > section > div {
+        height: 312px;
+        width: 312px;
+    }
+
+    /* Client says one */
+    body > main > section#Testimonials > section#Says > section > div:nth-child(1) > div:nth-child(1) > p {
+        font-size: 18px;
+    }
+
+    body > main > section#Testimonials > section#Says > section > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) {
+        width: 100px;
+        height: 100px;
+    }
+
+    body > main > section#Testimonials > section#Says > section > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) h1 {
+        font-size: 24px;
+    }
+
+    body > main > section#Testimonials > section#Says > section > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) h2 {
+        font-size: 16px;
+    }
+
+    /* Client says two */
+    body > main > section#Testimonials > section#Says > section > div:nth-child(2) > div:nth-child(1) > p {
+        font-size: 18px;
+    }
+
+    body > main > section#Testimonials > section#Says > section > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) {
+        width: 100px;
+        height: 100px;
+    }
+
+    body > main > section#Testimonials > section#Says > section > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) h1 {
+        font-size: 24px;
+    }
+
+    body > main > section#Testimonials > section#Says > section > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) h2 {
+        font-size: 16px;
+    }
+
+    /* Client says three */
+    body > main > section#Testimonials > section#Says > section > div:nth-child(3) > div:nth-child(1) > p {
+        font-size: 18px;
+    }
+
+    body > main > section#Testimonials > section#Says > section > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) {
+        width: 100px;
+        height: 100px;
+    }
+
+    body > main > section#Testimonials > section#Says > section > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) h1 {
+        font-size: 24px;
+    }
+
+    body > main > section#Testimonials > section#Says > section > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) h2 {
+        font-size: 16px;
+    }
+
+    /* Background Designs */
+    body > main > section#Testimonials > section:nth-child(4) > img:nth-child(2) {
+        left: 55px
+    }
+    body > main > section#Testimonials > section:nth-child(4) > img:nth-child(3){
+        right: 80px;
+    }
+    body > main > section#Testimonials > section:nth-child(4) > div:nth-child(4){
+        left: 225px;
+    }
+    body > main > section#Testimonials > section:nth-child(4) > div:nth-child(5){
+        left: 80px;
+    }
+    body > main > section#Testimonials > section:nth-child(4) > div:nth-child(6){
+        left: 170px;
+    }
+    body > main > section#Testimonials > section:nth-child(4) > img:nth-child(7){
+        left: 26px;
+    }
+    body > main > section#Testimonials > section:nth-child(4) > img:nth-child(8){
+        left: 1248px;
+    }
+    body > main > section#Testimonials > section:nth-child(4) > img:nth-child(9){
+        left: 55px;
+    }
+    body > main > section#Testimonials > section:nth-child(4) > img:nth-child(10){
+        right: 15px;
+    }
+    body > main > section#Testimonials > section:nth-child(4) > img:nth-child(11){
+        left: 120px;
+    }
+    body > main > section#Testimonials > section:nth-child(4) > img:nth-child(12){
+        right: 197px;
+        bottom: 131px;
+    }
 
 
 }
