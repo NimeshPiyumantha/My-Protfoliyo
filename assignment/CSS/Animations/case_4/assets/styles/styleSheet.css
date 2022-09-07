@@ -11,10 +11,9 @@ body {
 /**
 *  Sky image style
 */
-body > main > section:first-child {
+body > main > section:first-child >img {
     width: 100vw;
     height: 80vh;
-    background: url("/assignment/CSS/Animations/case_4/assets/img/sky.jpg");
     background-size: cover;
     position: relative;
 }
