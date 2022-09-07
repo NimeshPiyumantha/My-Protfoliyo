@@ -249,7 +249,7 @@ body >main >section#Home >section:nth-child(2){
     position: absolute;
     width: 1200px;
     height: 730px;
-    top: 157px;
+    top: 140px;
     left: 100px;
     display: flex;
     flex-direction: column;
@@ -4311,6 +4311,9 @@ body > footer > section:nth-child(2) > section:nth-child(1) > section > section:
 }
 
 /** Footer Section - Links*/
+body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(2) {
+    width: 250px;
+}
 body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(2) h1 {
     font-family: Poppins, serif;
     color: #FF6348;
