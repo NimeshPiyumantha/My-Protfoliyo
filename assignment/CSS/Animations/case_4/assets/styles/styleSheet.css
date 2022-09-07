@@ -51,8 +51,16 @@ body > main > section:nth-child(2) > div {
 }
 
 /**
-* City image style
+*  Image Height style
 */
 body > main > section:nth-child(2) > div:nth-child(1) {
     height: 38vh;
+}
+
+/**
+* Road Image style
+*/
+body > main > section:nth-child(2) > div:nth-child(2) {
+    height: 260px;
+    top: 200px;
 }
