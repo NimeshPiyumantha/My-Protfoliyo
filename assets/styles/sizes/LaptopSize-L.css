@@ -1087,5 +1087,62 @@
         top: 210px;
     }
 
+    /**-------------------------------------------- Main - Achievements --------------------------------------------**/
+    /** Main - Achievements Header */
+    #Achievements {
+        background: #ECF0F3;
+        width: 100%;
+        height: 780px;
+        position: relative;
+    }
+
+    /** Main - Achievements About Header */
+    body > main > section#Achievements > article h4 {
+        top: 1px;
+    }
+
+    body > main > section#Achievements > article > h1 {
+        top: 110px;
+    }
+
+    /** Main - Achievements Header Underline */
+    body > main > section#Achievements > article > div:nth-child(3) {
+        top: 160px;
+        left: 40%;
+    }
+
+    body > main > section#Achievements > article > div:nth-child(4) {
+        top: 160px;
+        left: 40%;
+    }
+
+    /** Main - Achievements Main Image */
+    body > main > section#Achievements > section div#images > img:nth-child(1) {
+        height: 780px;
+    }
+
+    /** Main - Achievements Main Vector */
+    body > main > section#Achievements > section div#images > img:nth-child(2) {;
+        width: 1250px;
+        bottom: 120px;
+        left: 70px;
+    }
+
+    /** Main - Achievements Star Vector 1 */
+    body > main > section#Achievements > section div#images > img:nth-child(3) {
+        position: absolute;
+        top: 120px;
+        left: 50px;
+        margin: auto;
+    }
+
+    /** Main - Achievements Star Vector 2 */
+    body > main > section#Achievements > section div#images > img:nth-child(4) {
+        position: absolute;
+        bottom: 85px;
+        right: 27px;
+        margin: auto;
+    }
+
 
 }
