@@ -2,3 +2,20 @@
  * @author : Nimesh Piyumantha
  * @since : 0.1.0
  **/
+
+
+body {
+    overflow: hidden;
+}
+
+/**
+*  Sky image style
+*/
+body > main > section:first-child {
+    width: 100vw;
+    height: 80vh;
+    background: url("/assignment/CSS/Animations/case_4/assets/img/sky.jpg");
+    background-size: cover;
+    position: relative;
+}
+
