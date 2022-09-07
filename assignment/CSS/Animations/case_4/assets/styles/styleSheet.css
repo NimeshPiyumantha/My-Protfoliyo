@@ -78,3 +78,17 @@ body > main > div:nth-child(3) > img {
     margin: auto;
     position: absolute;
 }
+
+/**
+* Car wheel  style
+*/
+body > main > div:nth-child(4) {
+    width: max-content;
+    height: 5px;
+    top: 36vh;
+    bottom: 0;
+    left: -11px;
+    right: 0;
+    margin: auto;
+    position: absolute;
+}
