@@ -64,3 +64,17 @@ body > main > section:nth-child(2) > div:nth-child(2) {
     height: 260px;
     top: 200px;
 }
+
+/**
+* Car Image style
+*/
+body > main > div:nth-child(3) > img {
+    width: 380px;
+    height: 180px;
+    top: 55vh;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+}
