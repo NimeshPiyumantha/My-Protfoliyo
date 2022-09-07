@@ -102,3 +102,11 @@ body > main > div:nth-child(4) > img:nth-child(1) {
     margin-top: 100px;
     margin-right: 155px;
 }
+
+/**
+* Customized Car wheels sizes 2
+*/
+body > main > div:nth-child(4) > img:nth-child(2) {
+    width: 75px;
+    height: 75px;
+}
