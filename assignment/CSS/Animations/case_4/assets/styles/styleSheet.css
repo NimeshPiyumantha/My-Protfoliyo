@@ -20,7 +20,7 @@ body > main > section:first-child {
 }
 
 /**
-* City Animation and keyframes. Style
+* City Animation and keyframes Style
 */
 body > main > section:nth-child(2) {
     width: max-content;
@@ -40,7 +40,14 @@ body > main > section:nth-child(2) {
     }
 }
 
-
+/**
+* City and Road Images styles
+*/
+body > main > section:nth-child(2) > div {
+    display: flex;
+    width: max-content;
+    height: max-content;
+}
 
 
 
