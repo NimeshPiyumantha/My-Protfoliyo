@@ -5,6 +5,18 @@
 
 
 @media (min-width: 1400px) and (max-width: 1440px) {
+    /** Header */
+    .head {
+        height: 70px;
+    }
+
+    label.logo {
+        font-size: 32px;
+    }
+
+    nav ul li a {
+        font-size: 27px;
+    }
 
 
 }
