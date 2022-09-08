@@ -18,4 +18,113 @@
         font-size: 19px;
         padding: 5px 5px;
     }
+
+    /**-------------------------------------------- Main - Home --------------------------------------------**/
+    /** Main - Home- Main Content */
+    #Home {
+        position: relative;
+        height: 500px;
+        width: 100%;
+    }
+
+    body > main > section#Home > section:nth-child(2) {
+        top: 80px;
+    }
+
+    /** Main - Home- Main Content */
+    body > main > section#Home > section:nth-child(2) {
+        position: absolute;
+        width: 650px;
+        height: 400px;
+        top: 70px;
+        left: 100px;
+        justify-content: flex-start;
+    }
+
+    body > main > section#Home > section:nth-child(2) > section:nth-child(1) {
+        height: 200px;
+    }
+
+    body > main > section#Home > section:nth-child(2) > section:nth-child(1) > div {
+        height: calc(200px / 3);
+        display: flex;
+    }
+
+    body > main > section#Home > section:nth-child(2) > section:nth-child(1) > div:nth-child(1) h1 {
+        font-size: 30px;
+    }
+
+    body > main > section#Home > section:nth-child(2) > section:nth-child(1) > div:nth-child(2) h1 {
+        font-size: 37px;
+    }
+
+    body > main > section#Home > section:nth-child(2) > section:nth-child(1) > div:nth-child(3) h1 {
+        font-size: 20px;
+    }
+
+    body > main > section#Home > section:nth-child(2) > section:nth-child(2) {
+        height: 60px;
+        margin-left: 25px;
+    }
+
+    /**  Home_Content_Hire me Button */
+    .btn-Hire-Me {
+        padding: 13px 14px 8px 20px;
+        font-size: 25px;
+    }
+
+    .button-Circle {
+        height: 35px;
+        width: 35px;
+    }
+
+    #arrow_details {
+        left: 136px;
+        bottom: 17px;
+    }
+
+    body > main > section#Home > section:nth-child(2) > section:nth-child(3) {
+        height: 120px;
+        margin-left: 25px;
+        margin-top: 15px;
+    }
+
+    /**  Home_Content_Social Media Navigation */
+    .wrapper .button {
+        display: flex;
+        height: 60px;
+        width: 60px;
+    }
+
+    .wrapper .button:hover {
+        width: 180px;
+    }
+
+    .wrapper .button .icon {
+        height: 60px;
+        width: 60px;
+        margin-top: -19px;
+    }
+
+    .wrapper .button .icon i {
+        font-size: 25px;
+        line-height: 100px;
+    }
+
+    .wrapper .button:hover .icon i {
+        color: #fff;
+    }
+
+    .wrapper .button span {
+        font-size: 20px;
+        font-weight: bolder;
+        line-height: 50px;
+        margin-left: 10px;
+        transition: all 0.3s ease-out;
+    }
+
+    .follow-content-text {
+        font-size: 30px;
+        font-weight: bolder;
+    }
 }
