@@ -1,0 +1,21 @@
+/**
+ * @author : Nimesh Piyumantha
+ * @since : 0.1.0
+ **/
+
+
+@media (min-width: 1000px) and (max-width: 1024px) {
+    /**-------------------------------------------- Header --------------------------------------------**/
+    .head {
+        height: 70px;
+    }
+
+    label.logo {
+        font-size: 26px;
+    }
+
+    nav ul li a {
+        font-size: 19px;
+        padding: 5px 5px;
+    }
+}
