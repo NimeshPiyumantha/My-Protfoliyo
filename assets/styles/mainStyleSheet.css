@@ -1372,7 +1372,7 @@ body > main > section#About > section#education > section#DegreeLevel > p {
 body > main > section#About > section#design > div#circle1 {
     height: 75px;
     width: 75px;
-    border: 8px solid #2ED573;
+    border: 2px solid #2c3e50;
     opacity: 60%;
     border-radius: 100%;
     cursor: pointer;
@@ -1380,6 +1380,10 @@ body > main > section#About > section#design > div#circle1 {
     position: relative;
     bottom: 100px;
     left: 195px;
+    animation-name: circle;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 body > main > section#About > section#design > div#circle2 {
@@ -1393,6 +1397,11 @@ body > main > section#About > section#design > div#circle2 {
     bottom: 150px;
     left: 225px;
     box-shadow: 0 -1px 8px 2px #1c1717e8;
+    animation-name: circle;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 1s;
 }
 
 /**  Top Circle Group 2*/
