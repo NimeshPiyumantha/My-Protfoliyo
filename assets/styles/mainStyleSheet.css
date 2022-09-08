@@ -929,6 +929,7 @@ body > main > section#About > article#details > h3:nth-child(10) span {
 .btn-Hire-MeTwo {
     background-color: #2ED573;
     border-radius: 100px;
+    opacity: 0.6;
     padding: 20px 18px 10px 20px;
     border: none;
     color: #ECF0F3;
@@ -941,6 +942,10 @@ body > main > section#About > article#details > h3:nth-child(10) span {
     cursor: pointer;
     -webkit-text-size-adjust: 100%;
     box-shadow: 0 -1px 8px 2px #1c1717e8;
+}
+.btn-Hire-MeTwo:hover {
+    background-color: #2ED573;
+    opacity: 1;
 }
 
 .hireMe_Button {
