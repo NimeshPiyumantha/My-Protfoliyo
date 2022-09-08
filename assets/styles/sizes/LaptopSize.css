@@ -127,4 +127,116 @@
         font-size: 30px;
         font-weight: bolder;
     }
+
+    /**-------------------------------------------- Main - About --------------------------------------------**/
+    #About {
+        width: 100%;
+        height: 1800px;
+    }
+
+    /** Main - About Header */
+    body > main > section > article h4 {
+        font-size: 25px;
+    }
+
+    body > main > section > article > h1 {
+        font-size: 33px;
+    }
+
+    body > main > section > article > h1 > span {
+        font-size: 33px;
+    }
+
+    body > main > section#About > div:nth-child(2) {
+        left: 42%;
+    }
+
+    body > main > section#About > div:nth-child(3) {
+        width: 80px;
+        left: 42%;
+    }
+
+    /** Main - About Header Article */
+    body > main > section#About > article#paragraphOne p {
+        font-size: 19px;
+        margin-left: 80px;
+        bottom: 30px;
+    }
+
+    body > main > section#About > article#paragraphTwo p {
+        font-size: 18px;
+        margin-left: 80px;
+        bottom: 40px;
+    }
+
+    /** Main - About Image Section */
+    #aboutImg {
+        height: 343px;
+        width: 265px;
+        bottom: 206px;
+        left: 610px;
+    }
+
+    /** Main - About Section Circle One Div  */
+    body > main > section#About > section#image > div#circleOne {
+        width: 105px;
+        height: 105px;
+        bottom: 470px;
+        left: 679px;
+    }
+
+    body > main > section#About > section#image > div#circleOne h1 {
+        font-size: 25px;
+        left: 41px;
+        top: 19px;
+    }
+
+    body > main > section#About > section#image > div#circleOne h2 {
+        font-size: 15px;
+        left: 15px;
+        top: 7px;
+    }
+
+    /** Main - About Section Circle Two Div  */
+    body > main > section#About > section#image > div#circleTwo {
+        width: 105px;
+        height: 105px;
+        bottom: 382px;
+        left: 811px;
+    }
+
+    body > main > section#About > section#image > div#circleTwo h1 {
+        font-size: 25px;
+        left: 33px;
+        top: 6px;
+    }
+
+    body > main > section#About > section#image > div#circleTwo h2 {
+        font-size: 15px;
+        left: 25px;
+        bottom: 8px;
+    }
+    /** Main - About Section Vector One Div  */
+    #vectorOne {
+        position: absolute;
+        width: 78%;
+        bottom: 1142px;
+        right: 165px;
+    }
+
+    /** Main - About Section Vector Two Div  */
+    #vectorTwo {
+        position: absolute;
+        width: 78%;
+        bottom: 1128px;
+        left: 78px;
+    }
+
+    /** Main - About Section Vector Star Div  */
+    #vectorStar {
+        position: relative;
+        left: 670px;
+        bottom: 545px;
+        width: 110px;
+    }
 }
