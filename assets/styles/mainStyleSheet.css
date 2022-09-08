@@ -315,6 +315,7 @@ body > main > section#Home > section:nth-child(2) > section:nth-child(2) {
     font-weight: bolder;
     cursor: pointer;
 }
+
 .btn-Hire-Me:hover {
     background-color: #2ecc71;
     opacity: 1;
@@ -595,23 +596,23 @@ body > main > section#About > div#circle {
 }
 
 @keyframes circle {
-    0%{
+    0% {
         background: #1abc9c;
     }
-    15%{
-        background:#d35400;
+    15% {
+        background: #d35400;
     }
-    30%{
+    30% {
         background: #9b59b6;
     }
-    45%{
+    45% {
         background: #7f8c8d;
     }
-    70%{
+    70% {
         background: #f1c40f;
     }
-    85%{
-        background:#16a085;
+    85% {
+        background: #16a085;
     }
     100% {
         background: #c0392b;
@@ -920,6 +921,7 @@ body > main > section#About > article#details > h3:nth-child(10) span {
     -webkit-text-size-adjust: 100%;
     box-shadow: 0 -1px 8px 2px #1c1717e8;
 }
+
 .btn-DownloadTwo:hover {
     background-color: #FF6348;
     opacity: 1;
@@ -971,6 +973,7 @@ body > main > section#About > article#details > h3:nth-child(10) span {
     -webkit-text-size-adjust: 100%;
     box-shadow: 0 -1px 8px 2px #1c1717e8;
 }
+
 .btn-Hire-MeTwo:hover {
     background-color: #2ED573;
     opacity: 1;
