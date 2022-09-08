@@ -577,102 +577,17 @@ body > main > section#About > div:nth-child(3) {
     border-radius: 3px;
 }
 
-/** Main - About Header Circle 1*/
-body > main > section#About > div#circle >div:nth-child(1) {
-    width: 40px;
-    height: 40px;
+/** Main - About Header Circle */
+body > main > section#About > div#circle {
+    width: 90px;
+    height: 90px;
     background: #FFFFFF;
-    border: 2px solid #2C3E50;
-    position: absolute;
+    border: 8px solid #FF6348;
+    position: relative;
     border-radius: 100%;
     opacity: 60%;
     bottom: 100px;
     right: 45px;
-    animation-name: circle1;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-@keyframes circle1 {
-    0% {
-        top: 0;
-        left: 0;
-        background-color: #2ecc71;
-        transform: rotate(0deg);
-    }
-    25% {
-        top: 0;
-        left: 96vw;
-        background-color: #e67e22;
-        transform: rotate(180deg);
-    }
-    50% {
-        top: 80vh;
-        left: 96vw;
-        background-color: #1abc9c;
-        transform: rotate(360deg);
-    }
-    75% {
-        top: 80vh;
-        left: 0;
-        background-color: #f1c40f;
-        transform: rotate(180deg);
-    }
-    100% {
-        top: 0;
-        left: 0;
-        background-color: #16a085;
-        transform: rotate(360deg);
-    }
-}
-
-/** Main - About Header Circle 1*/
-body > main > section#About > div#circle >div:nth-child(2) {
-    width: 40px;
-    height: 40px;
-    background: #FFFFFF;
-    border: 2px solid #2C3E50;
-    position: absolute;
-    border-radius: 100%;
-    opacity: 60%;
-    bottom: 50px;
-    right: 30px;
-    animation-name: circle2;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-@keyframes circle2 {
-    0% {
-        top: 0;
-        left: 0;
-        background-color: #2ecc71;
-        transform: rotate(0deg);
-    }
-    25% {
-        top: 80vh;
-        left: 0;
-        background-color: #f1c40f;
-        transform: rotate(180deg);
-    }
-    50% {
-        top: 80vh;
-        left: 96vw;
-        background-color: #1abc9c;
-        transform: rotate(360deg);
-    }
-    75% {
-        top: 0;
-        left: 96vw;
-        background-color: #e67e22;
-        transform: rotate(180deg);
-    }
-    100% {
-        top: 0;
-        left: 0;
-        background-color: #16a085;
-        transform: rotate(360deg);
-    }
 }
 
 /** Main - About Header Article */
@@ -963,6 +878,7 @@ body > main > section#About > article#details > h3:nth-child(10) span {
 /** Main - About Download CV Button */
 .btn-DownloadTwo {
     background-color: #FF6348;
+    opacity: 0.6;
     border-radius: 100px;
     padding: 20px 18px 10px 20px;
     border: none;
@@ -975,6 +891,10 @@ body > main > section#About > article#details > h3:nth-child(10) span {
     cursor: pointer;
     -webkit-text-size-adjust: 100%;
     box-shadow: 0 -1px 8px 2px #1c1717e8;
+}
+.btn-DownloadTwo:hover {
+    background-color: #FF6348;
+    opacity: 1;
 }
 
 .downloadCv_Button {
