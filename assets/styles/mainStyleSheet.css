@@ -245,7 +245,7 @@ main {
 }
 
 /** Main - Home- Main Content */
-body >main >section#Home >section:nth-child(2){
+body > main > section#Home > section:nth-child(2) {
     position: absolute;
     width: 1200px;
     height: 730px;
@@ -256,46 +256,51 @@ body >main >section#Home >section:nth-child(2){
     flex-wrap: wrap;
 }
 
-body >main >section#Home >section:nth-child(2)>section{
+body > main > section#Home > section:nth-child(2) > section {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: flex-end;
 }
 
-body >main >section#Home >section:nth-child(2)>section:nth-child(1){
+body > main > section#Home > section:nth-child(2) > section:nth-child(1) {
     height: 400px;
 }
-body >main >section#Home >section:nth-child(2)>section:nth-child(1) >div{
+
+body > main > section#Home > section:nth-child(2) > section:nth-child(1) > div {
     height: 120px;
     display: flex;
 }
-body >main >section#Home >section:nth-child(2)>section:nth-child(1) >div:nth-child(1) h1{
+
+body > main > section#Home > section:nth-child(2) > section:nth-child(1) > div:nth-child(1) h1 {
     font-family: Poppins, sans-serif;
     font-size: 60px;
     font-weight: bolder;
     align-items: center;
 }
-body >main >section#Home >section:nth-child(2)>section:nth-child(1) >div:nth-child(2) h1{
+
+body > main > section#Home > section:nth-child(2) > section:nth-child(1) > div:nth-child(2) h1 {
     font-family: Poppins, sans-serif;
     font-size: 70px;
     font-weight: bolder;
     align-items: center;
 }
-body >main >section#Home >section:nth-child(2)>section:nth-child(1) >div:nth-child(3) h1{
+
+body > main > section#Home > section:nth-child(2) > section:nth-child(1) > div:nth-child(3) h1 {
     font-family: Poppins, sans-serif;
     font-size: 45px;
     font-weight: bolder;
     align-items: center;
 }
 
-body >main >section#Home >section:nth-child(2)>section:nth-child(2){
+body > main > section#Home > section:nth-child(2) > section:nth-child(2) {
     height: 80px;
     margin-left: 50px;
 }
 
 /**  Home_Content_Hire me Button */
 .btn-Hire-Me {
+    opacity: 0.6;
     background-color: #2ED573;
     border-radius: 100px;
     box-shadow: 0 -1px 8px 2px #1c1717e8;
@@ -310,10 +315,16 @@ body >main >section#Home >section:nth-child(2)>section:nth-child(2){
     font-weight: bolder;
     cursor: pointer;
 }
+.btn-Hire-Me:hover {
+    background-color: #2ecc71;
+    opacity: 1;
+}
+
 .button-content {
     position: relative;
     display: inline-block;
 }
+
 .button-Circle {
     height: 52px;
     width: 52px;
@@ -326,6 +337,7 @@ body >main >section#Home >section:nth-child(2)>section:nth-child(2){
     bottom: 5px;
     box-shadow: inset -13px -13px 16px #FFFFFF, inset 13px 13px 16px rgba(13, 39, 80, 0.16);
 }
+
 #arrow_details {
     color: #2ED573;
     position: absolute;
@@ -334,11 +346,12 @@ body >main >section#Home >section:nth-child(2)>section:nth-child(2){
     z-index: 1;
 }
 
-body >main >section#Home >section:nth-child(2)>section:nth-child(3){
+body > main > section#Home > section:nth-child(2) > section:nth-child(3) {
     height: 220px;
     margin-left: 50px;
     margin-top: 10px;
 }
+
 /**  Home_Content_Social Media Navigation */
 .wrapper .button {
     display: flex;
@@ -372,15 +385,19 @@ body >main >section#Home >section:nth-child(2)>section:nth-child(3){
 .wrapper .button:nth-child(1):hover .icon {
     background: #3b5998;
 }
+
 .wrapper .button:nth-child(2):hover .icon {
     background: #0A66C2;
 }
+
 .wrapper .button:nth-child(3):hover .icon {
     background: #1DA1F2;
 }
+
 .wrapper .button:nth-child(4):hover .icon {
     background: #333;
 }
+
 .wrapper .button:nth-child(5):hover .icon {
     background: #F47F24;
 }
@@ -395,6 +412,7 @@ body >main >section#Home >section:nth-child(2)>section:nth-child(3){
 .wrapper .button:hover .icon i {
     color: #fff;
 }
+
 .wrapper .button span {
     font-size: 26px;
     font-weight: bolder;
@@ -402,18 +420,23 @@ body >main >section#Home >section:nth-child(2)>section:nth-child(3){
     margin-left: 10px;
     transition: all 0.3s ease-out;
 }
+
 .wrapper .button:nth-child(1) span {
     color: #3b5998;
 }
+
 .wrapper .button:nth-child(2) span {
     color: #0A66C2;
 }
+
 .wrapper .button:nth-child(3) span {
     color: #1DA1F2;
 }
+
 .wrapper .button:nth-child(4) span {
     color: #333;
 }
+
 .wrapper .button:nth-child(5) span {
     color: #F47F24;
 }
@@ -423,6 +446,7 @@ body >main >section#Home >section:nth-child(2)>section:nth-child(3){
     display: inline-block;
     margin-top: 10px;
 }
+
 .follow-content-text {
     font-size: 50px;
     font-weight: bolder;
@@ -3978,13 +4002,13 @@ body > main > section#Contact > section:nth-child(4) {
     justify-content: space-between;
 }
 
-body > main > section#Contact > section:nth-child(4) > article{
+body > main > section#Contact > section:nth-child(4) > article {
     position: relative;
     display: flex;
     flex-wrap: wrap;
 }
 
-body > main > section#Contact > section:nth-child(4) > article:nth-child(1){
+body > main > section#Contact > section:nth-child(4) > article:nth-child(1) {
     width: 100%;
     height: 60px;
 }
@@ -4019,24 +4043,26 @@ body > main > section#Contact > section:nth-child(4) > article:nth-child(1) > di
     right: 321px;
 }
 
-body > main > section#Contact > section:nth-child(4) > article:nth-child(2){
+body > main > section#Contact > section:nth-child(4) > article:nth-child(2) {
     width: 100%;
     height: 470px;
     display: flex;
     flex-direction: column;
 }
 
-body > main > section#Contact > section:nth-child(4) > article:nth-child(2)>div{
+body > main > section#Contact > section:nth-child(4) > article:nth-child(2) > div {
     height: 40px;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
 }
-body > main > section#Contact > section:nth-child(4) > article:nth-child(2)>div:nth-child(1){
+
+body > main > section#Contact > section:nth-child(4) > article:nth-child(2) > div:nth-child(1) {
     height: 150px;
 }
-body > main > section#Contact > section:nth-child(4) > article:nth-child(2) > div:nth-child(1)> h2{
+
+body > main > section#Contact > section:nth-child(4) > article:nth-child(2) > div:nth-child(1) > h2 {
     font-size: 28px;
     font-family: cursive;
     font-weight: bolder;
@@ -4044,10 +4070,11 @@ body > main > section#Contact > section:nth-child(4) > article:nth-child(2) > di
 }
 
 /** Main - Contact Details Get In Touch Section - Address*/
-body > main > section#Contact > section:nth-child(4)> article:nth-child(2) > div:nth-child(2) i {
+body > main > section#Contact > section:nth-child(4) > article:nth-child(2) > div:nth-child(2) i {
     font-size: 35px;
     margin-left: 80px;
 }
+
 body > main > section#Contact > section:nth-child(4) > article:nth-child(2) > div:nth-child(2) p {
     font-family: cursive;
     font-weight: bolder;
@@ -4057,10 +4084,11 @@ body > main > section#Contact > section:nth-child(4) > article:nth-child(2) > di
 }
 
 /** Main - Contact Details Get In Touch Section - Contact*/
-body > main > section#Contact > section:nth-child(4)> article:nth-child(2) > div:nth-child(3) i {
+body > main > section#Contact > section:nth-child(4) > article:nth-child(2) > div:nth-child(3) i {
     font-size: 35px;
     margin-left: 80px;
 }
+
 body > main > section#Contact > section:nth-child(4) > article:nth-child(2) > div:nth-child(3) h3 {
     font-family: cursive;
     font-weight: bolder;
@@ -4070,10 +4098,11 @@ body > main > section#Contact > section:nth-child(4) > article:nth-child(2) > di
 }
 
 /** Main - Contact Details Get In Touch Section - Email*/
-body > main > section#Contact > section:nth-child(4)> article:nth-child(2) > div:nth-child(4) i {
+body > main > section#Contact > section:nth-child(4) > article:nth-child(2) > div:nth-child(4) i {
     font-size: 35px;
     margin-left: 80px;
 }
+
 body > main > section#Contact > section:nth-child(4) > article:nth-child(2) > div:nth-child(4) h3 {
     font-family: cursive;
     font-weight: bolder;
@@ -4081,10 +4110,12 @@ body > main > section#Contact > section:nth-child(4) > article:nth-child(2) > di
     font-size: 25px;
     left: 16px;
 }
+
 /** Main - Contact Details - Social Media*/
-body > main > section#Contact > section:nth-child(4) > article:nth-child(2)>div:nth-child(5){
+body > main > section#Contact > section:nth-child(4) > article:nth-child(2) > div:nth-child(5) {
     height: 150px;
 }
+
 .social-menu ul {
     position: relative;
     bottom: 0;
@@ -4096,19 +4127,23 @@ body > main > section#Contact > section:nth-child(4) > article:nth-child(2)>div:
     padding: 0;
     display: flex;
 }
+
 .social-menu ul li {
     list-style: none;
     margin: 0 10px;
 }
+
 .social-menu ul li .fa {
     color: #000000;
     font-size: 35px;
     line-height: 50px;
     transition: 0.5s;
 }
+
 .social-menu > ul > li .fa:hover {
     color: #F8F7F3;
 }
+
 .social-menu ul > li > a > i {
     font-size: 35px;
     position: absolute;
@@ -4118,6 +4153,7 @@ body > main > section#Contact > section:nth-child(4) > article:nth-child(2)>div:
     right: 0;
     margin: auto;
 }
+
 .social-menu ul > li > a {
     position: relative;
     display: block;
@@ -4140,15 +4176,19 @@ body > main > section#Contact > section:nth-child(4) > article:nth-child(2)>div:
 .social-menu > ul > li:nth-child(1) a:hover {
     background: #3b5998;
 }
+
 .social-menu > ul > li:nth-child(2) a:hover {
     background: #0A66C2;
 }
+
 .social-menu > ul > li:nth-child(3) a:hover {
     background: #1DA1F2;
 }
+
 .social-menu > ul > li:nth-child(4) a:hover {
     background: #333;
 }
+
 .social-menu > ul > li:nth-child(5) a:hover {
     background: #F47F24;
 }
@@ -4317,6 +4357,7 @@ body > footer > section:nth-child(2) > section:nth-child(1) > section > section:
 body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(2) {
     width: 250px;
 }
+
 body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(2) h1 {
     font-family: Poppins, serif;
     color: #FF6348;
