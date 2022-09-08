@@ -1457,6 +1457,11 @@ body > main > section#About > section#design > div#circle5 {
     bottom: -500px;
     left: 800px;
     z-index: 1;
+    animation-name: circle;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 2s;
 }
 
 body > main > section#About > section#design > div#circle6 {
@@ -1470,6 +1475,11 @@ body > main > section#About > section#design > div#circle6 {
     position: relative;
     bottom: -460px;
     left: 820px;
+    animation-name: circle;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 3s;
 }
 
 /**  Bottom Circle Group 2*/
