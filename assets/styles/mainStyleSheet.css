@@ -582,14 +582,14 @@ body > main > section#About > div#circle {
     width: 90px;
     height: 90px;
     background: #FFFFFF;
-    border: 8px solid #2C3E50;
+    border: 4px solid #2C3E50;
     position: relative;
     border-radius: 100%;
     opacity: 60%;
     bottom: 100px;
     right: 45px;
     animation-name: circle;
-    animation-duration: 10s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
 }
 
@@ -597,16 +597,22 @@ body > main > section#About > div#circle {
     0%{
         background: #1abc9c;
     }
-    25%{
+    15%{
         background:#d35400;
     }
-    50%{
-        background: #e74c3c;
+    30%{
+        background: #9b59b6;
     }
-    75%{
-        background: #2ecc71;
+    45%{
+        background: #7f8c8d;
     }
-    100%{
+    70%{
+        background: #f1c40f;
+    }
+    85%{
+        background:#16a085;
+    }
+    100% {
         background: #c0392b;
     }
 }
