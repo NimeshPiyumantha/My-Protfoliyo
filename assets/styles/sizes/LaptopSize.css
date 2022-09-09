@@ -392,9 +392,14 @@
         top: 15px;
     }
 
+    /** Main -  About Section Educational Section */
+    /** Main -  About Section Educational Section Ordinary Level Section */
     body > main > section#About > section#education{
         top: -168px;
         position: relative;
+        width: 100%;
+        height: 942px;
+        background: green;
     }
 
     /** Main - About Section Educational Section */
@@ -414,5 +419,57 @@
         position: relative;
         top: -8px;
     }
+
+    #Ordinary {
+        top: 50px;
+        left: -3px;
+        width: calc(100% / 2);
+        height: 360px;
+        background: #F47F24;
+    }
+
+    #education_1 {
+        top: -81px;
+        right: 253px;
+    }
+
+    body > main > section#About > section#education > section#Ordinary > div:nth-child(2) {
+        height: 219px;
+        width: 3px;
+        right: 308px;
+        top: 125px;
+    }
+
+    body > main > section#About > section#education > section#Ordinary > div:nth-child(3) {
+        height: 50px;
+        width: 200px;
+        right: 145px;
+        bottom: 161px;
+    }
+
+    body > main > section#About > section#education > section#Ordinary > h3#OFirst {
+        font-size: 30px;
+        right: -146px;
+        bottom: 221px;
+    }
+
+    body > main > section#About > section#education > section#Ordinary > h3#OSecond {
+        font-size: 22px;
+        left: -13px;
+        bottom: 142px;
+        width: 354px;
+    }
+
+    body > main > section#About > section#education > section#Ordinary > h3#OSecond span {
+        font-size: 18px;
+    }
+
+    body > main > section#About > section#education > section#Ordinary > p {
+        font-size: 20px;
+        left: 157px;
+        bottom: 140px;
+        width: 354px;
+    }
+
 
 }
