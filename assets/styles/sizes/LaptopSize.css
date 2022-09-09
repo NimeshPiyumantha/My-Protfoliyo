@@ -341,4 +341,56 @@
         font-weight: bold;
     }
 
+    /** Main - About Download CV Button */
+    .btn-DownloadTwo {
+        padding: 15px 0 0 20px;
+        height: 55px;
+        font-size: 25px;
+    }
+
+    .downloadCv_Button {
+        position: relative;
+        display: inline-block;
+        bottom: 380px;
+        left: 480px;
+    }
+
+    .button-CircleTwo {
+        height: 40px;
+        width: 40px;
+        right: 10px;
+        bottom: 8px;
+    }
+
+    #download_arrow {
+        left: 24px;
+    }
+
+    /** Main - About Hire Me Button */
+    .btn-Hire-MeTwo {
+        padding: 15px 0 0 20px;
+        height: 55px;
+        font-size: 25px;
+    }
+
+    .hireMe_Button {
+        position: relative;
+        display: inline-block;
+        bottom: 55px;
+        left: 370px;
+    }
+
+    .button-CircleThree {
+        height: 40px;
+        width: 40px;
+        right: 10px;
+        bottom: 8px;
+    }
+
+    #HireMe_arrow {
+        left: 129px;
+        top: 15px;
+    }
+
+
 }
