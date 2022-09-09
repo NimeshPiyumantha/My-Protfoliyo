@@ -351,8 +351,8 @@
     .downloadCv_Button {
         position: relative;
         display: inline-block;
-        bottom: 380px;
-        left: 480px;
+        bottom: 498px;
+        left: 197px;
     }
 
     .button-CircleTwo {
@@ -392,5 +392,27 @@
         top: 15px;
     }
 
+    body > main > section#About > section#education{
+        top: -168px;
+        position: relative;
+    }
+
+    /** Main - About Section Educational Section */
+    body > main > section#About > section#education > article > h4 {
+        font-size: 33px;
+        margin-top: -220px;
+    }
+
+    /** Main -  About Section Educational Section Underline */
+    body > main > section#About > section#education > div:nth-child(2) {
+        left: 430px;
+        position: relative;
+    }
+
+    body > main > section#About > section#education > div:nth-child(3) {
+        left: 430px;
+        position: relative;
+        top: -8px;
+    }
 
 }
