@@ -572,5 +572,53 @@
         width: 360px;
     }
 
+    /** Main -  About Section Educational Section Degree Level Section **/
+    #DegreeLevel {
+        bottom: 671px;
+        left: 509px;
+        width: calc(100% / 2);
+        height: 360px;
+        background: #F47F24;
+    }
+    #education_4{
+        top: -107px;
+        left: 15px;
+    }
+
+    body > main > section#About > section#education > section#DegreeLevel > div:nth-child(2) {
+        height: 219px;
+        width: 3px;
+        top: 106px;
+        left: -40px;
+    }
+
+    body > main > section#About > section#education > section#DegreeLevel > div:nth-child(3) {
+        bottom: 131px;
+        left: 20px;
+    }
+
+    body > main > section#About > section#education > section#DegreeLevel > h3#DFirst {
+        font-size: 30px;
+        right: 160px;
+        bottom: 142px;
+    }
+
+    body > main > section#About > section#education > section#DegreeLevel > h3#DSecond {
+        font-size: 22px;
+        left: 156px;
+        top: -114px;
+        width: 345px;
+    }
+
+    body > main > section#About > section#education > section#DegreeLevel > h3#DSecond span {
+        font-size: 18px;
+    }
+
+    body > main > section#About > section#education > section#DegreeLevel > p {
+        font-size: 20px;
+        left: 171px;
+        top: -91px;
+        width: 345px;
+    }
 
 }
