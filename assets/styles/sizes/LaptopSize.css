@@ -467,9 +467,57 @@
     body > main > section#About > section#education > section#Ordinary > p {
         font-size: 20px;
         left: 157px;
-        bottom: 140px;
+        bottom: 123px;
         width: 354px;
     }
 
+    /** Main -  About Section Educational Section Advanced Level Section **/
+    #Advanced {
+        left: -3px;
+        bottom: -49px;
+        width: calc(100% / 2);
+        height: 360px;
+        background: #F47F24;
+    }
+
+    #education_2{
+        display: inline-block;
+        position: relative;
+        left: 9px;
+        top: -107px;
+    }
+    body > main > section#About > section#education > section#Advanced > div:nth-child(2) {
+        top: 106px;
+        left: -47px;
+    }
+
+    body > main > section#About > section#education > section#Advanced > div:nth-child(3) {
+        left: 7px;
+        bottom: 132px;
+    }
+
+    body > main > section#About > section#education > section#Advanced > h3#AFirst {
+        right: 172px;
+        bottom: 142px;
+        font-size: 30px;
+    }
+
+    body > main > section#About > section#education > section#Advanced > h3#ASecond {
+        font-size: 20px;
+        left: 147px;
+        top: -112px;
+        width: 345px;
+    }
+
+    body > main > section#About > section#education > section#Advanced > h3#ASecond span {
+        font-size: 18px;
+    }
+
+    body > main > section#About > section#education > section#Advanced > p {
+        font-size: 20px;
+        left: 168px;
+        top: -79px;
+        width: 345px;
+    }
 
 }
