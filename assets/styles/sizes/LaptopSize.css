@@ -202,7 +202,7 @@
         width: 105px;
         height: 105px;
         bottom: 382px;
-        left: 811px;
+        left: 813px;
     }
 
     body > main > section#About > section#image > div#circleTwo h1 {
@@ -219,7 +219,7 @@
     /** Main - About Section Vector One Div  */
     #vectorOne {
         position: absolute;
-        width: 78%;
+        width: 80%;
         bottom: 1142px;
         right: 165px;
     }
@@ -227,9 +227,9 @@
     /** Main - About Section Vector Two Div  */
     #vectorTwo {
         position: absolute;
-        width: 78%;
+        width: 80%;
         bottom: 1128px;
-        left: 78px;
+        left: 60px;
     }
 
     /** Main - About Section Vector Star Div  */
@@ -239,4 +239,106 @@
         bottom: 545px;
         width: 110px;
     }
+
+    /** Main - About Section Article h3 First Child */
+    #details {
+        position: relative;
+        bottom: 575px;
+        margin-left: 69px;
+        width: 784px;
+    }
+
+    body > main > section#About > article#details > h3:nth-child(1) {
+        font-size: 22px;
+    }
+    body > main > section#About > article#details > h3:nth-child(1) span {
+        font-weight: bold;
+    }
+
+    /** Main - About Section Article h3 Second Child */
+    body > main > section#About > article#details > h3:nth-child(2) {
+        font-size: 22px;
+        padding-left: 300px;
+        padding-top: 18px;
+    }
+    body > main > section#About > article#details > h3:nth-child(2) span {
+        font-weight: bold;
+    }
+
+    /** Main - About Section Article h3 Third Child */
+    body > main > section#About > article#details > h3:nth-child(3) {
+        font-size: 22px;
+        margin-top: -7px;
+    }
+    body > main > section#About > article#details > h3:nth-child(3) span {
+        font-weight: bold;
+    }
+
+    /** Main - About Section Article h3 Fourth Child */
+    body > main > section#About > article#details > h3:nth-child(4) {
+        font-size: 22px;
+        padding-left: 300px;
+        padding-top: 18px;
+    }
+    body > main > section#About > article#details > h3:nth-child(4) span {
+        font-weight: bold;
+    }
+
+    /** Main - About Section Article h3 Fifth Child */
+    body > main > section#About > article#details > h3:nth-child(5) {
+        font-size: 22px;
+        margin-top: -7px;
+    }
+    body > main > section#About > article#details > h3:nth-child(5) span {
+        font-weight: bold;
+    }
+
+    /** Main - About Section Article h3 Sixth Child */
+    body > main > section#About > article#details > h3:nth-child(6) {
+        font-size: 22px;
+        padding-left: 300px;
+        padding-top: 18px;
+    }
+    body > main > section#About > article#details > h3:nth-child(6) span {
+        font-weight: bold;
+    }
+
+    /** Main - About Section Article h3 Seven Child */
+    body > main > section#About > article#details > h3:nth-child(7) {
+        font-size: 22px;
+        margin-top: -7px;
+    }
+    body > main > section#About > article#details > h3:nth-child(7) span {
+        font-weight: bold;
+    }
+
+    /** Main - About Section Article h3 Eight Child */
+    body > main > section#About > article#details > h3:nth-child(8) {
+        font-size: 22px;
+        padding-left: 300px;
+        padding-top: 15px;
+    }
+    body > main > section#About > article#details > h3:nth-child(8) span {
+        font-weight: bold;
+    }
+
+    /** Main - About Section Article h3 Ninth Child */
+    body > main > section#About > article#details > h3:nth-child(9) {
+        font-size: 22px;
+        margin-top: -7px;
+    }
+    body > main > section#About > article#details > h3:nth-child(9) span {
+        font-weight: bold;
+    }
+
+    /** Main - About Section Article h3 Tenth Child */
+    body > main > section#About > article#details > h3:nth-child(10) {
+        font-size: 22px;
+        padding-left: 300px;
+        padding-top: 7px;
+    }
+    body > main > section#About > article#details > h3:nth-child(10) span {
+        font-weight: bold;
+    }
+
 }
