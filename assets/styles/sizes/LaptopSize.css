@@ -477,7 +477,7 @@
         bottom: -49px;
         width: calc(100% / 2);
         height: 360px;
-        background: #F47F24;
+        background: red;
     }
 
     #education_2{
@@ -519,5 +519,58 @@
         top: -79px;
         width: 345px;
     }
+
+    /** Main -  About Section Educational Section HND Level Section **/
+    #HNDLevel {
+        bottom: 670px;
+        left: 508px;
+        width: calc(100% / 2);
+        height: 360px;
+        background: red;
+    }
+
+    #education_3{
+        top: -81px;
+        left: 18px;
+    }
+
+    body > main > section#About > section#education > section#HNDLevel > div:nth-child(2) {
+        height: 219px;
+        width: 3px;
+        left: -37px;
+        top: 125px;
+    }
+
+    body > main > section#About > section#education > section#HNDLevel > div:nth-child(3) {
+        height: 50px;
+        width: 200px;
+        left: 14px;
+        bottom: 100px;
+    }
+
+    body > main > section#About > section#education > section#HNDLevel > h3#HFirst {
+        font-size: 30px;
+        right: 160px;
+        bottom: 110px;
+    }
+
+    body > main > section#About > section#education > section#HNDLevel > h3#HSecond {
+        font-size: 22px;
+        left: 147px;
+        top: -88px;
+        width: 360px;
+    }
+
+    body > main > section#About > section#education > section#HNDLevel > h3#HSecond span {
+        font-size: 18px;
+    }
+
+    body > main > section#About > section#education > section#HNDLevel > p {
+        font-size: 20px;
+        left: 158px;
+        top: -74px;
+        width: 360px;
+    }
+
 
 }
