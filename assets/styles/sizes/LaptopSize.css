@@ -2621,4 +2621,27 @@
         width: 12%;
     }
 
+    /**-------------------------------------------- Footer Section  --------------------------------------------**/
+    /** Footer Section - Get on Touch*/
+
+    /** Main - Contact Details Get In Touch Section - Phone Number*/
+    body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(3) > div:nth-child(3) {
+        width: 250px;
+        height: 30px;
+        position: absolute;
+        top: 153px;
+    }
+
+
+    /** Main - Contact Details Get In Touch Section - E-Mail*/
+    body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(3) > div:nth-child(4) {
+        width: 250px;
+        height: 30px;
+        position: absolute;
+        top: 203px;
+    }
+
+    body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(4){
+        display: none;
+    }
 }
