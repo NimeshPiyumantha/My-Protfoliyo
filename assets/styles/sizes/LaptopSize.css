@@ -1231,4 +1231,57 @@
         right: 4px;
         font-size: 74px;
     }
+
+    /**-------------------------------------------- Main - Gallery --------------------------------------------**/
+    /** Main - Gallery Header */
+    #Gallery {
+        width: 100%;
+        height: 1000px;
+    }
+
+    body > main > section#Gallery > article > div:nth-child(3) {
+        left: 40%;
+    }
+    body > main > section#Gallery > article > div:nth-child(4) {
+        left: 40%;
+    }
+
+    /** Main - Gallery Header Vectors */
+    body > main > section#Gallery > section#vector > img:nth-child(1) {
+        width: 50px;
+        height: 90px;
+    }
+
+    body > main > section#Gallery > section#vector > img:nth-child(2) {
+        width: 90px;
+        top: 80px;
+        right: 25px;
+        height: 150px;
+    }
+
+    body > main > section#Gallery > section#vector > img:nth-child(3) {
+        width: 50px;
+        height: 110px;
+        bottom: 45px;
+    }
+
+    body > main > section#Gallery > section#vector > img:nth-child(4) {
+        height: 240px;
+        width: 120px;
+        top: 366px;
+        left: 839px;
+    }
+
+    body > main > section#Gallery > section#vector > img:nth-child(5) {
+        height: 240px;
+        width: 120px;
+        top: -6px;
+        left: 30px;
+    }
+
+    body > main > section#Gallery > section#image_section {
+        width: 900px;
+        height: 703px;
+        top: 210px;
+    }
 }
