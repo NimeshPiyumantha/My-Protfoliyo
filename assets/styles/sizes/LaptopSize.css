@@ -2159,7 +2159,7 @@
         display: flex;
         flex-direction: row;
         position: relative;
-        top: 60px;
+        top: 45px;
     }
 
     body > main > section#Testimonials > section#Says > section > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) {
@@ -2414,6 +2414,211 @@
         bottom: 70px;
         right: 59px;
         margin: auto;
+    }
+
+    /**-------------------------------------------- Main - Contact --------------------------------------------**/
+    /** Main - Contact Header */
+    #Contact {
+        width: 100%;
+        height: 900px;
+        position: relative;
+    }
+
+    /** Main - Contact Header Underline */
+    body > main > section#Contact > article > div:nth-child(3) {
+        left: 36.5%;
+        top: 150px;
+    }
+
+    body > main > section#Contact > article > div:nth-child(4) {
+        left: 36.5%;
+        top: 155px;
+    }
+
+    /** Main - Contact Details Box sectioning */
+    body > main > section#Contact > section:nth-child(3) {
+        width: 400px;
+        height: 570px;
+        top: 246px;
+        left: 109px;
+    }
+
+    body > main > section#Contact > section:nth-child(3) > form > input:nth-child(1) {
+        width: 343px;
+        height: 55px;
+        top: 40px;
+        left: 27px;
+    }
+
+    body > main > section#Contact > section:nth-child(3) > form > input:nth-child(2) {
+        width: 343px;
+        height: 55px;
+        top: 132px;
+        left: 27px;
+    }
+
+    body > main > section#Contact > section:nth-child(3) > form > input:nth-child(3) {
+        width: 343px;
+        height: 55px;
+        top: 223px;
+        left: 27px;
+    }
+
+    body > main > section#Contact > section:nth-child(3) > form > textarea:nth-child(4) {
+        width: 343px;
+        height: 152px;
+        top: 321px;
+        left: 27px;
+    }
+
+    /** Main - Contact Details Button */
+    body > main > section#Contact > section:nth-child(3) > div:nth-child(2) {
+        position: absolute;
+        top: 500px;
+        left: 70px;
+    }
+
+    /** Main - Contact Details Get In Touch */
+    body > main > section#Contact > section:nth-child(4) {
+        width: 490px;
+        height: 550px;
+        top: 154px;
+        left: 527px;
+    }
+
+    body > main > section#Contact > section:nth-child(4) > article:nth-child(1) {
+        width: 100%;
+        height: 50px;
+    }
+
+    body > main > section#Contact > section:nth-child(4) > article:nth-child(1) > h2:nth-child(1) {
+        font-size: 30px;
+    }
+
+
+    body > main > section#Contact > section:nth-child(4) > article:nth-child(2) > div:nth-child(1) {
+        height: 150px;
+    }
+
+    body > main > section#Contact > section:nth-child(4) > article:nth-child(2) > div:nth-child(1) > h2 {
+        font-size: 24px;
+        font-family: cursive;
+        font-weight: bolder;
+        margin-left: 35px;
+    }
+
+    /** Main - Contact Details Get In Touch Section - Address*/
+    body > main > section#Contact > section:nth-child(4) > article:nth-child(2) > div:nth-child(2) i {
+        font-size: 30px;
+        margin-left: 80px;
+    }
+    body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(3) > div:nth-child(2) {
+        width: 200px;
+        height: 30px;
+        position: absolute;
+        top: 104px;
+    }
+    body > main > section#Contact > section:nth-child(4) > article:nth-child(2) > div:nth-child(2) p {
+        font-family: cursive;
+        font-weight: bolder;
+        position: relative;
+        font-size: 23px;
+        left: 16px;
+    }
+
+    /** Main - Contact Details Get In Touch Section - Contact*/
+    body > main > section#Contact > section:nth-child(4) > article:nth-child(2) > div:nth-child(3) i {
+        font-size: 30px;
+        margin-left: 80px;
+    }
+
+    body > main > section#Contact > section:nth-child(4) > article:nth-child(2) > div:nth-child(3) h3 {
+        font-family: cursive;
+        font-weight: bolder;
+        position: relative;
+        font-size: 23px;
+        left: 16px;
+    }
+
+    /** Main - Contact Details Get In Touch Section - Email*/
+    body > main > section#Contact > section:nth-child(4) > article:nth-child(2) > div:nth-child(4) i {
+        font-size: 30px;
+        margin-left: 80px;
+    }
+
+    body > main > section#Contact > section:nth-child(4) > article:nth-child(2) > div:nth-child(4) h3 {
+        font-family: cursive;
+        font-weight: bolder;
+        position: relative;
+        font-size: 23px;
+        left: 16px;
+    }
+
+    /** Main - Contact Details - Social Media*/
+    body > main > section#Contact > section:nth-child(4) > article:nth-child(2) > div:nth-child(5) {
+        height: 130px;
+    }
+
+    /** Main - Contact Details - Background Design */
+    body > main > section#Contact > section:nth-child(5) > img:nth-child(1) {
+        position: absolute;
+        top: 92px;
+        right: 0;
+        left: 255px;
+        bottom: auto;
+        margin: auto;
+        width: 70%;
+    }
+
+    body > main > section#Contact > section:nth-child(5) > div:nth-child(2) {
+        width: 50px;
+        height: 50px;
+        background: #ECCC68;
+        position: absolute;
+        top: 100px;
+        left: 313px;
+        border-radius: 100%;
+        box-shadow: 0 7px 5px rgba(0, 0, 0, 0.5);
+        opacity: 70%;
+    }
+
+    body > main > section#Contact > section:nth-child(5) > div:nth-child(3) {
+        width: 50px;
+        height: 50px;
+        background: #2ED573;
+        position: absolute;
+        bottom: 197px;
+        right: 223px;
+        border-radius: 100%;
+        box-shadow: 0 7px 5px rgba(0, 0, 0, 0.5);
+        opacity: 70%;
+    }
+
+    body > main > section#Contact > section:nth-child(5) > div:nth-child(4) {
+        width: 90px;
+        height: 90px;
+        opacity: 70%;
+        border: 8px solid #2ED573;
+        position: absolute;
+        top: 474px;
+        right: 114px;
+        border-radius: 100%;
+        box-shadow: 0 7px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    body > main > section#Contact > section:nth-child(5) > div:nth-child(5) {
+        width: 81px;
+        height: 81px;
+        bottom: 75px;
+        right: 398px;
+    }
+
+    body > main > section#Contact > section:nth-child(5) > img:nth-child(6) {
+        position: absolute;
+        top: 63px;
+        right: 72px;
+        margin: auto;
+        width: 12%;
     }
 
 }
