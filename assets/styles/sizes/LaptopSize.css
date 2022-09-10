@@ -1341,4 +1341,121 @@
         right: 27px;
         margin: auto;
     }
+
+    /**-------------------------------------------- Main - Project --------------------------------------------**/
+    #Project {
+        width: 100%;
+        height: 650px;
+        position: relative;
+    }
+
+    body > main > section#Project > article > div:nth-child(3) {
+        left: 41%;
+    }
+    body > main > section#Project > article > div:nth-child(4) {
+        left: 41%;
+    }
+
+    body > main > section#Project > section#ProjectSection{
+        width: 100%;
+        height: 550px;
+    }
+
+    body > main > section#Project > section#ProjectSection > div {
+        width: calc(100% / 3.20);
+        height: 350px;
+    }
+
+    /**  Projects Button */
+    .Projects {
+        font-size: 28px;
+    }
+
+    /** Main - Project Section Java Projects */
+    body > main > section#Project > section#ProjectSection > div:nth-child(1) > img {
+        height: 180px;
+        width: 280px;
+    }
+
+    /** Main - Project Section HTML Projects */
+    body > main > section#Project > section#ProjectSection > div:nth-child(2) > img {
+        height: 180px;
+        width: 280px;
+    }
+
+    /** Main - Project Section Python Projects */
+    body > main > section#Project > section#ProjectSection > div:nth-child(3) > img {
+        height: 180px;
+        width: 280px;
+    }
+
+    /** Main - Project Section Background Designs*/
+    /** Vector 1 */
+    body > main > section#Project > section#DesignProjects img:nth-child(1) {
+        top: 130px;
+        left: 64px;
+        position: absolute;
+        width: 72px;
+    }
+
+    /** Circle Design */
+    body > main > section#Project > section#DesignProjects > section > div:nth-child(1) {
+        width: 60px;
+        height: 60px;
+        top: 114px;
+        left: 845px;
+        opacity: 70%;
+    }
+
+    body > main > section#Project > section#DesignProjects > section > div:nth-child(2) {
+        width: 60px;
+        height: 60px;
+        background: #2ED573;
+        position: absolute;
+        border-radius: 100%;
+        top: 142px;
+        left: 854px;
+        opacity: 30%;
+        box-shadow: 0 -1px 8px 2px #1c1717e8;
+    }
+
+    /** Vector 2 */
+    body > main > section#Project > section#DesignProjects img:nth-child(3) {
+        top: 601px;
+        left: 399px;
+        position: absolute;
+        width: 72px;
+    }
+
+    /** Vector 3 */
+    body > main > section#Project > section#DesignProjects img:nth-child(4) {
+        top: 598px;
+        left: 819px;
+        position: absolute;
+        width: 73px;
+    }
+
+    /** Vector 4 */
+    body > main > section#Project > section#DesignProjects img:nth-child(5) {
+        top: 596px;
+        left: 61px;
+        position: absolute;
+    }
+
+    /** Vector 5 */
+    body > main > section#Project > section#DesignProjects img:nth-child(6) {
+        top: 379px;
+        left: 651px;
+        position: absolute;
+    }
+
+    /** Vector 6 */
+    body > main > section#Project > section#DesignProjects img:nth-child(7) {
+        top: 379px;
+        left: 315px;
+        position: absolute;
+    }
+
+
+
 }

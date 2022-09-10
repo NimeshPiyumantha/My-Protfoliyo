@@ -2419,6 +2419,7 @@ body > main > section#Project > section#ProjectSection {
     align-items: center;
     justify-content: space-evenly;
     overflow: hidden;
+    flex-wrap: wrap;
 }
 
 body > main > section#Project > section#ProjectSection > div {
