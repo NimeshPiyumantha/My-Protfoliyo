@@ -779,7 +779,7 @@
 
     body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child {
         background: #FFFFFF;
-        width: 450px;
+        width: 400px;
         height: 670px;
         position: relative;
         border-radius: 15px;
@@ -894,9 +894,6 @@
         position: relative;
         width: 336px;
         height: 130px;
-        left: 0;
-        right: 0;
-        bottom: 0;
         top: 55px;
         margin: auto;
         display: flex;
@@ -1003,7 +1000,7 @@
 
     body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child {
         background: #FFFFFF;
-        width: 450px;
+        width: 400px;
         height: 670px;
         position: relative;
         border-radius: 15px;
@@ -1039,9 +1036,6 @@
         position: relative;
         width: 336px;
         height: 130px;
-        left: 0;
-        right: 0;
-        bottom: 0;
         top: 55px;
         margin: auto;
         display: flex;
@@ -1212,19 +1206,29 @@
 
     #skill_main_vector {
         position: absolute;
-        left: 166px;
+        left: 133px;
         top: 210px;
         width: 78%;
     }
 
     #box-circle1 {
-        display: none;
+        left: 14px;
+        width: 11%;
     }
 
-    #box-circle1 {
-        display: none;
+    #box-circle2 {
+        right: 14px;
+        width: 11%;
     }
 
-    body > main > section#Skills > div:nth-child(2) i {display: none}
-    body > main > section#Skills > div:nth-child(3) i {display: none}
+    body > main > section#Skills > div:nth-child(2) i {
+        top: 97px;
+        font-size: 89px;
+    }
+
+    body > main > section#Skills > div:nth-child(3) i {
+        bottom: 80px;
+        right: 4px;
+        font-size: 74px;
+    }
 }
