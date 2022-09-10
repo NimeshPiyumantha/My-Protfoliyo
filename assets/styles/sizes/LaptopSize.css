@@ -1456,6 +1456,269 @@
         position: absolute;
     }
 
+    /**-------------------------------------------- Main - Services --------------------------------------------**/
+    /** Main - Services Header */
+    #Services {
+        width: 100%;
+        height: 900px;
+    }
+
+    body > main > section#Services > article > h1 {
+        position: absolute;
+        top: 110px;
+    }
+
+    /** Main - Services Header Underline */
+    body > main > section#Services > article > div:nth-child(3) {
+        left: 43%;
+        top: 150px;
+    }
+
+    body > main > section#Services > article > div:nth-child(4) {
+        left: 43%;
+        top: 150px;
+    }
+
+    /** Main - Services Background Design*/
+    body > main > section#Services > section#ServicesBGDesign > aside:first-child {
+        position: relative;
+    }
+
+    /** Main - Services Background Design Aside one-First Circle*/
+    body > main > section#Services > section#ServicesBGDesign > aside:first-child > div:nth-child(1) {
+        width: 60px;
+        height: 60px;
+    }
+
+    /** Main - Services Background Design Aside one-Second Circle*/
+    body > main > section#Services > section#ServicesBGDesign > aside:first-child > div:nth-child(2) {
+        width: 60px;
+        height: 60px;
+    }
+
+    /** Main - Services Background Design Aside Two-First Circle*/
+    body > main > section#Services > section#ServicesBGDesign > aside:nth-child(2) > div:nth-child(1) {
+        width: 60px;
+        height: 60px;
+    }
+
+    /** Main - Services Background Design Aside Two-Second Circle*/
+    body > main > section#Services > section#ServicesBGDesign > aside:nth-child(2) > div:nth-child(2) {
+        width: 60px;
+        height: 60px;
+    }
+
+    /** Main - Services Background Vector*/
+    body > main > section#Services > section#ServicesBGDesign > img {
+       width: 96%;
+    }
+
+    body > main > section#Services > section#ServicesButton {
+        width: 800px;
+        height: 90px;
+        position: absolute;
+    }
+
+    body > main > section#Services > section#ServicesButton > div#Development > a > button {
+        padding: 11px 30px 11px 30px;
+        font-size: 30px;
+        border-radius: 15px;
+    }
+
+    /** Main - Services Background Button - Design*/
+    body > main > section#Services > section#ServicesButton > div#SDesign {
+        position: absolute;
+        cursor: pointer;
+        z-index: 1;
+        margin-left: 20px;
+    }
+
+    body > main > section#Services > section#ServicesButton > div#SDesign > a > button {
+        padding: 11px 70px 11px 70px;
+        font-size: 30px;
+        border-radius: 15px;
+    }
+
+    /** Main - Services Background Button - Marketing*/
+    body > main > section#Services > section#ServicesButton > div#Marketing {
+        position: absolute;
+        cursor: pointer;
+        z-index: 1;
+        right: 0;
+    }
+
+    body > main > section#Services > section#ServicesButton > div#Marketing > a > button {
+        padding: 11px 40px 11px 40px;
+        font-size: 30px;
+        border-radius: 15px;
+    }
+
+    /** Main - Services Development - Section*/
+    body > main > section#Services > section#MainSection {
+        position: relative;
+        width: 915px;
+        height: 550px;
+        top: 330px;
+    }
+
+    /** Main - Services Development - Section - Enterprise Application */
+    body > main > section#Services > section#MainSection > div:nth-child(1) {
+        position: absolute;
+        width: calc(1100px / 4);
+        height: 450px;
+        background: #ECF0F3;
+        left: 0;
+        border-radius: 20px;
+        box-shadow: 0 -1px 8px 2px #1c1717e8;
+    }
+
+    body > main > section#Services > section#MainSection > div:nth-child(1) > div:first-child {
+        position: absolute;
+        width: calc(1100px / 4);
+        height: 100px;
+        background: #FF6348;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        box-shadow: inset -13px -13px 16px #FF6348, inset 13px 13px 16px rgba(13, 39, 80, 0.16);
+    }
+
+    body > main > section#Services > section#MainSection > div:nth-child(1) > div:first-child > div:first-child {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        background: #F9FAFB;
+        border-radius: 100%;
+        box-shadow: 0 -1px 8px 2px #1c1717e8, inset -13px -13px 16px #F9FAFB, inset 13px 13px 16px rgba(13, 39, 80, 0.16), inset 13px 13px 16px rgba(13, 39, 80, 0.16);
+        top: 90px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    body > main > section#Services > section#MainSection > div:nth-child(1) > div:first-child > div:first-child > i {
+        font-size: 50px;
+        color: #FF6348;
+        position: absolute;
+        top: 25px;
+        left: 20px;
+    }
+
+    body > main > section#Services > section#MainSection > div:nth-child(1) > h2 {
+        position: absolute;
+        top: 163px;
+        left: 49px;
+        font-family: Inter, sans-serif;
+        color: #2C3E50;
+        font-weight: bolder;
+        font-size: 18px;
+        /* background: #2c3e50; */
+    }
+
+    body > main > section#Services > section#MainSection > div:nth-child(1) > p {
+        position: absolute;
+        top: 195px;
+        left: 63px;
+        color: #57606F;
+        font-size: 15px;
+        padding-right: 47px;
+        border-left-width: 32px;
+    }
+
+    /** Main - Services Development - Section - Web Development */
+    body > main > section#Services > section#MainSection > div:nth-child(2) {
+        position: absolute;
+        width: calc(1100px / 4);
+        height: 450px;
+        background: #ECF0F3;
+        border-radius: 20px;
+        left: 320px;
+        box-shadow: 0 -1px 8px 2px #1c1717e8;
+    }
+
+    body > main > section#Services > section#MainSection > div:nth-child(2) > div:first-child {
+        position: absolute;
+        width: calc(1100px / 4);
+        height: 100px;
+        background: #FF6348;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        box-shadow: inset -13px -13px 16px #FF6348, inset 13px 13px 16px rgba(13, 39, 80, 0.16);
+    }
+
+    body > main > section#Services > section#MainSection > div:nth-child(2) > div:first-child > div:first-child {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        top: 90px;
+    }
+
+    body > main > section#Services > section#MainSection > div:nth-child(2) > div:first-child > div:first-child > i {
+        font-size: 55px;
+        color: #FF6348;
+        position: absolute;
+        top: 20px;
+        left: 15px;
+    }
+
+    body > main > section#Services > section#MainSection > div:nth-child(2) > h2 {
+        top: 163px;
+        left: 52px;
+        font-family: Inter, sans-serif;
+        color: #2C3E50;
+        font-weight: bolder;
+        font-size: 18px;
+    }
+
+    body > main > section#Services > section#MainSection > div:nth-child(2) > p {
+        top: 195px;
+        left: 63px;
+        color: #57606F;
+        font-size: 15px;
+    }
+
+    /** Main - Services Development - Section - App Development */
+    body > main > section#Services > section#MainSection > div:nth-child(3) {
+        position: absolute;
+        width: calc(1100px / 4);
+        height: 450px;
+    }
+
+    body > main > section#Services > section#MainSection > div:nth-child(3) > div:first-child {
+        width: calc(1100px / 4);
+        height: 100px;
+    }
+
+    body > main > section#Services > section#MainSection > div:nth-child(3) > div:first-child > div:first-child {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        top: 100px;
+    }
+
+    body > main > section#Services > section#MainSection > div:nth-child(3) > div:first-child > div:first-child > i {
+        font-size: 50px;
+        color: #FF6348;
+        position: absolute;
+        top: 25px;
+        left: 35px;
+    }
+
+    body > main > section#Services > section#MainSection > div:nth-child(3) > h2 {
+        top: 163px;
+        left: 49px;
+        font-family: Inter, sans-serif;
+        color: #2C3E50;
+        font-weight: bolder;
+        font-size: 18px;
+    }
+
+    body > main > section#Services > section#MainSection > div:nth-child(3) > p {
+        top: 195px;
+        left: 63px;
+        color: #57606F;
+        font-size: 15px;
+    }
 
 
 }
