@@ -1018,4 +1018,165 @@
         width: 43px;
     }
 
+    /**-------------------------------------------- Main - Services --------------------------------------------**/
+    #Services {
+        width: 100%;
+        height: 600px;
+    }
+
+    body > main > section#Services > article > h1 {
+        position: absolute;
+        top: 93px;
+    }
+    body > main > section#Services > article > div:nth-child(3) {
+        left: 41%;
+        top: 132px;
+    }
+    body > main > section#Services > article > div:nth-child(4) {
+        left: 41%;
+        top: 132px;
+    }
+
+    body > main > section#Services > section#ServicesButton {
+        width: 589px;
+        height: 90px;
+        position: absolute;
+        top: 170px;
+    }
+
+    body > main > section#Services > section#ServicesButton > div#Development > a > button {
+        font-size: 22px;
+    }
+    body > main > section#Services > section#ServicesButton > div#SDesign > a > button {
+        font-size: 22px;
+        padding: 11px 40px 11px 40px;
+    }
+    body > main > section#Services > section#ServicesButton > div#Marketing > a > button {
+        font-size: 22px;
+    }
+
+    body > main > section#Services > section#MainSection {
+        position: relative;
+        width: 717px;
+        height: 325px;
+        top: 235px;
+    }
+    body > main > section#Services > section#MainSection > div:nth-child(1) {
+        width: calc(900px / 4);
+        height: 300px;
+    }
+    body > main > section#Services > section#MainSection > div:nth-child(1) > div:first-child {
+        width: calc(900px / 4);
+        height: 80px;
+    }
+    body > main > section#Services > section#MainSection > div:nth-child(1) > div:first-child > div:first-child {
+        width: 80px;
+        height: 80px;
+        top: 70px;
+    }
+    body > main > section#Services > section#MainSection > div:nth-child(1) > div:first-child > div:first-child > i {
+        font-size: 40px;
+        top: 17px;
+        left: 16px;
+    }
+    body > main > section#Services > section#MainSection > div:nth-child(1) > h2 {
+        top: 119px;
+        left: 37px;
+        font-size: 16px;
+    }
+    body > main > section#Services > section#MainSection > div:nth-child(1) > p {
+        position: absolute;
+        top: 147px;
+        left: 37px;
+        color: #57606F;
+        font-size: 12px;
+        padding-right: 18px;
+        width: 178px;
+    }
+
+    body > main > section#Services > section#MainSection > div:nth-child(2) {
+        width: calc(900px / 4);
+        height: 300px;
+        left: 247px;
+    }
+    body > main > section#Services > section#MainSection > div:nth-child(2) > div:first-child {
+        width: calc(900px / 4);
+        height: 80px;
+    }
+    body > main > section#Services > section#MainSection > div:nth-child(2) > div:first-child > div:first-child {
+        width: 80px;
+        height: 80px;
+        top: 70px;
+    }
+    body > main > section#Services > section#MainSection > div:nth-child(2) > div:first-child > div:first-child > i {
+        font-size: 40px;
+        top: 17px;
+        left: 16px;
+    }
+    body > main > section#Services > section#MainSection > div:nth-child(2) > h2 {
+        top: 119px;
+        left: 37px;
+        font-size: 16px;
+    }
+    body > main > section#Services > section#MainSection > div:nth-child(2) > p {
+        position: absolute;
+        top: 147px;
+        left: 37px;
+        color: #57606F;
+        font-size: 12px;
+        padding-right: 18px;
+        width: 178px;
+    }
+
+    body > main > section#Services > section#MainSection > div:nth-child(3) {
+        width: calc(900px / 4);
+        height: 300px;
+    }
+    body > main > section#Services > section#MainSection > div:nth-child(3) > div:first-child {
+        width: calc(900px / 4);
+        height: 80px;
+    }
+    body > main > section#Services > section#MainSection > div:nth-child(3) > div:first-child > div:first-child {
+        width: 80px;
+        height: 80px;
+        top: 70px;
+    }
+    body > main > section#Services > section#MainSection > div:nth-child(3) > div:first-child > div:first-child > i {
+        font-size: 40px;
+        top: 17px;
+        left: 25px;
+    }
+    body > main > section#Services > section#MainSection > div:nth-child(3) > h2 {
+        top: 119px;
+        left: 37px;
+        font-size: 16px;
+    }
+    body > main > section#Services > section#MainSection > div:nth-child(3) > p {
+        position: absolute;
+        top: 147px;
+        left: 37px;
+        color: #57606F;
+        font-size: 12px;
+        padding-right: 18px;
+        width: 178px;
+    }
+
+    body > main > section#Services > section#ServicesBGDesign > aside:first-child > div:nth-child(1) {
+        width: 50px;
+        height: 50px;
+    }
+    body > main > section#Services > section#ServicesBGDesign > aside:first-child > div:nth-child(2) {
+        width: 50px;
+        height: 50px;
+    }
+
+    body > main > section#Services > section#ServicesBGDesign > aside:nth-child(2) > div:nth-child(1) {
+        width: 50px;
+        height: 50px;
+    }
+    body > main > section#Services > section#ServicesBGDesign > aside:nth-child(2) > div:nth-child(2) {
+        width: 50px;
+        height: 50px;
+    }
+
 }
