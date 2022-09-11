@@ -103,12 +103,12 @@
     .wrapper .button .icon {
         height: 60px;
         width: 60px;
-        margin-top: -19px;
+        line-height: 68px;
     }
 
     .wrapper .button .icon i {
         font-size: 25px;
-        line-height: 100px;
+        line-height: 58px;
     }
 
     .wrapper .button:hover .icon i {
@@ -126,6 +126,7 @@
     .follow-content-text {
         font-size: 30px;
         font-weight: bolder;
+        margin-bottom:1.5rem;
     }
 
     /**-------------------------------------------- Main - About --------------------------------------------**/
