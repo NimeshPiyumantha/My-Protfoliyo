@@ -1179,4 +1179,402 @@
         height: 50px;
     }
 
+    /**-------------------------------------------- Main - Hire Me --------------------------------------------**/
+    #HireMe {
+        width: 100%;
+        height: 650px;
+        position: relative;
+    }
+    body > main > section#HireMe > section#HireMe_Main {
+        width: 722px;
+        height: 400px;
+        position: absolute;
+        top: 181px;
+    }
+    body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) {
+        width: calc(900px / 4);
+        height: 370px;
+    }
+    body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) > div:nth-child(1) {
+        width: 185px;
+        height: 50px;
+    }
+    body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) > div:nth-child(1) > h3 {
+        font-size: 25px;
+        top: 9px;
+        left: 80px;
+    }
+    body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) > h2 {
+        font-size: 22px;
+        font-family: Poppins, sans-serif;
+        font-weight: bolder;
+        color: #2C3E50;
+        top: 80px;
+        left: 35px;
+        position: absolute;
+    }
+    body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) > h2 > sup {
+        font-size: 20px;
+    }
+    body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) > p {
+        font-size: 13px;
+        color: #2C3E50;
+        top: 127px;
+        left: 30px;
+    }
+    body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) > div:nth-child(4) {
+        background: #2ED573;
+        width: 182px;
+        height: 8px;
+        top: 162px;
+        left: 24px;
+        margin: auto;
+        position: absolute;
+    }
+    body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) > p:nth-child(5) {
+        font-size: 16px;
+        color: #2C3E50;
+        font-family: Poppins, sans-serif;
+        font-weight: bolder;
+        position: absolute;
+        top: 185px;
+        left: 25px;
+        text-align: center;
+    }
+    body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) > div#BASIC {
+        position: absolute;
+        top: 298px;
+        left: 23px;
+    }
+    body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) > div#BASIC > a > button {
+        padding: 12px 6px 1px 13px;
+        font-size: 18px;
+    }
+    body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) > div#BASIC > a > button div {
+        height: 30px;
+        width: 30px;
+        top: -6px;
+        left: -4px;
+    }
+    body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) > div#BASIC > a > button i {
+        color: #2ED573;
+        position: absolute;
+        left: 157px;
+        top: 12px;
+        z-index: 1;
+    }
+
+
+    body > main > section#HireMe > section#HireMe_Main > section:nth-child(2) {
+        width: calc(900px / 4);
+        height: 370px;
+        left: 247px;
+    }
+    body > main > section#HireMe > section#HireMe_Main > section:nth-child(2) > div:nth-child(1) {
+        width: 185px;
+        height: 50px;
+    }
+    body > main > section#HireMe > section#HireMe_Main > section:nth-child(2) > div:nth-child(1) > h3 {
+        font-size: 25px;
+        top: 9px;
+        left: 60px;
+    }
+    body > main > section#HireMe > section#HireMe_Main > section:nth-child(2) > h2 {
+        font-size: 22px;
+        font-family: Poppins, sans-serif;
+        font-weight: bolder;
+        color: #2C3E50;
+        top: 80px;
+        left: 35px;
+        position: absolute;
+    }
+    body > main > section#HireMe > section#HireMe_Main > section:nth-child(2) > h2 > sup {
+        font-size: 20px;
+    }
+    body > main > section#HireMe > section#HireMe_Main > section:nth-child(2) > p {
+        font-size: 13px;
+        color: #2C3E50;
+        top: 127px;
+        left: 30px;
+    }
+    body > main > section#HireMe > section#HireMe_Main > section:nth-child(2) > div:nth-child(4) {
+        background: #2ED573;
+        width: 182px;
+        height: 8px;
+        top: 162px;
+        left: 24px;
+        margin: auto;
+        position: absolute;
+    }
+    body > main > section#HireMe > section#HireMe_Main > section:nth-child(2) > p:nth-child(5) {
+        font-size: 16px;
+        color: #2C3E50;
+        font-family: Poppins, sans-serif;
+        font-weight: bolder;
+        position: absolute;
+        top: 185px;
+        left: 25px;
+        text-align: center;
+    }
+    body > main > section#HireMe > section#HireMe_Main > section:nth-child(2) > div#PREMIUM {
+        position: absolute;
+        top: 298px;
+        left: 23px;
+    }
+    body > main > section#HireMe > section#HireMe_Main > section:nth-child(2) > div#PREMIUM > a > button {
+        padding: 12px 6px 1px 13px;
+        font-size: 18px;
+    }
+    body > main > section#HireMe > section#HireMe_Main > section:nth-child(2) > div#PREMIUM > a > button div {
+        height: 30px;
+        width: 30px;
+        top: -6px;
+        left: -4px;
+    }
+    body > main > section#HireMe > section#HireMe_Main > section:nth-child(2) > div#PREMIUM > a > button i {
+        color: #2ED573;
+        position: absolute;
+        left: 157px;
+        top: 12px;
+        z-index: 1;
+    }
+
+    body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) {
+        width: calc(900px / 4);
+        height: 370px;
+    }
+    body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > div:nth-child(1) {
+        width: 185px;
+        height: 50px;
+    }
+    body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > div:nth-child(1) > h3 {
+        font-size: 25px;
+        top: 9px;
+        left: 45px;
+    }
+    body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > h2 {
+        font-size: 22px;
+        font-family: Poppins, sans-serif;
+        font-weight: bolder;
+        color: #2C3E50;
+        top: 80px;
+        left: 35px;
+        position: absolute;
+    }
+    body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > h2 > sup {
+        font-size: 20px;
+    }
+    body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > p {
+        font-size: 13px;
+        color: #2C3E50;
+        top: 127px;
+        left: 30px;
+    }
+    body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > div:nth-child(4) {
+        background: #2ED573;
+        width: 182px;
+        height: 8px;
+        top: 162px;
+        left: 24px;
+        margin: auto;
+        position: absolute;
+    }
+    body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > p:nth-child(5) {
+        font-size: 16px;
+        color: #2C3E50;
+        font-family: Poppins, sans-serif;
+        font-weight: bolder;
+        position: absolute;
+        top: 185px;
+        left: 25px;
+        text-align: center;
+    }
+    body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > div#ADVANCE {
+        position: absolute;
+        top: 298px;
+        left: 23px;
+    }
+    body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > div#ADVANCE > a > button {
+        padding: 12px 6px 1px 13px;
+        font-size: 18px;
+    }
+    body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > div#ADVANCE > a > button div {
+        height: 30px;
+        width: 30px;
+        top: -6px;
+        left: -4px;
+    }
+    body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > div#ADVANCE > a > button i {
+        color: #2ED573;
+        position: absolute;
+        left: 157px;
+        top: 12px;
+        z-index: 1;
+    }
+
+    body > main > section#HireMe > section#BGDesigns > div:nth-child(1) > div:nth-child(1) {
+       display: none;
+    }
+    body > main > section#HireMe > section#BGDesigns > div:nth-child(1) > div:nth-child(2) {
+        display: none;
+    }
+    body > main > section#HireMe > section#BGDesigns > img:nth-child(2) {
+        display: none;
+    }
+    body > main > section#HireMe > section#BGDesigns > img:nth-child(3) {
+        display: none;
+    }
+    body > main > section#HireMe > section#BGDesigns > img:nth-child(4) {
+        display: none;
+    }
+    body > main > section#HireMe > section#BGDesigns > div:nth-child(5) > div:nth-child(1) {
+        display: none;
+    }
+    body > main > section#HireMe > section#BGDesigns > div:nth-child(5) > div:nth-child(2) {
+        display: none;
+    }
+
+    /**-------------------------------------------- Main - Testimonials --------------------------------------------**/
+
+    #Testimonials {
+        width: 100%;
+        height: 500px;
+        position: relative;
+    }
+
+    body > main > section#Testimonials > article > h1 {
+        font-size: 33px;
+        top: 90px;
+        position: relative;
+    }
+    body > main > section#Testimonials > article > div:nth-child(3) {
+        left: 29%;
+        top: 131px;
+    }
+    body > main > section#Testimonials > article > div:nth-child(4) {
+        left: 29%;
+        top: 135px;
+    }
+    body > main > section#Testimonials > section:nth-child(4) {
+        display: none;
+    }
+
+    body > main > section#Testimonials > section#Says {
+        width: 727px;
+        height: 254px;
+        inset: 150px 0 0 28px;
+        top: 160px;
+    }
+
+    body > main > section#Testimonials > section#Says > section > div {
+        height: 245px;
+        width: 232px;
+        border-radius: 50px;
+        cursor: grab;
+    }
+    body > main > section#Testimonials > section#Says > section > div:nth-child(1) > div:nth-child(1) > p {
+        color: #2C3E50;
+        font-weight: bolder;
+        font-family: 'Inconsolata', serif;
+        font-size: 14px;
+        margin: 0 25px 0 30px;
+        display: flow-root;
+        position: relative;
+        top: 30px;
+        text-align: center;
+    }
+    body > main > section#Testimonials > section#Says > section > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) h1 {
+        font-size: 19px;
+        margin-left: 8px;
+        font-family: Inter, sans-serif;
+    }
+    body > main > section#Testimonials > section#Says > section > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) h2 {
+        font-size: 14px;
+        margin-left: 10px;
+        font-family: Inter, sans-serif;
+        position: relative;
+        bottom: 11px;
+    }
+    body > main > section#Testimonials > section#Says > section > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) {
+        width: 80px;
+        height: 70px;
+        margin-left: 16px;
+        border-radius: 100%;
+        border: 8px solid #903EE7;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    body > main > section#Testimonials > section#Says > section > div:nth-child(2) > div:nth-child(1) > p {
+        color: #2C3E50;
+        font-weight: bolder;
+        font-family: 'Inconsolata', serif;
+        font-size: 14px;
+        margin: 0 25px 0 30px;
+        display: flow-root;
+        position: relative;
+        top: 30px;
+        text-align: center;
+    }
+    body > main > section#Testimonials > section#Says > section > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) h1 {
+        font-size: 19px;
+        margin-left: 8px;
+        font-family: Inter, sans-serif;
+    }
+    body > main > section#Testimonials > section#Says > section > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) h2 {
+        font-size: 14px;
+        margin-left: 10px;
+        font-family: Inter, sans-serif;
+        position: relative;
+        bottom: 11px;
+    }
+    body > main > section#Testimonials > section#Says > section > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) {
+        width: 80px;
+        height: 70px;
+        margin-left: 16px;
+        border-radius: 100%;
+        border: 8px solid #903EE7;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    body > main > section#Testimonials > section#Says > section > div:nth-child(3) > div:nth-child(1) > p {
+        color: #2C3E50;
+        font-weight: bolder;
+        font-family: 'Inconsolata', serif;
+        font-size: 12px;
+        margin: 0 25px 0 30px;
+        display: flow-root;
+        position: relative;
+        top: 30px;
+        text-align: center;
+    }
+    body > main > section#Testimonials > section#Says > section > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) h1 {
+        font-size: 19px;
+        margin-left: 8px;
+        font-family: Inter, sans-serif;
+    }
+    body > main > section#Testimonials > section#Says > section > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) h2 {
+        font-size: 14px;
+        margin-left: 8px;
+        font-family: Inter, sans-serif;
+        position: relative;
+        bottom: 11px;
+    }
+    body > main > section#Testimonials > section#Says > section > div:nth-child(3) > div:nth-child(2) {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        top: 81px;
+    }
+    body > main > section#Testimonials > section#Says > section > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) {
+        width: 80px;
+        height: 70px;
+        margin-left: 16px;
+        border-radius: 100%;
+        border: 8px solid #903EE7;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
 }
