@@ -349,7 +349,13 @@
         height: 228px;
         width: 150px;
         bottom: 210px;
-        left: 474px;
+        left: 520px;
+    }
+    #vectorStar {
+        position: relative;
+        left: 561px;
+        bottom: 438px;
+        width: 59px;
     }
 
     body > main > section#About > section#image > div#circleOne {
@@ -386,5 +392,43 @@
         font-size: 11px;
         left: 11px;
         top: -8px;
+    }
+
+    .downloadCv_Button {
+        position: relative;
+        display: inline-block;
+        bottom: 602px;
+        left: 146px;
+    }
+    .btn-DownloadTwo {
+        padding: 12px 0 0 20px;
+        height: 48px;
+        font-size: 19px;
+    }
+    #download_arrow {
+        left: 21px;
+    }
+
+    .hireMe_Button {
+        position: relative;
+        display: inline-block;
+        bottom: 49px;
+        left: 300px;
+    }
+    .btn-Hire-MeTwo {
+        padding: 12px 0 0 20px;
+        height: 48px;
+        font-size: 19px;
+    }
+    #HireMe_arrow {
+        left: 105px;
+        top: 14px;
+        font-size: 21px;
+    }
+    .button-CircleThree {
+        height: 33px;
+        width: 33px;
+        right: 10px;
+        bottom: 7px;
     }
 }
