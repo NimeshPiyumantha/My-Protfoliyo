@@ -304,50 +304,61 @@
         margin-left: 61px;
         width: 650px;
     }
+
     #vectorOne {
         display: none;
     }
+
     #vectorTwo {
         display: none;
     }
 
-    body > main > section#About > article#details > h3:nth-child(1){
+    body > main > section#About > article#details > h3:nth-child(1) {
         font-size: 18px;
         width: 700px;
     }
-    body > main > section#About > article#details > h3:nth-child(2){
+
+    body > main > section#About > article#details > h3:nth-child(2) {
         font-size: 18px;
         width: 700px;
     }
-    body > main > section#About > article#details > h3:nth-child(3){
+
+    body > main > section#About > article#details > h3:nth-child(3) {
         font-size: 18px;
         width: 700px;
     }
-    body > main > section#About > article#details > h3:nth-child(4){
+
+    body > main > section#About > article#details > h3:nth-child(4) {
         font-size: 18px;
         width: 700px;
     }
-    body > main > section#About > article#details > h3:nth-child(5){
+
+    body > main > section#About > article#details > h3:nth-child(5) {
         font-size: 18px;
         width: 700px;
     }
-    body > main > section#About > article#details > h3:nth-child(6){
+
+    body > main > section#About > article#details > h3:nth-child(6) {
         font-size: 18px;
         width: 700px;
     }
-    body > main > section#About > article#details > h3:nth-child(7){
+
+    body > main > section#About > article#details > h3:nth-child(7) {
         font-size: 18px;
         width: 700px;
     }
-    body > main > section#About > article#details > h3:nth-child(8){
+
+    body > main > section#About > article#details > h3:nth-child(8) {
         font-size: 18px;
         width: 700px;
     }
-    body > main > section#About > article#details > h3:nth-child(9){
+
+    body > main > section#About > article#details > h3:nth-child(9) {
         font-size: 18px;
         width: 700px;
     }
-    body > main > section#About > article#details > h3:nth-child(10){
+
+    body > main > section#About > article#details > h3:nth-child(10) {
         font-size: 18px;
         top: 8px;
         position: relative;
@@ -360,6 +371,7 @@
         bottom: 210px;
         left: 520px;
     }
+
     #vectorStar {
         position: relative;
         left: 561px;
@@ -379,6 +391,7 @@
         left: 26px;
         top: 12px;
     }
+
     body > main > section#About > section#image > div#circleOne h2 {
         font-size: 11px;
         left: 11px;
@@ -397,6 +410,7 @@
         left: 20px;
         top: 1px;
     }
+
     body > main > section#About > section#image > div#circleTwo h2 {
         font-size: 11px;
         left: 11px;
@@ -409,11 +423,13 @@
         bottom: 602px;
         left: 146px;
     }
+
     .btn-DownloadTwo {
         padding: 12px 0 0 20px;
         height: 48px;
         font-size: 19px;
     }
+
     #download_arrow {
         left: 21px;
     }
@@ -424,16 +440,19 @@
         bottom: 49px;
         left: 300px;
     }
+
     .btn-Hire-MeTwo {
         padding: 12px 0 0 20px;
         height: 48px;
         font-size: 19px;
     }
+
     #HireMe_arrow {
         left: 105px;
         top: 14px;
         font-size: 21px;
     }
+
     .button-CircleThree {
         height: 33px;
         width: 33px;
@@ -448,10 +467,12 @@
         width: 100%;
         height: 942px;
     }
+
     body > main > section#About > section#education > div:nth-child(2) {
         left: 305px;
         position: relative;
     }
+
     body > main > section#About > section#education > div:nth-child(3) {
         left: 305px;
         position: relative;
@@ -463,37 +484,44 @@
         width: calc(100% / 2);
         height: 250px;
     }
+
     #education_1 {
         top: -104px;
         right: 195px;
         width: 17%;
     }
+
     body > main > section#About > section#education > section#Ordinary > div:nth-child(2) {
         height: 176px;
         width: 3px;
         right: 233px;
         top: 67px;
     }
+
     body > main > section#About > section#education > section#Ordinary > div:nth-child(3) {
         height: 35px;
         width: 167px;
         right: 127px;
         bottom: 161px;
     }
+
     body > main > section#About > section#education > section#Ordinary > h3#OFirst {
         font-size: 25px;
         right: 107px;
         bottom: 195px;
     }
+
     body > main > section#About > section#education > section#Ordinary > h3#OSecond {
         font-size: 18px;
         left: 94px;
         bottom: 176px;
         width: 280px;
     }
+
     body > main > section#About > section#education > section#Ordinary > h3#OSecond span {
         font-size: 15px;
     }
+
     body > main > section#About > section#education > section#Ordinary > p {
         font-size: 17px;
         left: 96px;
@@ -507,37 +535,44 @@
         width: calc(100% / 2);
         height: 250px;
     }
+
     #education_2 {
         top: -104px;
         left: 16px;
         width: 17%;
     }
+
     body > main > section#About > section#education > section#Advanced > div:nth-child(2) {
         height: 176px;
         width: 3px;
         left: -24px;
         top: 67px;
     }
+
     body > main > section#About > section#education > section#Advanced > div:nth-child(3) {
         height: 35px;
         width: 167px;
         right: 127px;
         bottom: 118px;
     }
+
     body > main > section#About > section#education > section#Advanced > h3#AFirst {
         font-size: 25px;
         right: 141px;
         bottom: 126px;
     }
+
     body > main > section#About > section#education > section#Advanced > h3#ASecond {
         font-size: 18px;
         left: 94px;
         bottom: 176px;
         width: 290px;
     }
+
     body > main > section#About > section#education > section#Advanced > h3#ASecond span {
         font-size: 15px;
     }
+
     body > main > section#About > section#education > section#Advanced > p {
         font-size: 17px;
         left: 96px;
@@ -552,37 +587,44 @@
         width: calc(100% / 2);
         height: 250px;
     }
+
     #education_3 {
         top: -104px;
         left: 16px;
         width: 17%;
     }
+
     body > main > section#About > section#education > section#HNDLevel > div:nth-child(2) {
         height: 176px;
         width: 3px;
         left: -24px;
         top: 67px;
     }
+
     body > main > section#About > section#education > section#HNDLevel > div:nth-child(3) {
         height: 35px;
         width: 167px;
         right: 127px;
         bottom: 118px;
     }
+
     body > main > section#About > section#education > section#HNDLevel > h3#HFirst {
         font-size: 25px;
         right: 141px;
         bottom: 126px;
     }
+
     body > main > section#About > section#education > section#HNDLevel > h3#HSecond {
         font-size: 18px;
         left: 94px;
         top: -109px;
         width: 290px;
     }
+
     body > main > section#About > section#education > section#HNDLevel > h3#HSecond span {
         font-size: 15px;
     }
+
     body > main > section#About > section#education > section#HNDLevel > p {
         font-size: 15px;
         left: 96px;
@@ -597,37 +639,44 @@
         width: calc(100% / 2);
         height: 250px;
     }
+
     #education_4 {
         top: -104px;
         left: 16px;
         width: 17%;
     }
+
     body > main > section#About > section#education > section#DegreeLevel > div:nth-child(2) {
         height: 176px;
         width: 3px;
         left: -24px;
         top: 67px;
     }
+
     body > main > section#About > section#education > section#DegreeLevel > div:nth-child(3) {
         height: 35px;
         width: 167px;
         right: 127px;
         bottom: 118px;
     }
+
     body > main > section#About > section#education > section#DegreeLevel > h3#DFirst {
         font-size: 25px;
         right: 141px;
         bottom: 126px;
     }
+
     body > main > section#About > section#education > section#DegreeLevel > h3#DSecond {
         font-size: 18px;
         left: 94px;
         bottom: 176px;
         width: 290px;
     }
+
     body > main > section#About > section#education > section#DegreeLevel > h3#DSecond span {
         font-size: 15px;
     }
+
     body > main > section#About > section#education > section#DegreeLevel > p {
         font-size: 17px;
         left: 96px;
@@ -642,6 +691,7 @@
         bottom: 1230px;
         left: 101px
     }
+
     body > main > section#About > section#design > div#circle2 {
         height: 50px;
         width: 50px;
@@ -655,6 +705,7 @@
         bottom: 1327px;
         left: 550px;
     }
+
     body > main > section#About > section#design > div#circle4 {
         height: 50px;
         width: 50px;
@@ -668,6 +719,7 @@
         bottom: 913px;
         left: 289px;
     }
+
     body > main > section#About > section#design > div#circle6 {
         height: 50px;
         width: 50px;
@@ -682,12 +734,14 @@
         left: 638px;
         position: absolute;
     }
+
     body > main > section#About > section#design > div#circle8 {
         height: 50px;
         width: 50px;
         bottom: 971px;
         left: 667px;
     }
+
     #vector3 {
         width: 43%;
         bottom: 1457px;
@@ -704,6 +758,7 @@
     body > main > section#Skills > article > div:nth-child(3) {
         left: 42%;
     }
+
     body > main > section#Skills > article > div:nth-child(4) {
         left: 42%;
     }
@@ -723,6 +778,7 @@
         width: 315px;
         height: 450px;
     }
+
     body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(1) {
         background: #FF6348;
         position: relative;
@@ -730,6 +786,7 @@
         height: 60px;
         display: flex;
     }
+
     body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(1) h1 {
         font-size: 25px;
         margin-top: calc(25px / 2);
@@ -741,14 +798,17 @@
         height: 90px;
         top: 30px;
     }
+
     body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(2) > div:nth-child(1) {
         width: 70px;
         height: 70px;
     }
+
     body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(2) > div:nth-child(2) {
         width: 70px;
         height: 70px;
     }
+
     body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(2) > div:nth-child(3) {
         width: 70px;
         height: 70px;
@@ -759,14 +819,17 @@
         height: 90px;
         top: 30px;
     }
+
     body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(3) > div:nth-child(1) {
         width: 70px;
         height: 70px;
     }
+
     body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(3) > div:nth-child(2) {
         width: 70px;
         height: 70px;
     }
+
     body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(3) > div:nth-child(3) {
         width: 70px;
         height: 70px;
@@ -777,14 +840,17 @@
         height: 90px;
         top: 30px;
     }
+
     body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(4) > div:nth-child(1) {
         width: 70px;
         height: 70px;
     }
+
     body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(4) > div:nth-child(2) {
         width: 70px;
         height: 70px;
     }
+
     body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(4) > div:nth-child(3) {
         width: 70px;
         height: 70px;
@@ -795,14 +861,17 @@
         height: 70px;
         top: 30px;
     }
+
     body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(5) > div:nth-child(1) {
         width: 70px;
         height: 70px;
     }
+
     body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(5) > div:nth-child(2) {
         width: 70px;
         height: 70px;
     }
+
     body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(5) > div:nth-child(3) {
         width: 70px;
         height: 70px;
@@ -813,6 +882,7 @@
         width: 315px;
         height: 450px;
     }
+
     body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(1) {
         background: #FF6348;
         position: relative;
@@ -820,6 +890,7 @@
         height: 60px;
         display: flex;
     }
+
     body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(1) h1 {
         font-size: 25px;
         margin-top: calc(25px / 2);
@@ -831,14 +902,17 @@
         height: 90px;
         top: 30px;
     }
+
     body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(2) > div:nth-child(1) {
         width: 70px;
         height: 70px;
     }
+
     body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(2) > div:nth-child(2) {
         width: 70px;
         height: 70px;
     }
+
     body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(2) > div:nth-child(3) {
         width: 70px;
         height: 70px;
@@ -849,14 +923,17 @@
         height: 90px;
         top: 30px;
     }
+
     body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(3) > div:nth-child(1) {
         width: 70px;
         height: 70px;
     }
+
     body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(3) > div:nth-child(2) {
         width: 70px;
         height: 70px;
     }
+
     body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(3) > div:nth-child(3) {
         width: 70px;
         height: 70px;
@@ -867,14 +944,17 @@
         height: 90px;
         top: 30px;
     }
+
     body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(4) > div:nth-child(1) {
         width: 70px;
         height: 70px;
     }
+
     body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(4) > div:nth-child(2) {
         width: 70px;
         height: 70px;
     }
+
     body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(4) > div:nth-child(3) {
         width: 70px;
         height: 70px;
@@ -885,14 +965,17 @@
         height: 70px;
         top: 30px;
     }
+
     body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(5) > div:nth-child(1) {
         width: 70px;
         height: 70px;
     }
+
     body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(5) > div:nth-child(2) {
         width: 70px;
         height: 70px;
     }
+
     body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(5) > div:nth-child(3) {
         width: 70px;
         height: 70px;
@@ -902,10 +985,12 @@
         top: 189px;
         font-size: 63px;
     }
+
     body > main > section#Skills > div:nth-child(3) i {
         top: 676px;
         font-size: 63px;
     }
+
     #skill_main_vector {
         position: absolute;
         left: 99px;
@@ -918,9 +1003,11 @@
         width: 100%;
         height: 800px;
     }
+
     body > main > section#Gallery > article > div:nth-child(3) {
         left: 38%;
     }
+
     body > main > section#Gallery > article > div:nth-child(4) {
         left: 38%;
     }
@@ -936,21 +1023,24 @@
         height: 82px;
         top: 75px;
     }
+
     body > main > section#Gallery > section#vector > img:nth-child(3) {
         width: 30px;
         height: 70px;
         bottom: 45px;
     }
+
     body > main > section#Gallery > section#vector > img:nth-child(4) {
         display: none;
     }
+
     body > main > section#Gallery > section#vector > img:nth-child(5) {
         display: none;
     }
 
     /**-------------------------------------------- Main - Achievements --------------------------------------------**/
     #Achievements {
-      display: none;
+        display: none;
     }
 
     /**-------------------------------------------- Main - Projects --------------------------------------------**/
@@ -965,6 +1055,7 @@
         height: 287px;
         top: 150px;
     }
+
     body > main > section#Project > section#ProjectSection > div {
         width: calc(100% / 3.20);
         height: 251px;
@@ -975,16 +1066,19 @@
         width: 209px;
         top: 27px;
     }
+
     body > main > section#Project > section#ProjectSection > div:nth-child(2) > img {
         height: 130px;
         width: 209px;
         top: 27px;
     }
+
     body > main > section#Project > section#ProjectSection > div:nth-child(3) > img {
         height: 130px;
         width: 209px;
         top: 27px;
     }
+
     .Projects {
         padding: 11px 21px 9px 17px;
         font-size: 22px;
@@ -997,6 +1091,7 @@
         left: 635px;
         opacity: 70%;
     }
+
     body > main > section#Project > section#DesignProjects > section > div:nth-child(2) {
         width: 50px;
         height: 50px;
@@ -1010,22 +1105,26 @@
         position: absolute;
         width: 29px;
     }
+
     body > main > section#Project > section#DesignProjects img:nth-child(6) {
         top: 272px;
         left: 479px;
         position: absolute;
     }
+
     body > main > section#Project > section#DesignProjects img:nth-child(7) {
         top: 352px;
         left: 223px;
         position: absolute;
     }
+
     body > main > section#Project > section#DesignProjects img:nth-child(3) {
         top: 462px;
         left: 350px;
         position: absolute;
         width: 43px;
     }
+
     body > main > section#Project > section#DesignProjects img:nth-child(4) {
         top: 462px;
         left: 635px;
@@ -1043,10 +1142,12 @@
         position: absolute;
         top: 93px;
     }
+
     body > main > section#Services > article > div:nth-child(3) {
         left: 41%;
         top: 132px;
     }
+
     body > main > section#Services > article > div:nth-child(4) {
         left: 41%;
         top: 132px;
@@ -1062,10 +1163,12 @@
     body > main > section#Services > section#ServicesButton > div#Development > a > button {
         font-size: 22px;
     }
+
     body > main > section#Services > section#ServicesButton > div#SDesign > a > button {
         font-size: 22px;
         padding: 11px 40px 11px 40px;
     }
+
     body > main > section#Services > section#ServicesButton > div#Marketing > a > button {
         font-size: 22px;
     }
@@ -1076,29 +1179,35 @@
         height: 325px;
         top: 235px;
     }
+
     body > main > section#Services > section#MainSection > div:nth-child(1) {
         width: calc(900px / 4);
         height: 300px;
     }
+
     body > main > section#Services > section#MainSection > div:nth-child(1) > div:first-child {
         width: calc(900px / 4);
         height: 80px;
     }
+
     body > main > section#Services > section#MainSection > div:nth-child(1) > div:first-child > div:first-child {
         width: 80px;
         height: 80px;
         top: 70px;
     }
+
     body > main > section#Services > section#MainSection > div:nth-child(1) > div:first-child > div:first-child > i {
         font-size: 40px;
         top: 17px;
         left: 16px;
     }
+
     body > main > section#Services > section#MainSection > div:nth-child(1) > h2 {
         top: 119px;
         left: 37px;
         font-size: 16px;
     }
+
     body > main > section#Services > section#MainSection > div:nth-child(1) > p {
         position: absolute;
         top: 147px;
@@ -1114,25 +1223,30 @@
         height: 300px;
         left: 247px;
     }
+
     body > main > section#Services > section#MainSection > div:nth-child(2) > div:first-child {
         width: calc(900px / 4);
         height: 80px;
     }
+
     body > main > section#Services > section#MainSection > div:nth-child(2) > div:first-child > div:first-child {
         width: 80px;
         height: 80px;
         top: 70px;
     }
+
     body > main > section#Services > section#MainSection > div:nth-child(2) > div:first-child > div:first-child > i {
         font-size: 40px;
         top: 17px;
         left: 16px;
     }
+
     body > main > section#Services > section#MainSection > div:nth-child(2) > h2 {
         top: 119px;
         left: 37px;
         font-size: 16px;
     }
+
     body > main > section#Services > section#MainSection > div:nth-child(2) > p {
         position: absolute;
         top: 147px;
@@ -1147,25 +1261,30 @@
         width: calc(900px / 4);
         height: 300px;
     }
+
     body > main > section#Services > section#MainSection > div:nth-child(3) > div:first-child {
         width: calc(900px / 4);
         height: 80px;
     }
+
     body > main > section#Services > section#MainSection > div:nth-child(3) > div:first-child > div:first-child {
         width: 80px;
         height: 80px;
         top: 70px;
     }
+
     body > main > section#Services > section#MainSection > div:nth-child(3) > div:first-child > div:first-child > i {
         font-size: 40px;
         top: 17px;
         left: 25px;
     }
+
     body > main > section#Services > section#MainSection > div:nth-child(3) > h2 {
         top: 119px;
         left: 37px;
         font-size: 16px;
     }
+
     body > main > section#Services > section#MainSection > div:nth-child(3) > p {
         position: absolute;
         top: 147px;
@@ -1180,6 +1299,7 @@
         width: 50px;
         height: 50px;
     }
+
     body > main > section#Services > section#ServicesBGDesign > aside:first-child > div:nth-child(2) {
         width: 50px;
         height: 50px;
@@ -1189,6 +1309,7 @@
         width: 50px;
         height: 50px;
     }
+
     body > main > section#Services > section#ServicesBGDesign > aside:nth-child(2) > div:nth-child(2) {
         width: 50px;
         height: 50px;
@@ -1200,25 +1321,30 @@
         height: 650px;
         position: relative;
     }
+
     body > main > section#HireMe > section#HireMe_Main {
         width: 722px;
         height: 400px;
         position: absolute;
         top: 181px;
     }
+
     body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) {
         width: calc(900px / 4);
         height: 370px;
     }
+
     body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) > div:nth-child(1) {
         width: 185px;
         height: 50px;
     }
+
     body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) > div:nth-child(1) > h3 {
         font-size: 25px;
         top: 9px;
         left: 80px;
     }
+
     body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) > h2 {
         font-size: 22px;
         font-family: Poppins, sans-serif;
@@ -1228,15 +1354,18 @@
         left: 35px;
         position: absolute;
     }
+
     body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) > h2 > sup {
         font-size: 20px;
     }
+
     body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) > p {
         font-size: 13px;
         color: #2C3E50;
         top: 127px;
         left: 30px;
     }
+
     body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) > div:nth-child(4) {
         background: #2ED573;
         width: 182px;
@@ -1246,6 +1375,7 @@
         margin: auto;
         position: absolute;
     }
+
     body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) > p:nth-child(5) {
         font-size: 16px;
         color: #2C3E50;
@@ -1256,21 +1386,25 @@
         left: 25px;
         text-align: center;
     }
+
     body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) > div#BASIC {
         position: absolute;
         top: 298px;
         left: 23px;
     }
+
     body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) > div#BASIC > a > button {
         padding: 12px 6px 1px 13px;
         font-size: 18px;
     }
+
     body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) > div#BASIC > a > button div {
         height: 30px;
         width: 30px;
         top: -6px;
         left: -4px;
     }
+
     body > main > section#HireMe > section#HireMe_Main > section:nth-child(1) > div#BASIC > a > button i {
         color: #2ED573;
         position: absolute;
@@ -1285,15 +1419,18 @@
         height: 370px;
         left: 247px;
     }
+
     body > main > section#HireMe > section#HireMe_Main > section:nth-child(2) > div:nth-child(1) {
         width: 185px;
         height: 50px;
     }
+
     body > main > section#HireMe > section#HireMe_Main > section:nth-child(2) > div:nth-child(1) > h3 {
         font-size: 25px;
         top: 9px;
         left: 60px;
     }
+
     body > main > section#HireMe > section#HireMe_Main > section:nth-child(2) > h2 {
         font-size: 22px;
         font-family: Poppins, sans-serif;
@@ -1303,15 +1440,18 @@
         left: 35px;
         position: absolute;
     }
+
     body > main > section#HireMe > section#HireMe_Main > section:nth-child(2) > h2 > sup {
         font-size: 20px;
     }
+
     body > main > section#HireMe > section#HireMe_Main > section:nth-child(2) > p {
         font-size: 13px;
         color: #2C3E50;
         top: 127px;
         left: 30px;
     }
+
     body > main > section#HireMe > section#HireMe_Main > section:nth-child(2) > div:nth-child(4) {
         background: #2ED573;
         width: 182px;
@@ -1321,6 +1461,7 @@
         margin: auto;
         position: absolute;
     }
+
     body > main > section#HireMe > section#HireMe_Main > section:nth-child(2) > p:nth-child(5) {
         font-size: 16px;
         color: #2C3E50;
@@ -1331,21 +1472,25 @@
         left: 25px;
         text-align: center;
     }
+
     body > main > section#HireMe > section#HireMe_Main > section:nth-child(2) > div#PREMIUM {
         position: absolute;
         top: 298px;
         left: 23px;
     }
+
     body > main > section#HireMe > section#HireMe_Main > section:nth-child(2) > div#PREMIUM > a > button {
         padding: 12px 6px 1px 13px;
         font-size: 18px;
     }
+
     body > main > section#HireMe > section#HireMe_Main > section:nth-child(2) > div#PREMIUM > a > button div {
         height: 30px;
         width: 30px;
         top: -6px;
         left: -4px;
     }
+
     body > main > section#HireMe > section#HireMe_Main > section:nth-child(2) > div#PREMIUM > a > button i {
         color: #2ED573;
         position: absolute;
@@ -1358,15 +1503,18 @@
         width: calc(900px / 4);
         height: 370px;
     }
+
     body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > div:nth-child(1) {
         width: 185px;
         height: 50px;
     }
+
     body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > div:nth-child(1) > h3 {
         font-size: 25px;
         top: 9px;
         left: 45px;
     }
+
     body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > h2 {
         font-size: 22px;
         font-family: Poppins, sans-serif;
@@ -1376,15 +1524,18 @@
         left: 35px;
         position: absolute;
     }
+
     body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > h2 > sup {
         font-size: 20px;
     }
+
     body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > p {
         font-size: 13px;
         color: #2C3E50;
         top: 127px;
         left: 30px;
     }
+
     body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > div:nth-child(4) {
         background: #2ED573;
         width: 182px;
@@ -1394,6 +1545,7 @@
         margin: auto;
         position: absolute;
     }
+
     body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > p:nth-child(5) {
         font-size: 16px;
         color: #2C3E50;
@@ -1404,21 +1556,25 @@
         left: 25px;
         text-align: center;
     }
+
     body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > div#ADVANCE {
         position: absolute;
         top: 298px;
         left: 23px;
     }
+
     body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > div#ADVANCE > a > button {
         padding: 12px 6px 1px 13px;
         font-size: 18px;
     }
+
     body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > div#ADVANCE > a > button div {
         height: 30px;
         width: 30px;
         top: -6px;
         left: -4px;
     }
+
     body > main > section#HireMe > section#HireMe_Main > section:nth-child(3) > div#ADVANCE > a > button i {
         color: #2ED573;
         position: absolute;
@@ -1428,29 +1584,34 @@
     }
 
     body > main > section#HireMe > section#BGDesigns > div:nth-child(1) > div:nth-child(1) {
-       display: none;
+        display: none;
     }
+
     body > main > section#HireMe > section#BGDesigns > div:nth-child(1) > div:nth-child(2) {
         display: none;
     }
+
     body > main > section#HireMe > section#BGDesigns > img:nth-child(2) {
         display: none;
     }
+
     body > main > section#HireMe > section#BGDesigns > img:nth-child(3) {
         display: none;
     }
+
     body > main > section#HireMe > section#BGDesigns > img:nth-child(4) {
         display: none;
     }
+
     body > main > section#HireMe > section#BGDesigns > div:nth-child(5) > div:nth-child(1) {
         display: none;
     }
+
     body > main > section#HireMe > section#BGDesigns > div:nth-child(5) > div:nth-child(2) {
         display: none;
     }
 
     /**-------------------------------------------- Main - Testimonials --------------------------------------------**/
-
     #Testimonials {
         width: 100%;
         height: 500px;
@@ -1462,14 +1623,17 @@
         top: 90px;
         position: relative;
     }
+
     body > main > section#Testimonials > article > div:nth-child(3) {
         left: 29%;
         top: 131px;
     }
+
     body > main > section#Testimonials > article > div:nth-child(4) {
         left: 29%;
         top: 135px;
     }
+
     body > main > section#Testimonials > section:nth-child(4) {
         display: none;
     }
@@ -1487,6 +1651,7 @@
         border-radius: 50px;
         cursor: grab;
     }
+
     body > main > section#Testimonials > section#Says > section > div:nth-child(1) > div:nth-child(1) > p {
         color: #2C3E50;
         font-weight: bolder;
@@ -1498,11 +1663,13 @@
         top: 30px;
         text-align: center;
     }
+
     body > main > section#Testimonials > section#Says > section > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) h1 {
         font-size: 19px;
         margin-left: 8px;
         font-family: Inter, sans-serif;
     }
+
     body > main > section#Testimonials > section#Says > section > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) h2 {
         font-size: 14px;
         margin-left: 10px;
@@ -1510,6 +1677,7 @@
         position: relative;
         bottom: 11px;
     }
+
     body > main > section#Testimonials > section#Says > section > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) {
         width: 80px;
         height: 70px;
@@ -1531,11 +1699,13 @@
         top: 30px;
         text-align: center;
     }
+
     body > main > section#Testimonials > section#Says > section > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) h1 {
         font-size: 19px;
         margin-left: 8px;
         font-family: Inter, sans-serif;
     }
+
     body > main > section#Testimonials > section#Says > section > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) h2 {
         font-size: 14px;
         margin-left: 10px;
@@ -1543,6 +1713,7 @@
         position: relative;
         bottom: 11px;
     }
+
     body > main > section#Testimonials > section#Says > section > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) {
         width: 80px;
         height: 70px;
@@ -1564,11 +1735,13 @@
         top: 30px;
         text-align: center;
     }
+
     body > main > section#Testimonials > section#Says > section > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) h1 {
         font-size: 19px;
         margin-left: 8px;
         font-family: Inter, sans-serif;
     }
+
     body > main > section#Testimonials > section#Says > section > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) h2 {
         font-size: 14px;
         margin-left: 8px;
@@ -1576,12 +1749,14 @@
         position: relative;
         bottom: 11px;
     }
+
     body > main > section#Testimonials > section#Says > section > div:nth-child(3) > div:nth-child(2) {
         display: flex;
         flex-direction: row;
         position: relative;
         top: 81px;
     }
+
     body > main > section#Testimonials > section#Says > section > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) {
         width: 80px;
         height: 70px;
@@ -1615,24 +1790,28 @@
         top: 214px;
         left: 110px;
     }
+
     body > main > section#Contact > section:nth-child(3) > form > input:nth-child(1) {
         width: 250px;
         height: 40px;
         font-size: 20px;
         top: 22px;
     }
+
     body > main > section#Contact > section:nth-child(3) > form > input:nth-child(2) {
         width: 250px;
         height: 40px;
         font-size: 20px;
         top: 75px;
     }
+
     body > main > section#Contact > section:nth-child(3) > form > input:nth-child(3) {
         width: 250px;
         height: 40px;
         font-size: 20px;
         top: 130px;
     }
+
     body > main > section#Contact > section:nth-child(3) > form > textarea:nth-child(4) {
         width: 250px;
         height: 80px;
@@ -1720,12 +1899,14 @@
     body > main > section#Contact > section:nth-child(4) > article:nth-child(1) > h2:nth-child(1) {
         font-size: 25px;
     }
+
     body > main > section#Contact > section:nth-child(4) > article:nth-child(1) > div:nth-child(2) {
         width: 125px;
         height: 7px;
         top: 36px;
         right: 151px;
     }
+
     body > main > section#Contact > section:nth-child(4) > article:nth-child(1) > div:nth-child(3) {
         width: 87px;
         height: 7px;
@@ -1740,10 +1921,12 @@
         margin-left: 35px;
         width: 274px;
     }
+
     body > main > section#Contact > section:nth-child(4) > article:nth-child(2) > div:nth-child(2) i {
         font-size: 25px;
         margin-left: 60px;
     }
+
     body > main > section#Contact > section:nth-child(4) > article:nth-child(2) > div:nth-child(2) p {
         font-family: cursive;
         font-weight: bolder;
@@ -1756,6 +1939,7 @@
         font-size: 22px;
         margin-left: 60px;
     }
+
     body > main > section#Contact > section:nth-child(4) > article:nth-child(2) > div:nth-child(3) h3 {
         font-family: cursive;
         font-weight: bolder;
@@ -1768,6 +1952,7 @@
         font-size: 22px;
         margin-left: 60px;
     }
+
     body > main > section#Contact > section:nth-child(4) > article:nth-child(2) > div:nth-child(4) h3 {
         font-family: cursive;
         font-weight: bolder;
@@ -1775,15 +1960,175 @@
         font-size: 14px;
         left: 16px;
     }
+
     body > main > section#Contact > section:nth-child(4) > article:nth-child(2) > div:last-child {
         display: none;
     }
+
     body > main > section#Iframe iframe {
         width: 100%;
         height: 250px;
     }
 
-    footer{
-        display: none;
+    /**-------------------------------------------- Main - Footer --------------------------------------------**/
+    body > footer {
+        width: 100%;
+        height: 350px;
+        position: relative;
+        top: -4px;
+    }
+    body > footer > section:nth-child(1) {
+        height: 350px;
+    }
+
+    body > footer > section:nth-child(2) {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+        height: 340px;
+    }
+
+    body > footer > section:nth-child(2) > section:nth-child(1) {
+        width: 100%;
+        height: 315px;
+    }
+    body > footer > section:nth-child(2) > section:nth-child(1) section {
+        width: 259px;
+        height: 270px;
+    }
+
+    body > footer > section:nth-child(2) > section:nth-child(1) > section > article:nth-child(1) {
+        width: 245px;
+        height: 280px;
+        z-index: 1;
+    }
+
+    body > footer > section:nth-child(2) > section:nth-child(1) > section > article:nth-child(1) h1 {
+        color: #FF6348;
+        font-size: 19px;
+        font-family: Poppins, serif;
+        font-weight: bolder;
+    }
+
+    body > footer > section:nth-child(2) > section:nth-child(1) > section > article:nth-child(1) p {
+        color: #2C3E50;
+        font-size: 12px;
+        font-weight: bolder;
+        font-family: Poppins, serif;
+        display: flex;
+    }
+
+    body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(2) {
+        width: 214px;
+    }
+
+    body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(2) h1 {
+        font-family: Poppins, serif;
+        color: #FF6348;
+        font-size: 20px;
+        font-weight: bolder;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(2) nav ul li a {
+        font-family: Poppins, serif;
+        color: #2C3E50;
+        font-size: 13px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(3) h2 {
+        font-family: Poppins, serif;
+        color: #FF6348;
+        font-size: 20px;
+        display: flex;
+        top: 15px;
+        position: relative;
+    }
+
+    body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(3) > div:nth-child(2) {
+        width: 200px;
+        height: 30px;
+        position: absolute;
+        top: 100px;
+    }
+
+    body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(3) > div:nth-child(2) i {
+        font-size: 20px;
+    }
+
+    body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(3) > div:nth-child(2) p {
+        font-family: cursive;
+        font-weight: bolder;
+        position: relative;
+        bottom: 23px;
+        left: 42px;
+        font-size: 13px;
+    }
+
+    body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(3) > div:nth-child(3) {
+        width: 200px;
+        height: 30px;
+        position: absolute;
+        top: 128px;
+    }
+    body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(3) > div:nth-child(3) i {
+        font-size: 20px;
+    }
+    body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(3) > div:nth-child(3) h3 {
+        font-family: cursive;
+        font-weight: bolder;
+        position: relative;
+        bottom: 17px;
+        left: 42px;
+        font-size: 13px;
+    }
+
+    body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(3) > div:nth-child(4) {
+        width: 200px;
+        height: 30px;
+        position: absolute;
+        top: 168px;
+    }
+    body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(3) > div:nth-child(4) i {
+        font-size: 20px;
+    }
+    body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(3) > div:nth-child(4) h3 {
+        font-family: cursive;
+        font-weight: bolder;
+        position: relative;
+        bottom: 1px;
+        left: 42px;
+        font-size: 13px;
+    }
+
+    body > footer > section:nth-child(2) > section:nth-child(1) > section > section:nth-child(2) {
+        width: 320px;
+        height: 74px;
+        z-index: 1;
+        top: -135px;
+        position: relative;
+    }
+    body > footer > section:nth-child(2) > section:nth-child(1) > section > section:nth-child(2) nav > div.social-menu ul {
+        position: relative;
+        left: 176px;
+        top: 35px;
+    }
+    body > footer > section:nth-child(2) > section:nth-child(1) > section > section:nth-child(2) nav > div.social-menu ul > li > a > i {
+        font-size: 22px;
+    }
+    body > footer > section:nth-child(2) > section:nth-child(1) > section > section:nth-child(2) nav > div.social-menu ul li a {
+        width: 40px;
+        height: 40px;
+        position: relative;
+    }
+
+    body > footer > section:nth-child(2) > section:nth-child(2) small {
+        font-size: 13px;
+        top: 0;
     }
 }
