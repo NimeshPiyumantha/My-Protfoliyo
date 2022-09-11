@@ -161,7 +161,7 @@
     /** Main - Home- Main Content */
     #Home {
         position: relative;
-        height: 500px;
+        height: 350px;
         width: 100%;
     }
 
@@ -259,6 +259,132 @@
 
     .follow-content-text {
         font-size: 25px;
-        margin-bottom:0.7rem;
+        margin-bottom: 0.7rem;
+    }
+
+    /**-------------------------------------------- Main - About --------------------------------------------**/
+    #About {
+        width: 100%;
+        height: 1800px;
+        background: yellowgreen;
+    }
+
+    /* About Header */
+    body > main > section > article h4 {
+        font-size: 22px;
+    }
+
+    body > main > section > article > h1 {
+        font-size: 27px;
+    }
+
+    body > main > section#About > div:nth-child(2) {
+        left: 40%;
+    }
+
+    body > main > section#About > div:nth-child(3) {
+        left: 40%;
+    }
+
+    /* About Paragraph */
+    body > main > section#About > article#paragraphOne p {
+        font-size: 15px;
+        margin-left: 80px;
+        bottom: 55px;
+    }
+
+    body > main > section#About > article#paragraphTwo p {
+        font-size: 14px;
+        margin-left: 80px;
+        bottom: 55px;
+    }
+
+    #details {
+        position: relative;
+        bottom: 625px;
+        margin-left: 61px;
+        width: 784px;
+    }
+    #vectorOne {
+        display: none;
+    }
+    #vectorTwo {
+        display: none;
+    }
+
+    body > main > section#About > article#details > h3:nth-child(1){
+        font-size: 18px;
+    }
+    body > main > section#About > article#details > h3:nth-child(2){
+        font-size: 18px;
+    }
+    body > main > section#About > article#details > h3:nth-child(3){
+        font-size: 18px;
+    }
+    body > main > section#About > article#details > h3:nth-child(4){
+        font-size: 18px;
+    }
+    body > main > section#About > article#details > h3:nth-child(5){
+        font-size: 18px;
+    }
+    body > main > section#About > article#details > h3:nth-child(6){
+        font-size: 18px;
+    }
+    body > main > section#About > article#details > h3:nth-child(7){
+        font-size: 18px;
+    }
+    body > main > section#About > article#details > h3:nth-child(8){
+        font-size: 18px;
+    }
+    body > main > section#About > article#details > h3:nth-child(9){
+        font-size: 18px;
+    }
+    body > main > section#About > article#details > h3:nth-child(10){
+        font-size: 18px;
+        top: 8px;
+        position: relative;
+    }
+
+    #aboutImg {
+        height: 228px;
+        width: 150px;
+        bottom: 210px;
+        left: 474px;
+    }
+
+    body > main > section#About > section#image > div#circleOne {
+        width: 70px;
+        height: 70px;
+        bottom: 379px;
+        left: 549px;
+    }
+
+    body > main > section#About > section#image > div#circleOne h1 {
+        font-size: 18px;
+        left: 26px;
+        top: 12px;
+    }
+    body > main > section#About > section#image > div#circleOne h2 {
+        font-size: 11px;
+        left: 11px;
+        top: 1px;
+    }
+
+    body > main > section#About > section#image > div#circleTwo {
+        width: 70px;
+        height: 70px;
+        bottom: 334px;
+        left: 643px;
+    }
+
+    body > main > section#About > section#image > div#circleTwo h1 {
+        font-size: 18px;
+        left: 20px;
+        top: 1px;
+    }
+    body > main > section#About > section#image > div#circleTwo h2 {
+        font-size: 11px;
+        left: 11px;
+        top: -8px;
     }
 }
