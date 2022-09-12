@@ -176,17 +176,15 @@
 
     #HNDLevel {
         top: -196px;
-        left: 193px;
+        left: 185px;
         width: calc(100% / 2);
         height: 113px;
     }
-
     #education_3 {
         top: -20px;
         left: -11px;
         width: 17%;
     }
-
     body > main > section#About > section#education > section#HNDLevel > div:nth-child(2) {
         height: 61px;
         width: 2px;
@@ -216,7 +214,7 @@
 
     #DegreeLevel {
         top: -197px;
-        left: 191px;
+        left: 185px;
         width: calc(100% / 2);
         height: 113px;
     }
@@ -237,18 +235,20 @@
     body > main > section#About > section#education > section#DegreeLevel > div:nth-child(3) {
         left: -11px;
     }
-
     body > main > section#About > section#education > section#DegreeLevel > h3#DFirst {
         font-size: 14px;
         right: -41px;
         bottom: 48px;
     }
-
     body > main > section#About > section#education > section#DegreeLevel > h3#DSecond {
         font-size: 12px;
         left: 44px;
         top: -38px;
         width: 139px;
+    }
+
+    #details {
+        width: 320px;
     }
 
     /**-------------------------------------------- Main - Skills --------------------------------------------**/
@@ -359,6 +359,13 @@
     body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(5) > div:nth-child(3) {
         width: 45px;
         height: 45px;
+    }
+
+    body > main > section#About > section#education > div:nth-child(2) {
+        left: 135px;
+    }
+    body > main > section#About > section#education > div:nth-child(3) {
+        left: 135px;
     }
 
     body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child {
@@ -475,6 +482,10 @@
     }
 
     /**-------------------------------------------- Main - Services --------------------------------------------**/
+    body > main > section#Services > section#MainSection {
+        position: relative;
+        width: 370px;
+    }
     body > main > section#Services > section#MainSection > div:nth-child(1) {
         left: 11px;
     }
@@ -487,6 +498,18 @@
         font-size: 12px;
         width: 207px;
     }
+
+    body > main > section#Contact > article > div:nth-child(3) {
+        left: 31%;
+    }
+    body > main > section#Contact > article > div:nth-child(4) {
+        left: 31%;
+    }
+    body > main > section#Contact > section:nth-child(4) > article:nth-child(1) > div:nth-child(3) {
+        top: 9px;
+        right: 0;
+    }
+
     body > main > section#Contact > section:nth-child(4) > article:nth-child(2) > div:nth-child(2) h3 {
         font-size: 9px;
     }
@@ -496,4 +519,12 @@
     body > main > section#Contact > section:nth-child(4) > article:nth-child(2) > div:nth-child(4) h3 {
         font-size: 9px;
     }
+
+    body > main > section#Contact > section:nth-child(4) {
+        width: 230px;
+        height: 322px;
+        top: 491px;
+        left: 95px;
+    }
+
 }
