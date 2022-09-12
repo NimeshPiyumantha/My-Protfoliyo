@@ -192,12 +192,14 @@
         bottom: 132px;
         left: 128px;
     }
+
     body > main > section#About > section#image > div#circleOne {
         width: 70px;
         height: 70px;
         bottom: 379px;
         left: 88px;
     }
+
     body > main > section#About > section#image > div#circleTwo {
         width: 70px;
         height: 70px;
@@ -1147,6 +1149,7 @@
         left: 33%;
         top: 85px;
     }
+
     body > main > section#Contact > article > div:nth-child(4) {
         width: 50px;
         height: 4px;
@@ -1167,24 +1170,28 @@
         top: 122px;
         left: 43px;
     }
+
     body > main > section#Contact > section:nth-child(3) > form > input:nth-child(1) {
         width: 209px;
         height: 33px;
         font-size: 14px;
         top: 22px;
     }
+
     body > main > section#Contact > section:nth-child(3) > form > input:nth-child(2) {
         width: 209px;
         height: 33px;
         font-size: 14px;
         top: 66px;
     }
+
     body > main > section#Contact > section:nth-child(3) > form > input:nth-child(3) {
         width: 209px;
         height: 33px;
         font-size: 14px;
         top: 112px;
     }
+
     body > main > section#Contact > section:nth-child(3) > form > textarea:nth-child(4) {
         width: 209px;
         height: 73px;
@@ -1196,16 +1203,19 @@
         top: 250px;
         left: 38px;
     }
+
     body > main > section#Contact > section:nth-child(3) > div:nth-child(2) > button {
         padding: 8px 8px 5px 9px;
         font-size: 12px;
     }
+
     body > main > section#Contact > section:nth-child(3) > div:nth-child(2) > button > div {
         bottom: 2px;
         width: 20px;
         left: 1px;
         height: 20px;
     }
+
     body > main > section#Contact > section:nth-child(3) > div:nth-child(2) > button i {
         left: 110px;
         top: 9px;
@@ -1218,30 +1228,36 @@
         top: 491px;
         left: 130px;
     }
+
     body > main > section#Contact > section:nth-child(4) > article:nth-child(1) > h2:nth-child(1) {
         font-size: 18px;
     }
+
     body > main > section#Contact > section:nth-child(4) > article:nth-child(1) > div:nth-child(2) {
         width: 90px;
         height: 5px;
         top: 21px;
         right: 114px;
     }
+
     body > main > section#Contact > section:nth-child(4) > article:nth-child(1) > div:nth-child(3) {
         width: 62px;
         height: 5px;
         top: 30px;
         right: 203px;
     }
+
     body > main > section#Contact > section:nth-child(4) > article:nth-child(2) {
         width: 100%;
         height: 791px;
         display: flex;
         flex-direction: column;
     }
+
     body > main > section#Contact > section:nth-child(4) > article:nth-child(2) > div:nth-child(1) {
         height: 100px;
     }
+
     body > main > section#Contact > section:nth-child(4) > article:nth-child(2) > div:nth-child(1) > h2 {
         font-size: 14px;
         font-family: cursive;
@@ -1250,6 +1266,7 @@
         width: 215px;
         margin-top: 9px;
     }
+
     body > main > section#Contact > section:nth-child(4) > article:nth-child(2) > div {
         height: 30px;
     }
@@ -1258,6 +1275,7 @@
         font-size: 18px;
         margin-left: 60px;
     }
+
     body > main > section#Contact > section:nth-child(4) > article:nth-child(2) > div:nth-child(2) p {
         font-size: 12px;
     }
@@ -1266,6 +1284,7 @@
         font-size: 15px;
         margin-left: 60px;
     }
+
     body > main > section#Contact > section:nth-child(4) > article:nth-child(2) > div:nth-child(4) h3 {
         font-size: 12px;
     }
@@ -1274,12 +1293,214 @@
         font-size: 15px;
         margin-left: 60px;
     }
+
     body > main > section#Contact > section:nth-child(4) > article:nth-child(2) > div:nth-child(4) h3 {
         font-size: 12px;
     }
+
     body > main > section#Iframe iframe {
         width: 100%;
         height: 150px;
+    }
+
+    /**-------------------------------------------- Footer--------------------------------------------**/
+    body > footer {
+        width: 100%;
+        height: 280px;
+        position: relative;
+        top: -4px;
+    }
+
+    body > footer > section:nth-child(1) {
+        height: 280px;
+    }
+
+    body > footer > section:nth-child(2) {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+        height: 280px;
+    }
+
+    body > footer > section:nth-child(2) > section:nth-child(1) > section > article:nth-child(1) h1 {
+        color: #FF6348;
+        font-size: 12px;
+        font-family: Poppins, serif;
+        font-weight: bolder;
+    }
+
+    body > footer > section:nth-child(2) > section:nth-child(1) > section > article:nth-child(1) {
+        width: 176px;
+        height: 211px;
+        z-index: 1;
+        left: -68px;
+        position: relative;
+    }
+
+    body > footer > section:nth-child(2) > section:nth-child(1) > section > article:nth-child(1) p {
+        color: #2C3E50;
+        font-size: 10px;
+        font-weight: bolder;
+        font-family: Poppins, serif;
+        display: flex;
+        width: 163px;
+    }
+
+    body > footer > section:nth-child(2) > section:nth-child(1) > section > section:nth-child(2) {
+        width: 315px;
+        height: 72px;
+        z-index: 1;
+        position: relative;
+        top: -82px;
+        left: -71px;
+    }
+
+    body > footer > section:nth-child(2) > section:nth-child(1) > section > section:nth-child(2) nav > div.social-menu ul li a {
+        width: 30px;
+        height: 30px;
+        position: relative;
+    }
+
+    .social-menu ul li {
+        list-style: none;
+        margin: 0 5px;
+    }
+
+    body > footer > section:nth-child(2) > section:nth-child(1) > section > section:nth-child(2) nav > div.social-menu ul > li > a > i {
+        font-size: 14px;
+        margin-top: -4px;
+    }
+
+    body > footer > section:nth-child(2) > section:nth-child(1) > section > section:nth-child(2) nav > div.social-menu ul li a {
+        width: 30px;
+        height: 30px;
+        position: relative;
+    }
+
+    body > footer > section:nth-child(2) > section:nth-child(1) > section > section:nth-child(2) {
+        width: 216px;
+        height: 52px;
+        z-index: 1;
+        position: relative;
+        top: -82px;
+        left: -71px;
+    }
+
+    body > footer > section:nth-child(2) > section:nth-child(1) > section > section:nth-child(2) nav > div.social-menu ul {
+        position: relative;
+        left: 113px;
+        top: 22px;
+    }
+
+    body > footer > section:nth-child(2) > section:nth-child(1) > section > section:nth-child(2) nav > div.social-menu ul li a {
+        width: 30px;
+        height: 30px;
+        position: relative;
+        margin-right: 2px;
+    }
+
+    body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(2) {
+        width: 190px;
+    }
+
+    body > footer > section:nth-child(2) > section:nth-child(1) section:nth-child(1) {
+        width: 150px;
+        height: 100px;
+        position: relative;
+        left: 60px;
+        top: -12px;
+    }
+
+    body > footer > section:nth-child(2) > section:nth-child(1) section:nth-child(2) {
+        width: 150px;
+        height: 121px;
+        position: relative;
+        right: 0;
+        top: -2px;
+    }
+
+    body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(2) h1 {
+        font-size: 13px;
+    }
+
+    body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(2) nav ul li a {
+        font-size: 9px;
+    }
+
+    body > footer > section:nth-child(2) > section:nth-child(1) section:nth-child(3) {
+        width: 150px;
+        height: 102px;
+        position: relative;
+        top: 37px;
+    }
+    body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(3) h2 {
+        font-family: Poppins, serif;
+        color: #FF6348;
+        font-size: 13px;
+        display: flex;
+        top: 15px;
+        position: relative;
+    }
+
+    body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(3) > div:nth-child(2) {
+        width: 200px;
+        height: 30px;
+        position: absolute;
+        top: 40px;
+        left: -121px;
+    }
+    body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(3) > div:nth-child(2) i {
+        font-size: 13px;
+    }
+    body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(3) > div:nth-child(2) p {
+        bottom: 16px;
+        left: 24px;
+        font-size: 9px;
+    }
+
+    body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(3) > div:nth-child(3) {
+        width: 200px;
+        height: 30px;
+        position: absolute;
+        top: 40px;
+        left: -14px;
+    }
+    body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(3) > div:nth-child(3) i {
+        font-size: 13px;
+    }
+    body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(3) > div:nth-child(3) h3 {
+        bottom: 16px;
+        left: 24px;
+        font-size: 9px;
+    }
+
+    body > footer > section:nth-child(2) > section:nth-child(1) section:nth-child(3) {
+        width: 150px;
+        height: 57px;
+        position: relative;
+        top: 10px;
+    }
+
+    body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(3) > div:nth-child(4) {
+        width: 200px;
+        height: 30px;
+        position: absolute;
+        top: 40px;
+        left: 104px;
+    }
+    body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(3) > div:nth-child(4) i {
+        font-size: 13px;
+    }
+    body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(3) > div:nth-child(4) h3 {
+        bottom: -1px;
+        left: 24px;
+        font-size: 9px;
+    }
+
+    body > footer > section:nth-child(2) > section:nth-child(2) small {
+        font-size: 8px;
+        top: -9px;
     }
 
 
