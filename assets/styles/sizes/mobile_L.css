@@ -131,7 +131,6 @@
     }
 
     /**-------------------------------------------- Main - About --------------------------------------------**/
-
     #About{
         height: 900px;
     }
@@ -490,4 +489,270 @@
     body > main > section#About > section#education > section#DegreeLevel > p {
         display:none;
     }
+
+    /**-------------------------------------------- Main - Skills --------------------------------------------**/
+    #Skills {
+        width: 100%;
+        height: 470px;
+        background: grey;
+    }
+    body > main > section#Skills > article > div:nth-child(5) {
+        height: 470px;
+    }
+    body > main > section#Skills > article > h1 {
+        position: absolute;
+        top: 57px;
+    }
+    body > main > section#Skills > article > div:nth-child(3) {
+        width: 69px;
+        height: 4px;
+        background: #2ED573;
+        position: relative;
+        left: 41%;
+        top: 86px;
+        border-radius: 3px;
+    }
+    body > main > section#Skills > article > div:nth-child(4) {
+        width: 50px;
+        height: 4px;
+        background: #2ED573;
+        position: relative;
+        left: 41%;
+        top: 80px;
+        border-radius: 3px;
+    }
+
+    body > main > section#Skills > section:nth-child(4) {
+        width: 100%;
+        height: 330px;
+        top: 100px;
+    }
+    body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child {
+        background: #FFFFFF;
+        width: calc(400px/2);
+        height: 330px;
+    }
+
+    body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(1) {
+        background: #FF6348;
+        position: relative;
+        width: 150px;
+        height: 35px;
+        display: flex;
+    }
+
+    body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(2) {
+        width: 177px;
+        height: 65px;
+        top: 30px;
+    }
+    body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(1) h1 {
+        font-size: 15px;
+        margin-top: calc(13px / 2);
+        margin-left: 41px;
+    }
+    body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(2) > div:nth-child(1) {
+        width: 54px;
+        height: 55px;
+    }
+    body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(2) > div:nth-child(2) {
+        width: 54px;
+        height: 55px;
+    }
+    body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(2) > div:nth-child(3) {
+        width: 54px;
+        height: 55px;
+    }
+
+    body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(3) {
+        width: 177px;
+        height: 65px;
+        top: 30px;
+    }
+    body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(2) h1 {
+        font-size: 15px;
+        margin-top: calc(13px / 2);
+        margin-left: 41px;
+    }
+    body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(3) > div:nth-child(1) {
+        width: 54px;
+        height: 55px;
+    }
+    body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(3) > div:nth-child(2) {
+        width: 54px;
+        height: 55px;
+    }
+    body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(3) > div:nth-child(3) {
+        width: 54px;
+        height: 55px;
+    }
+
+    body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(4) {
+        width: 177px;
+        height: 65px;
+        top: 30px;
+    }
+    body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(3) h1 {
+        font-size: 15px;
+        margin-top: calc(13px / 2);
+        margin-left: 41px;
+    }
+    body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(4) > div:nth-child(1) {
+        width: 54px;
+        height: 55px;
+    }
+    body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(4) > div:nth-child(2) {
+        width: 54px;
+        height: 55px;
+    }
+    body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(4) > div:nth-child(3) {
+        width: 54px;
+        height: 55px;
+    }
+
+    body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(5) {
+        width: 177px;
+        height: 65px;
+        top: 30px;
+    }
+    body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(4) h1 {
+        font-size: 15px;
+        margin-top: calc(13px / 2);
+        margin-left: 41px;
+    }
+    body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(5) > div:nth-child(1) {
+        width: 54px;
+        height: 55px;
+    }
+    body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(5) > div:nth-child(2) {
+        width: 54px;
+        height: 55px;
+    }
+    body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(5) > div:nth-child(3) {
+        width: 54px;
+        height: 55px;
+    }
+
+    /*TOOL*/
+    body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child {
+        background: #FFFFFF;
+        width: calc(400px/2);
+        height: 330px;
+    }
+
+    body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(1) {
+        background: #FF6348;
+        position: relative;
+        width: 150px;
+        height: 35px;
+        display: flex;
+    }
+
+    body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(2) {
+        width: 177px;
+        height: 65px;
+        top: 30px;
+    }
+    body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(1) h1 {
+        font-size: 15px;
+        margin-top: calc(13px / 2);
+        margin-left: 41px;
+    }
+    body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(2) > div:nth-child(1) {
+        width: 54px;
+        height: 55px;
+    }
+    body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(2) > div:nth-child(2) {
+        width: 54px;
+        height: 55px;
+    }
+    body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(2) > div:nth-child(3) {
+        width: 54px;
+        height: 55px;
+    }
+
+    body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(3) {
+        width: 177px;
+        height: 65px;
+        top: 30px;
+    }
+    body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(2) h1 {
+        font-size: 15px;
+        margin-top: calc(13px / 2);
+        margin-left: 41px;
+    }
+    body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(3) > div:nth-child(1) {
+        width: 54px;
+        height: 55px;
+    }
+    body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(3) > div:nth-child(2) {
+        width: 54px;
+        height: 55px;
+    }
+    body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(3) > div:nth-child(3) {
+        width: 54px;
+        height: 55px;
+    }
+
+    body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(4) {
+        width: 177px;
+        height: 65px;
+        top: 30px;
+    }
+    body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(3) h1 {
+        font-size: 15px;
+        margin-top: calc(13px / 2);
+        margin-left: 41px;
+    }
+    body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(4) > div:nth-child(1) {
+        width: 54px;
+        height: 55px;
+    }
+    body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(4) > div:nth-child(2) {
+        width: 54px;
+        height: 55px;
+    }
+    body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(4) > div:nth-child(3) {
+        width: 54px;
+        height: 55px;
+    }
+
+    body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(5) {
+        width: 177px;
+        height: 65px;
+        top: 30px;
+    }
+    body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(4) h1 {
+        font-size: 15px;
+        margin-top: calc(13px / 2);
+        margin-left: 41px;
+    }
+    body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(5) > div:nth-child(1) {
+        width: 54px;
+        height: 55px;
+    }
+    body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(5) > div:nth-child(2) {
+        width: 54px;
+        height: 55px;
+    }
+    body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(5) > div:nth-child(3) {
+        width: 54px;
+        height: 55px;
+    }
+
+    #skill_main_vector {
+        display: none;
+    }
+    #box-circle1 {
+        display: none;
+    }
+    #box-circle2 {
+        display: none;
+    }
+    body > main > section#Skills > div:nth-child(2){
+        display: none;
+    }
+
+
+
 }
