@@ -7,10 +7,19 @@
     /**-------------------------------------------- Main - Home --------------------------------------------**/
     label.logo {
         font-size: 20px;
+        line-height: 50px;
+    }
+    .checkBtn {
+        line-height: 50px;
     }
 
     .head {
-        height: 60px;
+        height: 50px;
+    }
+
+    main {
+        position: relative;
+        margin-top: 50px;
     }
 
     #Home {
@@ -732,7 +741,7 @@
     body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(1) h1 {
         font-size: 15px;
         margin-top: calc(13px / 2);
-        margin-left: 41px;
+        margin-left: 56px;
     }
 
     body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(2) > div:nth-child(1) {
