@@ -9,36 +9,44 @@
         height: calc(68px / 3);
         display: flex;
     }
+
     body > main > section#Home > section:nth-child(2) > section:nth-child(1) {
         height: 90px;
     }
+
     body > main > section#Home > section:nth-child(2) {
         top: -4px;
     }
+
     body > main > section#Home > section:nth-child(2) > section:nth-child(3) {
         height: 86px;
         margin-left: -28px;
         margin-top: -110px;
     }
+
     .follow-content-text {
         font-size: 12px;
         margin-bottom: 0.6rem;
     }
+
     body > main > section#Home > section:nth-child(2) > section:nth-child(3) {
         height: 86px;
         margin-left: -40px;
         margin-top: -112px;
     }
+
     .wrapper .button {
         display: flex;
         height: 20px;
         width: 20px;
     }
+
     .wrapper .button .icon {
         height: 23px;
         width: 22px;
         line-height: 16px;
     }
+
     .wrapper .button .icon i {
         font-size: 10px;
         line-height: 0;
@@ -48,6 +56,7 @@
     body > main > section#About > div:nth-child(2) {
         left: 37%;
     }
+
     body > main > section#About > div:nth-child(3) {
         left: 37%;
     }
@@ -58,17 +67,437 @@
         bottom: 119px;
         left: 84px;
     }
+
     body > main > section#About > section#image > div#circleOne {
         width: 60px;
         height: 60px;
         bottom: 360px;
         left: 54px;
     }
+
     body > main > section#About > section#image > div#circleTwo {
         width: 60px;
         height: 60px;
         bottom: 315px;
         left: 53px;
     }
+
+    body > main > section#About > article#paragraphOne p {
+        font-size: 9px;
+        margin-left: 57px;
+        bottom: -208px;
+        width: 303px;
+    }
+
+    body > main > section#About > article#paragraphTwo p {
+        font-size: 8px;
+        margin-left: 57px;
+        bottom: -200px;
+        width: 303px;
+    }
+
+    #details {
+        width: 302px;
+        left: -10px;
+    }
+
+    body > main > section#About > article#details > h3:nth-child(1) {
+        font-size: 10px;
+    }
+
+    body > main > section#About > article#details > h3:nth-child(2) {
+        font-size: 10px;
+        margin-left: -186px;
+        width: 430px;
+    }
+
+    body > main > section#About > article#details > h3:nth-child(3) {
+        font-size: 10px;
+        width: 275px;
+    }
+
+    body > main > section#About > article#details > h3:nth-child(4) {
+        font-size: 10px;
+        margin-left: -186px;
+        width: 430px;
+    }
+
+    body > main > section#About > article#details > h3:nth-child(5) {
+        font-size: 10px;
+        width: 275px;
+    }
+
+    body > main > section#About > article#details > h3:nth-child(6) {
+        font-size: 10px;
+        margin-left: -186px;
+        width: 430px;
+    }
+
+    body > main > section#About > article#details > h3:nth-child(7) {
+        font-size: 10px;
+        width: 275px;
+    }
+
+    body > main > section#About > article#details > h3:nth-child(8) {
+        font-size: 9px;
+        margin-left: -186px;
+        width: 483px;
+    }
+
+    body > main > section#About > article#details > h3:nth-child(9) {
+        font-size: 10px;
+        width: 275px;
+    }
+
+    body > main > section#About > article#details > h3:nth-child(10) {
+        font-size: 10px;
+        margin-left: -186px;
+        width: 450px;
+    }
+
+    .downloadCv_Button {
+        left: 91px;
+    }
+
+    /**-------------------------------------------- Main - Education --------------------------------------------**/
+    #About{
+        height: 860px;
+    }
+    body > main > section#About > section#education > article > h4 {
+        font-size: 20px;
+        margin-top: -220px;
+    }
+
+    body > main > section#About > section#education > div:nth-child(2) {
+        left: 110px;
+    }
+
+    body > main > section#About > section#education > div:nth-child(3) {
+        left: 110px;
+    }
+
+    #education_1 {
+        top: -20px;
+        right: -9px;
+        width: 17%;
+    }
+
+    body > main > section#About > section#education > section#Ordinary > div:nth-child(2) {
+        right: 10px;
+    }
+
+    body > main > section#About > section#education > section#Ordinary > div:nth-child(3) {
+        height: 17px;
+        width: 89px;
+        right: -2px;
+        bottom: 25px;
+    }
+
+    body > main > section#About > section#education > section#Ordinary > h3#OFirst {
+        right: -48px;
+        top: -46px;
+    }
+
+    body > main > section#About > section#education > section#Ordinary > h3#OSecond {
+        font-size: 11px;
+        left: 42px;
+        bottom: 40px;
+        width: 139px;
+    }
+
+    #education_2 {
+        top: -18px;
+        left: 10px;
+        width: 17%;
+    }
+
+    body > main > section#About > section#education > section#Advanced > div:nth-child(2) {
+        height: 61px;
+        width: 2px;
+        left: -9px;
+        top: 39px;
+    }
+
+    body > main > section#About > section#education > section#Advanced > div:nth-child(3) {
+        height: 17px;
+        width: 89px;
+        left: 6px;
+        bottom: 23px;
+    }
+
+    body > main > section#About > section#education > section#Advanced > h3#AFirst {
+        font-size: 14px;
+        right: -53px;
+        bottom: 43px;
+    }
+
+    body > main > section#About > section#education > section#Advanced > h3#ASecond {
+        font-size: 11px;
+        left: 48px;
+        top: -63px;
+        width: 139px;
+    }
+
+    #HNDLevel {
+        top: -196px;
+        left: 170px;
+        width: calc(90% / 2);
+        height: 113px;
+    }
+    body > main > section#About > section#education > section#HNDLevel > h3#HFirst {
+        font-size: 14px;
+        right: -35px;
+        bottom: 49px;
+    }
+    body > main > section#About > section#education > section#HNDLevel > h3#HSecond {
+        font-size: 11px;
+        left: 12px;
+        top: -37px;
+        width: 135px;
+    }
+    body > main > section#About > section#education > section#HNDLevel > div:nth-child(2) {
+        height: 61px;
+        width: 2px;
+        left: -29px;
+        top: 39px;
+    }
+
+    #DegreeLevel {
+        top: -197px;
+        left: 170px;
+        width: calc(90% / 2);
+        height: 113px;
+    }
+    body > main > section#About > section#education > section#DegreeLevel > h3#DSecond {
+        font-size: 11px;
+        left: 22px;
+        top: -39px;
+        width: 126px;
+    }
+    body > main > section#About > section#education > section#DegreeLevel > h3#DFirst {
+        font-size: 14px;
+        right: -37px;
+        bottom: 47px;
+    }
+    body > main > section#About > section#education > section#DegreeLevel > div:nth-child(2) {
+        height: 61px;
+        width: 2px;
+        left: -26px;
+        top: 39px;
+    }
+
     /**-------------------------------------------- Main - Skills --------------------------------------------**/
+    body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child {
+        background: #FFFFFF;
+        width: calc(290px / 2);
+        height: 290px;
+    }
+    body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(1) {
+        width: 107px;
+        height: 34px;
+    }
+    body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(1) h1 {
+        font-size: 13px;
+        margin-top: calc(15px / 2);
+        margin-left: 20px;
+    }
+
+    body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(2) {
+        width: 132px;
+        height: 60px;
+        top: 25px;
+    }
+    body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(2) > div:nth-child(1) {
+        width: 40px;
+        height: 40px;
+    }
+    body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(2) > div:nth-child(2) {
+        width: 40px;
+        height: 40px;
+    }
+    body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(2) > div:nth-child(3) {
+        width: 40px;
+        height: 40px;
+    }
+
+    body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(3) {
+        width: 132px;
+        height: 60px;
+        top: 25px;
+    }
+    body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(3) > div:nth-child(1) {
+        width: 40px;
+        height: 40px;
+    }
+    body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(3) > div:nth-child(2) {
+        width: 40px;
+        height: 40px;
+    }
+    body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(3) > div:nth-child(3) {
+        width: 40px;
+        height: 40px;
+    }
+
+    body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(4) {
+        width: 132px;
+        height: 60px;
+        top: 25px;
+    }
+    body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(4) > div:nth-child(1) {
+        width: 40px;
+        height: 40px;
+    }
+    body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(4) > div:nth-child(2) {
+        width: 40px;
+        height: 40px;
+    }
+    body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(4) > div:nth-child(3) {
+        width: 40px;
+        height: 40px;
+    }
+
+    body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(5) {
+        width: 132px;
+        height: 40px;
+        top: 25px;
+    }
+    body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(5) > div:nth-child(1) {
+        width: 40px;
+        height: 40px;
+    }
+    body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(5) > div:nth-child(2) {
+        width: 40px;
+        height: 40px;
+    }
+    body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(5) > div:nth-child(3) {
+        width: 40px;
+        height: 40px;
+    }
+
+
+    body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child {
+        background: #FFFFFF;
+        width: calc(290px / 2);
+        height: 290px;
+    }
+    body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(1) {
+        width: 107px;
+        height: 34px;
+    }
+    body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(1) h1 {
+        font-size: 13px;
+        margin-top: calc(15px / 2);
+        margin-left: 40px;
+    }
+
+    body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(2) {
+        width: 132px;
+        height: 60px;
+        top: 25px;
+    }
+    body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(2) > div:nth-child(1) {
+        width: 40px;
+        height: 40px;
+    }
+    body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(2) > div:nth-child(2) {
+        width: 40px;
+        height: 40px;
+    }
+    body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(2) > div:nth-child(3) {
+        width: 40px;
+        height: 40px;
+    }
+
+    body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(3) {
+        width: 132px;
+        height: 60px;
+        top: 25px;
+    }
+    body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(3) > div:nth-child(1) {
+        width: 40px;
+        height: 40px;
+    }
+    body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(3) > div:nth-child(2) {
+        width: 40px;
+        height: 40px;
+    }
+    body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(3) > div:nth-child(3) {
+        width: 40px;
+        height: 40px;
+    }
+
+    body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(4) {
+        width: 132px;
+        height: 60px;
+        top: 25px;
+    }
+    body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(4) > div:nth-child(1) {
+        width: 40px;
+        height: 40px;
+    }
+    body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(4) > div:nth-child(2) {
+        width: 40px;
+        height: 40px;
+    }
+    body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(4) > div:nth-child(3) {
+        width: 40px;
+        height: 40px;
+    }
+
+    body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(5) {
+        width: 132px;
+        height: 40px;
+        top: 25px;
+    }
+    body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(5) > div:nth-child(1) {
+        width: 40px;
+        height: 40px;
+    }
+    body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(5) > div:nth-child(2) {
+        width: 40px;
+        height: 40px;
+    }
+    body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(5) > div:nth-child(3) {
+        width: 40px;
+        height: 40px;
+    }
+    body > main > section#Skills > article > div:nth-child(3) {
+        left: 39%;
+    }
+    body > main > section#Skills > article > div:nth-child(4) {
+        left: 39%;
+    }
+    /**-------------------------------------------- Main - Gallery --------------------------------------------**/
+    body > main > section#Gallery > article > div:nth-child(3) {
+        left: 32%;
+    }
+    body > main > section#Gallery > article > div:nth-child(4) {
+        left: 32%;
+    }
+    /**-------------------------------------------- Main - Projects --------------------------------------------**/
+    body > main > section#Project > article > div:nth-child(3) {
+        left: 34%;
+    }
+    body > main > section#Project > article > div:nth-child(4) {
+        left: 34%;
+    }
+    body > main > section#Project > section#ProjectSection > div:nth-child(1) > img {
+        height: 85px;
+        width: 113px;
+        top: 17px;
+    }
+    body > main > section#Project > section#ProjectSection > div:nth-child(2) > img {
+        height: 85px;
+        width: 113px;
+        top: 17px;
+    }
+    body > main > section#Project > section#ProjectSection > div:nth-child(3) > img {
+        height: 85px;
+        width: 113px;
+        top: 17px;
+    }
+    .Projects {
+        padding: 7px 12px 8px 6px;
+        font-size: 12px;
+    }
 }
