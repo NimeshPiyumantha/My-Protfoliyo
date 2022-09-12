@@ -461,4 +461,16 @@
         width: 45px;
         height: 45px;
     }
+
+    /**-------------------------------------------- Main - Gallery --------------------------------------------**/
+    body > main > section#Gallery > section#image_section {
+        width: calc(100% - 20px);
+        height: 360px;
+    }
+    body > main > section#Gallery > article > div:nth-child(3) {
+        left: 35%;
+    }
+    body > main > section#Gallery > article > div:nth-child(4) {
+        left: 35%;
+    }
 }
