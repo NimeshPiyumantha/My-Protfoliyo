@@ -500,4 +500,62 @@
         padding: 7px 12px 8px 6px;
         font-size: 12px;
     }
+
+    /**-------------------------------------------- Main - Services --------------------------------------------**/
+    body > main > section#Services > section#ServicesButton {
+        width: 311px;
+        height: 58px;
+        position: absolute;
+        top: -5px;
+    }
+    body > main > section#Services > section#MainSection > div:nth-child(1) {
+        width: calc(330px / 2.2);
+        height: 230px;
+        left: -4px;
+    }
+    body > main > section#Services > section#ServicesButton > div#SDesign {
+        margin-left: 15px;
+    }
+
+    body > main > section#Services > section#MainSection {
+        position: relative;
+        width: 300px;
+    }
+
+    body > main > section#Services > section#MainSection > div:nth-child(1) {
+        width: calc(330px / 2.2);
+        height: 230px;
+        left: 0;
+    }
+
+    body > main > section#Services > section#MainSection > div:nth-child(1) > div:first-child {
+        width: calc(330px / 2.2);
+        height: 62px;
+    }
+
+
+    body > main > section#Services > section#MainSection > div:nth-child(2) {
+        width: calc(330px / 2.2);
+        height: 230px;
+        left:156px ;
+    }
+    body > main > section#Services > section#MainSection > div:nth-child(2) > div:first-child {
+        width: calc(330px / 2.2);
+        height: 62px;
+    }
+
+    body > main > section#Services > section#MainSection > div:nth-child(1) > h2 {
+        font-size: 10px;
+    }
+
+    body > main > section#Services > section#MainSection > div:nth-child(3) {
+        width: calc(330px / 2.2);
+        height: 230px;
+        left:68px ;
+    }
+    body > main > section#Services > section#MainSection > div:nth-child(3) > div:first-child {
+        width: calc(330px / 2.2);
+        height: 62px;
+    }
+
 }
