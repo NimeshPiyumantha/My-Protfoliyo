@@ -506,20 +506,14 @@
     body > main > section#Skills > article > div:nth-child(3) {
         width: 69px;
         height: 4px;
-        background: #2ED573;
-        position: relative;
         left: 41%;
         top: 86px;
-        border-radius: 3px;
     }
     body > main > section#Skills > article > div:nth-child(4) {
         width: 50px;
         height: 4px;
-        background: #2ED573;
-        position: relative;
         left: 41%;
         top: 80px;
-        border-radius: 3px;
     }
 
     body > main > section#Skills > section:nth-child(4) {
@@ -752,7 +746,33 @@
     body > main > section#Skills > div:nth-child(2){
         display: none;
     }
+    body > main > section#Skills > div:nth-child(3) {
+        display: none;
+    }
 
+    /**-------------------------------------------- Main - Gallery --------------------------------------------**/
+    #Gallery{
+        height: 500px;
+    }
+    body > main > section#Gallery > article > div:nth-child(3) {
+        width: 69px;
+        height: 4px;
+        left: 37%;
+        top: -4px;
+    }
+    body > main > section#Gallery > article > div:nth-child(4) {
+        width: 50px;
+        height: 4px;
+        left: 37%;
+        top: -8px;
+    }
+    body > main > section#Gallery > section#vector {
+        display: none;
+    }
 
-
+    body > main > section#Gallery > section#image_section {
+        width: 400px;
+        height: 362px;
+        top: 114px;
+    }
 }
