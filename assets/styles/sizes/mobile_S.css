@@ -20,13 +20,24 @@
 
     body > main > section#Home > section:nth-child(2) > section:nth-child(3) {
         height: 86px;
-        margin-left: -28px;
-        margin-top: -110px;
+        margin-left: -40px;
+        margin-top: -112px;
+        width: 217px;
+    }
+    body > main > section > article > h1 > span {
+        font-size: 18px;
+        left: 1px;
+        position: relative;
     }
 
     .follow-content-text {
         font-size: 12px;
         margin-bottom: 0.6rem;
+    }
+    body > main > section > article > h1 > span {
+        font-size: 18px;
+        left:2px;
+        position: relative;
     }
 
     body > main > section#Home > section:nth-child(2) > section:nth-child(3) {
@@ -160,9 +171,10 @@
     }
 
     /**-------------------------------------------- Main - Education --------------------------------------------**/
-    #About{
+    #About {
         height: 860px;
     }
+
     body > main > section#About > section#education > article > h4 {
         font-size: 20px;
         margin-top: -220px;
@@ -244,17 +256,20 @@
         width: calc(90% / 2);
         height: 113px;
     }
+
     body > main > section#About > section#education > section#HNDLevel > h3#HFirst {
         font-size: 14px;
         right: -35px;
         bottom: 49px;
     }
+
     body > main > section#About > section#education > section#HNDLevel > h3#HSecond {
         font-size: 11px;
         left: 12px;
         top: -37px;
         width: 135px;
     }
+
     body > main > section#About > section#education > section#HNDLevel > div:nth-child(2) {
         height: 61px;
         width: 2px;
@@ -268,17 +283,20 @@
         width: calc(90% / 2);
         height: 113px;
     }
+
     body > main > section#About > section#education > section#DegreeLevel > h3#DSecond {
         font-size: 11px;
         left: 22px;
         top: -39px;
         width: 126px;
     }
+
     body > main > section#About > section#education > section#DegreeLevel > h3#DFirst {
         font-size: 14px;
         right: -37px;
         bottom: 47px;
     }
+
     body > main > section#About > section#education > section#DegreeLevel > div:nth-child(2) {
         height: 61px;
         width: 2px;
@@ -292,10 +310,12 @@
         width: calc(290px / 2);
         height: 290px;
     }
+
     body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(1) {
         width: 107px;
         height: 34px;
     }
+
     body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(1) h1 {
         font-size: 13px;
         margin-top: calc(15px / 2);
@@ -307,14 +327,17 @@
         height: 60px;
         top: 25px;
     }
+
     body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(2) > div:nth-child(1) {
         width: 40px;
         height: 40px;
     }
+
     body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(2) > div:nth-child(2) {
         width: 40px;
         height: 40px;
     }
+
     body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(2) > div:nth-child(3) {
         width: 40px;
         height: 40px;
@@ -325,14 +348,17 @@
         height: 60px;
         top: 25px;
     }
+
     body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(3) > div:nth-child(1) {
         width: 40px;
         height: 40px;
     }
+
     body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(3) > div:nth-child(2) {
         width: 40px;
         height: 40px;
     }
+
     body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(3) > div:nth-child(3) {
         width: 40px;
         height: 40px;
@@ -343,14 +369,17 @@
         height: 60px;
         top: 25px;
     }
+
     body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(4) > div:nth-child(1) {
         width: 40px;
         height: 40px;
     }
+
     body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(4) > div:nth-child(2) {
         width: 40px;
         height: 40px;
     }
+
     body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(4) > div:nth-child(3) {
         width: 40px;
         height: 40px;
@@ -361,14 +390,17 @@
         height: 40px;
         top: 25px;
     }
+
     body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(5) > div:nth-child(1) {
         width: 40px;
         height: 40px;
     }
+
     body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(5) > div:nth-child(2) {
         width: 40px;
         height: 40px;
     }
+
     body > main > section#Skills > section:nth-child(4) > section#Language > div:first-child > div:nth-child(5) > div:nth-child(3) {
         width: 40px;
         height: 40px;
@@ -380,10 +412,12 @@
         width: calc(290px / 2);
         height: 290px;
     }
+
     body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(1) {
         width: 107px;
         height: 34px;
     }
+
     body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(1) h1 {
         font-size: 13px;
         margin-top: calc(15px / 2);
@@ -395,14 +429,17 @@
         height: 60px;
         top: 25px;
     }
+
     body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(2) > div:nth-child(1) {
         width: 40px;
         height: 40px;
     }
+
     body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(2) > div:nth-child(2) {
         width: 40px;
         height: 40px;
     }
+
     body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(2) > div:nth-child(3) {
         width: 40px;
         height: 40px;
@@ -413,14 +450,17 @@
         height: 60px;
         top: 25px;
     }
+
     body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(3) > div:nth-child(1) {
         width: 40px;
         height: 40px;
     }
+
     body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(3) > div:nth-child(2) {
         width: 40px;
         height: 40px;
     }
+
     body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(3) > div:nth-child(3) {
         width: 40px;
         height: 40px;
@@ -431,14 +471,17 @@
         height: 60px;
         top: 25px;
     }
+
     body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(4) > div:nth-child(1) {
         width: 40px;
         height: 40px;
     }
+
     body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(4) > div:nth-child(2) {
         width: 40px;
         height: 40px;
     }
+
     body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(4) > div:nth-child(3) {
         width: 40px;
         height: 40px;
@@ -449,53 +492,66 @@
         height: 40px;
         top: 25px;
     }
+
     body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(5) > div:nth-child(1) {
         width: 40px;
         height: 40px;
     }
+
     body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(5) > div:nth-child(2) {
         width: 40px;
         height: 40px;
     }
+
     body > main > section#Skills > section:nth-child(4) > section#Tool > div:first-child > div:nth-child(5) > div:nth-child(3) {
         width: 40px;
         height: 40px;
     }
+
     body > main > section#Skills > article > div:nth-child(3) {
         left: 39%;
     }
+
     body > main > section#Skills > article > div:nth-child(4) {
         left: 39%;
     }
+
     /**-------------------------------------------- Main - Gallery --------------------------------------------**/
     body > main > section#Gallery > article > div:nth-child(3) {
         left: 32%;
     }
+
     body > main > section#Gallery > article > div:nth-child(4) {
         left: 32%;
     }
+
     /**-------------------------------------------- Main - Projects --------------------------------------------**/
     body > main > section#Project > article > div:nth-child(3) {
         left: 34%;
     }
+
     body > main > section#Project > article > div:nth-child(4) {
         left: 34%;
     }
+
     body > main > section#Project > section#ProjectSection > div:nth-child(1) > img {
         height: 85px;
         width: 113px;
         top: 17px;
     }
+
     body > main > section#Project > section#ProjectSection > div:nth-child(2) > img {
         height: 85px;
         width: 113px;
         top: 17px;
     }
+
     body > main > section#Project > section#ProjectSection > div:nth-child(3) > img {
         height: 85px;
         width: 113px;
         top: 17px;
     }
+
     .Projects {
         padding: 7px 12px 8px 6px;
         font-size: 12px;
@@ -508,11 +564,13 @@
         position: absolute;
         top: -5px;
     }
+
     body > main > section#Services > section#MainSection > div:nth-child(1) {
         width: calc(330px / 2.2);
         height: 230px;
         left: -4px;
     }
+
     body > main > section#Services > section#ServicesButton > div#SDesign {
         margin-left: 15px;
     }
@@ -533,12 +591,12 @@
         height: 62px;
     }
 
-
     body > main > section#Services > section#MainSection > div:nth-child(2) {
         width: calc(330px / 2.2);
         height: 230px;
-        left:156px ;
+        left: 156px;
     }
+
     body > main > section#Services > section#MainSection > div:nth-child(2) > div:first-child {
         width: calc(330px / 2.2);
         height: 62px;
@@ -551,11 +609,136 @@
     body > main > section#Services > section#MainSection > div:nth-child(3) {
         width: calc(330px / 2.2);
         height: 230px;
-        left:68px ;
+        left: 68px;
     }
+
     body > main > section#Services > section#MainSection > div:nth-child(3) > div:first-child {
         width: calc(330px / 2.2);
         height: 62px;
     }
+
+    /**-------------------------------------------- Main - Contact --------------------------------------------**/
+    body > main > section > article > h1 > span {
+        font-size: 18px;
+        left: 10px;
+        position: relative;
+    }
+
+    body > main > section#Contact > section:nth-child(4) > article:nth-child(2) > div:nth-child(1) > h2 {
+        font-size: 11px;
+        width: 184px;
+    }
+
+    body > main > section#Contact > section:nth-child(4) > article:nth-child(2) > div {
+        height: 30px;
+        position: relative;
+        left: -28px;
+        top: -10px;
+    }
+
+    /**-------------------------------------------- Main - Footer --------------------------------------------**/
+    body > footer > section:nth-child(2) > section:nth-child(1) > section > article:nth-child(1) {
+        width: 176px;
+        height: 211px;
+        z-index: 1;
+        left: -52px;
+        position: relative;
+    }
+
+    body > footer > section:nth-child(2) > section:nth-child(1) > section > article:nth-child(1) h1 {
+        font-size: 10px;
+    }
+
+    body > footer > section:nth-child(2) > section:nth-child(1) > section > article:nth-child(1) p {
+        font-size: 10px;
+    }
+
+    body > footer > section:nth-child(2) > section:nth-child(1) > section > section:nth-child(2) nav > div.social-menu ul li a {
+        width: 25px;
+        height: 25px;
+    }
+
+    body > footer > section:nth-child(2) > section:nth-child(1) > section > section:nth-child(2) nav > div.social-menu ul {
+        position: relative;
+        left: 125px;
+        top: 22px;
+    }
+
+    body > footer > section:nth-child(2) > section:nth-child(1) section:nth-child(2) {
+        width: 150px;
+        height: 121px;
+        position: relative;
+        right: 0;
+        top: -8px;
+    }
+
+    body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(2) h1 {
+        font-size: 10px;
+    }
+
+    body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(2) nav ul li a {
+        font-size: 8px;
+    }
+
+    body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(3) h2 {
+        font-family: Poppins, serif;
+        color: #FF6348;
+        font-size: 11px;
+        display: flex;
+        top: 15px;
+        position: relative;
+    }
+
+    body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(3) > div:nth-child(2) {
+        width: 200px;
+        height: 30px;
+        position: absolute;
+        top: 40px;
+        left: -82px;
+    }
+    body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(3) > div:nth-child(2) p {
+        bottom: 16px;
+        left: 16px;
+        font-size: 8px;
+    }
+
+    body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(3) > div:nth-child(4) {
+        width: 83px;
+        height: 30px;
+        position: absolute;
+        top: 40px;
+        left: 90px;
+    }
+
+    body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(3) > div:nth-child(3) {
+        width: 200px;
+        height: 30px;
+        position: absolute;
+        top: 40px;
+        left: -7px;
+    }
+    body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(3) > div:nth-child(3) h3 {
+        bottom: 16px;
+        left: 18px;
+        font-size: 8px;
+    }
+    body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(3) > div:nth-child(4) h3 {
+        bottom: -1px;
+        left: 14px;
+        font-size: 8px;
+        width: 89px;
+    }
+
+    body > main > section#Contact > section:nth-child(4) > article:nth-child(2) > div:nth-child(1) > h2 {
+        font-size: 11px;
+        width: 184px;
+    }
+
+    body > footer > section:nth-child(2) > section:nth-child(2) small {
+        font-size: 7px;
+        top: -9px;
+    }
+
+
 
 }
