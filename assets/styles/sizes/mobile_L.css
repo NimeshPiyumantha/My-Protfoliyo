@@ -1462,7 +1462,7 @@
         height: 30px;
         position: absolute;
         top: 40px;
-        left: -121px;
+        left: -102px;
     }
 
     body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(3) > div:nth-child(2) i {
@@ -1471,7 +1471,7 @@
 
     body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(3) > div:nth-child(2) p {
         bottom: 16px;
-        left: 24px;
+        left: 16px;
         font-size: 9px;
     }
 
@@ -1489,7 +1489,7 @@
 
     body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(3) > div:nth-child(3) h3 {
         bottom: 16px;
-        left: 24px;
+        left: 18px;
         font-size: 9px;
     }
 
@@ -1501,11 +1501,11 @@
     }
 
     body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(3) > div:nth-child(4) {
-        width: 178px;
+        width: 170px;
         height: 30px;
         position: absolute;
         top: 40px;
-        left: 104px;
+        left: 90px;
     }
 
     body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(3) > div:nth-child(4) i {
@@ -1514,7 +1514,7 @@
 
     body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(3) > div:nth-child(4) h3 {
         bottom: -1px;
-        left: 24px;
+        left: 14px;
         font-size: 9px;
         width: 147px;
     }
