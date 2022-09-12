@@ -25,55 +25,67 @@
     body > main > section#Home > section:nth-child(2) > section:nth-child(2) {
         display: none;
     }
+
     body > main > section#Home > section:nth-child(2) > section:nth-child(1) {
         height: 100px;
     }
+
     body > main > section#Home > section:nth-child(2) > section:nth-child(1) > div {
         height: calc(100px / 3);
         display: flex;
     }
+
     body > main > section#Home > section:nth-child(2) > section:nth-child(1) > div:nth-child(1) h1 {
         font-size: 14px;
     }
+
     body > main > section#Home > section:nth-child(2) > section:nth-child(1) > div:nth-child(2) h1 {
         font-size: 14px;
     }
+
     body > main > section#Home > section:nth-child(2) > section:nth-child(1) > div:nth-child(3) h1 {
         font-size: 12px;
     }
+
     .text-size-2 {
         font-size: 14px;
     }
 
 
-        .follow-content {
-            position: relative;
-            display: inline-block;
-            left: 16%;
-            top: 77px;
-        }
+    .follow-content {
+        position: relative;
+        display: inline-block;
+        left: 16%;
+        top: 77px;
+    }
+
     .follow-content-text {
         font-size: 15px;
         margin-bottom: 0.7rem;
     }
+
     body > main > section#Home > section:nth-child(2) > section:nth-child(3) {
         height: 90px;
         margin-left: -28px;
         margin-top: -110px;
     }
+
     .wrapper .button {
         display: flex;
         height: 30px;
         width: 30px;
     }
+
     .wrapper .button span {
         font-size: 11px;
     }
+
     .wrapper .button .icon {
         height: 31px;
         width: 31px;
         line-height: 25px;
     }
+
     .wrapper .button span {
         font-size: 10px;
         font-weight: bolder;
@@ -81,9 +93,11 @@
         margin-left: 4px;
         transition: all 0.3s ease-out;
     }
+
     .wrapper .button:hover {
         width: 92px;
     }
+
     .wrapper .button .icon i {
         font-size: 12px;
         line-height: 3;
@@ -91,7 +105,6 @@
 
 
     /** Fixed Button */
-
     /** Fixed Button -Message*/
     main > section#Home > section#fixed_icon > div:nth-child(1) {
         width: 30px;
@@ -117,6 +130,364 @@
         left: 8px;
     }
 
+    /**-------------------------------------------- Main - About --------------------------------------------**/
+
+    #About{
+        height: 900px;
+    }
+    body > main > section#About > div#circle {
+        width: 50px;
+        height: 50px;
+        left: -26px;
+        top: -50px;
+    }
+
+    body > main > section > article h4 {
+        font-size: 14px;
+    }
+
+    body > main > section > article > h1 {
+        font-size: 18px;
+    }
+
+    body > main > section > article > h1 > span {
+        font-size: 18px;
+    }
+
+    body > main > section#About > div:nth-child(2) {
+        width: 69px;
+        height: 4px;
+        background: #2ED573;
+        position: relative;
+        left: 40%;
+        top: -6px;
+        border-radius: 3px;
+    }
+
+    body > main > section#About > div:nth-child(3) {
+        width: 50px;
+        height: 4px;
+        background: #2ED573;
+        position: relative;
+        left: 40%;
+        top: -10px;
+        border-radius: 3px;
+    }
+
+    #vectorStar {
+        display: none;
+    }
+    #aboutImg {
+        height: 234px;
+        width: 163px;
+        bottom: 132px;
+        left: 128px;
+    }
+
+    body > main > section#About > article#paragraphOne p {
+        font-size: 11px;
+        margin-left: 80px;
+        bottom: -208px;
+        width: 385px;
+    }
+    body > main > section#About > article#paragraphTwo p {
+        font-size: 11px;
+        margin-left: 80px;
+        bottom: -200px;
+        width: 385px;
+    }
+    #details {
+        position: relative;
+        bottom: 388px;
+        margin-left: 25px;
+        width: 392px;
+    }
+
+    body > main > section#About > article#details > h3:nth-child(1) {
+        font-size: 11px;
+        width: 380px;
+    }
+
+    body > main > section#About > article#details > h3:nth-child(2) {
+        font-size: 11px;
+        margin-left: -132px;
+        margin-top: 10px;
+        width: 525px;
+    }
+
+    body > main > section#About > article#details > h3:nth-child(3) {
+        font-size: 11px;
+        width: 380px;
+    }
+
+    body > main > section#About > article#details > h3:nth-child(4) {
+        font-size: 11px;
+        margin-left: -132px;
+        margin-top: 10px;
+        width: 525px;
+    }
+
+    body > main > section#About > article#details > h3:nth-child(5) {
+        font-size: 11px;
+        width: 380px;
+    }
+
+    body > main > section#About > article#details > h3:nth-child(6) {
+        font-size: 11px;
+        margin-left: -132px;
+        margin-top: 10px;
+        width: 525px;
+    }
+
+    body > main > section#About > article#details > h3:nth-child(7) {
+        font-size: 11px;
+        width: 380px;
+    }
+
+    body > main > section#About > article#details > h3:nth-child(8) {
+        font-size: 11px;
+        margin-left: -132px;
+        margin-top: 12px;
+        width: 525px;
+    }
+
+    body > main > section#About > article#details > h3:nth-child(9) {
+        font-size: 11px;
+        width: 380px;
+    }
+
+    body > main > section#About > article#details > h3:nth-child(10) {
+        font-size: 11px;
+        margin-left: -132px;
+        margin-top: 12px;
+        width: 525px;
+    }
+
+    body > main > section#About > section#design{
+        display: none;
+    }
 
 
+    .downloadCv_Button {
+        position: relative;
+        display: inline-block;
+        bottom: 360px;
+        left: 146px;
+    }
+    .btn-DownloadTwo {
+        padding: 5px 0 5px 20px;
+        height: 25px;
+        font-size: 12px;
+    }
+    #download_arrow {
+         left: 9px;
+     }
+    .button-CircleTwo {
+        height: 20px;
+        width: 20px;
+        right: 7px;
+        bottom: 3px;
+    }
+    .btn-DownloadTwo {
+        padding: 5px 0 0 11px;
+        height: 25px;
+        font-size: 12px;
+    }
+
+    .hireMe_Button{
+        display: none;
+    }
+
+    body > main > section#About > section#education {
+        top: -86px;
+        position: relative;
+        width: 100%;
+        height: 282px;
+    }
+
+    body > main > section#About > section#education > article > h4 {
+        font-size: 22px;
+        margin-top: -220px;
+    }
+    body > main > section#About > section#education > div:nth-child(2) {
+        width: 80px;
+        height: 4px;
+        background: #2ED573;
+        border-radius: 3px;
+        position: absolute;
+        left: 159px;
+    }
+    body > main > section#About > section#education > div:nth-child(3) {
+        width: 50px;
+        height: 4px;
+        background: #2ED573;
+        border-radius: 3px;
+        position: absolute;
+        top: 16px;
+        left: 159px;
+    }
+
+    #Ordinary {
+        top: 30px;
+        left: -3px;
+        width: calc(100% / 2);
+        height: 113px;
+    }
+    #education_1 {
+        top: -18px;
+        right: -19px;
+        width: 17%;
+    }
+    body > main > section#About > section#education > section#Ordinary > div:nth-child(2) {
+        height: 61px;
+        width: 2px;
+        right: 5px;
+        top: 39px;
+    }
+    body > main > section#About > section#education > section#Ordinary > div:nth-child(3) {
+        height: 20px;
+        width: 93px;
+        right: -14px;
+        bottom: 25px;
+    }
+    body > main > section#About > section#education > section#Ordinary > h3#OFirst {
+        font-size: 14px;
+        right: -75px;
+        bottom: 48px;
+    }
+    body > main > section#About > section#education > section#Ordinary > h3#OSecond {
+        font-size: 12px;
+        left: 74px;
+        bottom: 40px;
+        width: 139px;
+    }
+    body > main > section#About > section#education > section#Ordinary > h3#OSecond span {
+        font-size: 12px;
+    }
+    body > main > section#About > section#education > section#Ordinary > p {
+        display:none;
+    }
+
+    #Advanced {
+        top: 30px;
+        left: -3px;
+        width: calc(100% / 2);
+        height: 113px;
+    }
+    #education_2 {
+        top: -18px;
+        right: -19px;
+        width: 17%;
+    }
+    body > main > section#About > section#education > section#Advanced > div:nth-child(2) {
+        height: 61px;
+        width: 2px;
+        left: -7px;
+        top: 39px;
+    }
+    body > main > section#About > section#education > section#Advanced > div:nth-child(3) {
+        height: 20px;
+        width: 93px;
+        left: 11px;
+        bottom: 25px;
+    }
+    body > main > section#About > section#education > section#Advanced > h3#AFirst {
+        font-size: 14px;
+        right: 57px;
+        bottom: 48px;
+    }
+    body > main > section#About > section#education > section#Advanced > h3#ASecond {
+        font-size: 12px;
+        left: 74px;
+        top: -60px;
+        width: 139px;
+    }
+    body > main > section#About > section#education > section#Advanced > h3#ASecond span {
+        font-size: 12px;
+    }
+    body > main > section#About > section#education > section#Advanced > p {
+        display:none;
+    }
+
+    #HNDLevel {
+        top: -196px;
+        left: 208px;
+        width: calc(100% / 2);
+        height: 113px;
+    }
+    #education_3 {
+        top: -20px;
+        left: -1px;
+        width: 17%;
+    }
+    body > main > section#About > section#education > section#HNDLevel > div:nth-child(2) {
+        height: 61px;
+        width: 2px;
+        right: 5px;
+        top: 39px;
+    }
+    body > main > section#About > section#education > section#HNDLevel > div:nth-child(3) {
+        height: 20px;
+        width: 93px;
+        left: -4px;
+        bottom: 30px;
+    }
+    body > main > section#About > section#education > section#HNDLevel > h3#HFirst {
+        font-size: 14px;
+        right: -55px;
+        bottom: 52px;
+    }
+    body > main > section#About > section#education > section#HNDLevel > h3#HSecond {
+        font-size: 12px;
+        left: 64px;
+        top: -42px;
+        width: 139px;
+    }
+    body > main > section#About > section#education > section#HNDLevel > h3#HSecond span {
+        font-size: 12px;
+    }
+    body > main > section#About > section#education > section#HNDLevel > p {
+        display:none;
+    }
+
+    #DegreeLevel {
+        top: -197px;
+        left: 208px;
+        width: calc(100% / 2);
+        height: 113px;
+    }
+    #education_4 {
+        top: -18px;
+        right: -19px;
+        width: 17%;
+    }
+    body > main > section#About > section#education > section#DegreeLevel > div:nth-child(2) {
+        height: 61px;
+        width: 2px;
+        left: -7px;
+        top: 39px;
+    }
+    body > main > section#About > section#education > section#DegreeLevel > div:nth-child(3) {
+        height: 20px;
+        width: 93px;
+        left: 11px;
+        bottom: 25px;
+    }
+    body > main > section#About > section#education > section#DegreeLevel > h3#DFirst {
+        font-size: 14px;
+        right: -68px;
+        bottom: 48px;
+    }
+    body > main > section#About > section#education > section#DegreeLevel > h3#DSecond {
+        font-size: 12px;
+        left: 74px;
+        top: -42px;
+        width: 139px;
+    }
+    body > main > section#About > section#education > section#DegreeLevel > h3#DSecond span {
+        font-size: 12px;
+    }
+    body > main > section#About > section#education > section#DegreeLevel > p {
+        display:none;
+    }
 }
