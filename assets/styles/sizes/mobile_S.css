@@ -644,6 +644,10 @@
         left: -52px;
         position: relative;
     }
+    body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(3) h2 {
+        font-size: 11px;
+        top: 15px;
+    }
 
     body > footer > section:nth-child(2) > section:nth-child(1) > section > article:nth-child(1) h1 {
         font-size: 10px;
@@ -733,12 +737,15 @@
         font-size: 11px;
         width: 184px;
     }
+    dy > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(3) h2 {
+        font-size: 11px;
+        top: 17px;
+        left: 43px;
+    }
 
     body > footer > section:nth-child(2) > section:nth-child(2) small {
         font-size: 7px;
         top: -9px;
     }
-
-
 
 }
