@@ -5,6 +5,14 @@
 
 @media (max-width: 425px) {
     /**-------------------------------------------- Main - Home --------------------------------------------**/
+    label.logo {
+        font-size: 20px;
+    }
+
+    .head {
+        height: 60px;
+    }
+
     #Home {
         position: relative;
         height: 200px;
@@ -926,4 +934,194 @@
     .python_Projects {
         top: 15px;
     }
+
+    /**-------------------------------------------- Main - Services --------------------------------------------**/
+    #Services {
+        height: 700px;
+    }
+
+    body > main > section#Services > article > div:nth-child(3) {
+        width: 69px;
+        height: 4px;
+        left: 40%;
+        top: 85px;
+    }
+
+    body > main > section#Services > article > div:nth-child(4) {
+        width: 50px;
+        height: 4px;
+        left: 40%;
+        top: 81px;
+    }
+
+    body > main > section#Services > article > h1 {
+        position: absolute;
+        top: 63px;
+    }
+
+    body > main > section#Services > section#ServicesBGDesign {
+        display: none;
+    }
+
+    body > main > section#Services > section#ServicesButton {
+        width: 320px;
+        height: 58px;
+        position: absolute;
+        top: -54px;
+    }
+
+    body > main > section#Services > section#ServicesButton > div#Development > a > button {
+        font-size: 12px;
+        padding: 9px 17px 11px 15px;
+        border-radius: 15px;
+    }
+
+    body > main > section#Services > section#ServicesButton > div#SDesign > a > button {
+        font-size: 12px;
+        padding: 9px 22px 11px 22px;
+        border-radius: 15px;
+    }
+
+    body > main > section#Services > section#ServicesButton > div#Marketing > a > button {
+        font-size: 12px;
+        padding: 9px 20px 11px 20px;
+        border-radius: 15px;
+    }
+
+    body > main > section#Services > section#MainSection {
+        position: relative;
+        width: 380px;
+        height: 498px;
+        top: 186px;
+    }
+
+    body > main > section#Services > section#MainSection > div:nth-child(1) {
+        width: calc(380px / 2.2);
+        height: 230px;
+    }
+
+    body > main > section#Services > section#MainSection > div:nth-child(1) > div:first-child {
+        width: calc(380px / 2.2);
+        height: 62px;
+    }
+
+    body > main > section#Services > section#MainSection > div:nth-child(1) > div:first-child > div:first-child {
+        width: 59px;
+        height: 59px;
+        top: 59px;
+    }
+
+    body > main > section#Services > section#MainSection > div:nth-child(1) > div:first-child > div:first-child > i {
+        font-size: 30px;
+        top: 13px;
+        left: 11px;
+    }
+
+    body > main > section#Services > section#MainSection > div:nth-child(1) > h2 {
+        top: 98px;
+        left: 31px;
+        font-size: 12px;
+    }
+
+    body > main > section#Services > section#MainSection > div:nth-child(1) > p {
+        position: absolute;
+        top: 116px;
+        left: 25px;
+        color: #57606F;
+        font-size: 9px;
+        padding-right: 18px;
+        width: 140px;
+    }
+
+    body > main > section#Services > section#MainSection > div:nth-child(2) {
+        width: calc(380px / 2.2);
+        height: 230px;
+        left: 205px;
+        position: relative;
+    }
+
+    body > main > section#Services > section#MainSection > div:nth-child(2) > div:first-child {
+        width: calc(380px / 2.2);
+        height: 62px;
+    }
+
+    body > main > section#Services > section#MainSection > div:nth-child(2) > div:first-child > div:first-child {
+        width: 59px;
+        height: 59px;
+        top: 59px;
+    }
+
+    body > main > section#Services > section#MainSection > div:nth-child(2) > div:first-child > div:first-child > i {
+        font-size: 30px;
+        top: 13px;
+        left: 11px;
+    }
+
+    body > main > section#Services > section#MainSection > div:nth-child(2) > h2 {
+        top: 98px;
+        left: 31px;
+        font-size: 12px;
+    }
+
+    body > main > section#Services > section#MainSection > div:nth-child(2) > p {
+        position: absolute;
+        top: 116px;
+        left: 25px;
+        color: #57606F;
+        font-size: 9px;
+        padding-right: 18px;
+        width: 140px;
+    }
+
+    body > main > section#Services > section#MainSection > div:nth-child(3) {
+        width: calc(380px / 2.2);
+        height: 230px;
+        left: 102px;
+        position: relative;
+        top: 19px;
+    }
+
+    body > main > section#Services > section#MainSection > div:nth-child(3) > div:first-child {
+        width: calc(380px / 2.2);
+        height: 62px;
+    }
+
+    body > main > section#Services > section#MainSection > div:nth-child(3) > div:first-child > div:first-child {
+        width: 59px;
+        height: 59px;
+        top: 59px;
+    }
+
+    body > main > section#Services > section#MainSection > div:nth-child(3) > div:first-child > div:first-child > i {
+        font-size: 30px;
+        top: 13px;
+        left: 18px;
+    }
+
+    body > main > section#Services > section#MainSection > div:nth-child(3) > h2 {
+        top: 98px;
+        left: 31px;
+        font-size: 12px;
+    }
+
+    body > main > section#Services > section#MainSection > div:nth-child(3) > p {
+        position: absolute;
+        top: 116px;
+        left: 25px;
+        color: #57606F;
+        font-size: 9px;
+        padding-right: 18px;
+        width: 140px;
+    }
+
+    /**-------------------------------------------- Main - Hire Me --------------------------------------------**/
+    #HireMe {
+        display: none;
+    }
+
+    /**-------------------------------------------- Main - Testimonials --------------------------------------------**/
+    #Testimonials {
+        display: none;
+    }
+
 }
