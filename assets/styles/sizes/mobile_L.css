@@ -1483,7 +1483,7 @@
     }
 
     body > footer > section:nth-child(2) > section:nth-child(1) > section:nth-child(3) > div:nth-child(4) {
-        width: 200px;
+        width: 178px;
         height: 30px;
         position: absolute;
         top: 40px;
@@ -1496,6 +1496,7 @@
         bottom: -1px;
         left: 24px;
         font-size: 9px;
+        width: 147px;
     }
 
     body > footer > section:nth-child(2) > section:nth-child(2) small {
