@@ -30,6 +30,7 @@
         position: relative;
     }
 
+
     .follow-content-text {
         font-size: 12px;
         margin-bottom: 0.6rem;
@@ -611,22 +612,34 @@
         height: 230px;
         left: 68px;
     }
+    body > main > section#Services > article > div:nth-child(3) {
+        left: 38%;
+    }
+    body > main > section#Services > article > div:nth-child(4) {
+        left: 38%;
+    }
 
     body > main > section#Services > section#MainSection > div:nth-child(3) > div:first-child {
         width: calc(330px / 2.2);
         height: 62px;
     }
-
-    /**-------------------------------------------- Main - Contact --------------------------------------------**/
-    body > main > section > article > h1 > span {
-        font-size: 18px;
-        left: 10px;
-        position: relative;
+    body > main > section#Services > section#MainSection > div:nth-child(2) > p {
+        width: 113px;
     }
 
+    /**-------------------------------------------- Main - Contact --------------------------------------------**/
     body > main > section#Contact > section:nth-child(4) > article:nth-child(2) > div:nth-child(1) > h2 {
         font-size: 11px;
         width: 184px;
+    }
+    body > main > section#Contact > article > div:nth-child(3) {
+        left: 28%;
+    }
+    body > main > section#Contact > article > div:nth-child(4) {
+        left: 28%;
+    }
+    body > main > section#Contact > section:nth-child(2) > div {
+        width: calc(84% / 3.50);
     }
 
     body > main > section#Contact > section:nth-child(4) > article:nth-child(2) > div {
@@ -634,6 +647,18 @@
         position: relative;
         left: -28px;
         top: -10px;
+    }
+    body > main > section#Contact > section:nth-child(4) > article:nth-child(2) {
+        width: 97%;
+        height: 750px;
+        display: flex;
+        flex-direction: column;
+    }
+    body > main > section#Contact > section:nth-child(4) {
+        width: 205px;
+        height: 322px;
+        top: 491px;
+        left: 95px;
     }
 
     /**-------------------------------------------- Main - Footer --------------------------------------------**/
@@ -746,6 +771,9 @@
     body > footer > section:nth-child(2) > section:nth-child(2) small {
         font-size: 7px;
         top: -9px;
+    }
+    #Services{
+
     }
 
 }
