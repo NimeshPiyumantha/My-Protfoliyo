@@ -3,7 +3,7 @@
  * @since : 0.1.0
  **/
 
-@media (max-width: 320px) {
+@media (max-width: 319px) {
     /**-------------------------------------------- Main - Home --------------------------------------------**/
     body > main > section#Home > section:nth-child(2) > section:nth-child(1) > div {
         height: calc(68px / 3);

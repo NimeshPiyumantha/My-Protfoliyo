@@ -3,7 +3,7 @@
  * @since : 0.1.0
  **/
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     /** Header */
     .checkBtn {
         display: block;
