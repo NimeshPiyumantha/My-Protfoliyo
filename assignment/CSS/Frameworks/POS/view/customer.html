@@ -10,7 +10,7 @@
 </head>
 <body>
 <header>
-    <!--Header started-->
+    <!--Nav started-->
     <nav class="navbar navbar-expand-lg navbar-light shadow-lg posNavi position-relative rounded-bottom">
         <div class="container-fluid">
             <a class="navbar-brand text-dark fw-bold " href="#">
@@ -63,22 +63,31 @@
             </div>
         </div>
     </nav>
-    <!--Header ended-->
+    <!--Nav ended-->
 </header>
 
 <main class="container-fluid">
+    <!-- Customer Header Start -->
     <div class="container d-flex flex-grow-1 flex-column">
         <div class="position-relative d-inline-block mt-3 mt-lg-4 mt-md-4">
             <h2 id="H1-1" style="font-family: 'Arial Rounded MT Bold',serif"><i class="fa-solid fa-users"></i> Customer
             </h2>
         </div>
     </div>
+    <!-- Customer Header End -->
+
+    <!-- Customer Header Section Start -->
     <div class="container d-flex flex-grow-1 flex-column" style="background-color: #dfe4ea">
         <div class="position-relative d-inline-block mt-3 mt-lg-4 mt-md-4">
             <h6 id="H6-1">Home > Customer</h6>
             <hr>
         </div>
+        <!-- Customer Header Section End -->
+
+        <!-- Customer Details Section Start -->
         <div class="row justify-content-around" style="height: max-content">
+
+            <!-- Customer Details Search Section Start -->
             <div class="col-10 col-md-5 col-lg-4 p-0 mt-2" style="background-color: white">
                 <h4 class="text-center bg-success p-2 text-light">Search Customer</h4>
                 <form>
@@ -91,6 +100,9 @@
                     <button class="btn btn-warning ms-3 mb-3 ms-md-3 ms-lg-3" type="reset">Clear</button>
                 </form>
             </div>
+            <!-- Customer Details Search Section End -->
+
+            <!-- Customer Details Button Section Start -->
             <div class="col-lg-5 mt-4">
                 <button class="btn btn-success mt-2 m-1" data-bs-target="#registerCustomer"
                         data-bs-toggle="modal" id="btnRegister" type="button">+ New Customer
@@ -106,7 +118,12 @@
 
                 <button class="btn btn-warning mt-2 m-1" type="button">View All Customers</button>
             </div>
+            <!-- Customer Details Button Section End -->
+
         </div>
+        <!-- Customer Details Section End -->
+
+        <!-- View Customer Details Table Start -->
         <div class="row mt-1 mt-md-2 mt-lg-5 justify-content-around">
             <div class="col-10">
                 <table class="table table-success table-bordered w-100 h-80 table-hover">
@@ -147,6 +164,7 @@
                 </table>
             </div>
         </div>
+        <!-- View Customer Details Table End -->
     </div>
 </main>
 
@@ -190,6 +208,7 @@
         </div>
     </div>
 </div>
+<!-- Modal Add Customer End -->
 
 <!-- Modal Update Customer -->
 <div aria-hidden="true" aria-labelledby="exampleModalLabel" class="modal fade" id="updateCustomer" tabindex="-1">
@@ -231,6 +250,7 @@
         </div>
     </div>
 </div>
+<!-- Modal Update Customer End -->
 
 <!-- Modal Delete Customer -->
 <div aria-hidden="true" aria-labelledby="exampleModalLabel" class="modal fade" id="deleteCustomer" tabindex="-1">
@@ -274,7 +294,7 @@
         </div>
     </div>
 </div>
-
+<!-- Modal Delete Customer End-->
 
 
 <!--Import js for bootstrap-->
