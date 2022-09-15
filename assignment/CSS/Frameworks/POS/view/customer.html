@@ -78,6 +78,35 @@
             <h6 id="H6-1">Home > Customer</h6>
             <hr>
         </div>
+        <div class="row justify-content-around" style="height: max-content">
+            <div class="col-10 col-md-5 col-lg-4 p-0 mt-2" style="background-color: white">
+                <h4 class="text-center bg-success p-2 text-light">Search Customer</h4>
+                <form>
+                    <div class="mb-3 ms-3 me-3 ">
+                        <input class="form-control" id="cusId"
+                               placeholder="Input Name/NIC/Tp Here"
+                               type="text">
+                    </div>
+                    <button class="btn btn-primary ms-3 mb-3 ms-md-3 ms-lg-3 btn-success" type="submit">Search</button>
+                    <button class="btn btn-warning ms-3 mb-3 ms-md-3 ms-lg-3" type="reset">Clear</button>
+                </form>
+            </div>
+            <div class="col-lg-5 mt-4">
+                <button class="btn btn-success mt-2 m-1" data-bs-target="#registerCustomer"
+                        data-bs-toggle="modal" id="btnRegister" type="button">+ New Customer
+                </button>
+
+                <button class="btn btn-warning mt-2 m-1" data-bs-target="#updateCustomer"
+                        data-bs-toggle="modal" type="button">Update Customer
+                </button>
+
+                <button class="btn btn-danger mt-2 m-1" data-bs-target="#deleteCustomer"
+                        data-bs-toggle="modal" type="button">Delete Customer
+                </button>
+
+                <button class="btn btn-warning mt-2 m-1" type="button">View All Customers</button>
+            </div>
+        </div>
 
     </div>
 </main>
