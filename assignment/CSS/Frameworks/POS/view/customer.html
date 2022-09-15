@@ -150,9 +150,48 @@
     </div>
 </main>
 
+<!-- Modal - Add Customer -->
+<div aria-hidden="true" aria-labelledby="exampleModalLabel" class="modal fade" id="registerCustomer" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header  bg-success">
+                <h5 class="modal-title text-light">Add Customer</h5>
+                <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="ms-3 me-3">
+                        <label class="form-label fw-bold mb-0" for="txtCustomerId">ID :</label>
+                        <input class="form-control" id="txtCustomerId"
+                               type="text">
+                    </div>
+                    <div class="ms-3 me-3">
+                        <label class="form-label fw-bold mb-0" for="txtCustomerName">Name :</label>
+                        <input class="form-control" id="txtCustomerName"
+                               type="text">
+                    </div>
+                    <div class="ms-3 me-3">
+                        <label class="form-label fw-bold mb-0" for="txtCustomerAddress">Address :</label>
+                        <input class="form-control" id="txtCustomerAddress"
+                               type="text">
+                    </div>
+                    <div class="ms-3 me-3">
+                        <label class="form-label fw-bold mb-0" for="txtCustomerSalary">Salary :</label>
+                        <input class="form-control" id="txtCustomerSalary"
+                               type="number">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 <!--Import js for bootstrap-->
 <script src="assets/styles/bootstrap-5.2.1-dist/js/bootstrap.min.js"></script>
 </body>
 </html>
-
