@@ -10,7 +10,7 @@
 </head>
 <body>
 <header>
-    <!--Header started-->
+    <!--Nav started-->
     <nav class="navbar navbar-expand-lg navbar-light shadow-lg posNavi position-relative rounded-bottom">
         <div class="container-fluid">
             <a class="navbar-brand text-dark fw-bold " href="#">
@@ -63,10 +63,11 @@
             </div>
         </div>
     </nav>
-    <!--Header ended-->
+    <!--Nav ended-->
 </header>
 
 <main class="container-fluid">
+    <!-- Item Header Start -->
     <div class="container d-flex flex-grow-1 flex-column">
         <div class="position-relative d-inline-block mt-3 mt-lg-4 mt-md-4">
             <h2 id="H1-1" style="font-family: 'Arial Rounded MT Bold',serif"><i
@@ -74,12 +75,20 @@
             </h2>
         </div>
     </div>
+    <!-- Item Header End -->
+
+    <!-- Item Header Section Start -->
     <div class="container d-flex flex-grow-1 flex-column" style="background-color: #dfe4ea">
         <div class="position-relative d-inline-block mt-3 mt-lg-4 mt-md-4">
             <h6 id="H6-1">Home > Item</h6>
             <hr>
         </div>
+        <!-- Item Header Section End -->
+
+        <!-- Item Details Section Start -->
         <div class="row justify-content-around" style="height: max-content">
+
+            <!-- Item Details Search Section Start -->
             <div class="col-10 col-md-5 col-lg-4 p-0 mt-2" style="background-color: white">
                 <h4 class="text-center bg-success p-2 text-light">Search Item</h4>
                 <form>
@@ -92,6 +101,9 @@
                     <button class="btn btn-warning ms-3 mb-3 ms-md-3 ms-lg-3" type="reset">Clear</button>
                 </form>
             </div>
+            <!-- Item Details Search Section End -->
+
+            <!-- Item Details Button Section Start -->
             <div class="col-lg-5 mt-4">
                 <button class="btn btn-success mt-2 m-1" data-bs-target="#registerItem"
                         data-bs-toggle="modal" id="btnAddItem" type="button">+ New Item
@@ -107,7 +119,12 @@
 
                 <button class="btn btn-warning mt-2 m-1" type="button">View All Item</button>
             </div>
+            <!-- Item Details Button Section End -->
+
         </div>
+        <!-- Item Details Section End -->
+
+        <!-- View Item Details Table Start -->
         <div class="row mt-1 mt-md-2 mt-lg-5 justify-content-around">
             <div class="col-10">
                 <table class="table table-success table-bordered w-100 h-80 table-hover">
@@ -148,10 +165,11 @@
                 </table>
             </div>
         </div>
+        <!-- View Item Details Table End -->
     </div>
 </main>
 
-<!-- Modal - Add Item -->
+<!-- Modal - Add Item Start-->
 <div aria-hidden="true" aria-labelledby="exampleModalLabel" class="modal fade" id="registerItem" tabindex="-1">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -191,8 +209,9 @@
         </div>
     </div>
 </div>
+<!-- Modal - Add Item End-->
 
-<!-- Modal Update Item -->
+<!-- Modal Update Item Start-->
 <div aria-hidden="true" aria-labelledby="exampleModalLabel" class="modal fade" id="updateItem" tabindex="-1">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -232,8 +251,9 @@
         </div>
     </div>
 </div>
+<!-- Modal Update Item End-->
 
-<!-- Modal Delete Item -->
+<!-- Modal Delete Item Start -->
 <div aria-hidden="true" aria-labelledby="exampleModalLabel" class="modal fade" id="deleteItem" tabindex="-1">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -273,6 +293,7 @@
         </div>
     </div>
 </div>
+<!-- Modal Delete Item End -->
 
 <!--Import js for bootstrap-->
 <script src="assets/styles/bootstrap-5.2.1-dist/js/bootstrap.min.js"></script>
