@@ -181,7 +181,7 @@
                     </div>
                     <div class="col-12 col-md-6 col-lg-6">
                         <label class="fw-bold" for="discount">Discount :</label>
-                        <input class="form-control border-dark" id="discount" type="text">
+                        <input class="form-control border-dark" id="discount" role="spinbutton" type="number">
                     </div>
                 </div>
 
@@ -208,9 +208,47 @@
             </div>
             <!-- Order Details Section End -->
 
+            <!--clear All Button Section Start-->
             <div class="d-grid col-12 col-md-2 mt-4">
                 <button class="btn btn-danger rounded-2 bold" type="reset">Clear All</button>
             </div>
+            <!--clear All Button Section end-->
+
+            <!-- View Buy items Details Table Start -->
+            <div class="row mt-1 mt-md-2 mt-lg-3 justify-content-around" style="height: 250px;">
+                <div class="col-10">
+                    <div class="customerTableDiv overflow-auto" style="height: 200px;">
+                        <table class="table table-success table-striped table-bordered table-hover">
+                            <thead class="text-light table-dark text-center  table-bordered sticky-top">
+                            <tr>
+                                <th>Item Code</th>
+                                <th>Item Name</th>
+                                <th>Price</th>
+                                <th>Quantity</th>
+                                <th>Total</th>
+                            </tr>
+                            </thead>
+                            <tbody id="customerTable">
+                            <tr>
+                                <td>I00-001</td>
+                                <td>DDR4 8GB Laptop Ram</td>
+                                <td>20,000</td>
+                                <td>2</td>
+                                <td>40,000</td>
+                            </tr>
+                            <tr>
+                                <td>I00-002</td>
+                                <td>MSI GF63 Laptop</td>
+                                <td>320,000</td>
+                                <td>1</td>
+                                <td>320,000</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <!-- View Buy items Details Table End -->
 
         </div>
         <!-- Order Details Section End -->
