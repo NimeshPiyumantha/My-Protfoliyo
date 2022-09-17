@@ -85,7 +85,53 @@
         </div>
         <!-- Order Header Section End -->
 
+        <!-- Order Details Section Start -->
+        <div class="row justify-content-around " style="height: max-content">
 
+            <!-- Order Invoice Details Section Start -->
+            <div class="col-10 col-md-5 col-lg-4 p-3 mt-3" style="background-color: white">
+                <h5 class="text-center bg-success p-2 text-light">Invoice Details</h5>
+                <div class="row mt-1">
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <label class="fw-bold" for="orderId">Order ID :</label>
+                        <input class="form-control border-dark" id="orderId" type="text">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <label class="fw-bold" for="orderDate">Order Date :</label>
+                        <input class="form-control border-dark" id="orderDate" type="date">
+                    </div>
+                </div>
+                <div class="row mt-1">
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <label class="fw-bold" for="customerId">Customer ID :</label>
+                        <select aria-label="Default select example" class="form-select border-dark" id="customerId">
+                            <option selected>-Select Customer-</option>
+                            <option value="1">C001</option>
+                            <option value="2">C002</option>
+                            <option value="3">C003</option>
+                            <option value="4">C004</option>
+                        </select>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <label class="fw-bold" for="customerName">Name :</label>
+                        <input class="form-control border-dark" disabled id="customerName" type="text">
+                    </div>
+                </div>
+                <div class="row mt-1">
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <label class="fw-bold" for="customerAddress">Address :</label>
+                        <input class="form-control border-dark" disabled id="customerAddress" type="text">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <label class="fw-bold" for="customerSalary">Salary :</label>
+                        <input class="form-control border-dark" disabled id="customerSalary" type="text">
+                    </div>
+                </div>
+            </div>
+            <!-- Order Invoice Details Section End -->
+
+        </div>
+        <!-- Order Details Section End -->
     </div>
 </main>
 
