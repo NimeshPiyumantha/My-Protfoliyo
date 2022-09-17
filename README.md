@@ -18,6 +18,14 @@ This is My Personal Web Project.
 * My Personal Profile : http://www.nimeshpiyumantha.epizy.com/?i=1
 * Project Link :https://github.com/NimeshPiyumantha/My-Protfoliyo.git
 
+##
+###  Assigements
+#### - Frameworks
+  - POS System
+   * POS System Wire Frame : https://wireframe.cc/JkNiDp
+   * POS System Mockup : https://www.figma.com/file/omhGhDtaY2KtQchRBKmaQu/POS-System?node-id=0%3A1
+
+##
 ###  
 ### Clone this repository ✅
 ```md
