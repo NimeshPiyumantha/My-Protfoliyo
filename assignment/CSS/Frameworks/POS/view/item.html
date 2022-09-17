@@ -104,7 +104,7 @@
             <!-- Item Details Search Section End -->
 
             <!-- Item Details Button Section Start -->
-            <div class="col-lg-5 mt-4">
+            <div class="col-10 col-md-5 col-lg-5 mt-2">
                 <button class="btn btn-success mt-2 m-1" data-bs-target="#registerItem"
                         data-bs-toggle="modal" id="btnAddItem" type="button">+ New Item
                 </button>
@@ -120,49 +120,50 @@
                 <button class="btn btn-warning mt-2 m-1" type="button">View All Item</button>
             </div>
             <!-- Item Details Button Section End -->
-
         </div>
         <!-- Item Details Section End -->
 
         <!-- View Item Details Table Start -->
-        <div class="row mt-1 mt-md-2 mt-lg-5 justify-content-around">
+        <div class="row mt-1 mt-md-2 mt-lg-5 justify-content-around" style="height: 250px;">
             <div class="col-10">
-                <table class="table table-success table-bordered w-100 h-80 table-hover">
-                    <thead class="text-light table-dark text-center">
-                    <tr>
-                        <th>Item ID</th>
-                        <th>Item Name</th>
-                        <th>Quantity</th>
-                        <th>Price</th>
-                    </tr>
-                    </thead>
-                    <tbody id="customerTable">
-                    <tr>
-                        <td>I00-001</td>
-                        <td>DDR4 8GB Laptop Ram</td>
-                        <td>110.00</td>
-                        <td>20,000</td>
-                    </tr>
-                    <tr>
-                        <td>I00-002</td>
-                        <td>MSI GF63 Laptop</td>
-                        <td>40.00</td>
-                        <td>320,000</td>
-                    </tr>
-                    <tr>
-                        <td>I00-003</td>
-                        <td>Laptop SSD NVMI 512 Hard Disk</td>
-                        <td>50.00</td>
-                        <td>40,000</td>
-                    </tr>
-                    <tr>
-                        <td>I00-004</td>
-                        <td>DDR3 8GB Laptop Ram</td>
-                        <td>150.00</td>
-                        <td>15,000</td>
-                    </tr>
-                    </tbody>
-                </table>
+                <div class="customerTableDiv overflow-auto" style="height: 200px;">
+                    <table class="table table-success table-striped table-bordered table-hover">
+                        <thead class="text-light table-dark text-center  table-bordered sticky-top">
+                        <tr>
+                            <th>Item ID</th>
+                            <th>Item Name</th>
+                            <th>Quantity</th>
+                            <th>Price</th>
+                        </tr>
+                        </thead>
+                        <tbody id="customerTable">
+                        <tr>
+                            <td>I00-001</td>
+                            <td>DDR4 8GB Laptop Ram</td>
+                            <td>110.00</td>
+                            <td>20,000</td>
+                        </tr>
+                        <tr>
+                            <td>I00-002</td>
+                            <td>MSI GF63 Laptop</td>
+                            <td>40.00</td>
+                            <td>320,000</td>
+                        </tr>
+                        <tr>
+                            <td>I00-003</td>
+                            <td>Laptop SSD NVMI 512 Hard Disk</td>
+                            <td>50.00</td>
+                            <td>40,000</td>
+                        </tr>
+                        <tr>
+                            <td>I00-004</td>
+                            <td>DDR3 8GB Laptop Ram</td>
+                            <td>150.00</td>
+                            <td>15,000</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
         <!-- View Item Details Table End -->

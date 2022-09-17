@@ -16,7 +16,7 @@
             <a class="navbar-brand text-dark fw-bold " href="#">
                 <img alt="Logo" class="d-inline-block align-text-center" height="44" src="assets/images/logo.png"
                      width="50">
-               <span class="text-success"> Nimesh </span> POS System
+                <span class="text-success"> Nimesh </span> POS System
             </a>
             <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
                     class="navbar-toggler" data-bs-target="#navbarSupportedContent"
@@ -124,44 +124,46 @@
         <!-- Customer Details Section End -->
 
         <!-- View Customer Details Table Start -->
-        <div class="row mt-1 mt-md-2 mt-lg-5 justify-content-around">
+        <div class="row mt-1 mt-md-2 mt-lg-5 justify-content-around" style="height: 250px;">
             <div class="col-10">
-                <table class="table table-success table-bordered w-100 h-80 table-hover">
-                    <thead class="text-light table-dark text-center">
-                    <tr>
-                        <th>ID</th>
-                        <th>Name</th>
-                        <th>Address</th>
-                        <th>Salary</th>
-                    </tr>
-                    </thead>
-                    <tbody id="customerTable">
-                    <tr>
-                        <td>C00-001</td>
-                        <td>Nimesh</td>
-                        <td>Galle</td>
-                        <td>50,000</td>
-                    </tr>
-                    <tr>
-                        <td>C00-002</td>
-                        <td>Pasan</td>
-                        <td>Galle</td>
-                        <td>50,000</td>
-                    </tr>
-                    <tr>
-                        <td>C00-003</td>
-                        <td>Maneesha</td>
-                        <td>Galle</td>
-                        <td>50,000</td>
-                    </tr>
-                    <tr>
-                        <td>C00-004</td>
-                        <td>Dakshina</td>
-                        <td>Galle</td>
-                        <td>50,000</td>
-                    </tr>
-                    </tbody>
-                </table>
+                <div class="customerTableDiv overflow-auto" style="height: 200px;">
+                    <table class="table table-success table-striped table-bordered table-hover">
+                        <thead class="text-light table-dark text-center  table-bordered sticky-top">
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Address</th>
+                            <th>Salary</th>
+                        </tr>
+                        </thead>
+                        <tbody id="customerTable">
+                        <tr>
+                            <td>C00-001</td>
+                            <td>Nimesh</td>
+                            <td>Galle</td>
+                            <td>50,000</td>
+                        </tr>
+                        <tr>
+                            <td>C00-002</td>
+                            <td>Pasan</td>
+                            <td>Galle</td>
+                            <td>50,000</td>
+                        </tr>
+                        <tr>
+                            <td>C00-003</td>
+                            <td>Maneesha</td>
+                            <td>Galle</td>
+                            <td>50,000</td>
+                        </tr>
+                        <tr>
+                            <td>C00-004</td>
+                            <td>Dakshina</td>
+                            <td>Galle</td>
+                            <td>50,000</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
         <!-- View Customer Details Table End -->
