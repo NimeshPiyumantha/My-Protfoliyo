@@ -130,6 +130,47 @@
             </div>
             <!-- Order Invoice Details Section End -->
 
+            <!-- Order Item Details Section Start -->
+            <div class="col-10 col-md-5 col-lg-4 p-3 mt-3" style="background-color: white">
+                <h5 class="text-center bg-success p-2 text-light">Item Details</h5>
+                <div class="row mt-1">
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <label class="fw-bold" for="itemcode">Item Code :</label>
+                        <select aria-label="Default select example" class="form-select border-dark" id="itemcode">
+                            <option selected>-Select Item-</option>
+                            <option value="1">I001</option>
+                            <option value="2">I002</option>
+                            <option value="3">I003</option>
+                            <option value="4">I004</option>
+                        </select>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <label class="fw-bold" for="itemName">Item Name :</label>
+                        <input class="form-control border-dark" disabled id="itemName" type="text">
+                    </div>
+                </div>
+                <div class="row mt-1">
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <label class="fw-bold" for="itemPrice">Unit Price :</label>
+                        <input class="form-control border-dark" disabled id="itemPrice" type="text">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <label class="fw-bold" for="qtyOnHand">Qty On Hand :</label>
+                        <input class="form-control border-dark" disabled id="qtyOnHand" type="text">
+                    </div>
+                </div>
+                <div class="row mt-1">
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <label class="fw-bold" for="buyQty">Buy Qty :</label>
+                        <input class="form-control border-dark" id="buyQty" type="text">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6 mt-4 ">
+                        <button class="btn btn-primary rounded-2" type="submit">Add To Cart</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Order Item Details Section End -->
+
         </div>
         <!-- Order Details Section End -->
     </div>
