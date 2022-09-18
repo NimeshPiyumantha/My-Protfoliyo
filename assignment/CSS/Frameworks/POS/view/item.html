@@ -90,7 +90,7 @@
 
             <!-- Item Details Search Section Start -->
             <div class="col-10 col-md-5 col-lg-4 p-0 mt-2 rounded-3" style="background-color: white">
-                <h4 class="text-center bg-success p-2 text-light rounded-3">Search Item</h4>
+                <h4 class="text-center p-2 text-light rounded-3" style="background: #16A085">Search Item</h4>
                 <form>
                     <div class="mb-3 ms-3 me-3 ">
                         <input class="form-control" id="ItemId"
@@ -117,7 +117,7 @@
                         data-bs-toggle="modal" type="button">Delete Item
                 </button>
 
-                <button class="btn btn-warning mt-2 m-1" type="button">View All Item</button>
+                <button class="btn btn-primary mt-2 m-1" type="button">View All Item</button>
             </div>
             <!-- Item Details Button Section End -->
         </div>
@@ -130,7 +130,7 @@
                     <table class="table table-success table-striped table-bordered table-hover">
                         <thead class="text-light table-dark text-center  table-bordered sticky-top">
                         <tr>
-                            <th>Item ID</th>
+                            <th>Item Code</th>
                             <th>Item Name</th>
                             <th>Quantity</th>
                             <th>Price</th>
@@ -174,14 +174,14 @@
 <div aria-hidden="true" aria-labelledby="exampleModalLabel" class="modal fade" id="registerItem" tabindex="-1">
     <div class="modal-dialog">
         <div class="modal-content">
-            <div class="modal-header  bg-success">
+            <div class="modal-header" style="background: #16A085">
                 <h5 class="modal-title text-light">Add Item</h5>
                 <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
             </div>
             <div class="modal-body">
                 <form>
                     <div class="ms-3 me-3">
-                        <label class="form-label fw-bold mb-0" for="txtItemsId">Item ID :</label>
+                        <label class="form-label fw-bold mb-0" for="txtItemsId">Item Code :</label>
                         <input class="form-control" id="txtItemsId"
                                type="text">
                     </div>
@@ -216,14 +216,14 @@
 <div aria-hidden="true" aria-labelledby="exampleModalLabel" class="modal fade" id="updateItem" tabindex="-1">
     <div class="modal-dialog">
         <div class="modal-content">
-            <div class="modal-header  bg-success">
-                <h5 class="modal-title text-light">Update Item</h5>
+            <div class="modal-header  bg-warning">
+                <h5 class="modal-title text-dark">Update Item</h5>
                 <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
             </div>
             <div class="modal-body">
                 <form>
                     <div class="ms-3 me-3">
-                        <label class="form-label fw-bold mb-0" for="searchItemId">Search Item ID :</label>
+                        <label class="form-label fw-bold mb-0" for="searchItemId">Search Item Code :</label>
                         <input class="form-control" id="searchItemId"
                                type="text">
                     </div>
@@ -265,25 +265,26 @@
             <div class="modal-body">
                 <form>
                     <div class="ms-3 me-3">
-                        <label class="form-label fw-bold mb-0" for="searchDItemId">Search Item ID :</label>
+                        <label class="form-label fw-bold mb-0" for="searchDItemId">Search Item Code :</label>
                         <input class="form-control" id="searchDItemId"
                                type="text">
                     </div>
-                    <div class="ms-3 me-3">
-                        <label class="form-label fw-bold mb-0" for="DItemName">Item Name :</label>
-                        <input class="form-control" id="DItemName"
-                               type="text">
-                    </div>
-                    <div class="ms-3 me-3">
-                        <label class="form-label fw-bold mb-0" for="DItemQty">Quantity :</label>
-                        <input class="form-control" id="DItemQty"
-                               type="text">
-                    </div>
-                    <div class="ms-3 me-3">
-                        <label class="form-label fw-bold mb-0" for="DItemPrice">Price :</label>
-                        <input class="form-control" id="DItemPrice"
-                               type="number">
-                    </div>
+                    <fieldset disabled>
+                        <div class="ms-3 me-3">
+                            <label class="form-label fw-bold mb-0" for="DItemName">Item Name :</label>
+                            <input class="form-control disabled" id="DItemName"
+                                   type="text">
+                        </div>
+                        <div class="ms-3 me-3">
+                            <label class="form-label fw-bold mb-0" for="DItemQty">Quantity :</label>
+                            <input class="form-control disabled" id="DItemQty"
+                                   type="text">
+                        </div>
+                        <div class="ms-3 me-3">
+                            <label class="form-label fw-bold mb-0" for="DItemPrice">Price :</label>
+                            <input class="form-control disabled" id="DItemPrice" type="number">
+                        </div>
+                    </fieldset>
                 </form>
             </div>
             <div class="modal-footer">
