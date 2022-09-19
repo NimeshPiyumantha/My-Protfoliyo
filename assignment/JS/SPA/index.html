@@ -7,8 +7,42 @@
     <!--link Bootstrap Framework-->
     <link href="assets/styles/bootstrap-5.2.1-dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/fonts/css/all.min.css" rel="stylesheet">
+
 </head>
 <body>
+
+<!--import jQuery library-->
+<script src="assets/styles/jQuery/jquery-3.6.1.min.js"></script>
+<script>
+    $("#homeBtn").click(function () {
+        $("#HomeSection").css('display', 'block');
+        $("#CustomerSection").css('display', 'none');
+        $("#ItemSection").css('display', 'none');
+        $("#OrderSection").css('display', 'none');
+    });
+
+    $("#customerBtn").click(function () {
+        $("#HomeSection").css('display', 'none');
+        $("#CustomerSection").css('display', 'block');
+        $("#ItemSection").css('display', 'none');
+        $("#OrderSection").css('display', 'none');
+    });
+
+    $("#itemBtn").click(function () {
+        $("#HomeSection").css('display', 'none');
+        $("#CustomerSection").css('display', 'none');
+        $("#ItemSection").css('display', 'block');
+        $("#OrderSection").css('display', 'none');
+    });
+
+    $("#orderBtn").click(function () {
+        $("#HomeSection").css('display', 'none');
+        $("#CustomerSection").css('display', 'none');
+        $("#ItemSection").css('display', 'none');
+        $("#OrderSection").css('display', 'block');
+    });
+
+</script>
 
 <header>
     <!--Nav started-->
@@ -26,17 +60,17 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a aria-current="page" class="nav-link active" href="index.html">Home</a>
+                    <li class="nav-item" id="homeBtn">
+                        <a aria-current="page" class="nav-link active" href="#">Home</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#CustomerSection">Customer</a>
+                    <li class="nav-item" id="customerBtn">
+                        <a class="nav-link" href="#">Customer </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#ItemSection">Items</a>
+                    <li class="nav-item" id="itemBtn">
+                        <a class="nav-link" href="#">Items</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#OrderSection">Orders</a>
+                    <li class="nav-item" id="orderBtn">
+                        <a class="nav-link" href="#">Orders</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"
@@ -49,7 +83,7 @@
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="view/orders.html">Something else here</a></li>
+                            <li><a class="dropdown-item">Something else here</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -139,7 +173,6 @@
     <!--slider ended-->
 </main>
 <!-- Home End-->
-
 
 
 <!-- Customer Start-->
