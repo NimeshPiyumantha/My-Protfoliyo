@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Home|Web POS</title>
+    <title>Web POS</title>
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <!--link Bootstrap Framework-->
     <link href="assets/styles/bootstrap-5.2.1-dist/css/bootstrap.min.css" rel="stylesheet">
@@ -11,38 +11,6 @@
 </head>
 <body>
 
-<!--import jQuery library-->
-<script src="assets/styles/jQuery/jquery-3.6.1.min.js"></script>
-<script>
-    $("#homeBtn").click(function () {
-        $("#HomeSection").css('display', 'block');
-        $("#CustomerSection").css('display', 'none');
-        $("#ItemSection").css('display', 'none');
-        $("#OrderSection").css('display', 'none');
-    });
-
-    $("#customerBtn").click(function () {
-        $("#HomeSection").css('display', 'none');
-        $("#CustomerSection").css('display', 'block');
-        $("#ItemSection").css('display', 'none');
-        $("#OrderSection").css('display', 'none');
-    });
-
-    $("#itemBtn").click(function () {
-        $("#HomeSection").css('display', 'none');
-        $("#CustomerSection").css('display', 'none');
-        $("#ItemSection").css('display', 'block');
-        $("#OrderSection").css('display', 'none');
-    });
-
-    $("#orderBtn").click(function () {
-        $("#HomeSection").css('display', 'none');
-        $("#CustomerSection").css('display', 'none');
-        $("#ItemSection").css('display', 'none');
-        $("#OrderSection").css('display', 'block');
-    });
-
-</script>
 
 <header>
     <!--Nav started-->
@@ -83,7 +51,7 @@
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item">Something else here</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -102,7 +70,7 @@
 </header>
 
 <!-- Home Start-->
-<main class="container-fluid" id="HomeSection">
+<main class="container-fluid mt-5" id="HomeSection">
     <!--slider started-->
     <div class="carousel carousel-dark slide" data-bs-ride="carousel" id="carouselExampleCaptions">
         <div class="carousel-indicators">
@@ -838,5 +806,45 @@
 
 <!--Import js for bootstrap-->
 <script src="assets/styles/bootstrap-5.2.1-dist/js/bootstrap.min.js"></script>
+
+<!--import jQuery library-->
+<script src="assets/styles/jQuery/jquery-3.6.1.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#HomeSection").css('display', 'block');
+        $("#CustomerSection").css('display', 'none');
+        $("#ItemSection").css('display', 'none');
+        $("#OrderSection").css('display', 'none');
+    });
+
+    $("#homeBtn").click(function () {
+        $("#HomeSection").css('display', 'block');
+        $("#CustomerSection").css('display', 'none');
+        $("#ItemSection").css('display', 'none');
+        $("#OrderSection").css('display', 'none');
+    });
+
+    $("#customerBtn").click(function () {
+        $("#HomeSection").css('display', 'none');
+        $("#CustomerSection").css('display', 'block');
+        $("#ItemSection").css('display', 'none');
+        $("#OrderSection").css('display', 'none');
+    });
+
+    $("#itemBtn").click(function () {
+        $("#HomeSection").css('display', 'none');
+        $("#CustomerSection").css('display', 'none');
+        $("#ItemSection").css('display', 'block');
+        $("#OrderSection").css('display', 'none');
+    });
+
+    $("#orderBtn").click(function () {
+        $("#HomeSection").css('display', 'none');
+        $("#CustomerSection").css('display', 'none');
+        $("#ItemSection").css('display', 'none');
+        $("#OrderSection").css('display', 'block');
+    });
+
+</script>
 </body>
 </html>
