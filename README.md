@@ -24,6 +24,7 @@ This is My Personal Web Project.
   - POS System
    * POS System Wire Frame : https://wireframe.cc/JkNiDp
    * POS System Mockup : https://www.figma.com/file/omhGhDtaY2KtQchRBKmaQu/POS-System?node-id=0%3A1
+   * POS System Site Map : https://www.gloomaps.com/6wJYqTkp9K
 
 ##
 ###  
