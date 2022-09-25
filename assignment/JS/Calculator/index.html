@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>JavaScript Calc</title>
+    <title>JavaScript Calculator</title>
 
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <!--link Bootstrap Framework-->
@@ -19,88 +19,92 @@
             <div class="col-12 col-md-5 col-lg-5 p-3 mt-3 rounded-3 m-4 " style="background-color: #34495e">
                 <div class="row mt-1 d-flex justify-content-around">
                     <div class="col-12 col-md-12 col-lg-12">
-                        <input class="form-control border-dark" id="textFiled" style="height: 70px" type="text">
+                        <div class="col-12 col-md-12 col-lg-12 bg-white rounded-2" style="height: 70px" type="text">
+                            <p id="history">0</p>
+                            <p class="d-flex justify-content-center" id="result">0</p>
+                        </div>
                     </div>
 
                     <div class="row gap-3 justify-content-around mt-3 ">
                         <div class="row col-6 col-md-6 col-lg-6 ">
-                            <button class="btn btn-danger btn-lg" type="button">C</button>
+                            <button class="btn btn-danger btn-lg" id="clear" type="button">C</button>
                         </div>
                         <div class="row col-3 col-md-3 col-lg-3">
-                            <button class="btn btn-dark btn-lg" type="button"><i class="fa-solid fa-delete-left"></i></button>
+                            <button class="btn btn-dark btn-lg" id="backSpace" type="button"><i class="fa-solid fa-delete-left"></i>
+                            </button>
                         </div>
                         <div class="row col-3 col-md-3 col-lg-3 ">
-                            <button class="btn btn-dark btn-lg" type="button">/</button>
+                            <button class="btn btn-dark btn-lg num" type="button">/</button>
                         </div>
                     </div>
 
                     <div class="row gap-3 justify-content-around mt-3">
                         <div class="row col-3 col-md-3 col-lg-3 ">
-                            <button class="btn btn-dark btn-lg" type="button">7</button>
+                            <button class="btn btn-dark btn-lg num" type="button">7</button>
                         </div>
                         <div class="row col-3 col-md-3 col-lg-3 ">
-                            <button class="btn btn-dark btn-lg" type="button">8</button>
+                            <button class="btn btn-dark btn-lg num" type="button">8</button>
                         </div>
                         <div class="row col-3 col-md-3 col-lg-3 ">
-                            <button class="btn btn-dark btn-lg" type="button">9</button>
+                            <button class="btn btn-dark btn-lg num" type="button">9</button>
                         </div>
                         <div class="row col-3 col-md-3 col-lg-3 ">
-                            <button class="btn btn-dark btn-lg" type="button">*</button>
+                            <button class="btn btn-dark btn-lg num" type="button">*</button>
                         </div>
                     </div>
 
 
                     <div class="row gap-3 justify-content-around mt-3">
                         <div class="row col-3 col-md-3 col-lg-3 ">
-                            <button class="btn btn-dark btn-lg" type="button">4</button>
+                            <button class="btn btn-dark btn-lg num" type="button">4</button>
                         </div>
                         <div class="row col-3 col-md-3 col-lg-3 ">
-                            <button class="btn btn-dark btn-lg" type="button">5</button>
+                            <button class="btn btn-dark btn-lg num" type="button">5</button>
                         </div>
                         <div class="row col-3 col-md-3 col-lg-3 ">
-                            <button class="btn btn-dark btn-lg" type="button">6</button>
+                            <button class="btn btn-dark btn-lg num" type="button">6</button>
                         </div>
                         <div class="row col-3 col-md-3 col-lg-3 ">
-                            <button class="btn btn-dark btn-lg" type="button">-</button>
+                            <button class="btn btn-dark btn-lg num" type="button">-</button>
                         </div>
                     </div>
 
                     <div class="row gap-3 justify-content-around mt-3">
                         <div class="row col-3 col-md-3 col-lg-3 ">
-                            <button class="btn btn-dark btn-lg" type="button">1</button>
+                            <button class="btn btn-dark btn-lg num" type="button">1</button>
                         </div>
                         <div class="row col-3 col-md-3 col-lg-3 ">
-                            <button class="btn btn-dark btn-lg" type="button">2</button>
+                            <button class="btn btn-dark btn-lg num" type="button">2</button>
                         </div>
                         <div class="row col-3 col-md-3 col-lg-3 ">
-                            <button class="btn btn-dark btn-lg" type="button">3</button>
+                            <button class="btn btn-dark btn-lg num" type="button">3</button>
                         </div>
                         <div class="row col-3 col-md-3 col-lg-3 ">
-                            <button class="btn btn-dark btn-lg" type="button">+</button>
+                            <button class="btn btn-dark btn-lg num" type="button">+</button>
                         </div>
                     </div>
 
                     <div class="row gap-3 justify-content-around mt-3">
                         <div class="row col-3 col-md-3 col-lg-3 ">
-                            <button class="btn btn-dark btn-lg" type="button">0</button>
+                            <button class="btn btn-dark btn-lg num" type="button">0</button>
                         </div>
                         <div class="row col-3 col-md-3 col-lg-3 ">
-                            <button class="btn btn-dark btn-lg" type="button">00</button>
+                            <button class="btn btn-dark btn-lg num" type="button">00</button>
                         </div>
                         <div class="row col-3 col-md-3 col-lg-3 ">
-                            <button class="btn btn-dark btn-lg" type="button">.</button>
+                            <button class="btn btn-dark btn-lg num" type="button">.</button>
                         </div>
                         <div class="row col-3 col-md-3 col-lg-3 ">
-                            <button class="btn btn-primary btn-lg" type="button">=</button>
+                            <button class="btn btn-primary btn-lg" id="equalTo" type="button">=</button>
                         </div>
                     </div>
-
 
                 </div>
             </div>
         </div>
     </div>
 </div>
+
 
 </body>
 </html>
