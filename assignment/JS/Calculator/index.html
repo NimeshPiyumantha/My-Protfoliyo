@@ -105,6 +105,53 @@
     </div>
 </div>
 
+<script>
+    document.addEventListener("DOMContentLoaded", function (event) {
+        let buttons = document.querySelectorAll('.num');
+        let result = document.querySelector('#result');
+        let clear = document.querySelector('#clear');
+        let history = document.querySelector('#history');
+        let equalTo = document.querySelector('#equalTo');
+        let backSpace = document.querySelector('#backSpace');
+
+
+        let value = "";
+
+        buttons.forEach((num, index) => {
+            num.addEventListener('click', function () {
+                let text = this.innerHTML;
+                value += text;
+                result.innerHTML = value;
+            });
+        });
+
+        /*equal to button action*/
+        equalTo.addEventListener('click', function () {
+            if (result.innerHTML !== "") {
+                history.innerHTML = result.innerHTML;
+                result.innerHTML = eval(result.innerHTML);
+                value = eval(result.innerHTML);
+            } else {
+                alert('please enter any Number');
+            }
+        });
+
+        /*clear all number*/
+        clear.addEventListener('click', function () {
+            result.innerHTML = "";
+            value = "";
+        });
+
+        /*delete single number*/
+        backSpace.addEventListener('click', function () {
+            result.innerHTML = result.innerHTML.substring(0, result.innerHTML.length - 1);
+            value = result.innerHTML;
+        });
+
+    });
+
+</script>
+
 
 </body>
 </html>
