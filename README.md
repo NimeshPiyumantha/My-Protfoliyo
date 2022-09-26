@@ -10,23 +10,28 @@ This is My Personal Web Project.
 ![alt text](https://github.com/NimeshPiyumantha/My-Protfoliyo/blob/main/assets/styles/img/images/mainMockup.png)
 ##
 
-* My linkedin : https://www.linkedin.com/in/nimesh-piyumantha-33736a222
-* My Personal Web Site Map : https://www.gloomaps.com/7D7wNfcoAY
-* My Personal Web Wire Frame : https://wireframe.cc/Pupr2R
-* My Personal Web Mockup : https://www.figma.com/file/m40P91ZKauWs18R5qheoWu/MyWebMockUp?node-id=1%3A4
-* My GitHub Page Link :  https://nimeshpiyumantha.github.io/My-Protfoliyo
-* My Personal Profile : http://www.nimeshpiyumantha.epizy.com/?i=1
-* Project Link :https://github.com/NimeshPiyumantha/My-Protfoliyo.git
+* 🔗 <a href="https://github.com/NimeshPiyumantha/My-Protfoliyo.git" target="_blank">GitHub Project Link</a>
+* 🔗 <a href="https://nimeshpiyumantha.github.io/My-Protfoliyo" target="_blank">GitHub Page</a>
+* 🔗 <a href="http://www.nimeshpiyumantha.epizy.com/?i=1" target="_blank">InfinityFree</a>
+* 🔗 <a href="https://www.gloomaps.com/7D7wNfcoAY" target="_blank">Site-Map</a>
+* 🔗 <a href="https://wireframe.cc/Pupr2R" target="_blank">Wire-Frame</a>
+* 🔗 <a href="https://www.figma.com/file/m40P91ZKauWs18R5qheoWu/MyWebMockUp?node-id=1%3A4" target="_blank">Mock-Up</a>
+* 🔗 <a href="https://www.linkedin.com/in/nimesh-piyumantha-33736a222" target="_blank">Linked-In</a>
 
 ##
 ###  Assigements
-#### - Frameworks
-  - POS System
-   * POS System Wire Frame : https://wireframe.cc/JkNiDp
-   * POS System Mockup : https://www.figma.com/file/omhGhDtaY2KtQchRBKmaQu/POS-System?node-id=0%3A1
-   * POS System Site Map : https://www.gloomaps.com/6wJYqTkp9K
+# - Frameworks
 
-##
+## - POS System 
+* 🔗 <a href="https://wireframe.cc/JkNiDp" target="_blank">POS System Wire Frame</a>
+* 🔗 <a href="https://www.figma.com/file/omhGhDtaY2KtQchRBKmaQu/POS-System?node-id=0%3A1" target="_blank">POS System Mockup</a>
+* 🔗 <a href="https://www.gloomaps.com/6wJYqTkp9K" target="_blank">POS System Site Map</a>
+* 🔗 <a href="https://nimeshpiyumantha.github.io/My-Protfoliyo/assignment/JS/SPA" target="_blank">GitHub Page</a>
+
+
+## - Calculator 
+* 🔗 <a href="https://nimeshpiyumantha.github.io/My-Protfoliyo/assignment/JS/Calculator" target="_blank">GitHub Page</a>
+
 ###  
 ### Clone this repository ✅
 ```md
@@ -42,7 +47,6 @@ https://github.com/NimeshPiyumantha/My-Protfoliyo.git
  
  </div>
  
-
 
 ##
 <p align="center">
