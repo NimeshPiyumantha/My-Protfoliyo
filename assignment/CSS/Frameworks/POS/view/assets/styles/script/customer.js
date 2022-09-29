@@ -53,3 +53,10 @@ function clearTextFields() {
     txtCustomerAddress.value = '';
     txtCustomerSalary.value = '';
 }
+
+/**
+ * clear input fields Values Button
+ * */
+$("#btnClearC").click(function () {
+    clearTextFields();
+});
