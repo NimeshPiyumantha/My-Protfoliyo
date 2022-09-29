@@ -107,3 +107,24 @@ function tblClickEventsI() {
         $("#txtItemPrice").val(price);
     });
 }
+
+/**
+ * Update Model
+ * */
+
+/**
+ * Update Model
+ * Search id Enter Pressed And Load TextFields
+ * */
+$("#searchItemId").keyup(function (event) {
+    if (event.keyCode === 13) {
+        var resultI = items.find(({code}) => code === $("#searchItemId").val());
+        console.log(resultI);
+
+        $("#searchItemId").val(resultI.code);
+        $("#updateItemName").val(resultI.name);
+        $("#updateItemQty").val(resultI.qty);
+        $("#updateItemPrice").val(resultI.price);
+
+    }
+});
