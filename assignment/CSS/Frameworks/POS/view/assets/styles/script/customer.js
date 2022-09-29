@@ -85,6 +85,13 @@ function loadAllCustomers() {
 }
 
 /**
+ * load all customers Button
+ * */
+$("#btnViewAllCustomer").click(function () {
+    loadAllCustomers();
+});
+
+/**
  * Table Listener Click and Load textFields
  * */
 function tblClickEvents() {
