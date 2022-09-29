@@ -40,8 +40,9 @@ $("#btnCSave").click(function () {
     //Add the customer object to the array
     customers.push(customerObject);
 
-    console.log(customers);
+   /* console.log(customers);*/
 
+    loadAllCustomers();
 });
 
 /**
@@ -60,3 +61,25 @@ function clearTextFields() {
 $("#btnClearC").click(function () {
     clearTextFields();
 });
+
+/**
+ * load all customers Method
+ * */
+function loadAllCustomers() {
+
+    //remove all the table body content before adding data
+    $("#customerTable").empty();
+
+
+    // get all customer records from the array
+    for (var customer of customers) {
+        console.log(customer);// customer object
+
+        // Using String Literals to do the same thing as above
+        var row = `<tr><td>${customer.id}</td><td>${customer.name}</td><td>${customer.address}</td><td>${customer.salary}</td></tr>`;
+
+        //then add it to the table body of customer table
+        $("#customerTable").append(row);
+    }
+
+}
