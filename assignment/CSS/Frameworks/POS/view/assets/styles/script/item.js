@@ -178,3 +178,10 @@ function clearDTextFields() {
     DItemQty.value = '';
     DItemPrice.value = '';
 }
+
+/**
+ * clear input fields Values Button
+ * */
+$("#btnDclearI").click(function () {
+    clearDTextFields();
+});
