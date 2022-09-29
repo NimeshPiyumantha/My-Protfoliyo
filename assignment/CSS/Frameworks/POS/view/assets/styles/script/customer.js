@@ -18,7 +18,7 @@ $("#btnCSave").click(function () {
     let customerName = $("#txtCustomerName").val();
     let customerAddress = $("#txtCustomerAddress").val();
     let customerSalary = $("#txtCustomerSalary").val();
-
+    clearTextFields();
 
     //Alert Save
     Swal.fire({
@@ -43,3 +43,13 @@ $("#btnCSave").click(function () {
     console.log(customers);
 
 });
+
+/**
+ * clear input fields Values Method
+ * */
+function clearTextFields() {
+    txtCustomerId.value = '';
+    txtCustomerName.value = '';
+    txtCustomerAddress.value = '';
+    txtCustomerSalary.value = '';
+}
