@@ -40,7 +40,7 @@ $("#btnISave").click(function () {
     //Add the item object to the array
     items.push(itemObject);
 
-     /*console.log(items);*/
+    /*console.log(items);*/
 
     loadAllItems();
 });
@@ -76,10 +76,17 @@ function loadAllItems() {
         console.log(item);// items object
 
         // Using String Literals to do the same thing as above
-        var row= `<tr><td>${item.code}</td><td>${item.name}</td><td>${item.qty}</td><td>${item.price}</td></tr>`;
+        var row = `<tr><td>${item.code}</td><td>${item.name}</td><td>${item.qty}</td><td>${item.price}</td></tr>`;
 
         //then add it to the table body of items table
         $("#ItemTable").append(row);
     }
 
 }
+
+/**
+ * load all Items Button
+ * */
+$("#btnViewAllItems").click(function () {
+    loadAllItems();
+});
