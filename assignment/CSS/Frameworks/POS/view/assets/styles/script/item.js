@@ -18,7 +18,7 @@ $("#btnISave").click(function () {
     let itemName = $("#txtItemName").val();
     let itemQty = $("#txtItemQty").val();
     let itemUnitPrice = $("#txtItemPrice").val();
-
+    clearTextFieldsI();
 
     //Alert Save
     Swal.fire({
@@ -44,3 +44,13 @@ $("#btnISave").click(function () {
 
 
 });
+
+/**
+ * clear input fields Values Method
+ * */
+function clearTextFieldsI() {
+    txtItemsId.value = '';
+    txtItemName.value = '';
+    txtItemQty.value = '';
+    txtItemPrice.value = '';
+}
