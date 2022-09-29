@@ -40,7 +40,7 @@ $("#btnCSave").click(function () {
     //Add the customer object to the array
     customers.push(customerObject);
 
-   /* console.log(customers);*/
+    /* console.log(customers);*/
 
     loadAllCustomers();
 });
@@ -118,7 +118,7 @@ function tblClickEvents() {
  * Update Model
  * Search id Enter Pressed And Load TextFields
  * */
-$("#searchCustomerId").keyup(function(event) {
+$("#searchCustomerId").keyup(function (event) {
     if (event.keyCode === 13) {
         var result = customers.find(({id}) => id === $("#searchCustomerId").val());
         console.log(result);
@@ -149,7 +149,6 @@ $("#btnUclearC").click(function () {
 });
 
 
-
 /**
  * Delete Model
  * */
@@ -159,7 +158,7 @@ $("#btnUclearC").click(function () {
  * Delete Model
  * Search id Enter Pressed And Load TextFields
  * */
-$("#searchCIdDelete").keyup(function(event) {
+$("#searchCIdDelete").keyup(function (event) {
     if (event.keyCode === 13) {
         var result = customers.find(({id}) => id === $("#searchCIdDelete").val());
         console.log(result);
