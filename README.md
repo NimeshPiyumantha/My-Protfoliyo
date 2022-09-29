@@ -26,6 +26,10 @@ This is My Personal Web Project.
 * 🔗 <a href="https://wireframe.cc/JkNiDp" target="_blank">POS System Wire Frame</a>
 * 🔗 <a href="https://www.figma.com/file/omhGhDtaY2KtQchRBKmaQu/POS-System?node-id=0%3A1" target="_blank">POS System Mockup</a>
 * 🔗 <a href="https://www.gloomaps.com/6wJYqTkp9K" target="_blank">POS System Site Map</a>
+* 🔗 <a href="https://nimeshpiyumantha.github.io/My-Protfoliyo/assignment/CSS/Frameworks/POS/" target="_blank">GitHub Page</a>
+
+
+## - POS System (SPA)
 * 🔗 <a href="https://nimeshpiyumantha.github.io/My-Protfoliyo/assignment/JS/SPA" target="_blank">GitHub Page</a>
 
 
