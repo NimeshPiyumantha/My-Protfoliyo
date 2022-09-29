@@ -138,3 +138,10 @@ function clearUTextFields() {
     updateItemQty.value = '';
     updateItemPrice.value = '';
 }
+
+/**
+ * clear input fields Values Button
+ * */
+$("#btnUclearI").click(function () {
+    clearUTextFields();
+});
