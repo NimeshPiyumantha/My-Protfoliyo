@@ -81,7 +81,7 @@ function loadAllItems() {
         //then add it to the table body of items table
         $("#ItemTable").append(row);
     }
-
+    tblClickEventsI();
 }
 
 /**
@@ -90,3 +90,20 @@ function loadAllItems() {
 $("#btnViewAllItems").click(function () {
     loadAllItems();
 });
+
+/**
+ * Table Listener Click and Load textFields
+ * */
+function tblClickEventsI() {
+    $("#ItemTable>tr").click(function () {
+        let code = $(this).children().eq(0).text();
+        let name = $(this).children().eq(1).text();
+        let qty = $(this).children().eq(2).text();
+        let price = $(this).children().eq(3).text();
+
+        $("#txtItemsId").val(code);
+        $("#txtItemName").val(name);
+        $("#txtItemQty").val(qty);
+        $("#txtItemPrice").val(price);
+    });
+}
