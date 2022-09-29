@@ -145,3 +145,26 @@ function clearUTextFields() {
 $("#btnUclearI").click(function () {
     clearUTextFields();
 });
+
+
+/**
+ * Delete Model
+ * */
+
+
+/**
+ * Delete Model
+ * Search id Enter Pressed And Load TextFields
+ * */
+$("#searchDItemId").keyup(function (event) {
+    if (event.keyCode === 13) {
+        var resultI = items.find(({code}) => code === $("#searchDItemId").val());
+        console.log(resultI);
+
+        $("#searchDItemId").val(resultI.code);
+        $("#DItemName").val(resultI.name);
+        $("#DItemQty").val(resultI.qty);
+        $("#DItemPrice").val(resultI.price);
+
+    }
+});
