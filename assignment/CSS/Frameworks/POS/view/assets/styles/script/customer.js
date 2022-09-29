@@ -81,5 +81,45 @@ function loadAllCustomers() {
         //then add it to the table body of customer table
         $("#customerTable").append(row);
     }
-
+    tblClickEvents();
 }
+
+/**
+ * Table Listener Click and Load textFields
+ * */
+function tblClickEvents() {
+    $("#tblCustomer>tr").click(function () {
+        let id = $(this).children().eq(0).text();
+        let name = $(this).children().eq(1).text();
+        let address = $(this).children().eq(2).text();
+        let salary = $(this).children().eq(3).text();
+
+        $("#txtCustomerId").val(id);
+        $("#txtCustomerName").val(name);
+        $("#txtCustomerAddress").val(address);
+        $("#txtCustomerSalary").val(salary);
+    });
+}
+
+
+/**
+ * Update Model
+ * */
+
+
+/**
+ * Update Model
+ * Search id Enter Pressed And Load TextFields
+ * */
+$("#searchCustomerId").keyup(function(event) {
+    if (event.keyCode === 13) {
+        var result = customers.find(({id}) => id === $("#searchCustomerId").val());
+        console.log(result);
+
+        $("#searchCustomerId").val(result.id);
+        $("#nameUpdate").val(result.name);
+        $("#addressUpdate").val(result.address);
+        $("#salaryUpdate").val(result.salary);
+
+    }
+});
