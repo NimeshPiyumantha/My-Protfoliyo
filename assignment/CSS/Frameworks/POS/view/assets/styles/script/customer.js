@@ -123,3 +123,20 @@ $("#searchCustomerId").keyup(function(event) {
 
     }
 });
+
+/**
+ * clear input fields Values Method
+ * */
+function clearUTextFields() {
+    searchCustomerId.value = '';
+    nameUpdate.value = '';
+    addressUpdate.value = '';
+    salaryUpdate.value = '';
+}
+
+/**
+ * clear input fields Values Button
+ * */
+$("#btnUclearC").click(function () {
+    clearUTextFields();
+});
