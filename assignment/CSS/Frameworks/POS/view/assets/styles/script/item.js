@@ -40,9 +40,9 @@ $("#btnISave").click(function () {
     //Add the item object to the array
     items.push(itemObject);
 
-     console.log(items);
+     /*console.log(items);*/
 
-
+    loadAllItems();
 });
 
 /**
@@ -61,3 +61,25 @@ function clearTextFieldsI() {
 $("#btnClearI").click(function () {
     clearTextFieldsI();
 });
+
+/**
+ * load all Items Method
+ * */
+function loadAllItems() {
+
+    //remove all the table body content before adding data
+    $("#ItemTable").empty();
+
+
+    // get all items records from the array
+    for (var item of items) {
+        console.log(item);// items object
+
+        // Using String Literals to do the same thing as above
+        var row= `<tr><td>${item.code}</td><td>${item.name}</td><td>${item.qty}</td><td>${item.price}</td></tr>`;
+
+        //then add it to the table body of items table
+        $("#ItemTable").append(row);
+    }
+
+}
