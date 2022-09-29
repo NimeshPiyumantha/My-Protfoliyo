@@ -128,3 +128,13 @@ $("#searchItemId").keyup(function (event) {
 
     }
 });
+
+/**
+ * clear input fields Values Method
+ * */
+function clearUTextFields() {
+    searchItemId.value = '';
+    updateItemName.value = '';
+    updateItemQty.value = '';
+    updateItemPrice.value = '';
+}
