@@ -140,3 +140,27 @@ function clearUTextFields() {
 $("#btnUclearC").click(function () {
     clearUTextFields();
 });
+
+
+
+/**
+ * Delete Model
+ * */
+
+
+/**
+ * Delete Model
+ * Search id Enter Pressed And Load TextFields
+ * */
+$("#searchCIdDelete").keyup(function(event) {
+    if (event.keyCode === 13) {
+        var result = customers.find(({id}) => id === $("#searchCIdDelete").val());
+        console.log(result);
+
+        $("#searchCIdDelete").val(result.id);
+        $("#disabledNameDelete").val(result.name);
+        $("#disabledAddressDelete").val(result.address);
+        $("#disabledSalaryDelete").val(result.salary);
+
+    }
+});
