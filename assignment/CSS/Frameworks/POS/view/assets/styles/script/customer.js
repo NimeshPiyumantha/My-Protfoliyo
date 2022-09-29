@@ -108,6 +108,25 @@ function tblClickEvents() {
     });
 }
 
+/*
+
+
+/!**
+ * Search id and Load Table
+ * *!/
+$("#searchCusId").keyup(function (event) {
+    if (event.keyCode === 13) {
+        var result = customers.find(({id}) => id === $("#searchCusId").val());
+        console.log(result);
+
+        $("#customerTable").empty();
+        var row = `<tr><td>${result.id}</td><td>${result.name}</td><td>${result.address}</td><td>${result.salary}</td></tr>`;
+        $("#customerTable").append(row);
+
+    }
+});
+
+*/
 
 /**
  * Update Model
