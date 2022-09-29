@@ -164,3 +164,20 @@ $("#searchCIdDelete").keyup(function(event) {
 
     }
 });
+
+/**
+ * clear input fields Values Method
+ * */
+function clearDTextFields() {
+    searchCIdDelete.value = '';
+    disabledNameDelete.value = '';
+    disabledAddressDelete.value = '';
+    disabledSalaryDelete.value = '';
+}
+
+/**
+ * clear input fields Values Button
+ * */
+$("#btnDclearC").click(function () {
+    clearDTextFields();
+});
