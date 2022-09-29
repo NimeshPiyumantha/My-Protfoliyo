@@ -168,3 +168,13 @@ $("#searchDItemId").keyup(function (event) {
 
     }
 });
+
+/**
+ * clear input fields Values Method
+ * */
+function clearDTextFields() {
+    searchDItemId.value = '';
+    DItemName.value = '';
+    DItemQty.value = '';
+    DItemPrice.value = '';
+}
