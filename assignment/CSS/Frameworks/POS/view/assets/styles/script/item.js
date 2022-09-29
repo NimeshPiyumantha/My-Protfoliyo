@@ -54,3 +54,10 @@ function clearTextFieldsI() {
     txtItemQty.value = '';
     txtItemPrice.value = '';
 }
+
+/**
+ * clear input fields Values Button
+ * */
+$("#btnClearI").click(function () {
+    clearTextFieldsI();
+});
