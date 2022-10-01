@@ -81,7 +81,7 @@ function loadAllCustomers() {
         //then add it to the table body of customer table
         $("#customerTable").append(row);
     }
-    tblClickEvents();
+    blindClickEvents();
 }
 
 /**
@@ -94,24 +94,35 @@ $("#btnViewAllCustomer").click(function () {
 /**
  * Table Listener Click and Load textFields
  * */
-function tblClickEvents() {
+function blindClickEvents() {
     $("#customerTable>tr").click(function () {
         let id = $(this).children().eq(0).text();
         let name = $(this).children().eq(1).text();
         let address = $(this).children().eq(2).text();
         let salary = $(this).children().eq(3).text();
+        console.log(id, name, address, salary);
 
         $("#txtCustomerId").val(id);
         $("#txtCustomerName").val(name);
         $("#txtCustomerAddress").val(address);
         $("#txtCustomerSalary").val(salary);
+
+        $("#searchCustomerId").val(id);
+        $("#nameUpdate").val(name);
+        $("#addressUpdate").val(address);
+        $("#salaryUpdate").val(salary);
+
+        $("#searchCIdDelete").val(id);
+        $("#disabledNameDelete").val(name);
+        $("#disabledAddressDelete").val(address);
+        $("#disabledSalaryDelete").val(salary);
     });
 }
 
 /**
  * Table Listener double click and Click and Remove textFields
  * */
-$( "#customerTable" ).dblclick(function() {
+$("#customerTable").dblclick(function () {
     Swal.fire({
         title: 'Do you want to Delete the Select row?',
         showDenyButton: true,
