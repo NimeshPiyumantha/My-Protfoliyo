@@ -204,7 +204,7 @@ function loadAllCustomers() {
 
 
 /**
- * Auto Forces Input Fields Save
+ * Auto Forces Input Fields update
  * */
 $(document).ready(function () {
     $('#searchCustomerId').keypress(function (event) {
