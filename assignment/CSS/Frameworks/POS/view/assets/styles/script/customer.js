@@ -8,6 +8,88 @@
  */
 var customers = [];
 
+
+/**
+ * load all customers Button
+ * */
+$("#btnViewAllCustomer").click(function () {
+    loadAllCustomers();
+});
+
+/**
+ * Table Listener Click and Load textFields
+ * */
+function blindClickEvents() {
+    $("#customerTable>tr").click(function () {
+        let id = $(this).children().eq(0).text();
+        let name = $(this).children().eq(1).text();
+        let address = $(this).children().eq(2).text();
+        let salary = $(this).children().eq(3).text();
+        console.log(id, name, address, salary);
+
+        $("#searchCustomerId").val(id);
+        $("#nameUpdate").val(name);
+        $("#addressUpdate").val(address);
+        $("#salaryUpdate").val(salary);
+
+        $("#searchCIdDelete").val(id);
+        $("#disabledNameDelete").val(name);
+        $("#disabledAddressDelete").val(address);
+        $("#disabledSalaryDelete").val(salary);
+    });
+}
+
+/**
+ * Table Listener double click and Click and Remove textFields
+ * */
+$("#customerTable").dblclick(function () {
+    Swal.fire({
+        title: 'Do you want to Delete the Select row?',
+        showDenyButton: true,
+        showCancelButton: true,
+        confirmButtonText: 'Yes',
+        denyButtonText: 'No',
+        customClass: {
+            actions: 'my-actions',
+            cancelButton: 'order-1 right-gap',
+            confirmButton: 'order-2',
+            denyButton: 'order-3',
+        }
+    }).then((result) => {
+        if (result.isConfirmed) {
+            $(this).children('tr').eq(0).remove();
+            Swal.fire('Delete!', '', 'success')
+        } else if (result.isDenied) {
+            Swal.fire('Select row are not Delete', '', 'info')
+        }
+    })
+
+});
+
+/*
+
+/!**
+ * Search id and Load Table
+ * *!/
+$("#searchCusId").keyup(function (event) {
+    if (event.keyCode === 13) {
+        var result = customers.find(({id}) => id === $("#searchCusId").val());
+        console.log(result);
+
+        $("#customerTable").empty();
+        var row = `<tr><td>${result.id}</td><td>${result.name}</td><td>${result.address}</td><td>${result.salary}</td></tr>`;
+        $("#customerTable").append(row);
+
+    }
+});
+
+*/
+
+/**
+ * Save Model
+ * */
+
+
 /**
  * Button Add New Customer
  * */
@@ -83,87 +165,6 @@ function loadAllCustomers() {
     }
     blindClickEvents();
 }
-
-/**
- * load all customers Button
- * */
-$("#btnViewAllCustomer").click(function () {
-    loadAllCustomers();
-});
-
-/**
- * Table Listener Click and Load textFields
- * */
-function blindClickEvents() {
-    $("#customerTable>tr").click(function () {
-        let id = $(this).children().eq(0).text();
-        let name = $(this).children().eq(1).text();
-        let address = $(this).children().eq(2).text();
-        let salary = $(this).children().eq(3).text();
-        console.log(id, name, address, salary);
-
-        $("#txtCustomerId").val(id);
-        $("#txtCustomerName").val(name);
-        $("#txtCustomerAddress").val(address);
-        $("#txtCustomerSalary").val(salary);
-
-        $("#searchCustomerId").val(id);
-        $("#nameUpdate").val(name);
-        $("#addressUpdate").val(address);
-        $("#salaryUpdate").val(salary);
-
-        $("#searchCIdDelete").val(id);
-        $("#disabledNameDelete").val(name);
-        $("#disabledAddressDelete").val(address);
-        $("#disabledSalaryDelete").val(salary);
-    });
-}
-
-/**
- * Table Listener double click and Click and Remove textFields
- * */
-$("#customerTable").dblclick(function () {
-    Swal.fire({
-        title: 'Do you want to Delete the Select row?',
-        showDenyButton: true,
-        showCancelButton: true,
-        confirmButtonText: 'Yes',
-        denyButtonText: 'No',
-        customClass: {
-            actions: 'my-actions',
-            cancelButton: 'order-1 right-gap',
-            confirmButton: 'order-2',
-            denyButton: 'order-3',
-        }
-    }).then((result) => {
-        if (result.isConfirmed) {
-            $(this).children('tr').eq(0).remove();
-            Swal.fire('Delete!', '', 'success')
-        } else if (result.isDenied) {
-            Swal.fire('Select row are not Delete', '', 'info')
-        }
-    })
-
-});
-
-/*
-
-/!**
- * Search id and Load Table
- * *!/
-$("#searchCusId").keyup(function (event) {
-    if (event.keyCode === 13) {
-        var result = customers.find(({id}) => id === $("#searchCusId").val());
-        console.log(result);
-
-        $("#customerTable").empty();
-        var row = `<tr><td>${result.id}</td><td>${result.name}</td><td>${result.address}</td><td>${result.salary}</td></tr>`;
-        $("#customerTable").append(row);
-
-    }
-});
-
-*/
 
 /**
  * Update Model
