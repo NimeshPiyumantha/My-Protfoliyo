@@ -204,6 +204,38 @@ function loadAllCustomers() {
 
 
 /**
+ * Auto Forces Input Fields Save
+ * */
+$(document).ready(function () {
+    $('#searchCustomerId').keypress(function (event) {
+        if (event.which === 13) {
+            $('#nameUpdate').focus();
+        }
+    });
+    $('#nameUpdate').keypress(function (event) {
+        if (event.which === 13) {
+            $('#addressUpdate').focus();
+        }
+    });
+    $('#addressUpdate').keypress(function (event) {
+        if (event.which === 13) {
+            $('#salaryUpdate').focus();
+        }
+    });
+    $('#salaryUpdate').keypress(function (event) {
+        if (event.which === 13) {
+            $('#bntUpdateCustomer').focus();
+        }
+    });
+    $('#bntUpdateCustomer').keypress(function (event) {
+        if (event.which === 13) {
+            $('#searchCustomerId').focus();
+        }
+    });
+
+});
+
+/**
  * Update Model
  * Search id Enter Pressed And Load TextFields
  * */
