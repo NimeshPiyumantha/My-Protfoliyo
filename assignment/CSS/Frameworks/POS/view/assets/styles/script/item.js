@@ -202,6 +202,39 @@ $("#searchItemId").keyup(function (event) {
 });
 
 /**
+ * Auto Forces Input Fields Update
+ * */
+$(document).ready(function () {
+    $('#searchItemId').keypress(function (event) {
+        if (event.which === 13) {
+            $('#updateItemName').focus();
+        }
+    });
+    $('#updateItemName').keypress(function (event) {
+        if (event.which === 13) {
+            $('#updateItemQty').focus();
+        }
+    });
+    $('#updateItemQty').keypress(function (event) {
+        if (event.which === 13) {
+            $('#updateItemPrice').focus();
+        }
+    });
+    $('#updateItemPrice').keypress(function (event) {
+        if (event.which === 13) {
+            $('#btnUpdateItem').focus();
+        }
+    });
+    $('#btnUpdateItem').keypress(function (event) {
+        if (event.which === 13) {
+            $('#searchItemId').focus();
+        }
+    });
+
+});
+
+
+/**
  * clear input fields Values Method
  * */
 function clearUTextFields() {
