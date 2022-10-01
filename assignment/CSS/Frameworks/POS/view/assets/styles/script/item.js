@@ -8,6 +8,35 @@
  */
 var items = [];
 
+
+/**
+ * load all Items Button
+ * */
+$("#btnViewAllItems").click(function () {
+    loadAllItems();
+});
+
+/**
+ * Table Listener Click and Load textFields
+ * */
+function tblClickEventsI() {
+    $("#ItemTable>tr").click(function () {
+        let code = $(this).children().eq(0).text();
+        let name = $(this).children().eq(1).text();
+        let qty = $(this).children().eq(2).text();
+        let price = $(this).children().eq(3).text();
+
+        $("#txtItemsId").val(code);
+        $("#txtItemName").val(name);
+        $("#txtItemQty").val(qty);
+        $("#txtItemPrice").val(price);
+    });
+}
+
+/**
+ * Save Model
+ * */
+
 /**
  * Button Add New Item
  * */
@@ -82,30 +111,6 @@ function loadAllItems() {
         $("#ItemTable").append(row);
     }
     tblClickEventsI();
-}
-
-/**
- * load all Items Button
- * */
-$("#btnViewAllItems").click(function () {
-    loadAllItems();
-});
-
-/**
- * Table Listener Click and Load textFields
- * */
-function tblClickEventsI() {
-    $("#ItemTable>tr").click(function () {
-        let code = $(this).children().eq(0).text();
-        let name = $(this).children().eq(1).text();
-        let qty = $(this).children().eq(2).text();
-        let price = $(this).children().eq(3).text();
-
-        $("#txtItemsId").val(code);
-        $("#txtItemName").val(name);
-        $("#txtItemQty").val(qty);
-        $("#txtItemPrice").val(price);
-    });
 }
 
 
