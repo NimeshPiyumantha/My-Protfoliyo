@@ -95,7 +95,7 @@ $("#btnViewAllCustomer").click(function () {
  * Table Listener Click and Load textFields
  * */
 function tblClickEvents() {
-    $("#tblCustomer>tr").click(function () {
+    $("#customerTable>tr").click(function () {
         let id = $(this).children().eq(0).text();
         let name = $(this).children().eq(1).text();
         let address = $(this).children().eq(2).text();
@@ -108,8 +108,34 @@ function tblClickEvents() {
     });
 }
 
-/*
+/**
+ * Table Listener double click and Click and Remove textFields
+ * */
+$( "#customerTable" ).dblclick(function() {
+    Swal.fire({
+        title: 'Do you want to Delete the Select row?',
+        showDenyButton: true,
+        showCancelButton: true,
+        confirmButtonText: 'Yes',
+        denyButtonText: 'No',
+        customClass: {
+            actions: 'my-actions',
+            cancelButton: 'order-1 right-gap',
+            confirmButton: 'order-2',
+            denyButton: 'order-3',
+        }
+    }).then((result) => {
+        if (result.isConfirmed) {
+            $(this).children('tr').eq(0).remove();
+            Swal.fire('Delete!', '', 'success')
+        } else if (result.isDenied) {
+            Swal.fire('Select row are not Delete', '', 'info')
+        }
+    })
 
+});
+
+/*
 
 /!**
  * Search id and Load Table
