@@ -26,10 +26,15 @@ function tblClickEventsI() {
         let qty = $(this).children().eq(2).text();
         let price = $(this).children().eq(3).text();
 
-        $("#txtItemsId").val(code);
-        $("#txtItemName").val(name);
-        $("#txtItemQty").val(qty);
-        $("#txtItemPrice").val(price);
+        $("#searchItemId").val(code);
+        $("#updateItemName").val(name);
+        $("#updateItemQty").val(qty);
+        $("#updateItemPrice").val(price);
+
+        $("#searchDItemId").val(code);
+        $("#DItemName").val(name);
+        $("#DItemQty").val(qty);
+        $("#DItemPrice").val(price);
     });
 }
 
