@@ -128,6 +128,38 @@ $("#btnCSave").click(function () {
 });
 
 /**
+ * Auto Forces Input Fields Save
+ * */
+$(document).ready(function () {
+    $('#txtCustomerId').keypress(function (event) {
+        if (event.which === 13) {
+            $('#txtCustomerName').focus();
+        }
+    });
+    $('#txtCustomerName').keypress(function (event) {
+        if (event.which === 13) {
+            $('#txtCustomerAddress').focus();
+        }
+    });
+    $('#txtCustomerAddress').keypress(function (event) {
+        if (event.which === 13) {
+            $('#txtCustomerSalary').focus();
+        }
+    });
+    $('#txtCustomerSalary').keypress(function (event) {
+        if (event.which === 13) {
+            $('#btnCSave').focus();
+        }
+    });
+    $('#btnCSave').keypress(function (event) {
+        if (event.which === 13) {
+            $('#txtCustomerId').focus();
+        }
+    });
+
+});
+
+/**
  * clear input fields Values Method
  * */
 function clearTextFields() {
