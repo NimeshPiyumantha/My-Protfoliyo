@@ -189,6 +189,16 @@ $("#btnSearchItem").click(function (){
     var row = `<tr><td>${resultI.code}</td><td>${resultI.name}</td><td>${resultI.qty}</td><td>${resultI.price}</td></tr>`;
     $("#ItemTable").append(row);
 
+    $("#searchItemId").val(resultI.code);
+    $("#updateItemName").val(resultI.name);
+    $("#updateItemQty").val(resultI.qty);
+    $("#updateItemPrice").val(resultI.price);
+
+    $("#searchDItemId").val(resultI.code);
+    $("#DItemName").val(resultI.name);
+    $("#DItemQty").val(resultI.qty);
+    $("#DItemPrice").val(resultI.price);
+
 });
 
 /**
@@ -212,17 +222,20 @@ $(document).ready(function () {
  * */
 $("#clearSearchItem").click(function () {
     ItemIdSearch.value = '';
+    clearUTextFields();
+    clearDTextFields();
 });
 
 /**
  * Update Model
  * */
 
+/*
 
-/**
+/!**
  * Update Model
  * Search id Enter Pressed And Load TextFields
- * */
+ * *!/
 $("#searchItemId").keyup(function (event) {
     if (event.keyCode === 13) {
         var resultI = items.find(({code}) => code === $("#searchItemId").val());
@@ -235,6 +248,8 @@ $("#searchItemId").keyup(function (event) {
 
     }
 });
+
+*/
 
 /**
  * Auto Forces Input Fields Update
@@ -291,11 +306,12 @@ $("#btnUclearI").click(function () {
  * Delete Model
  * */
 
+/*
 
-/**
+/!**
  * Delete Model
  * Search id Enter Pressed And Load TextFields
- * */
+ * *!/
 $("#searchDItemId").keyup(function (event) {
     if (event.keyCode === 13) {
         var resultI = items.find(({code}) => code === $("#searchDItemId").val());
@@ -308,6 +324,8 @@ $("#searchDItemId").keyup(function (event) {
 
     }
 });
+*/
+
 
 /**
  * clear input fields Values Method

@@ -78,6 +78,16 @@ $("#btnSearchCus").click(function (){
         var row = `<tr><td>${result.id}</td><td>${result.name}</td><td>${result.address}</td><td>${result.salary}</td></tr>`;
         $("#customerTable").append(row);
 
+    $("#searchCustomerId").val(result.id);
+    $("#nameUpdate").val(result.name);
+    $("#addressUpdate").val(result.address);
+    $("#salaryUpdate").val(result.salary);
+
+    $("#searchCIdDelete").val(result.id);
+    $("#disabledNameDelete").val(result.name);
+    $("#disabledAddressDelete").val(result.address);
+    $("#disabledSalaryDelete").val(result.salary);
+
 });
 
 /**
@@ -101,6 +111,8 @@ $(document).ready(function () {
  * */
 $("#clearSearchCus").click(function () {
     searchCusId.value = '';
+    clearDTextFields();
+    clearUTextFields();
 });
 
 
@@ -254,10 +266,11 @@ $(document).ready(function () {
 
 });
 
-/**
+/*
+/!**
  * Update Model
  * Search id Enter Pressed And Load TextFields
- * */
+ * *!/
 $("#searchCustomerId").keyup(function (event) {
     if (event.keyCode === 13) {
         var result = customers.find(({id}) => id === $("#searchCustomerId").val());
@@ -269,7 +282,7 @@ $("#searchCustomerId").keyup(function (event) {
         $("#salaryUpdate").val(result.salary);
 
     }
-});
+});*/
 
 /**
  * clear input fields Values Method
@@ -293,11 +306,12 @@ $("#btnUclearC").click(function () {
  * Delete Model
  * */
 
+/*
 
-/**
+/!**
  * Delete Model
  * Search id Enter Pressed And Load TextFields
- * */
+ * *!/
 $("#searchCIdDelete").keyup(function (event) {
     if (event.keyCode === 13) {
         var result = customers.find(({id}) => id === $("#searchCIdDelete").val());
@@ -310,6 +324,7 @@ $("#searchCIdDelete").keyup(function (event) {
 
     }
 });
+*/
 
 /**
  * clear input fields Values Method
