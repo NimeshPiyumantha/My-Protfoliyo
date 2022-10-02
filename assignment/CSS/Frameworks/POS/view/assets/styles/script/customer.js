@@ -66,13 +66,11 @@ $("#customerTable").dblclick(function () {
 
 });
 
-/*
 
-/!**
+/**
  * Search id and Load Table
- * *!/
-$("#searchCusId").keyup(function (event) {
-    if (event.keyCode === 13) {
+ * */
+$("#btnSearchCus").click(function (){
         var result = customers.find(({id}) => id === $("#searchCusId").val());
         console.log(result);
 
@@ -80,10 +78,8 @@ $("#searchCusId").keyup(function (event) {
         var row = `<tr><td>${result.id}</td><td>${result.name}</td><td>${result.address}</td><td>${result.salary}</td></tr>`;
         $("#customerTable").append(row);
 
-    }
 });
 
-*/
 
 /**
  * Save Model
