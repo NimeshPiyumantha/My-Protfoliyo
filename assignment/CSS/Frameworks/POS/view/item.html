@@ -91,14 +91,18 @@
             <!-- Item Details Search Section Start -->
             <div class="col-10 col-md-5 col-lg-4 p-0 mt-2 rounded-3" style="background-color: white">
                 <h4 class="text-center p-2 text-light rounded-3" style="background: #16A085">Search Item</h4>
+
+                <div class="mb-3 ms-3 me-3 ">
+                    <input class="form-control me-2" id="ItemIdSearch"
+                           placeholder="Input Name/Code/Tp Here"
+                           type="search">
+                </div>
                 <form>
-                    <div class="mb-3 ms-3 me-3 ">
-                        <input class="form-control me-2" id="ItemIdSearch"
-                               placeholder="Input Name/Code/Tp Here"
-                               type="search">
-                    </div>
-                    <button class="btn btn-primary ms-3 mb-3 ms-md-3 ms-lg-3 btn-success" type="button" id="btnSearchItem">Search</button>
-                    <button class="btn btn-warning ms-3 mb-3 ms-md-3 ms-lg-3" type="button" id="clearSearchItem">Clear</button>
+                    <button class="btn btn-primary ms-3 mb-3 ms-md-3 ms-lg-3 btn-success" id="btnSearchItem"
+                            type="button">Search
+                    </button>
+                    <button class="btn btn-warning ms-3 mb-3 ms-md-3 ms-lg-3" id="clearSearchItem" type="button">Clear
+                    </button>
                 </form>
             </div>
             <!-- Item Details Search Section End -->
@@ -117,7 +121,7 @@
                         data-bs-toggle="modal" type="button">Delete Item
                 </button>
 
-                <button class="btn btn-primary mt-2 m-1" type="button" id="btnViewAllItems">View All Item</button>
+                <button class="btn btn-primary mt-2 m-1" id="btnViewAllItems" type="button">View All Item</button>
             </div>
             <!-- Item Details Button Section End -->
         </div>
@@ -179,8 +183,8 @@
             </div>
             <div class="modal-footer">
                 <button class="btn btn-secondary" data-bs-dismiss="modal" type="button">Close</button>
-                <button class="btn btn-warning" type="reset" id="btnClearI">Clear</button>
-                <button class="btn btn-primary" type="button" id="btnISave">Save changes</button>
+                <button class="btn btn-warning" id="btnClearI" type="reset">Clear</button>
+                <button class="btn btn-primary" id="btnISave" type="button">Save changes</button>
             </div>
         </div>
     </div>
@@ -221,8 +225,8 @@
             </div>
             <div class="modal-footer">
                 <button class="btn btn-secondary" data-bs-dismiss="modal" type="button">Close</button>
-                <button class="btn btn-warning" type="reset" id="btnUclearI">Clear</button>
-                <button class="btn btn-primary" type="button" id="btnUpdateItem">Save changes</button>
+                <button class="btn btn-warning" id="btnUclearI" type="reset">Clear</button>
+                <button class="btn btn-primary" id="btnUpdateItem" type="button">Save changes</button>
             </div>
         </div>
     </div>
@@ -264,7 +268,7 @@
             </div>
             <div class="modal-footer">
                 <button class="btn btn-secondary" data-bs-dismiss="modal" type="button">Close</button>
-                <button class="btn btn-warning" type="reset" id="btnDclearI">Clear</button>
+                <button class="btn btn-warning" id="btnDclearI" type="reset">Clear</button>
                 <button class="btn btn-danger" type="button">Delete</button>
             </div>
         </div>
