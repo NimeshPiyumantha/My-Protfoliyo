@@ -96,6 +96,13 @@ $(document).ready(function () {
     });
 });
 
+/**
+ * clear Search input fields Values Button
+ * */
+$("#clearSearchCus").click(function () {
+    searchCusId.value = '';
+});
+
 
 /**
  * Save Model
