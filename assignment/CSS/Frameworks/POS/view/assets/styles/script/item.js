@@ -191,6 +191,21 @@ $("#btnSearchItem").click(function (){
 
 });
 
+/**
+* Auto Forces Input Fields Search
+* */
+$(document).ready(function () {
+    $('#ItemIdSearch').keypress(function (event) {
+        if (event.which === 13) {
+            $('#btnSearchItem').focus();
+        }
+    });
+    $('#btnSearchItem').keypress(function (event) {
+        if (event.which === 13) {
+            $('#ItemIdSearch').focus();
+        }
+    });
+});
 
 /**
  * Update Model

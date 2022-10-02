@@ -80,6 +80,22 @@ $("#btnSearchCus").click(function (){
 
 });
 
+/**
+ * Auto Forces Input Fields Search
+ * */
+$(document).ready(function () {
+    $('#searchCusId').keypress(function (event) {
+        if (event.which === 13) {
+            $('#btnSearchCus').focus();
+        }
+    });
+    $('#btnSearchCus').keypress(function (event) {
+        if (event.which === 13) {
+            $('#searchCusId').focus();
+        }
+    });
+});
+
 
 /**
  * Save Model
