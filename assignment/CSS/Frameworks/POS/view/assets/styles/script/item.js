@@ -208,6 +208,13 @@ $(document).ready(function () {
 });
 
 /**
+ * clear Search input fields Values Button
+ * */
+$("#clearSearchItem").click(function () {
+    ItemIdSearch.value = '';
+});
+
+/**
  * Update Model
  * */
 
