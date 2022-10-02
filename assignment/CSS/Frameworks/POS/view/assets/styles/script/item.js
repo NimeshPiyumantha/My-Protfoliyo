@@ -178,6 +178,19 @@ function loadAllItems() {
     tblClickEventsI();
 }
 
+/**
+ * Search id and Load Table
+ * */
+$("#btnSearchItem").click(function (){
+    var resultI = items.find(({code}) => code === $("#ItemIdSearch").val());
+    console.log(resultI);
+
+    $("#ItemTable").empty();
+    var row = `<tr><td>${resultI.code}</td><td>${resultI.name}</td><td>${resultI.qty}</td><td>${resultI.price}</td></tr>`;
+    $("#ItemTable").append(row);
+
+});
+
 
 /**
  * Update Model
