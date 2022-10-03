@@ -117,75 +117,75 @@ var regExItemPrice = /^[0-9]{1,10}$/;
 var regExItemQtyOnHand = /^[0-9]{1,3}$/;
 
 
-    $('#txtItemsId').keypress(function (event) {
-        let input = $("#txtItemsId").val();
+$('#txtItemsId').keypress(function (event) {
+    let input = $("#txtItemsId").val();
 
-        if (regExItemCode.test(input)) {
-            $("#txtItemsId").css('border', '2px solid green');
-            $("#lblItemId").text("");
+    if (regExItemCode.test(input)) {
+        $("#txtItemsId").css('border', '2px solid green');
+        $("#lblItemId").text("");
 
         if (event.which === 13) {
             $('#txtItemName').focus();
         }
-        } else {
-            $("#txtItemsId").css('border', '2px solid red');
-            $("#lblItemId").text("Wrong format : I00-001");
-        }
-    });
+    } else {
+        $("#txtItemsId").css('border', '2px solid red');
+        $("#lblItemId").text("Wrong format : I00-001");
+    }
+});
 
-    $('#txtItemName').keypress(function (event) {
-        let input = $("#txtItemName").val();
+$('#txtItemName').keypress(function (event) {
+    let input = $("#txtItemName").val();
 
-        if (regExItemName.test(input)) {
-            $("#txtItemName").css('border', '2px solid green');
-            $("#lblItemName").text("");
+    if (regExItemName.test(input)) {
+        $("#txtItemName").css('border', '2px solid green');
+        $("#lblItemName").text("");
 
         if (event.which === 13) {
             $('#txtItemQty').focus();
         }
-        } else {
-            $("#txtItemName").css('border', '2px solid red');
-            $("#lblItemName").text("Wrong format : Bun");
-        }
-    });
+    } else {
+        $("#txtItemName").css('border', '2px solid red');
+        $("#lblItemName").text("Wrong format : Bun");
+    }
+});
 
-    $('#txtItemQty').keypress(function (event) {
-        let input = $("#txtItemQty").val();
+$('#txtItemQty').keypress(function (event) {
+    let input = $("#txtItemQty").val();
 
-        if (regExItemQtyOnHand.test(input)) {
-            $("#txtItemQty").css('border', '2px solid green');
-            $("#lblItemQty").text("");
+    if (regExItemQtyOnHand.test(input)) {
+        $("#txtItemQty").css('border', '2px solid green');
+        $("#lblItemQty").text("");
 
         if (event.which === 13) {
             $('#txtItemPrice').focus();
         }
-        } else {
-            $("#txtItemQty").css('border', '2px solid red');
-            $("#lblItemQty").text("Wrong format : 5");
-        }
-    });
+    } else {
+        $("#txtItemQty").css('border', '2px solid red');
+        $("#lblItemQty").text("Wrong format : 5");
+    }
+});
 
-    $('#txtItemPrice').keypress(function (event) {
-        let input = $("#txtItemPrice").val();
+$('#txtItemPrice').keypress(function (event) {
+    let input = $("#txtItemPrice").val();
 
-        if (regExItemPrice.test(input)) {
-            $("#txtItemPrice").css('border', '2px solid green');
-            $("#lblItemPrice").text("");
+    if (regExItemPrice.test(input)) {
+        $("#txtItemPrice").css('border', '2px solid green');
+        $("#lblItemPrice").text("");
 
         if (event.which === 13) {
             $('#btnISave').focus();
         }
-        } else {
-            $("#txtItemPrice").css('border', '2px solid red');
-            $("#lblItemPrice").text("Wrong format : 450");
-        }
-    });
+    } else {
+        $("#txtItemPrice").css('border', '2px solid red');
+        $("#lblItemPrice").text("Wrong format : 450");
+    }
+});
 
-    $('#btnISave').keypress(function (event) {
-        if (event.which === 13) {
-            $('#txtItemsId').focus();
-        }
-    });
+$('#btnISave').keypress(function (event) {
+    if (event.which === 13) {
+        $('#txtItemsId').focus();
+    }
+});
 
 
 /**
@@ -230,7 +230,7 @@ function loadAllItems() {
 /**
  * Search id and Load Table
  * */
-$("#btnSearchItem").click(function (){
+$("#btnSearchItem").click(function () {
     var resultI = items.find(({code}) => code === $("#ItemIdSearch").val());
     console.log(resultI);
 
@@ -251,8 +251,8 @@ $("#btnSearchItem").click(function (){
 });
 
 /**
-* Auto Forces Input Fields Search
-* */
+ * Auto Forces Input Fields Search
+ * */
 $(document).ready(function () {
     $('#ItemIdSearch').keypress(function (event) {
         if (event.which === 13) {
@@ -303,33 +303,75 @@ $("#searchItemId").keyup(function (event) {
 /**
  * Auto Forces Input Fields Update
  * */
-$(document).ready(function () {
-    $('#searchItemId').keypress(function (event) {
+
+$('#searchItemId').keypress(function (event) {
+    let input = $("#searchItemId").val();
+
+    if (regExItemCode.test(input)) {
+        $("#searchItemId").css('border', '2px solid green');
+        $("#lblUItemId").text("");
+
         if (event.which === 13) {
             $('#updateItemName').focus();
         }
-    });
-    $('#updateItemName').keypress(function (event) {
+    } else {
+        $("#searchItemId").css('border', '2px solid red');
+        $("#lblUItemId").text("Wrong format : I00-001");
+    }
+});
+
+$('#updateItemName').keypress(function (event) {
+    let input = $("#updateItemName").val();
+
+    if (regExItemName.test(input)) {
+        $("#updateItemName").css('border', '2px solid green');
+        $("#lblUItemName").text("");
+
         if (event.which === 13) {
             $('#updateItemQty').focus();
         }
-    });
-    $('#updateItemQty').keypress(function (event) {
+    } else {
+        $("#updateItemName").css('border', '2px solid red');
+        $("#lblUItemName").text("Wrong format : Bun");
+    }
+});
+
+$('#updateItemQty').keypress(function (event) {
+    let input = $("#updateItemQty").val();
+
+    if (regExItemQtyOnHand.test(input)) {
+        $("#updateItemQty").css('border', '2px solid green');
+        $("#lblUItemQty").text("");
+
         if (event.which === 13) {
             $('#updateItemPrice').focus();
         }
-    });
-    $('#updateItemPrice').keypress(function (event) {
+    } else {
+        $("#updateItemQty").css('border', '2px solid red');
+        $("#lblUItemQty").text("Wrong format : 5");
+    }
+});
+
+$('#updateItemPrice').keypress(function (event) {
+    let input = $("#updateItemPrice").val();
+
+    if (regExItemPrice.test(input)) {
+        $("#updateItemPrice").css('border', '2px solid green');
+        $("#lblUItemPrice").text("");
+
         if (event.which === 13) {
             $('#btnUpdateItem').focus();
         }
-    });
-    $('#btnUpdateItem').keypress(function (event) {
-        if (event.which === 13) {
-            $('#searchItemId').focus();
-        }
-    });
+    } else {
+        $("#updateItemPrice").css('border', '2px solid red');
+        $("#lblUItemPrice").text("Wrong format : 450");
+    }
+});
 
+$('#btnUpdateItem').keypress(function (event) {
+    if (event.which === 13) {
+        $('#searchItemId').focus();
+    }
 });
 
 
