@@ -70,13 +70,13 @@ $("#customerTable").dblclick(function () {
 /**
  * Search id and Load Table
  * */
-$("#btnSearchCus").click(function (){
-        var result = customers.find(({id}) => id === $("#searchCusId").val());
-        console.log(result);
+$("#btnSearchCus").click(function () {
+    var result = customers.find(({id}) => id === $("#searchCusId").val());
+    console.log(result);
 
-        $("#customerTable").empty();
-        var row = `<tr><td>${result.id}</td><td>${result.name}</td><td>${result.address}</td><td>${result.salary}</td></tr>`;
-        $("#customerTable").append(row);
+    $("#customerTable").empty();
+    var row = `<tr><td>${result.id}</td><td>${result.name}</td><td>${result.address}</td><td>${result.salary}</td></tr>`;
+    $("#customerTable").append(row);
 
     $("#searchCustomerId").val(result.id);
     $("#nameUpdate").val(result.name);
@@ -161,34 +161,81 @@ $("#btnCSave").click(function () {
 /**
  * Auto Forces Input Fields Save
  * */
-$(document).ready(function () {
-    $('#txtCustomerId').keypress(function (event) {
+var regExCusID = /^(C00-)[0-9]{3,4}$/;
+var regExCusName = /^[A-z ]{3,20}$/;
+var regExCusAddress = /^[A-z0-9/ ]{4,30}$/;
+var regExSalary = /[0-9]{4,19}$/;
+
+$('#txtCustomerId').keypress(function (event) {
+    let input = $("#txtCustomerId").val();
+
+    if (regExCusID.test(input)) {
+        $("#txtCustomerId").css('border', '2px solid green');
+        $("#lblCusID").text("");
+
         if (event.which === 13) {
             $('#txtCustomerName').focus();
         }
-    });
-    $('#txtCustomerName').keypress(function (event) {
+    } else {
+        $("#txtCustomerId").css('border', '2px solid red');
+        $("#lblCusID").text("Wrong format : C00-001");
+    }
+});
+
+$('#txtCustomerName').keypress(function (event) {
+    let input = $("#txtCustomerName").val();
+
+    if (regExCusName.test(input)) {
+        $("#txtCustomerName").css('border', '2px solid green');
+        $("#lblCusName").text("");
+
         if (event.which === 13) {
             $('#txtCustomerAddress').focus();
         }
-    });
-    $('#txtCustomerAddress').keypress(function (event) {
+    } else {
+        $("#txtCustomerName").css('border', '2px solid red');
+        $("#lblCusName").text("Wrong format : Nimesh");
+    }
+});
+
+$('#txtCustomerAddress').keypress(function (event) {
+    let input = $("#txtCustomerAddress").val();
+
+    if (regExCusAddress.test(input)) {
+        $("#txtCustomerAddress").css('border', '2px solid green');
+        $("#lblCusAddress").text("");
+
         if (event.which === 13) {
             $('#txtCustomerSalary').focus();
         }
-    });
-    $('#txtCustomerSalary').keypress(function (event) {
+    } else {
+        $("#txtCustomerAddress").css('border', '2px solid red');
+        $("#lblCusAddress").text("Wrong format : Galle");
+    }
+});
+
+$('#txtCustomerSalary').keypress(function (event) {
+    let input = $("#txtCustomerSalary").val();
+
+    if (regExSalary.test(input)) {
+        $("#txtCustomerSalary").css('border', '2px solid green');
+        $("#lblCusSalary").text("");
+
         if (event.which === 13) {
             $('#btnCSave').focus();
         }
-    });
-    $('#btnCSave').keypress(function (event) {
-        if (event.which === 13) {
-            $('#txtCustomerId').focus();
-        }
-    });
-
+    } else {
+        $("#txtCustomerSalary").css('border', '2px solid red');
+        $("#lblCusSalary").text("Wrong format : 70000");
+    }
 });
+
+$('#btnCSave').keypress(function (event) {
+    if (event.which === 13) {
+        $('#txtCustomerId').focus();
+    }
+});
+
 
 /**
  * clear input fields Values Method
