@@ -284,7 +284,7 @@ function loadAllCustomers() {
 /**
  * Auto Forces Input Fields update
  * */
-$(document).ready(function () {
+
     $('#searchCustomerId').keypress(function (event) {
         let input = $("#searchCustomerId").val();
 
@@ -355,7 +355,6 @@ $(document).ready(function () {
         }
     });
 
-});
 
 /*
 /!**

@@ -110,34 +110,83 @@ $("#btnISave").click(function () {
 /**
  * Auto Forces Input Fields Save
  * */
-$(document).ready(function () {
+
+var regExItemCode = /^(I00-)[0-9]{3,4}$/;
+var regExItemName = /^[A-z ]{3,20}$/;
+var regExItemPrice = /^[0-9]{1,10}$/;
+var regExItemQtyOnHand = /^[0-9]{1,3}$/;
+
+
     $('#txtItemsId').keypress(function (event) {
+        let input = $("#txtItemsId").val();
+
+        if (regExItemCode.test(input)) {
+            $("#txtItemsId").css('border', '2px solid green');
+            $("#lblItemId").text("");
+
         if (event.which === 13) {
             $('#txtItemName').focus();
         }
+        } else {
+            $("#txtItemsId").css('border', '2px solid red');
+            $("#lblItemId").text("Wrong format : I00-001");
+        }
     });
+
     $('#txtItemName').keypress(function (event) {
+        let input = $("#txtItemName").val();
+
+        if (regExItemName.test(input)) {
+            $("#txtItemName").css('border', '2px solid green');
+            $("#lblItemName").text("");
+
         if (event.which === 13) {
             $('#txtItemQty').focus();
         }
+        } else {
+            $("#txtItemName").css('border', '2px solid red');
+            $("#lblItemName").text("Wrong format : Bun");
+        }
     });
+
     $('#txtItemQty').keypress(function (event) {
+        let input = $("#txtItemQty").val();
+
+        if (regExItemQtyOnHand.test(input)) {
+            $("#txtItemQty").css('border', '2px solid green');
+            $("#lblItemQty").text("");
+
         if (event.which === 13) {
             $('#txtItemPrice').focus();
         }
+        } else {
+            $("#txtItemQty").css('border', '2px solid red');
+            $("#lblItemQty").text("Wrong format : 5");
+        }
     });
+
     $('#txtItemPrice').keypress(function (event) {
+        let input = $("#txtItemPrice").val();
+
+        if (regExItemPrice.test(input)) {
+            $("#txtItemPrice").css('border', '2px solid green');
+            $("#lblItemPrice").text("");
+
         if (event.which === 13) {
             $('#btnISave').focus();
         }
+        } else {
+            $("#txtItemPrice").css('border', '2px solid red');
+            $("#lblItemPrice").text("Wrong format : 450");
+        }
     });
+
     $('#btnISave').keypress(function (event) {
         if (event.which === 13) {
             $('#txtItemsId').focus();
         }
     });
 
-});
 
 /**
  * clear input fields Values Method
