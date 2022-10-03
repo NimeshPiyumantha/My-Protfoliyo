@@ -286,25 +286,69 @@ function loadAllCustomers() {
  * */
 $(document).ready(function () {
     $('#searchCustomerId').keypress(function (event) {
-        if (event.which === 13) {
-            $('#nameUpdate').focus();
+        let input = $("#searchCustomerId").val();
+
+        if (regExCusID.test(input)) {
+            $("#searchCustomerId").css('border', '2px solid green');
+            $("#lblUCusId").text("");
+
+            if (event.which === 13) {
+                $('#nameUpdate').focus();
+            }
+        } else {
+            $("#searchCustomerId").css('border', '2px solid red');
+            $("#lblUCusId").text("Wrong format : C00-001");
         }
     });
+
     $('#nameUpdate').keypress(function (event) {
-        if (event.which === 13) {
-            $('#addressUpdate').focus();
+        let input = $("#nameUpdate").val();
+
+        if (regExCusName.test(input)) {
+            $("#nameUpdate").css('border', '2px solid green');
+            $("#lblUCusName").text("");
+
+            if (event.which === 13) {
+                $('#addressUpdate').focus();
+            }
+        } else {
+            $("#nameUpdate").css('border', '2px solid red');
+            $("#lblUCusName").text("Wrong format : Nimesh");
         }
     });
+
     $('#addressUpdate').keypress(function (event) {
-        if (event.which === 13) {
-            $('#salaryUpdate').focus();
+        let input = $("#addressUpdate").val();
+
+        if (regExCusAddress.test(input)) {
+            $("#addressUpdate").css('border', '2px solid green');
+            $("#lblUCusAddress").text("");
+
+            if (event.which === 13) {
+                $('#salaryUpdate').focus();
+            }
+        } else {
+            $("#addressUpdate").css('border', '2px solid red');
+            $("#lblUCusAddress").text("Wrong format : Galle");
         }
     });
+
     $('#salaryUpdate').keypress(function (event) {
-        if (event.which === 13) {
-            $('#bntUpdateCustomer').focus();
+        let input = $("#salaryUpdate").val();
+
+        if (regExSalary.test(input)) {
+            $("#salaryUpdate").css('border', '2px solid green');
+            $("#lblUCusSalary").text("");
+
+            if (event.which === 13) {
+                $('#bntUpdateCustomer').focus();
+            }
+        } else {
+            $("#salaryUpdate").css('border', '2px solid red');
+            $("#lblUCusSalary").text("Wrong format : 70000");
         }
     });
+
     $('#bntUpdateCustomer').keypress(function (event) {
         if (event.which === 13) {
             $('#searchCustomerId').focus();
