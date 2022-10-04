@@ -116,6 +116,11 @@ var regExItemName = /^[A-z ]{3,20}$/;
 var regExItemPrice = /^[0-9]{1,10}$/;
 var regExItemQtyOnHand = /^[0-9]{1,3}$/;
 
+$("#txtItemsId,#txtItemName,#txtItemQty,#txtItemPrice").on('keydown', function (event) {
+    if (event.key == "Tab") {
+        event.preventDefault();
+    }
+});
 
 $('#txtItemsId').keypress(function (event) {
     let input = $("#txtItemsId").val();
@@ -303,6 +308,11 @@ $("#searchItemId").keyup(function (event) {
 /**
  * Auto Forces Input Fields Update
  * */
+$("#searchItemId,#updateItemName,#updateItemQty,#updateItemPrice").on('keydown', function (event) {
+    if (event.key == "Tab") {
+        event.preventDefault();
+    }
+});
 
 $('#searchItemId').keypress(function (event) {
     let input = $("#searchItemId").val();

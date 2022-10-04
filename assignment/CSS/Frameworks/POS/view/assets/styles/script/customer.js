@@ -166,6 +166,12 @@ var regExCusName = /^[A-z ]{3,20}$/;
 var regExCusAddress = /^[A-z0-9/ ]{4,30}$/;
 var regExSalary = /[0-9]{4,19}$/;
 
+$("#txtCustomerId,#txtCustomerName,#txtCustomerAddress,#txtCustomerSalary").on('keydown', function (event) {
+    if (event.key == "Tab") {
+        event.preventDefault();
+    }
+});
+
 $('#txtCustomerId').keypress(function (event) {
     let input = $("#txtCustomerId").val();
 
@@ -285,75 +291,81 @@ function loadAllCustomers() {
  * Auto Forces Input Fields update
  * */
 
-    $('#searchCustomerId').keypress(function (event) {
-        let input = $("#searchCustomerId").val();
+$("#searchCustomerId,#nameUpdate,#addressUpdate,#salaryUpdate").on('keydown', function (event) {
+    if (event.key == "Tab") {
+        event.preventDefault();
+    }
+});
 
-        if (regExCusID.test(input)) {
-            $("#searchCustomerId").css('border', '2px solid green');
-            $("#lblUCusId").text("");
+$('#searchCustomerId').keypress(function (event) {
+    let input = $("#searchCustomerId").val();
 
-            if (event.which === 13) {
-                $('#nameUpdate').focus();
-            }
-        } else {
-            $("#searchCustomerId").css('border', '2px solid red');
-            $("#lblUCusId").text("Wrong format : C00-001");
-        }
-    });
+    if (regExCusID.test(input)) {
+        $("#searchCustomerId").css('border', '2px solid green');
+        $("#lblUCusId").text("");
 
-    $('#nameUpdate').keypress(function (event) {
-        let input = $("#nameUpdate").val();
-
-        if (regExCusName.test(input)) {
-            $("#nameUpdate").css('border', '2px solid green');
-            $("#lblUCusName").text("");
-
-            if (event.which === 13) {
-                $('#addressUpdate').focus();
-            }
-        } else {
-            $("#nameUpdate").css('border', '2px solid red');
-            $("#lblUCusName").text("Wrong format : Nimesh");
-        }
-    });
-
-    $('#addressUpdate').keypress(function (event) {
-        let input = $("#addressUpdate").val();
-
-        if (regExCusAddress.test(input)) {
-            $("#addressUpdate").css('border', '2px solid green');
-            $("#lblUCusAddress").text("");
-
-            if (event.which === 13) {
-                $('#salaryUpdate').focus();
-            }
-        } else {
-            $("#addressUpdate").css('border', '2px solid red');
-            $("#lblUCusAddress").text("Wrong format : Galle");
-        }
-    });
-
-    $('#salaryUpdate').keypress(function (event) {
-        let input = $("#salaryUpdate").val();
-
-        if (regExSalary.test(input)) {
-            $("#salaryUpdate").css('border', '2px solid green');
-            $("#lblUCusSalary").text("");
-
-            if (event.which === 13) {
-                $('#bntUpdateCustomer').focus();
-            }
-        } else {
-            $("#salaryUpdate").css('border', '2px solid red');
-            $("#lblUCusSalary").text("Wrong format : 70000");
-        }
-    });
-
-    $('#bntUpdateCustomer').keypress(function (event) {
         if (event.which === 13) {
-            $('#searchCustomerId').focus();
+            $('#nameUpdate').focus();
         }
-    });
+    } else {
+        $("#searchCustomerId").css('border', '2px solid red');
+        $("#lblUCusId").text("Wrong format : C00-001");
+    }
+});
+
+$('#nameUpdate').keypress(function (event) {
+    let input = $("#nameUpdate").val();
+
+    if (regExCusName.test(input)) {
+        $("#nameUpdate").css('border', '2px solid green');
+        $("#lblUCusName").text("");
+
+        if (event.which === 13) {
+            $('#addressUpdate').focus();
+        }
+    } else {
+        $("#nameUpdate").css('border', '2px solid red');
+        $("#lblUCusName").text("Wrong format : Nimesh");
+    }
+});
+
+$('#addressUpdate').keypress(function (event) {
+    let input = $("#addressUpdate").val();
+
+    if (regExCusAddress.test(input)) {
+        $("#addressUpdate").css('border', '2px solid green');
+        $("#lblUCusAddress").text("");
+
+        if (event.which === 13) {
+            $('#salaryUpdate').focus();
+        }
+    } else {
+        $("#addressUpdate").css('border', '2px solid red');
+        $("#lblUCusAddress").text("Wrong format : Galle");
+    }
+});
+
+$('#salaryUpdate').keypress(function (event) {
+    let input = $("#salaryUpdate").val();
+
+    if (regExSalary.test(input)) {
+        $("#salaryUpdate").css('border', '2px solid green');
+        $("#lblUCusSalary").text("");
+
+        if (event.which === 13) {
+            $('#bntUpdateCustomer').focus();
+        }
+    } else {
+        $("#salaryUpdate").css('border', '2px solid red');
+        $("#lblUCusSalary").text("Wrong format : 70000");
+    }
+});
+
+$('#bntUpdateCustomer').keypress(function (event) {
+    if (event.which === 13) {
+        $('#searchCustomerId').focus();
+    }
+});
 
 
 /*
