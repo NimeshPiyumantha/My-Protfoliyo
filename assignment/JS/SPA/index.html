@@ -142,7 +142,6 @@
 </main>
 <!-- Home End-->
 
-
 <!-- Customer Start-->
 <main class="container-fluid" id="CustomerSection">
     <!-- Customer Header Start -->
@@ -168,14 +167,18 @@
             <!-- Customer Details Search Section Start -->
             <div class="col-10 col-md-5 col-lg-4 p-0 mt-2 rounded-3" style="background-color: white">
                 <h4 class="text-center p-2 text-light rounded-3" style="background: #16A085">Search Customer</h4>
+
+                <div class="mb-3 ms-3 me-3 ">
+                    <input class="form-control me-2" id="searchCusId"
+                           placeholder="Input Name/NIC/Tp Here"
+                           type="search">
+                </div>
                 <form>
-                    <div class="mb-3 ms-3 me-3 ">
-                        <input class="form-control" id="cusId"
-                               placeholder="Input Name/NIC/Tp Here"
-                               type="text">
-                    </div>
-                    <button class="btn btn-primary ms-3 mb-3 ms-md-3 ms-lg-3 btn-success" type="submit">Search</button>
-                    <button class="btn btn-warning ms-3 mb-3 ms-md-3 ms-lg-3" type="reset">Clear</button>
+                    <button class="btn btn-primary ms-3 mb-3 ms-md-3 ms-lg-3 btn-success" id="btnSearchCus"
+                            type="button">Search
+                    </button>
+                    <button class="btn btn-warning ms-3 mb-3 ms-md-3 ms-lg-3" id="clearSearchCus" type="button">Clear
+                    </button>
                 </form>
             </div>
             <!-- Customer Details Search Section End -->
@@ -194,7 +197,8 @@
                         data-bs-toggle="modal" type="button">Delete Customer
                 </button>
 
-                <button class="btn btn-primary mt-2 m-1" type="button">View All Customers</button>
+                <button class="btn btn-primary mt-2 m-1" id="btnViewAllCustomer" type="button">View All Customers
+                </button>
             </div>
             <!-- Customer Details Button Section End -->
 
@@ -214,32 +218,7 @@
                             <th>Salary</th>
                         </tr>
                         </thead>
-                        <tbody id="customerTable">
-                        <tr>
-                            <td>C00-001</td>
-                            <td>Nimesh</td>
-                            <td>Galle</td>
-                            <td>50,000</td>
-                        </tr>
-                        <tr>
-                            <td>C00-002</td>
-                            <td>Pasan</td>
-                            <td>Galle</td>
-                            <td>50,000</td>
-                        </tr>
-                        <tr>
-                            <td>C00-003</td>
-                            <td>Maneesha</td>
-                            <td>Galle</td>
-                            <td>50,000</td>
-                        </tr>
-                        <tr>
-                            <td>C00-004</td>
-                            <td>Dakshina</td>
-                            <td>Galle</td>
-                            <td>50,000</td>
-                        </tr>
-                        </tbody>
+                        <tbody id="customerTable"></tbody>
                     </table>
                 </div>
             </div>
@@ -261,30 +240,30 @@
                 <form>
                     <div class="ms-3 me-3">
                         <label class="form-label fw-bold mb-0" for="txtCustomerId">ID :</label>
-                        <input class="form-control" id="txtCustomerId"
-                               type="text">
+                        <input class="form-control" id="txtCustomerId" type="text">
+                        <span class="control-error" id="lblCusID"></span>
                     </div>
                     <div class="ms-3 me-3">
                         <label class="form-label fw-bold mb-0" for="txtCustomerName">Name :</label>
-                        <input class="form-control" id="txtCustomerName"
-                               type="text">
+                        <input class="form-control" id="txtCustomerName" type="text">
+                        <span class="control-error" id="lblCusName"></span>
                     </div>
                     <div class="ms-3 me-3">
                         <label class="form-label fw-bold mb-0" for="txtCustomerAddress">Address :</label>
-                        <input class="form-control" id="txtCustomerAddress"
-                               type="text">
+                        <input class="form-control" id="txtCustomerAddress" type="text">
+                        <span class="control-error" id="lblCusAddress"></span>
                     </div>
                     <div class="ms-3 me-3">
                         <label class="form-label fw-bold mb-0" for="txtCustomerSalary">Salary :</label>
-                        <input class="form-control" id="txtCustomerSalary"
-                               type="number">
+                        <input class="form-control" id="txtCustomerSalary" type="number">
+                        <span class="control-error" id="lblCusSalary"></span>
                     </div>
                 </form>
             </div>
             <div class="modal-footer">
                 <button class="btn btn-secondary" data-bs-dismiss="modal" type="button">Close</button>
-                <button class="btn btn-warning" type="reset">Clear</button>
-                <button class="btn btn-primary" type="button">Save changes</button>
+                <button class="btn btn-warning" id="btnClearC" type="reset">Clear</button>
+                <button class="btn btn-primary" id="btnCSave" type="button">Save changes</button>
             </div>
         </div>
     </div>
@@ -302,31 +281,31 @@
             <div class="modal-body">
                 <form>
                     <div class="ms-3 me-3">
-                        <label class="form-label fw-bold mb-0" for="searchCustomerId">Search ID :</label>
-                        <input class="form-control" id="searchCustomerId"
-                               type="text">
+                        <label class="form-label fw-bold mb-0" for="searchCustomerId">ID :</label>
+                        <input class="form-control" id="searchCustomerId" type="text">
+                        <span class="control-error" id="lblUCusId"></span>
                     </div>
                     <div class="ms-3 me-3">
-                        <label class="form-label fw-bold mb-0" for="name">Name :</label>
-                        <input class="form-control" id="name"
-                               type="text">
+                        <label class="form-label fw-bold mb-0" for="nameUpdate">Name :</label>
+                        <input class="form-control" id="nameUpdate" type="text">
+                        <span class="control-error" id="lblUCusName"></span>
                     </div>
                     <div class="ms-3 me-3">
-                        <label class="form-label fw-bold mb-0" for="address">Address :</label>
-                        <input class="form-control" id="address"
-                               type="text">
+                        <label class="form-label fw-bold mb-0" for="addressUpdate">Address :</label>
+                        <input class="form-control" id="addressUpdate" type="text">
+                        <span class="control-error" id="lblUCusAddress"></span>
                     </div>
                     <div class="ms-3 me-3">
-                        <label class="form-label fw-bold mb-0" for="salary">Salary :</label>
-                        <input class="form-control" id="salary"
-                               type="number">
+                        <label class="form-label fw-bold mb-0" for="salaryUpdate">Salary :</label>
+                        <input class="form-control" id="salaryUpdate" type="number">
+                        <span class="control-error" id="lblUCusSalary"></span>
                     </div>
                 </form>
             </div>
             <div class="modal-footer">
                 <button class="btn btn-secondary" data-bs-dismiss="modal" type="button">Close</button>
-                <button class="btn btn-warning" type="reset">Clear</button>
-                <button class="btn btn-primary" type="button">Save changes</button>
+                <button class="btn btn-warning" id="btnUclearC" type="reset">Clear</button>
+                <button class="btn btn-primary" id="bntUpdateCustomer" type="button">Save changes</button>
             </div>
         </div>
     </div>
@@ -344,33 +323,29 @@
             <div class="modal-body">
                 <form>
                     <div class="ms-3 me-3">
-                        <label class="form-label fw-bold mb-0" for="searchCId">Search ID :</label>
-                        <input class="form-control" id="searchCId"
-                               type="text">
+                        <label class="form-label fw-bold mb-0" for="searchCIdDelete">ID :</label>
+                        <input class="form-control" id="searchCIdDelete" type="text">
                     </div>
                     <fieldset disabled>
                         <div class="ms-3 me-3">
-                            <label class="form-label fw-bold mb-0" for="disabledName">Name :</label>
-                            <input class="form-control" id="disabledName"
-                                   type="text">
+                            <label class="form-label fw-bold mb-0" for="disabledNameDelete">Name :</label>
+                            <input class="form-control" id="disabledNameDelete" type="text">
                         </div>
                         <div class="ms-3 me-3">
-                            <label class="form-label fw-bold mb-0" for="disabledAddress">Address :</label>
-                            <input class="form-control" id="disabledAddress"
-                                   type="text">
+                            <label class="form-label fw-bold mb-0" for="disabledAddressDelete">Address :</label>
+                            <input class="form-control" id="disabledAddressDelete" type="text">
                         </div>
                         <div class="ms-3 me-3">
-                            <label class="form-label fw-bold mb-0" for="disabledSalary">Salary :</label>
-                            <input class="form-control" id="disabledSalary"
-                                   type="number">
+                            <label class="form-label fw-bold mb-0" for="disabledSalaryDelete">Salary :</label>
+                            <input class="form-control" id="disabledSalaryDelete" type="number">
                         </div>
                     </fieldset>
                 </form>
             </div>
             <div class="modal-footer">
                 <button class="btn btn-secondary" data-bs-dismiss="modal" type="button">Close</button>
-                <button class="btn btn-warning" type="reset">Clear</button>
-                <button class="btn btn-danger" type="button">Delete</button>
+                <button class="btn btn-warning" id="btnDclearC" type="reset">Clear</button>
+                <button class="btn btn-danger" id="btnDeleteCustomer" type="button">Delete</button>
             </div>
         </div>
     </div>
@@ -846,5 +821,7 @@
     });
 
 </script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.33/dist/sweetalert2.all.min.js"></script>
+<script rel="script" src="assets/styles/script/customer.js"></script>
 </body>
 </html>
