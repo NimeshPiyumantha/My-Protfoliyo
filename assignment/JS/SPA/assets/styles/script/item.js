@@ -201,6 +201,7 @@ function clearTextFieldsI() {
     txtItemName.value = '';
     txtItemQty.value = '';
     txtItemPrice.value = '';
+    $("#txtItemsId").focus();
 }
 
 /**

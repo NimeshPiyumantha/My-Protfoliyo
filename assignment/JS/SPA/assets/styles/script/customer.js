@@ -251,6 +251,7 @@ function clearTextFields() {
     txtCustomerName.value = '';
     txtCustomerAddress.value = '';
     txtCustomerSalary.value = '';
+    $("#txtCustomerId").focus();
 }
 
 /**
