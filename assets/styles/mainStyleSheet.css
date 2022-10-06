@@ -44,7 +44,6 @@
 }
 
 /** Loader */
-
 section#loader {
     position: fixed;
     min-height: 100vh;

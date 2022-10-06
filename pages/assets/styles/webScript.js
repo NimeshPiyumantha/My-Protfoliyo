@@ -82,3 +82,11 @@ $("#frameworks").click(function () {
     $("#12").css('display', 'none');
     $("#13").css('display', 'none');
 });
+
+// execute after all the content fully loaded
+$(window).on('load', function () {
+    console.log("Window on load");
+
+    // $("#loader").css('display','none');
+    $("#loader").fadeOut(1000);
+});
