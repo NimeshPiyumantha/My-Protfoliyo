@@ -38,6 +38,11 @@ body {
     justify-content: space-between;
 }
 
+.buttons :hover {
+    color:#ecf0f1;
+    background: #e74c3c;
+}
+
 .buttons button{
     height: 55px;
     width: 150px;
