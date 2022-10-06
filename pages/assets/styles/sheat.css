@@ -4,14 +4,14 @@
  **/
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
-    background: linear-gradient(to right,#2ED573, #0f2027);
+body {
+    background: linear-gradient(to right, #2ED573, #0f2027);
     height: 100vh;
     display: flex;
     align-items: center;
@@ -19,7 +19,39 @@ body{
     overflow: hidden;
 }
 
-.slider{
+#main-section{
+    display: flex;
+    left: 270px;
+    position: relative;
+    flex-direction: column;
+}
+
+.buttons {
+    display: flex;
+    position: relative;
+    width: 800px;
+    height: 70px;
+    top: -170px;
+    right: 270px;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.buttons button{
+    height: 55px;
+    width: 150px;
+    background-color: #ecf0f1;
+    box-shadow: 0 -1px 8px 2px #1c1717e8;
+    font-size: 1.5rem;
+    font-family: Poppins, serif;
+    border: none;
+    border-radius: 10px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.slider {
     position: relative;
     width: 250px;
     height: 200px;
@@ -28,16 +60,16 @@ body{
 }
 
 @keyframes rotate {
-    0%{
+    0% {
         transform: perspective(1000px) rotateY(0deg);
     }
 
-    100%{
+    100% {
         transform: perspective(1000px) rotateY(360deg);
     }
 }
 
-.slider span{
+.slider span {
     position: absolute;
     top: 0;
     left: 0;
@@ -45,10 +77,10 @@ body{
     height: 100%;
     transform-origin: center;
     transform-style: preserve-3d;
-    transform: rotateY(calc(var(--i)*45deg)) translateZ(350px);
+    transform: rotateY(calc(var(--i) * 45deg)) translateZ(350px);
 }
 
-.slider span img{
+.slider span img {
     position: absolute;
     top: 0;
     left: 0;
@@ -59,7 +91,7 @@ body{
     transition: 2s;
 }
 
-.slider span:hover img{
+.slider span:hover img {
     transform: translateY(-50px) scale(1.2);
     cursor: pointer;
 }
