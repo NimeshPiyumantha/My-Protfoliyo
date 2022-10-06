@@ -101,3 +101,58 @@ body {
     cursor: pointer;
 }
 
+@media (max-width: 768px) {
+    #main-section {
+        left: 220px;
+    }
+
+    .buttons {
+        width: 600px;
+        height: 70px;
+        right: 220px;
+    }
+
+    .buttons button{
+        height: 40px;
+        width: 105px;
+        font-size: 1.1rem;
+    }
+
+    .slider {
+        width: 180px;
+        height: 150px;
+    }
+
+    .slider span {
+        transform: rotateY(calc(var(--i) * 45deg)) translateZ(300px);
+    }
+
+}
+
+@media (max-width: 425px) {
+
+    #main-section {
+        left: 100px;
+    }
+    .buttons {
+        width: 300px;
+        height: 40px;
+        right: 100px;
+    }
+
+    .buttons button{
+        height: 30px;
+        width: 55px;
+        font-size: 0.6rem;
+    }
+
+    .slider {
+        width: 100px;
+        height: 100px;
+    }
+
+    .slider span {
+        transform: rotateY(calc(var(--i) * 45deg)) translateZ(145px);
+    }
+
+}
