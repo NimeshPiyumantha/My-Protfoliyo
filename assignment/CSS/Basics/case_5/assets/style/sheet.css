@@ -22,73 +22,73 @@ section>div{
 }
 
 section > div:nth-child(1){
-    background: url("/assignment/CSS/Basics/case_5/case_5/assets/img/01.jpg");
+    background: url("/assignment/CSS/Basics/case_5/assets/img/01.jpg");
     background-size: cover;
     background-position: center;
 }
 
 section > div:nth-child(2){
-    background: url("/assignment/CSS/Basics/case_5/case_5/assets/img/02.jpg");
+    background: url("/assignment/CSS/Basics/case_5/assets/img/02.jpg");
     background-size: cover;
     background-position: center;
 }
 
 section > div:nth-child(3) {
-    background: url("/assignment/CSS/Basics/case_5/case_5/assets/img/03.jpg");
+    background: url("/assignment/CSS/Basics/case_5/assets/img/03.jpg");
     background-size: cover;
     background-position: center;
 }
 
 section > div:nth-child(4){
-    background: url("/assignment/CSS/Basics/case_5/case_5/assets/img/04.jpg");
+    background: url("/assignment/CSS/Basics/case_5/assets/img/04.jpg");
     background-size: cover;
     background-position: center;
 }
 
 section > div:nth-child(5){
-    background: url("/assignment/CSS/Basics/case_5/case_5/assets/img/05.jpg");
+    background: url("/assignment/CSS/Basics/case_5/assets/img/05.jpg");
     background-size: cover;
     background-position: center;
 }
 
 section > div:nth-child(6){
-    background: url("/assignment/CSS/Basics/case_5/case_5/assets/img/06.jpg");
+    background: url("/assignment/CSS/Basics/case_5/assets/img/06.jpg");
     background-size: cover;
     background-position: center;
 }
 
 section > div:nth-child(7){
-    background: url("/assignment/CSS/Basics/case_5/case_5/assets/img/07.jpg");
+    background: url("/assignment/CSS/Basics/case_5/assets/img/07.jpg");
     background-size: cover;
     background-position: center;
 }
 
 section > div:nth-child(8){
-    background: url("/assignment/CSS/Basics/case_5/case_5/assets/img/08.jpg");
+    background: url("/assignment/CSS/Basics/case_5/assets/img/08.jpg");
     background-size: cover;
     background-position: center;
 }
 
 section > div:nth-child(9){
-    background: url("/assignment/CSS/Basics/case_5/case_5/assets/img/09.jpg");
+    background: url("/assignment/CSS/Basics/case_5/assets/img/09.jpg");
     background-size: cover;
     background-position: center;
 }
 
 section > div:nth-child(10){
-    background: url("/assignment/CSS/Basics/case_5/case_5/assets/img/10.jpg");
+    background: url("/assignment/CSS/Basics/case_5/assets/img/10.jpg");
     background-size: cover;
     background-position: center;
 }
 
 section > div:nth-child(11){
-    background: url("/assignment/CSS/Basics/case_5/case_5/assets/img/11.jpg");
+    background: url("/assignment/CSS/Basics/case_5/assets/img/11.jpg");
     background-size: cover;
     background-position: center;
 }
 
 section > div:nth-child(12){
-    background: url("/assignment/CSS/Basics/case_5/case_5/assets/img/12.jpg");
+    background: url("/assignment/CSS/Basics/case_5/assets/img/12.jpg");
     background-size: cover;
     background-position: center;
 }
