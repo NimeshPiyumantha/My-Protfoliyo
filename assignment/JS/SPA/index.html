@@ -764,45 +764,11 @@
 
 <!--import jQuery library-->
 <script src="assets/styles/jQuery/jquery-3.6.1.min.js"></script>
-<script>
-    $(document).ready(function () {
-        $("#HomeSection").css('display', 'block');
-        $("#CustomerSection").css('display', 'none');
-        $("#ItemSection").css('display', 'none');
-        $("#OrderSection").css('display', 'none');
-    });
-
-    $("#homeBtn").click(function () {
-        $("#HomeSection").css('display', 'block');
-        $("#CustomerSection").css('display', 'none');
-        $("#ItemSection").css('display', 'none');
-        $("#OrderSection").css('display', 'none');
-    });
-
-    $("#customerBtn").click(function () {
-        $("#HomeSection").css('display', 'none');
-        $("#CustomerSection").css('display', 'block');
-        $("#ItemSection").css('display', 'none');
-        $("#OrderSection").css('display', 'none');
-    });
-
-    $("#itemBtn").click(function () {
-        $("#HomeSection").css('display', 'none');
-        $("#CustomerSection").css('display', 'none');
-        $("#ItemSection").css('display', 'block');
-        $("#OrderSection").css('display', 'none');
-    });
-
-    $("#orderBtn").click(function () {
-        $("#HomeSection").css('display', 'none');
-        $("#CustomerSection").css('display', 'none');
-        $("#ItemSection").css('display', 'none');
-        $("#OrderSection").css('display', 'block');
-    });
-
-</script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.33/dist/sweetalert2.all.min.js"></script>
-<script rel="script" src="assets/styles/script/customer.js"></script>
-<script rel="script" src="assets/styles/script/item.js"></script>
+<script rel="script" src="db/db.js"></script>
+<script rel="script" src="controllers/DashboardController.js"></script>
+<script rel="script" src="controllers/CustomerController.js"></script>
+<script rel="script" src="controllers/ItemController.js"></script>
+<script rel="script" src="controllers/PurchaseOrderController.js"></script>
 </body>
 </html>

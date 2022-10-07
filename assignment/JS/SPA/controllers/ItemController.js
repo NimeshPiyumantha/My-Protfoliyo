@@ -4,12 +4,6 @@
  **/
 
 /**
- * @ Global Scope
- */
-var items = [];
-
-
-/**
  * load all Items Button
  * */
 $("#btnViewAllItems").click(function () {

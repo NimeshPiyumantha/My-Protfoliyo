@@ -4,12 +4,6 @@
  **/
 
 /**
- * @ Global Scope
- */
-var customers = [];
-
-
-/**
  * load all customers Button
  * */
 $("#btnViewAllCustomer").click(function () {
