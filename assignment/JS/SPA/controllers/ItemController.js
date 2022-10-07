@@ -124,7 +124,7 @@ ItemsValidations.push({
 ItemsValidations.push({
     reg: regExItemPrice,
     field: $('#txtItemQty'),
-    error: 'Item Qty Pattern is Wrong : 0-9 1-10 ,/'
+    error: 'Item Qty Pattern is Wrong : 0-9 1-10'
 });
 ItemsValidations.push({
     reg: regExItemQtyOnHand,

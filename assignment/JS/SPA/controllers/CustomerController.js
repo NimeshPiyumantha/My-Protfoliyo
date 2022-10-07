@@ -193,91 +193,91 @@ $("#txtCustomerId,#txtCustomerName,#txtCustomerAddress,#txtCustomerSalary").on('
 
 
 $("#txtCustomerId,#txtCustomerName,#txtCustomerAddress,#txtCustomerSalary").on('keyup', function (event) {
-    checkValidity();
+    checkValidityC();
 });
 
 $("#txtCustomerId,#txtCustomerName,#txtCustomerAddress,#txtCustomerSalary").on('blur', function (event) {
-    checkValidity();
+    checkValidityC();
 });
 
 
 $("#txtCustomerId").on('keydown', function (event) {
-    if (event.key === "Enter" && check(regExCusID, $("#txtCustomerId"))) {
+    if (event.key === "Enter" && checkC(regExCusID, $("#txtCustomerId"))) {
         $("#txtCustomerName").focus();
     } else {
-        focusText($("#txtCustomerId"));
+        focusTextC($("#txtCustomerId"));
     }
 });
 
 
 $("#txtCustomerName").on('keydown', function (event) {
-    if (event.key === "Enter" && check(regExCusName, $("#txtCustomerName"))) {
-        focusText($("#txtCustomerAddress"));
+    if (event.key === "Enter" && checkC(regExCusName, $("#txtCustomerName"))) {
+        focusTextC($("#txtCustomerAddress"));
     }
 });
 
 
 $("#txtCustomerAddress").on('keydown', function (event) {
-    if (event.key === "Enter" && check(regExCusAddress, $("#txtCustomerAddress"))) {
-        focusText($("#txtCustomerSalary"));
+    if (event.key === "Enter" && checkC(regExCusAddress, $("#txtCustomerAddress"))) {
+        focusTextC($("#txtCustomerSalary"));
     }
 });
 
 
 $("#txtCustomerSalary").on('keydown', function (event) {
-    if (event.key === "Enter" && check(regExSalary, $("#txtCustomerSalary"))) {
+    if (event.key === "Enter" && checkC(regExSalary, $("#txtCustomerSalary"))) {
         if (event.which === 13) {
             $('#btnCSave').focus();
         }
     }
 });
 
-function checkValidity() {
+function checkValidityC() {
     let errorCount = 0;
     for (let validation of customerValidations) {
-        if (check(validation.reg, validation.field)) {
-            textSuccess(validation.field, "");
+        if (checkC(validation.reg, validation.field)) {
+            textSuccessC(validation.field, "");
         } else {
             errorCount = errorCount + 1;
-            setTextError(validation.field, validation.error);
+            setTextErrorC(validation.field, validation.error);
         }
     }
-    setButtonState(errorCount);
+    setButtonStateC(errorCount);
 }
 
-function check(regex, txtField) {
+function checkC(regex, txtField) {
     let inputValue = txtField.val();
     return regex.test(inputValue) ? true : false;
 }
 
-function setTextError(txtField, error) {
+function setTextErrorC(txtField, error) {
     if (txtField.val().length <= 0) {
-        defaultText(txtField, "");
+        defaultTextC(txtField, "");
     } else {
         txtField.css('border', '2px solid red');
         txtField.parent().children('span').text(error);
     }
 }
 
-function textSuccess(txtField, error) {
+function textSuccessC(txtField, error) {
     if (txtField.val().length <= 0) {
-        defaultText(txtField, "");
+        defaultTextC(txtField, "");
     } else {
         txtField.css('border', '2px solid green');
         txtField.parent().children('span').text(error);
     }
 }
 
-function defaultText(txtField, error) {
+function defaultTextC(txtField, error) {
     txtField.css("border", "1px solid #ced4da");
     txtField.parent().children('span').text(error);
 }
 
-function focusText(txtField) {
+function focusTextC(txtField) {
     txtField.focus();
 }
 
-function setButtonState(value) {
+function setButtonStateC(value) {
     if (value > 0) {
         $("#btnCSave").attr('disabled', true);
     } else {
