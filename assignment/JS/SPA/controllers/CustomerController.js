@@ -3,6 +3,7 @@
  * @since : 0.1.0
  **/
 
+
 /**
  * load all customers Button
  * */
@@ -105,8 +106,8 @@ $(document).ready(function () {
  * */
 $("#clearSearchCus").click(function () {
     searchCusId.value = '';
-    clearDTextFields();
-    clearUTextFields();
+    clearCDTextFields();
+    clearCUTextFields();
 });
 
 
@@ -125,7 +126,7 @@ $("#btnCSave").click(function () {
     let customerName = $("#txtCustomerName").val();
     let customerAddress = $("#txtCustomerAddress").val();
     let customerSalary = $("#txtCustomerSalary").val();
-    clearTextFields();
+    clearTextFieldsC();
 
     //Alert Save
     Swal.fire({
@@ -287,17 +288,19 @@ function setButtonState(value) {
 /**
  * clear input fields Values Method
  * */
-function clearTextFields() {
-    $("#txtCustomerID").focus();
-    $("#txtCustomerId,#txtCustomerName,#txtCustomerAddress,#txtCustomerSalary").val("");
-    checkValidity();
+function clearTextFieldsC() {
+    txtCustomerId.value = '';
+    txtCustomerName.value = '';
+    txtCustomerAddress.value = '';
+    txtCustomerSalary.value = '';
+    $("#txtCustomerId").focus();
 }
 
 /**
  * clear input fields Values Button
  * */
 $("#btnClearC").click(function () {
-    clearTextFields();
+    clearTextFieldsC();
 });
 
 /**
@@ -407,10 +410,29 @@ $('#bntUpdateCustomer').keypress(function (event) {
     }
 });
 
+
+/*
+/!**
+ * Update Model
+ * Search id Enter Pressed And Load TextFields
+ * *!/
+$("#searchCustomerId").keyup(function (event) {
+    if (event.keyCode === 13) {
+        var result = customers.find(({id}) => id === $("#searchCustomerId").val());
+        console.log(result);
+
+        $("#searchCustomerId").val(result.id);
+        $("#nameUpdate").val(result.name);
+        $("#addressUpdate").val(result.address);
+        $("#salaryUpdate").val(result.salary);
+
+    }
+});*/
+
 /**
  * clear input fields Values Method
  * */
-function clearUTextFields() {
+function clearCUTextFields() {
     searchCustomerId.value = '';
     nameUpdate.value = '';
     addressUpdate.value = '';
@@ -421,7 +443,7 @@ function clearUTextFields() {
  * clear input fields Values Button
  * */
 $("#btnUclearC").click(function () {
-    clearUTextFields();
+    clearCUTextFields();
 });
 
 
@@ -429,11 +451,30 @@ $("#btnUclearC").click(function () {
  * Delete Model
  * */
 
+/*
+
+/!**
+ * Delete Model
+ * Search id Enter Pressed And Load TextFields
+ * *!/
+$("#searchCIdDelete").keyup(function (event) {
+    if (event.keyCode === 13) {
+        var result = customers.find(({id}) => id === $("#searchCIdDelete").val());
+        console.log(result);
+
+        $("#searchCIdDelete").val(result.id);
+        $("#disabledNameDelete").val(result.name);
+        $("#disabledAddressDelete").val(result.address);
+        $("#disabledSalaryDelete").val(result.salary);
+
+    }
+});
+*/
 
 /**
  * clear input fields Values Method
  * */
-function clearDTextFields() {
+function clearCDTextFields() {
     searchCIdDelete.value = '';
     disabledNameDelete.value = '';
     disabledAddressDelete.value = '';
@@ -444,5 +485,5 @@ function clearDTextFields() {
  * clear input fields Values Button
  * */
 $("#btnDclearC").click(function () {
-    clearDTextFields();
+    clearCDTextFields();
 });
