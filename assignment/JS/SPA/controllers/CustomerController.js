@@ -334,82 +334,128 @@ function loadAllCustomers() {
  * Auto Forces Input Fields update
  * */
 
+let customerValidationsUpdate = [];
+customerValidationsUpdate.push({
+    reg: regExCusID,
+    field: $('#searchCustomerId'),
+    error: 'Customer ID Pattern is Wrong : C00-001'
+});
+customerValidationsUpdate.push({
+    reg: regExCusName,
+    field: $('#nameUpdate'),
+    error: 'Customer Name Pattern is Wrong : A-z 3-20'
+});
+customerValidationsUpdate.push({
+    reg: regExCusAddress,
+    field: $('#addressUpdate'),
+    error: 'Customer Address Pattern is Wrong : A-z 0-9 ,/'
+});
+customerValidationsUpdate.push({
+    reg: regExSalary,
+    field: $('#salaryUpdate'),
+    error: 'Customer Salary Pattern is Wrong : 100 or 100.00'
+});
+
+//disable tab key of all four text fields using grouping selector in CSS
 $("#searchCustomerId,#nameUpdate,#addressUpdate,#salaryUpdate").on('keydown', function (event) {
-    if (event.key == "Tab") {
+    if (event.key === "Tab") {
         event.preventDefault();
     }
 });
 
-$('#searchCustomerId').keypress(function (event) {
-    let input = $("#searchCustomerId").val();
 
-    if (regExCusID.test(input)) {
-        $("#searchCustomerId").css('border', '2px solid green');
-        $("#lblUCusId").text("");
+$("#searchCustomerId,#nameUpdate,#addressUpdate,#salaryUpdate").on('keyup', function (event) {
+    checkValidityCU();
+});
 
-        if (event.which === 13) {
-            $('#nameUpdate').focus();
-        }
+$("#searchCustomerId,#nameUpdate,#addressUpdate,#salaryUpdate").on('blur', function (event) {
+    checkValidityCU();
+});
+
+
+$("#searchCustomerId").on('keydown', function (event) {
+    if (event.key === "Enter" && checkCU(regExCusID, $("#searchCustomerId"))) {
+        $("#nameUpdate").focus();
     } else {
-        $("#searchCustomerId").css('border', '2px solid red');
-        $("#lblUCusId").text("Wrong format : C00-001");
+        focusTextCU($("#searchCustomerId"));
     }
 });
 
-$('#nameUpdate').keypress(function (event) {
-    let input = $("#nameUpdate").val();
 
-    if (regExCusName.test(input)) {
-        $("#nameUpdate").css('border', '2px solid green');
-        $("#lblUCusName").text("");
-
-        if (event.which === 13) {
-            $('#addressUpdate').focus();
-        }
-    } else {
-        $("#nameUpdate").css('border', '2px solid red');
-        $("#lblUCusName").text("Wrong format : Nimesh");
+$("#nameUpdate").on('keydown', function (event) {
+    if (event.key === "Enter" && checkCU(regExCusName, $("#nameUpdate"))) {
+        focusTextCU($("#addressUpdate"));
     }
 });
 
-$('#addressUpdate').keypress(function (event) {
-    let input = $("#addressUpdate").val();
 
-    if (regExCusAddress.test(input)) {
-        $("#addressUpdate").css('border', '2px solid green');
-        $("#lblUCusAddress").text("");
-
-        if (event.which === 13) {
-            $('#salaryUpdate').focus();
-        }
-    } else {
-        $("#addressUpdate").css('border', '2px solid red');
-        $("#lblUCusAddress").text("Wrong format : Galle");
+$("#addressUpdate").on('keydown', function (event) {
+    if (event.key === "Enter" && checkCU(regExCusAddress, $("#addressUpdate"))) {
+        focusTextCU($("#salaryUpdate"));
     }
 });
 
-$('#salaryUpdate').keypress(function (event) {
-    let input = $("#salaryUpdate").val();
 
-    if (regExSalary.test(input)) {
-        $("#salaryUpdate").css('border', '2px solid green');
-        $("#lblUCusSalary").text("");
-
+$("#salaryUpdate").on('keydown', function (event) {
+    if (event.key === "Enter" && checkCU(regExSalary, $("#salaryUpdate"))) {
         if (event.which === 13) {
             $('#bntUpdateCustomer').focus();
         }
+    }
+});
+
+function checkValidityCU() {
+    let errorCount = 0;
+    for (let validation of customerValidationsUpdate) {
+        if (checkCU(validation.reg, validation.field)) {
+            textSuccessCU(validation.field, "");
+        } else {
+            errorCount = errorCount + 1;
+            setTextErrorCU(validation.field, validation.error);
+        }
+    }
+    setButtonStateCU(errorCount);
+}
+
+function checkCU(regex, txtField) {
+    let inputValue = txtField.val();
+    return regex.test(inputValue) ? true : false;
+}
+
+function setTextErrorCU(txtField, error) {
+    if (txtField.val().length <= 0) {
+        defaultTextCU(txtField, "");
     } else {
-        $("#salaryUpdate").css('border', '2px solid red');
-        $("#lblUCusSalary").text("Wrong format : 70000");
+        txtField.css('border', '2px solid red');
+        txtField.parent().children('span').text(error);
     }
-});
+}
 
-$('#bntUpdateCustomer').keypress(function (event) {
-    if (event.which === 13) {
-        $('#searchCustomerId').focus();
+function textSuccessCU(txtField, error) {
+    if (txtField.val().length <= 0) {
+        defaultTextCU(txtField, "");
+    } else {
+        txtField.css('border', '2px solid green');
+        txtField.parent().children('span').text(error);
     }
-});
+}
 
+function defaultTextCU(txtField, error) {
+    txtField.css("border", "1px solid #ced4da");
+    txtField.parent().children('span').text(error);
+}
+
+function focusTextCU(txtField) {
+    txtField.focus();
+}
+
+function setButtonStateCU(value) {
+    if (value > 0) {
+        $("#bntUpdateCustomer").attr('disabled', true);
+    } else {
+        $("#bntUpdateCustomer").attr('disabled', false);
+    }
+}
 
 /*
 /!**
@@ -451,12 +497,11 @@ $("#btnUclearC").click(function () {
  * Delete Model
  * */
 
-/*
 
-/!**
+/**
  * Delete Model
  * Search id Enter Pressed And Load TextFields
- * *!/
+ * */
 $("#searchCIdDelete").keyup(function (event) {
     if (event.keyCode === 13) {
         var result = customers.find(({id}) => id === $("#searchCIdDelete").val());
@@ -469,7 +514,6 @@ $("#searchCIdDelete").keyup(function (event) {
 
     }
 });
-*/
 
 /**
  * clear input fields Values Method
