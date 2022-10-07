@@ -104,88 +104,134 @@ $("#btnISave").click(function () {
 /**
  * Auto Forces Input Fields Save
  * */
+$("#txtItemsId").focus();
+const regExItemCode = /^(I00-)[0-9]{3,4}$/;
+const regExItemName = /^[A-z ]{3,20}$/;
+const regExItemPrice = /^[0-9]{1,10}$/;
+const regExItemQtyOnHand = /^[0-9]{1,}[.]?[0-9]{1,2}$/;
 
-var regExItemCode = /^(I00-)[0-9]{3,4}$/;
-var regExItemName = /^[A-z ]{3,20}$/;
-var regExItemPrice = /^[0-9]{1,10}$/;
-var regExItemQtyOnHand = /^[0-9]{1,3}$/;
+let ItemsValidations = [];
+ItemsValidations.push({
+    reg: regExItemCode,
+    field: $('#txtItemsId'),
+    error: 'Item ID Pattern is Wrong : I00-001'
+});
+ItemsValidations.push({
+    reg: regExItemName,
+    field: $('#txtItemName'),
+    error: 'Item Name Pattern is Wrong : A-z 3-20'
+});
+ItemsValidations.push({
+    reg: regExItemPrice,
+    field: $('#txtItemQty'),
+    error: 'Item Qty Pattern is Wrong : 0-9 1-10 ,/'
+});
+ItemsValidations.push({
+    reg: regExItemQtyOnHand,
+    field: $('#txtItemPrice'),
+    error: 'Item Salary Pattern is Wrong : 100 or 100.00'
+});
 
+//disable tab key of all four text fields using grouping selector in CSS
 $("#txtItemsId,#txtItemName,#txtItemQty,#txtItemPrice").on('keydown', function (event) {
-    if (event.key == "Tab") {
+    if (event.key === "Tab") {
         event.preventDefault();
     }
 });
 
-$('#txtItemsId').keypress(function (event) {
-    let input = $("#txtItemsId").val();
 
-    if (regExItemCode.test(input)) {
-        $("#txtItemsId").css('border', '2px solid green');
-        $("#lblItemId").text("");
+$("#txtItemsId,#txtItemName,#txtItemQty,#txtItemPrice").on('keyup', function (event) {
+    checkValidity();
+});
 
-        if (event.which === 13) {
-            $('#txtItemName').focus();
-        }
+$("#txtItemsId,#txtItemName,#txtItemQty,#txtItemPrice").on('blur', function (event) {
+    checkValidity();
+});
+
+
+$("#txtItemsId").on('keydown', function (event) {
+    if (event.key === "Enter" && check(regExItemCode, $("#txtItemsId"))) {
+        $("#txtItemName").focus();
     } else {
-        $("#txtItemsId").css('border', '2px solid red');
-        $("#lblItemId").text("Wrong format : I00-001");
+        focusText($("#txtItemsId"));
     }
 });
 
-$('#txtItemName').keypress(function (event) {
-    let input = $("#txtItemName").val();
 
-    if (regExItemName.test(input)) {
-        $("#txtItemName").css('border', '2px solid green');
-        $("#lblItemName").text("");
-
-        if (event.which === 13) {
-            $('#txtItemQty').focus();
-        }
-    } else {
-        $("#txtItemName").css('border', '2px solid red');
-        $("#lblItemName").text("Wrong format : Bun");
+$("#txtItemName").on('keydown', function (event) {
+    if (event.key === "Enter" && check(regExItemName, $("#txtItemName"))) {
+        focusText($("#txtItemQty"));
     }
 });
 
-$('#txtItemQty').keypress(function (event) {
-    let input = $("#txtItemQty").val();
 
-    if (regExItemQtyOnHand.test(input)) {
-        $("#txtItemQty").css('border', '2px solid green');
-        $("#lblItemQty").text("");
-
-        if (event.which === 13) {
-            $('#txtItemPrice').focus();
-        }
-    } else {
-        $("#txtItemQty").css('border', '2px solid red');
-        $("#lblItemQty").text("Wrong format : 5");
+$("#txtItemQty").on('keydown', function (event) {
+    if (event.key === "Enter" && check(regExItemPrice, $("#txtItemQty"))) {
+        focusText($("#txtItemPrice"));
     }
 });
 
-$('#txtItemPrice').keypress(function (event) {
-    let input = $("#txtItemPrice").val();
 
-    if (regExItemPrice.test(input)) {
-        $("#txtItemPrice").css('border', '2px solid green');
-        $("#lblItemPrice").text("");
-
+$("#txtItemPrice").on('keydown', function (event) {
+    if (event.key === "Enter" && check(regExItemQtyOnHand, $("#txtItemPrice"))) {
         if (event.which === 13) {
             $('#btnISave').focus();
         }
+    }
+});
+
+function checkValidity() {
+    let errorCount = 0;
+    for (let validation of ItemsValidations) {
+        if (check(validation.reg, validation.field)) {
+            textSuccess(validation.field, "");
+        } else {
+            errorCount = errorCount + 1;
+            setTextError(validation.field, validation.error);
+        }
+    }
+    setButtonState(errorCount);
+}
+
+function check(regex, txtField) {
+    let inputValue = txtField.val();
+    return regex.test(inputValue) ? true : false;
+}
+
+function setTextError(txtField, error) {
+    if (txtField.val().length <= 0) {
+        defaultText(txtField, "");
     } else {
-        $("#txtItemPrice").css('border', '2px solid red');
-        $("#lblItemPrice").text("Wrong format : 450");
+        txtField.css('border', '2px solid red');
+        txtField.parent().children('span').text(error);
     }
-});
+}
 
-$('#btnISave').keypress(function (event) {
-    if (event.which === 13) {
-        $('#txtItemsId').focus();
+function textSuccess(txtField, error) {
+    if (txtField.val().length <= 0) {
+        defaultText(txtField, "");
+    } else {
+        txtField.css('border', '2px solid green');
+        txtField.parent().children('span').text(error);
     }
-});
+}
 
+function defaultText(txtField, error) {
+    txtField.css("border", "1px solid #ced4da");
+    txtField.parent().children('span').text(error);
+}
+
+function focusText(txtField) {
+    txtField.focus();
+}
+
+function setButtonState(value) {
+    if (value > 0) {
+        $("#btnISave").attr('disabled', true);
+    } else {
+        $("#btnISave").attr('disabled', false);
+    }
+}
 
 /**
  * clear input fields Values Method

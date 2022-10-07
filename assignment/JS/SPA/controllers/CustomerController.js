@@ -159,7 +159,7 @@ $("#txtCustomerId").focus();
 const regExCusID = /^(C00-)[0-9]{3,4}$/;
 const regExCusName = /^[A-z ]{3,20}$/;
 const regExCusAddress = /^[A-z0-9/ ]{4,30}$/;
-const regExSalary = /[0-9]{4,19}$/;
+const regExSalary = /^[0-9]{1,}[.]?[0-9]{1,2}$/;
 
 let customerValidations = [];
 customerValidations.push({
@@ -170,7 +170,7 @@ customerValidations.push({
 customerValidations.push({
     reg: regExCusName,
     field: $('#txtCustomerName'),
-    error: 'Customer Name Pattern is Wrong : A-z 5-20'
+    error: 'Customer Name Pattern is Wrong : A-z 3-20'
 });
 customerValidations.push({
     reg: regExCusAddress,
