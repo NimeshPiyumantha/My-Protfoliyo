@@ -374,81 +374,129 @@ $("#searchItemId").keyup(function (event) {
 /**
  * Auto Forces Input Fields Update
  * */
+
+let ItemsValidationsUpdate = [];
+ItemsValidationsUpdate.push({
+    reg: regExItemCode,
+    field: $('#searchItemId'),
+    error: 'Item ID Pattern is Wrong : I00-001'
+});
+ItemsValidationsUpdate.push({
+    reg: regExItemName,
+    field: $('#updateItemName'),
+    error: 'Item Name Pattern is Wrong : A-z 3-20'
+});
+ItemsValidationsUpdate.push({
+    reg: regExItemPrice,
+    field: $('#updateItemQty'),
+    error: 'Item Qty Pattern is Wrong : 0-9 1-10'
+});
+ItemsValidationsUpdate.push({
+    reg: regExItemQtyOnHand,
+    field: $('#updateItemPrice'),
+    error: 'Item Salary Pattern is Wrong : 100 or 100.00'
+});
+
+//disable tab key of all four text fields using grouping selector in CSS
 $("#searchItemId,#updateItemName,#updateItemQty,#updateItemPrice").on('keydown', function (event) {
-    if (event.key == "Tab") {
+    if (event.key === "Tab") {
         event.preventDefault();
     }
 });
 
-$('#searchItemId').keypress(function (event) {
-    let input = $("#searchItemId").val();
 
-    if (regExItemCode.test(input)) {
-        $("#searchItemId").css('border', '2px solid green');
-        $("#lblUItemId").text("");
+$("#searchItemId,#updateItemName,#updateItemQty,#updateItemPrice").on('keyup', function (event) {
+    checkValidityIU();
+});
 
-        if (event.which === 13) {
-            $('#updateItemName').focus();
-        }
+$("#searchItemId,#updateItemName,#updateItemQty,#updateItemPrice").on('blur', function (event) {
+    checkValidityIU();
+});
+
+
+$("#searchItemId").on('keydown', function (event) {
+    if (event.key === "Enter" && check(regExItemCode, $("#searchItemId"))) {
+        $("#updateItemName").focus();
     } else {
-        $("#searchItemId").css('border', '2px solid red');
-        $("#lblUItemId").text("Wrong format : I00-001");
+        focusTextIU($("#searchItemId"));
     }
 });
 
-$('#updateItemName').keypress(function (event) {
-    let input = $("#updateItemName").val();
 
-    if (regExItemName.test(input)) {
-        $("#updateItemName").css('border', '2px solid green');
-        $("#lblUItemName").text("");
-
-        if (event.which === 13) {
-            $('#updateItemQty').focus();
-        }
-    } else {
-        $("#updateItemName").css('border', '2px solid red');
-        $("#lblUItemName").text("Wrong format : Bun");
+$("#updateItemName").on('keydown', function (event) {
+    if (event.key === "Enter" && check(regExItemName, $("#updateItemName"))) {
+        focusTextIU($("#updateItemQty"));
     }
 });
 
-$('#updateItemQty').keypress(function (event) {
-    let input = $("#updateItemQty").val();
 
-    if (regExItemQtyOnHand.test(input)) {
-        $("#updateItemQty").css('border', '2px solid green');
-        $("#lblUItemQty").text("");
-
-        if (event.which === 13) {
-            $('#updateItemPrice').focus();
-        }
-    } else {
-        $("#updateItemQty").css('border', '2px solid red');
-        $("#lblUItemQty").text("Wrong format : 5");
+$("#updateItemQty").on('keydown', function (event) {
+    if (event.key === "Enter" && check(regExItemPrice, $("#updateItemQty"))) {
+        focusTextIU($("#updateItemPrice"));
     }
 });
 
-$('#updateItemPrice').keypress(function (event) {
-    let input = $("#updateItemPrice").val();
 
-    if (regExItemPrice.test(input)) {
-        $("#updateItemPrice").css('border', '2px solid green');
-        $("#lblUItemPrice").text("");
-
+$("#updateItemPrice").on('keydown', function (event) {
+    if (event.key === "Enter" && check(regExItemQtyOnHand, $("#updateItemPrice"))) {
         if (event.which === 13) {
             $('#btnUpdateItem').focus();
         }
-    } else {
-        $("#updateItemPrice").css('border', '2px solid red');
-        $("#lblUItemPrice").text("Wrong format : 450");
     }
 });
 
-$('#btnUpdateItem').keypress(function (event) {
-    if (event.which === 13) {
-        $('#searchItemId').focus();
+function checkValidityIU() {
+    let errorCount = 0;
+    for (let validation of ItemsValidationsUpdate) {
+        if (checkIU(validation.reg, validation.field)) {
+            textSuccessIU(validation.field, "");
+        } else {
+            errorCount = errorCount + 1;
+            setTextErrorIU(validation.field, validation.error);
+        }
     }
-});
+    setButtonStateIU(errorCount);
+}
+
+function checkIU(regex, txtField) {
+    let inputValue = txtField.val();
+    return regex.test(inputValue) ? true : false;
+}
+
+function setTextErrorIU(txtField, error) {
+    if (txtField.val().length <= 0) {
+        defaultTextIU(txtField, "");
+    } else {
+        txtField.css('border', '2px solid red');
+        txtField.parent().children('span').text(error);
+    }
+}
+
+function textSuccessIU(txtField, error) {
+    if (txtField.val().length <= 0) {
+        defaultTextIU(txtField, "");
+    } else {
+        txtField.css('border', '2px solid green');
+        txtField.parent().children('span').text(error);
+    }
+}
+
+function defaultTextIU(txtField, error) {
+    txtField.css("border", "1px solid #ced4da");
+    txtField.parent().children('span').text(error);
+}
+
+function focusTextIU(txtField) {
+    txtField.focus();
+}
+
+function setButtonStateIU(value) {
+    if (value > 0) {
+        $("#btnUpdateItem").attr('disabled', true);
+    } else {
+        $("#btnUpdateItem").attr('disabled', false);
+    }
+}
 
 
 /**
