@@ -4,8 +4,116 @@
  **/
 
 /**
+ * load all customers Button
+ * */
+$("#btnViewAllCustomer").click(function () {
+    loadAllCustomers();
+});
+
+/**
+ * Table Listener Click and Load textFields
+ * */
+function blindClickEvents() {
+    $("#customerTable>tr").click(function () {
+        let id = $(this).children().eq(0).text();
+        let name = $(this).children().eq(1).text();
+        let address = $(this).children().eq(2).text();
+        let salary = $(this).children().eq(3).text();
+        console.log(id, name, address, salary);
+
+        $("#searchCustomerId").val(id);
+        $("#nameUpdate").val(name);
+        $("#addressUpdate").val(address);
+        $("#salaryUpdate").val(salary);
+
+        $("#searchCIdDelete").val(id);
+        $("#disabledNameDelete").val(name);
+        $("#disabledAddressDelete").val(address);
+        $("#disabledSalaryDelete").val(salary);
+    });
+}
+
+/**
+ * Table Listener double click and Click and Remove textFields
+ * */
+$("#customerTable").dblclick(function () {
+    Swal.fire({
+        title: 'Do you want to Delete the Select row?',
+        showDenyButton: true,
+        showCancelButton: true,
+        confirmButtonText: 'Yes',
+        denyButtonText: 'No',
+        customClass: {
+            actions: 'my-actions',
+            cancelButton: 'order-1 right-gap',
+            confirmButton: 'order-2',
+            denyButton: 'order-3',
+        }
+    }).then((result) => {
+        if (result.isConfirmed) {
+            $(this).children('tr').eq(0).remove();
+            Swal.fire('Delete!', '', 'success')
+        } else if (result.isDenied) {
+            Swal.fire('Select row are not Delete', '', 'info')
+        }
+    })
+
+});
+
+
+/**
+ * Search id and Load Table
+ * */
+$("#btnSearchCus").click(function () {
+    var result = customers.find(({id}) => id === $("#searchCusId").val());
+    console.log(result);
+
+    $("#customerTable").empty();
+    var row = `<tr><td>${result.id}</td><td>${result.name}</td><td>${result.address}</td><td>${result.salary}</td></tr>`;
+    $("#customerTable").append(row);
+
+    $("#searchCustomerId").val(result.id);
+    $("#nameUpdate").val(result.name);
+    $("#addressUpdate").val(result.address);
+    $("#salaryUpdate").val(result.salary);
+
+    $("#searchCIdDelete").val(result.id);
+    $("#disabledNameDelete").val(result.name);
+    $("#disabledAddressDelete").val(result.address);
+    $("#disabledSalaryDelete").val(result.salary);
+
+});
+
+/**
+ * Auto Forces Input Fields Search
+ * */
+$(document).ready(function () {
+    $('#searchCusId').keypress(function (event) {
+        if (event.which === 13) {
+            $('#btnSearchCus').focus();
+        }
+    });
+    $('#btnSearchCus').keypress(function (event) {
+        if (event.which === 13) {
+            $('#searchCusId').focus();
+        }
+    });
+});
+
+/**
+ * clear Search input fields Values Button
+ * */
+$("#clearSearchCus").click(function () {
+    searchCusId.value = '';
+    clearDTextFields();
+    clearUTextFields();
+});
+
+
+/**
  * Save Model
  * */
+
 
 /**
  * Button Add New Customer
@@ -180,7 +288,7 @@ function setButtonState(value) {
  * clear input fields Values Method
  * */
 function clearTextFields() {
-    $("#txtCustomerId").focus();
+    $("#txtCustomerID").focus();
     $("#txtCustomerId,#txtCustomerName,#txtCustomerAddress,#txtCustomerSalary").val("");
     checkValidity();
 }
@@ -196,8 +304,10 @@ $("#btnClearC").click(function () {
  * load all customers Method
  * */
 function loadAllCustomers() {
+
     //remove all the table body content before adding data
     $("#customerTable").empty();
+
 
     // get all customer records from the array
     for (var customer of customers) {
@@ -213,119 +323,6 @@ function loadAllCustomers() {
 }
 
 /**
- * load all customers Button
- * */
-$("#btnViewAllCustomer").click(function () {
-    loadAllCustomers();
-});
-
-/**
- * Table Listener Click and Load textFields
- * */
-function blindClickEvents() {
-    $("#customerTable>tr").click(function () {
-        let id = $(this).children().eq(0).text();
-        let name = $(this).children().eq(1).text();
-        let address = $(this).children().eq(2).text();
-        let salary = $(this).children().eq(3).text();
-        console.log(id, name, address, salary);
-
-        $("#searchCustomerId").val(id);
-        $("#nameUpdate").val(name);
-        $("#addressUpdate").val(address);
-        $("#salaryUpdate").val(salary);
-
-        $("#searchCIdDelete").val(id);
-        $("#disabledNameDelete").val(name);
-        $("#disabledAddressDelete").val(address);
-        $("#disabledSalaryDelete").val(salary);
-    });
-}
-
-/**
- * Table Listener double click and Click and Remove textFields
- * */
-$("#customerTable").dblclick(function () {
-    Swal.fire({
-        title: 'Do you want to Delete the Select row?',
-        showDenyButton: true,
-        showCancelButton: true,
-        confirmButtonText: 'Yes',
-        denyButtonText: 'No',
-        customClass: {
-            actions: 'my-actions',
-            cancelButton: 'order-1 right-gap',
-            confirmButton: 'order-2',
-            denyButton: 'order-3',
-        }
-    }).then((result) => {
-        if (result.isConfirmed) {
-            $(this).children('tr').eq(0).remove();
-            Swal.fire('Delete!', '', 'success')
-        } else if (result.isDenied) {
-            Swal.fire('Select row are not Delete', '', 'info')
-        }
-    })
-
-});
-
-
-/**
- * Search id and Load Table
- * */
-$("#btnSearchCus").click(function () {
-    var result = customers.find(({id}) => id === $("#searchCusId").val());
-    console.log(result);
-
-    $("#customerTable").empty();
-    var row = `<tr><td>${result.id}</td><td>${result.name}</td><td>${result.address}</td><td>${result.salary}</td></tr>`;
-    $("#customerTable").append(row);
-
-    setTextFieldValuesUpdate(result.id, result.name, result.address, result.salary);
-    setTextFieldValuesDelete(result.id, result.name, result.address, result.salary);
-
-});
-
-function setTextFieldValuesUpdate(id, name, address, salary) {
-    $("#searchCustomerId").val(id);
-    $("#nameUpdate").val(name);
-    $("#addressUpdate").val(address);
-    $("#salaryUpdate").val(salary);
-}
-
-function setTextFieldValuesDelete(id, name, address, salary) {
-    $("#searchCIdDelete").val(id);
-    $("#disabledNameDelete").val(name);
-    $("#disabledAddressDelete").val(address);
-    $("#disabledSalaryDelete").val(salary);
-}
-
-/**
- * Auto Forces Input Fields Search
- * */
-$(document).ready(function () {
-    $('#searchCusId').keypress(function (event) {
-        if (event.which === 13) {
-            $('#btnSearchCus').focus();
-        }
-    });
-    $('#btnSearchCus').keypress(function (event) {
-        if (event.which === 13) {
-            $('#searchCusId').focus();
-        }
-    });
-});
-
-/**
- * clear Search input fields Values Button
- * */
-$("#clearSearchCus").click(function () {
-    searchCusId.value = '';
-    clearDTextFields();
-    clearUTextFields();
-});
-
-/**
  * Update Model
  * */
 
@@ -335,7 +332,7 @@ $("#clearSearchCus").click(function () {
  * */
 
 $("#searchCustomerId,#nameUpdate,#addressUpdate,#salaryUpdate").on('keydown', function (event) {
-    if (event.key === "Tab") {
+    if (event.key == "Tab") {
         event.preventDefault();
     }
 });
@@ -432,6 +429,7 @@ $("#btnUclearC").click(function () {
  * Delete Model
  * */
 
+
 /**
  * clear input fields Values Method
  * */
@@ -448,4 +446,3 @@ function clearDTextFields() {
 $("#btnDclearC").click(function () {
     clearDTextFields();
 });
-
