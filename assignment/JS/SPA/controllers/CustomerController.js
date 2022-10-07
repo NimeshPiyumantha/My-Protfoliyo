@@ -69,20 +69,46 @@ $("#btnSearchCus").click(function () {
     var result = customers.find(({id}) => id === $("#searchCusId").val());
     console.log(result);
 
-    $("#customerTable").empty();
-    var row = `<tr><td>${result.id}</td><td>${result.name}</td><td>${result.address}</td><td>${result.salary}</td></tr>`;
-    $("#customerTable").append(row);
+    if( result !=null) {
+        $("#customerTable").empty();
+        var row = `<tr><td>${result.id}</td><td>${result.name}</td><td>${result.address}</td><td>${result.salary}</td></tr>`;
+        $("#customerTable").append(row);
 
-    $("#searchCustomerId").val(result.id);
-    $("#nameUpdate").val(result.name);
-    $("#addressUpdate").val(result.address);
-    $("#salaryUpdate").val(result.salary);
+        $("#searchCustomerId").val(result.id);
+        $("#nameUpdate").val(result.name);
+        $("#addressUpdate").val(result.address);
+        $("#salaryUpdate").val(result.salary);
 
-    $("#searchCIdDelete").val(result.id);
-    $("#disabledNameDelete").val(result.name);
-    $("#disabledAddressDelete").val(result.address);
-    $("#disabledSalaryDelete").val(result.salary);
+        $("#searchCIdDelete").val(result.id);
+        $("#disabledNameDelete").val(result.name);
+        $("#disabledAddressDelete").val(result.address);
+        $("#disabledSalaryDelete").val(result.salary);
 
+    }else {
+        let timerInterval
+        Swal.fire({
+            title: 'Empty Result!',
+            html: 'I will close in <b></b> milliseconds.',
+            timer: 2000,
+            timerProgressBar: true,
+            didOpen: () => {
+                Swal.showLoading()
+                const b = Swal.getHtmlContainer().querySelector('b')
+                timerInterval = setInterval(() => {
+                    b.textContent = Swal.getTimerLeft()
+                }, 100)
+            },
+            willClose: () => {
+                clearInterval(timerInterval)
+            }
+        }).then((result) => {
+            /* Read more about handling dismissals below */
+            if (result.dismiss === Swal.DismissReason.timer) {
+                console.log('I was closed by the timer')
+            }
+        })
+        clearCDTextFields();
+    }
 });
 
 /**
@@ -507,11 +533,37 @@ $("#searchCIdDelete").keyup(function (event) {
         var result = customers.find(({id}) => id === $("#searchCIdDelete").val());
         console.log(result);
 
-        $("#searchCIdDelete").val(result.id);
-        $("#disabledNameDelete").val(result.name);
-        $("#disabledAddressDelete").val(result.address);
-        $("#disabledSalaryDelete").val(result.salary);
+        if (result != null) {
+            $("#searchCIdDelete").val(result.id);
+            $("#disabledNameDelete").val(result.name);
+            $("#disabledAddressDelete").val(result.address);
+            $("#disabledSalaryDelete").val(result.salary);
 
+        } else {
+            let timerInterval
+            Swal.fire({
+                title: 'Empty Result!',
+                html: 'I will close in <b></b> milliseconds.',
+                timer: 2000,
+                timerProgressBar: true,
+                didOpen: () => {
+                    Swal.showLoading()
+                    const b = Swal.getHtmlContainer().querySelector('b')
+                    timerInterval = setInterval(() => {
+                        b.textContent = Swal.getTimerLeft()
+                    }, 100)
+                },
+                willClose: () => {
+                    clearInterval(timerInterval)
+                }
+            }).then((result) => {
+                /* Read more about handling dismissals below */
+                if (result.dismiss === Swal.DismissReason.timer) {
+                    console.log('I was closed by the timer')
+                }
+            })
+            clearCDTextFields();
+        }
     }
 });
 
