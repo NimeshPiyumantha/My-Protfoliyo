@@ -280,20 +280,45 @@ $("#btnSearchItem").click(function () {
     var resultI = items.find(({code}) => code === $("#ItemIdSearch").val());
     console.log(resultI);
 
-    $("#ItemTable").empty();
-    var row = `<tr><td>${resultI.code}</td><td>${resultI.name}</td><td>${resultI.qty}</td><td>${resultI.price}</td></tr>`;
-    $("#ItemTable").append(row);
+    if (resultI != null) {
+        $("#ItemTable").empty();
+        var row = `<tr><td>${resultI.code}</td><td>${resultI.name}</td><td>${resultI.qty}</td><td>${resultI.price}</td></tr>`;
+        $("#ItemTable").append(row);
 
-    $("#searchItemId").val(resultI.code);
-    $("#updateItemName").val(resultI.name);
-    $("#updateItemQty").val(resultI.qty);
-    $("#updateItemPrice").val(resultI.price);
+        $("#searchItemId").val(resultI.code);
+        $("#updateItemName").val(resultI.name);
+        $("#updateItemQty").val(resultI.qty);
+        $("#updateItemPrice").val(resultI.price);
 
-    $("#searchDItemId").val(resultI.code);
-    $("#DItemName").val(resultI.name);
-    $("#DItemQty").val(resultI.qty);
-    $("#DItemPrice").val(resultI.price);
-
+        $("#searchDItemId").val(resultI.code);
+        $("#DItemName").val(resultI.name);
+        $("#DItemQty").val(resultI.qty);
+        $("#DItemPrice").val(resultI.price);
+    } else {
+        let timerInterval
+        Swal.fire({
+            title: 'Empty Result!',
+            html: 'I will close in <b></b> milliseconds.',
+            timer: 2000,
+            timerProgressBar: true,
+            didOpen: () => {
+                Swal.showLoading()
+                const b = Swal.getHtmlContainer().querySelector('b')
+                timerInterval = setInterval(() => {
+                    b.textContent = Swal.getTimerLeft()
+                }, 100)
+            },
+            willClose: () => {
+                clearInterval(timerInterval)
+            }
+        }).then((result) => {
+            /* Read more about handling dismissals below */
+            if (result.dismiss === Swal.DismissReason.timer) {
+                console.log('I was closed by the timer')
+            }
+        })
+        clearCDTextFields();
+    }
 });
 
 /**
@@ -448,25 +473,48 @@ $("#btnUclearI").click(function () {
  * Delete Model
  * */
 
-/*
 
-/!**
+/**
  * Delete Model
  * Search id Enter Pressed And Load TextFields
- * *!/
+ * */
 $("#searchDItemId").keyup(function (event) {
     if (event.keyCode === 13) {
         var resultI = items.find(({code}) => code === $("#searchDItemId").val());
         console.log(resultI);
 
-        $("#searchDItemId").val(resultI.code);
-        $("#DItemName").val(resultI.name);
-        $("#DItemQty").val(resultI.qty);
-        $("#DItemPrice").val(resultI.price);
-
+        if(resultI !=null) {
+            $("#searchDItemId").val(resultI.code);
+            $("#DItemName").val(resultI.name);
+            $("#DItemQty").val(resultI.qty);
+            $("#DItemPrice").val(resultI.price);
+        }else {
+            let timerInterval
+            Swal.fire({
+                title: 'Empty Result!',
+                html: 'I will close in <b></b> milliseconds.',
+                timer: 2000,
+                timerProgressBar: true,
+                didOpen: () => {
+                    Swal.showLoading()
+                    const b = Swal.getHtmlContainer().querySelector('b')
+                    timerInterval = setInterval(() => {
+                        b.textContent = Swal.getTimerLeft()
+                    }, 100)
+                },
+                willClose: () => {
+                    clearInterval(timerInterval)
+                }
+            }).then((result) => {
+                /* Read more about handling dismissals below */
+                if (result.dismiss === Swal.DismissReason.timer) {
+                    console.log('I was closed by the timer')
+                }
+            })
+            clearCDTextFields();
+        }
     }
 });
-*/
 
 
 /**
