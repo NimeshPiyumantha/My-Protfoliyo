@@ -11,4 +11,10 @@ function loadAllCustomersForOption() {
 
 }
 
+function loadAllItemsForOption() {
+    $("#itemCode").empty();
+    for (let item of items) {
+        $("#itemCode").append(`<option>${item.code}</option>`);
+    }
 
+}

@@ -99,6 +99,7 @@ $("#btnISave").click(function () {
     /*console.log(items);*/
 
     loadAllItems();
+    loadAllItemsForOption();
 });
 
 /**
