@@ -648,6 +648,7 @@ function deleteCustomer(customerID) {
         let indexNumber = customers.indexOf(customer);
         customers.splice(indexNumber, 1);
         loadAllCustomers();
+        clearCDTextFields();
         return true;
     } else {
         return false;

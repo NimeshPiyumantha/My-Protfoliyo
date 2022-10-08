@@ -599,6 +599,59 @@ $("#searchDItemId").keyup(function (event) {
     }
 });
 
+/**
+ * Delete Button
+ * */
+$("#btnDeleteItems").click(function () {
+    let deleteIID = $("#searchDItemId").val();
+
+    Swal.fire({
+        title: 'Do you want to Delete the ' +deleteIID +' ?',
+        showDenyButton: true,
+        showCancelButton: true,
+        confirmButtonText: 'Delete',
+        denyButtonText: `Don't Delete`,
+    }).then((result) => {
+        if (result.isConfirmed) {
+            if (deleteItems(deleteIID)) {
+                Swal.fire({
+                    position: 'top-end',
+                    icon: 'success',
+                    title: 'Delete Successfully',
+                    showConfirmButton: false,
+                    timer: 1500
+                })
+                clearCDTextFields();
+            } else {
+                Swal.fire({
+                    position: 'top-end',
+                    icon: 'error',
+                    title: 'Delete Unsuccessfully',
+                    showConfirmButton: false,
+                    timer: 1500
+                })
+            }
+        } else if (result.isDenied) {
+            Swal.fire(deleteIID+' Delete Canceled!', '', 'info')
+        }
+    })
+
+});
+
+function deleteItems(itemID) {
+    let item = searchItem(itemID);
+    if (item != null) {
+        let indexNumber1 = items.indexOf(item);
+        items.splice(indexNumber1, 1);
+        loadAllItems();
+        clearDTextFields();
+        return true;
+    } else {
+        return false;
+    }
+}
+
+
 
 /**
  * clear input fields Values Method
