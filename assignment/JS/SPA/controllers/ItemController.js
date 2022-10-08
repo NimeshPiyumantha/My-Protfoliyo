@@ -242,6 +242,7 @@ function clearTextFieldsI() {
     txtItemQty.value = '';
     txtItemPrice.value = '';
     $("#txtItemsId").focus();
+    checkValidity();
 }
 
 /**
@@ -350,26 +351,48 @@ $("#clearSearchItem").click(function () {
  * Update Model
  * */
 
-/*
 
-/!**
- * Update Model
- * Search id Enter Pressed And Load TextFields
- * *!/
-$("#searchItemId").keyup(function (event) {
-    if (event.keyCode === 13) {
-        var resultI = items.find(({code}) => code === $("#searchItemId").val());
-        console.log(resultI);
-
-        $("#searchItemId").val(resultI.code);
-        $("#updateItemName").val(resultI.name);
-        $("#updateItemQty").val(resultI.qty);
-        $("#updateItemPrice").val(resultI.price);
+/**
+ * Update Button
+ * */
+$("#btnUpdateItem").click(function () {
+    let ItemId = $("#searchItemId").val();
+    let response = updateItem(ItemId);
+    if (response) {
+        alert("Item Updated Successfully");
+        clearUTextFields();
+        checkValidityIU();
+    } else {
+        alert("Update Failed..!");
 
     }
 });
 
-*/
+/**
+ * Update Methods
+ * */
+function updateItem(itemId) {
+    let item = searchItem(itemId);
+    if (item != null) {
+        item.code = $("#searchItemId").val();
+        item.name = $("#updateItemName").val();
+        item.qty = $("#updateItemQty").val();
+        item.price = $("#updateItemPrice").val();
+        loadAllItems();
+        return true;
+    } else {
+        return false;
+    }
+}
+
+function searchItem(itemID) {
+    for (let item of items) {
+        if (item.code === itemID) {
+            return item;
+        }
+    }
+    return null;
+}
 
 /**
  * Auto Forces Input Fields Update
@@ -531,12 +554,12 @@ $("#searchDItemId").keyup(function (event) {
         var resultI = items.find(({code}) => code === $("#searchDItemId").val());
         console.log(resultI);
 
-        if(resultI !=null) {
+        if (resultI != null) {
             $("#searchDItemId").val(resultI.code);
             $("#DItemName").val(resultI.name);
             $("#DItemQty").val(resultI.qty);
             $("#DItemPrice").val(resultI.price);
-        }else {
+        } else {
             let timerInterval
             Swal.fire({
                 title: 'Empty Result!',
