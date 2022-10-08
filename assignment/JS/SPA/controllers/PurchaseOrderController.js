@@ -54,3 +54,10 @@ function loadAllItemsForOption() {
         $("#itemCode").append(`<option>${item.code}</option>`);
     }
 }
+
+$("#itemCode").click(function () {
+    var rCmbI = items.find(({code}) => code === $("#itemCode").val());
+    $("#itemName").val(rCmbI.name);
+    $("#itemPrice").val(rCmbI.qty);
+    $("#qtyOnHand").val(rCmbI.price);
+});
