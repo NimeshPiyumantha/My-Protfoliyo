@@ -33,10 +33,10 @@ function loadAllCustomersForOption() {
 }
 
 $("#customerId").click(function () {
-    var rCmb = customers.find(({id}) => id === $("#customerId").val());
-    $("#customerName").val(rCmb.name);
-    $("#customerAddress").val(rCmb.address);
-    $("#customerSalary").val(rCmb.salary);
+    var rCmbC = customers.find(({id}) => id === $("#customerId").val());
+    $("#customerName").val(rCmbC.name);
+    $("#customerAddress").val(rCmbC.address);
+    $("#customerSalary").val(rCmbC.salary);
 });
 
 
@@ -53,5 +53,4 @@ function loadAllItemsForOption() {
     for (let item of items) {
         $("#itemCode").append(`<option>${item.code}</option>`);
     }
-
 }
