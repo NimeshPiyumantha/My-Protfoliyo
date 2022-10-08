@@ -37,5 +37,6 @@ $("#orderBtn").click(function () {
     $("#ItemSection").css('display', 'none');
     $("#OrderSection").css('display', 'block');
 
+    generateOrderID();
     setCurrentDate();
 });

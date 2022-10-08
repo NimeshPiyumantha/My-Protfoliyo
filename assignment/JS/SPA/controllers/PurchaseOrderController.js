@@ -9,6 +9,14 @@
 
 /**
  * Invoice Details
+ * Order ID
+ * */
+function generateOrderID() {
+    $("#orderId").val("ODI-001");
+}
+
+/**
+ * Invoice Details
  * Order Date
  * */
 function setCurrentDate() {
@@ -61,3 +69,10 @@ $("#itemCode").click(function () {
     $("#itemPrice").val(rCmbI.qty);
     $("#qtyOnHand").val(rCmbI.price);
 });
+
+/**
+ * Logics
+ * Place order Table logic
+ * */
+
+var placeOrderTable=[];
