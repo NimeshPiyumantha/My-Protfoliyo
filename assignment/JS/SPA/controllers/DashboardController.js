@@ -36,4 +36,6 @@ $("#orderBtn").click(function () {
     $("#CustomerSection").css('display', 'none');
     $("#ItemSection").css('display', 'none');
     $("#OrderSection").css('display', 'block');
+
+    setCurrentDate();
 });
