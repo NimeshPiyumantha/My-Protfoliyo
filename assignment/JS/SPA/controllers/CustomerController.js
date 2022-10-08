@@ -177,6 +177,7 @@ $("#btnCSave").click(function () {
     /* console.log(customers);*/
 
     loadAllCustomers();
+    loadAllCustomersForOption();
 });
 
 /**

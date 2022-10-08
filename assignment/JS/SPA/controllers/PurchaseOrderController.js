@@ -4,9 +4,11 @@
  **/
 
 function loadAllCustomersForOption() {
-    $("#selectCusID").empty();
+    $("#customerId").empty();
     for (let cus of customers) {
-        $("#selectCusID").append(`<option>${cus.id}</option>`);
+        $("#customerId").append(`<option>${cus.id}</option>`);
     }
 
 }
+
+
