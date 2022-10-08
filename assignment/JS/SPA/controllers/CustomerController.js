@@ -507,7 +507,6 @@ $("#bntUpdateCustomer").click(function () {
             showConfirmButton: false,
             timer: 1500
         })
-
     }
 });
 
@@ -603,6 +602,57 @@ $("#searchCIdDelete").keyup(function (event) {
         }
     }
 });
+
+/**
+ * Delete Button
+ * */
+$("#btnDeleteCustomer").click(function () {
+    let deleteID = $("#searchCIdDelete").val();
+
+        Swal.fire({
+            title: 'Do you want to Delete the ' +deleteID +' ?',
+            showDenyButton: true,
+            showCancelButton: true,
+            confirmButtonText: 'Delete',
+            denyButtonText: `Don't Delete`,
+        }).then((result) => {
+            if (result.isConfirmed) {
+                if (deleteCustomer(deleteID)) {
+                    Swal.fire({
+                        position: 'top-end',
+                        icon: 'success',
+                        title: 'Delete Successfully',
+                        showConfirmButton: false,
+                        timer: 1500
+                    })
+                    clearCDTextFields();
+                } else {
+                    Swal.fire({
+                        position: 'top-end',
+                        icon: 'error',
+                        title: 'Delete Unsuccessfully',
+                        showConfirmButton: false,
+                        timer: 1500
+                    })
+                }
+            } else if (result.isDenied) {
+                Swal.fire(deleteID+' Delete Canceled!', '', 'info')
+            }
+        })
+
+});
+
+function deleteCustomer(customerID) {
+    let customer = searchCustomer(customerID);
+    if (customer != null) {
+        let indexNumber = customers.indexOf(customer);
+        customers.splice(indexNumber, 1);
+        loadAllCustomers();
+        return true;
+    } else {
+        return false;
+    }
+}
 
 /**
  * clear input fields Values Method
