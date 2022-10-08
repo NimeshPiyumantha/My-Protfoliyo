@@ -11,7 +11,7 @@
  * Invoice Details
  * Order Date
  * */
-function setCurrentDate(){
+function setCurrentDate() {
     let orderDate = $('#orderDate');
     let today = new Date();
     let dd = String(today.getDate()).padStart(2, '0');
@@ -30,9 +30,14 @@ function loadAllCustomersForOption() {
     for (let cus of customers) {
         $("#customerId").append(`<option>${cus.id}</option>`);
     }
-
 }
 
+$("#customerId").click(function () {
+    var rCmb = customers.find(({id}) => id === $("#customerId").val());
+    $("#customerName").val(rCmb.name);
+    $("#customerAddress").val(rCmb.address);
+    $("#customerSalary").val(rCmb.salary);
+});
 
 
 /**
