@@ -359,11 +359,23 @@ $("#btnUpdateItem").click(function () {
     let ItemId = $("#searchItemId").val();
     let response = updateItem(ItemId);
     if (response) {
-        alert("Item Updated Successfully");
+        Swal.fire({
+            position: 'top-end',
+            icon: 'success',
+            title: 'Updated Successfully',
+            showConfirmButton: false,
+            timer: 1500
+        })
         clearUTextFields();
         checkValidityIU();
     } else {
-        alert("Update Failed..!");
+        Swal.fire({
+            position: 'top-end',
+            icon: 'error',
+            title: 'Updated Unsuccessfully',
+            showConfirmButton: false,
+            timer: 1500
+        })
 
     }
 });
