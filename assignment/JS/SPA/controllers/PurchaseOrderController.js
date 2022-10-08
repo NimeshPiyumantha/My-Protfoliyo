@@ -3,6 +3,14 @@
  * @since : 0.1.0
  **/
 
+/**
+ * Invoice Details
+ * */
+
+/**
+ * Invoice Details
+ * Customer Select Combo
+ * */
 function loadAllCustomersForOption() {
     $("#customerId").empty();
     for (let cus of customers) {
@@ -11,6 +19,15 @@ function loadAllCustomersForOption() {
 
 }
 
+
+/**
+ * Items Details
+ * */
+
+/**
+ * Items Details
+ * Item Select Combo
+ * */
 function loadAllItemsForOption() {
     $("#itemCode").empty();
     for (let item of items) {
