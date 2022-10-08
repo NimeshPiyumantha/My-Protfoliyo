@@ -69,7 +69,7 @@ $("#btnSearchCus").click(function () {
     var result = customers.find(({id}) => id === $("#searchCusId").val());
     console.log(result);
 
-    if( result !=null) {
+    if (result != null) {
         $("#customerTable").empty();
         var row = `<tr><td>${result.id}</td><td>${result.name}</td><td>${result.address}</td><td>${result.salary}</td></tr>`;
         $("#customerTable").append(row);
@@ -84,7 +84,7 @@ $("#btnSearchCus").click(function () {
         $("#disabledAddressDelete").val(result.address);
         $("#disabledSalaryDelete").val(result.salary);
 
-    }else {
+    } else {
         let timerInterval
         Swal.fire({
             title: 'Empty Result!',
@@ -483,23 +483,60 @@ function setButtonStateCU(value) {
     }
 }
 
-/*
-/!**
- * Update Model
- * Search id Enter Pressed And Load TextFields
- * *!/
-$("#searchCustomerId").keyup(function (event) {
-    if (event.keyCode === 13) {
-        var result = customers.find(({id}) => id === $("#searchCustomerId").val());
-        console.log(result);
-
-        $("#searchCustomerId").val(result.id);
-        $("#nameUpdate").val(result.name);
-        $("#addressUpdate").val(result.address);
-        $("#salaryUpdate").val(result.salary);
+/**
+ * Update Button
+ * */
+$("#bntUpdateCustomer").click(function () {
+    let CustomerId = $("#searchCustomerId").val();
+    let response2 = updateCustomers(CustomerId);
+    if (response2) {
+        Swal.fire({
+            position: 'top-end',
+            icon: 'success',
+            title: 'Updated Successfully',
+            showConfirmButton: false,
+            timer: 1500
+        })
+        clearCUTextFields();
+        checkValidityCU();
+    } else {
+        Swal.fire({
+            position: 'top-end',
+            icon: 'error',
+            title: 'Updated Unsuccessfully',
+            showConfirmButton: false,
+            timer: 1500
+        })
 
     }
-});*/
+});
+
+/**
+ * Update Methods
+ * */
+function updateCustomers(CustomerId) {
+    let customer = searchCustomer(CustomerId);
+    if (customer != null) {
+        customer.id = $("#searchCustomerId").val();
+        customer.name = $("#nameUpdate").val();
+        customer.address = $("#addressUpdate").val();
+        customer.salary = $("#salaryUpdate").val();
+        loadAllCustomers();
+        return true;
+    } else {
+        return false;
+    }
+}
+
+function searchCustomer(cusId) {
+    for (let customer of customers) {
+        if (customer.id === cusId) {
+            return customer;
+        }
+    }
+    return null;
+}
+
 
 /**
  * clear input fields Values Method
