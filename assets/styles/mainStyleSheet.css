@@ -17,6 +17,7 @@
 
 /**  Customize Scrollbar  **/
 ::-webkit-scrollbar {
+    display: none;
     width: 10px;
     background: #2ED573;
 }
@@ -49,10 +50,11 @@ section#loader {
     min-height: 100vh;
     min-width: 100vw;
     background: #2e3133;
-    z-index: 7;
+    z-index: 20;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .scan {
@@ -209,7 +211,7 @@ nav > ul > li > a.active, a:hover {
 /** Main - Home */
 main {
     position: relative;
-    margin-top: 70px;
+
 }
 
 #Home {
