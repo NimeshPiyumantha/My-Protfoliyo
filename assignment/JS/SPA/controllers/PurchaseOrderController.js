@@ -76,3 +76,4 @@ $("#itemCode").click(function () {
  * */
 
 var placeOrderTable=[];
+
