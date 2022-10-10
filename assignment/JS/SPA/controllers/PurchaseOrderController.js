@@ -217,11 +217,9 @@ function manageTotal(preTotal, nowTotal) {
 
 $(document).on("change keyup blur", "#txtDiscount", function () {
     discount = $("#txtDiscount").val();
-    console.log(discount);
     discount = (total / 100) * discount;
-    console.log(discount);
-
     subTotal = total - discount;
+
     $("#txtSubTotal").val(subTotal);
 });
 
@@ -259,5 +257,9 @@ function placeOrder() {
         discount: discount
     }
     order.push(orderObject);
-
+    $("#txtTotal").val("");
+    $("#txtDiscount").val("");
+    $("#txtSubTotal").val("");
+    $("#txtCash").val("");
+    $("#txtBalance").val("");
 }
