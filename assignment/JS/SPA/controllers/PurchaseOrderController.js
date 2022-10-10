@@ -70,8 +70,3 @@ $("#cmbItemCode").click(function () {
     $("#qtyOnHand").val(rCmbI.qty);
 });
 
-/**
- * Logics
- * Place order Table logic
- * */
-

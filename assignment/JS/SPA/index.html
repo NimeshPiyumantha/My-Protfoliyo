@@ -656,8 +656,8 @@
                         <input class="form-control border-dark" id="buyQty" type="text">
                     </div>
                     <div class="col-12 col-md-6 col-lg-6 mt-4 ">
-                        <button class="btn btn-primary rounded-2" type="button" id="btnAddToCart">Add To Cart</button>
-                </div>
+                        <button class="btn btn-primary rounded-2" id="btnAddToCart" type="button">Add To Cart</button>
+                    </div>
                 </div>
             </div>
             <!-- Order Item Details Section End -->
@@ -682,18 +682,18 @@
                         <input class="form-control border-dark" disabled id="txtSubTotal" type="number">
                     </div>
                     <div class="col-12 col-md-6 col-lg-6">
-                        <label class="fw-bold" for="cash">Cash :</label>
-                        <input class="form-control border-dark" id="cash" type="text">
+                        <label class="fw-bold" for="txtCash">Cash :</label>
+                        <input class="form-control border-dark" id="txtCash" type="text">
                     </div>
                 </div>
 
                 <div class="row mt-1">
                     <div class="col-12 col-md-6 col-lg-6">
-                        <label class="fw-bold" for="balance">Balance :</label>
-                        <input class="form-control border-dark" disabled id="balance" type="number">
+                        <label class="fw-bold" for="txtBalance">Balance :</label>
+                        <input class="form-control border-dark" disabled id="txtBalance" type="number">
                     </div>
                     <div class="col-12 col-md-6 col-lg-6 mt-4">
-                        <button class="btn btn-success rounded-2" type="submit">Purchase</button>
+                        <button class="btn btn-success rounded-2" id="btnPurchase" type="submit">Purchase</button>
                     </div>
                 </div>
             </div>
@@ -737,9 +737,9 @@
 <script src="assets/styles/bootstrap-5.2.1-dist/js/bootstrap.min.js"></script>
 
 <!--import jQuery library-->
-<script src="assets/styles/jQuery/jquery-3.6.1.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.33/dist/sweetalert2.all.min.js"></script>
+<script src="assets/styles/jQuery/jquery-3.6.1.min.js" rel="script"></script>
 <script rel="script" src="db/db.js"></script>
+<script rel="script" src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.33/dist/sweetalert2.all.min.js"></script>
 <script rel="script" src="controllers/DashboardController.js"></script>
 <script rel="script" src="controllers/CustomerController.js"></script>
 <script rel="script" src="controllers/ItemController.js"></script>
