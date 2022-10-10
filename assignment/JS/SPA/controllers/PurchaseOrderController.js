@@ -90,7 +90,7 @@ $("#btnAddToCart").click(function () {
     /**
      * Logics
      * Place order
-     * Table logic
+     * Table Add logic
      * */
     $("#tblAddToCart>tr").click('click', function () {
 
@@ -109,3 +109,23 @@ $("#btnAddToCart").click(function () {
 
     });
 });
+
+/**
+ * Logics
+ * Place order
+ * Table Load
+ * */
+function loadOrderDetail() {
+    $("#tblAddToCart").empty();
+
+    itemCode = $("#cmbItemCode").val();
+    itemName = $("#itemName").val();
+    itemPrice = $("#itemPrice").val();
+    itemQty = $("#qtyOnHand").val();
+    itemOrderQty = $("#buyQty").val();
+
+    let total = itemPrice * itemOrderQty;
+    var row = `<tr><td>${itemCode}</td><td>${itemName}</td><td>${itemPrice}</td><td>${itemOrderQty}</td><td>${total}</td></tr>`;
+
+    $("#tblAddToCart").append(row);
+}
