@@ -224,3 +224,16 @@ $(document).on("change keyup blur", "#txtDiscount", function () {
     subTotal = total - discount;
     $("#txtSubTotal").val(subTotal);
 });
+
+
+/**
+ * Logics
+ * Place order
+ * Enter Cash and Balance display
+ * */
+
+$(document).on("change keyup blur", "#txtCash", function () {
+    var cash = $("#txtCash").val();
+    var balance = cash - subTotal;
+    $("#txtBalance").val(balance);
+});
