@@ -97,8 +97,10 @@ $("#btnAddToCart").click(function () {
 
         }
     }
+    if (duplicate !== true) {
 
-
+        loadCartTableDetail();
+    }
 
     /**
      * Logics
@@ -128,7 +130,7 @@ $("#btnAddToCart").click(function () {
  * Place order
  * Table Load
  * */
-function loadOrderDetail() {
+function loadCartTableDetail() {
     $("#tblAddToCart").empty();
 
     itemCode = $("#cmbItemCode").val();
