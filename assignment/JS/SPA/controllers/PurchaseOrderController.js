@@ -183,16 +183,15 @@ function calcTotal(amount) {
  * Place order
  * Manage Available Qty
  * */
-function manageQtyOnHand(prevQty, nowQty) {
+function manageQtyOnHand(preQty, nowQty) {
     var preQty = parseInt(preQty);
     var nowQty = parseInt(nowQty);
-    var avQty = parseInt($("#qtyOnHand").val());
+    var avaQty = parseInt($("#qtyOnHand").val());
 
-    avQty = avQty + preQty;
-    avQty = avQty - nowQty;
+    avaQty = avaQty + preQty;
+    avaQty = avaQty - nowQty;
 
-    $("#qtyOnHand").val(avQty);
-
+    $("#qtyOnHand").val(avaQty);
 }
 
 
@@ -261,12 +260,6 @@ function placeOrder() {
     order.push(orderObject);
     console.log(order);
 
-    $("#txtTotal").val("");
-    $("#txtDiscount").val("");
-    $("#txtSubTotal").val("");
-    $("#txtCash").val("");
-    $("#txtBalance").val("");
-
     Swal.fire({
         position: 'top-end',
         icon: 'success',
@@ -327,8 +320,22 @@ $("#btnPurchase").click(function () {
 
 });
 
+/**
+ * Logics
+ * Place order
+ * Clear Method
+ * */
 function clearDetails() {
-    $('#cmbCustomerId,#cmbItemCode,#itemName,#itemPrice,#qtyOnHand,#buyQty,#txtDiscount').val("");
+    $('#cmbCustomerId,#customerName,#customerAddress,#customerSalary,#cmbItemCode,#itemName,#itemPrice,#qtyOnHand,#buyQty,#txtDiscount,#txtTotal,#txtDiscount,#txtSubTotal,#txtCash,#txtBalance').val("");
+
 }
 
+/**
+ * Logics
+ * Place order
+ * Clear Button
+ * */
+$("#btnClearAll").click(function () {
+    clearDetails();
+});
 
