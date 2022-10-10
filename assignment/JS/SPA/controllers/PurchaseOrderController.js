@@ -237,3 +237,27 @@ $(document).on("change keyup blur", "#txtCash", function () {
     var balance = cash - subTotal;
     $("#txtBalance").val(balance);
 });
+
+/**
+ * Logics
+ * Place order
+ * placeOrder to Order Array
+ * method
+ * */
+function placeOrder() {
+    let oid = $("#orderId").val();
+    let cId = $("#cmbCustomerId").val();
+    let oDate = $("#orderDate").val();
+    let subTotal = $("#txtSubTotal").val();
+    let discount = $("#txtDiscount").val();
+
+    var orderObject = {
+        oId: oid,
+        cId: cId,
+        oDate: oDate,
+        subTotal: subTotal,
+        discount: discount
+    }
+    order.push(orderObject);
+
+}
