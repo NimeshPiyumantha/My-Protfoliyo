@@ -85,10 +85,9 @@ $("#cmbItemCode").click(function () {
  * Place order
  * */
 
+var tableRow = [];
+
 $("#btnAddToCart").click(function () {
-
-    var tableRow = [];
-
     var duplicate = false;
 
     for (var i = 0; i < $("#tblAddToCart tr").length; i++) {
@@ -110,6 +109,7 @@ $("#btnAddToCart").click(function () {
 
         manageTotal(tableRow.children(':nth-child(5)').text(), $("#buyQty").val() * $("#itemPrice").val());
         $(tableRow).children(':nth-child(5)').text($("#buyQty").val() * $("#itemPrice").val());
+
     }
 
     /**
@@ -140,9 +140,9 @@ $("#btnAddToCart").click(function () {
  * Place order
  * Table Load
  * */
-function loadCartTableDetail() {
-    $("#tblAddToCart").empty();
+$("#tblAddToCart").empty();
 
+function loadCartTableDetail() {
     itemCode = $("#cmbItemCode").val();
     itemName = $("#itemName").val();
     itemPrice = $("#itemPrice").val();
@@ -256,6 +256,8 @@ function placeOrder() {
         subTotal: subTotal,
         discount: discount
     }
+
+
     order.push(orderObject);
     console.log(order);
 
@@ -264,6 +266,14 @@ function placeOrder() {
     $("#txtSubTotal").val("");
     $("#txtCash").val("");
     $("#txtBalance").val("");
+
+    Swal.fire({
+        position: 'top-end',
+        icon: 'success',
+        title: 'Place Ordering are Successful.',
+        showConfirmButton: false,
+        timer: 2500
+    })
 }
 
 /**
@@ -312,17 +322,13 @@ $("#btnPurchase").click(function () {
     placeOrder();
     pushOrderDetails();
     generateOrderID();
-    clearItemData();
-    clearCustomerData();
+    clearDetails();
     $("#tblAddToCart").empty();
 
 });
 
-function clearItemData() {
-    $('#cmbItemCode,#itemName,#itemPrice,#qtyOnHand,#buyQty,#txtDiscount').val("");
+function clearDetails() {
+    $('#cmbCustomerId,#cmbItemCode,#itemName,#itemPrice,#qtyOnHand,#buyQty,#txtDiscount').val("");
 }
 
-function clearCustomerData() {
-    $('#cmbCustomerId,#customerName,#customerAddress,#customerSalary').val("");
-}
 
