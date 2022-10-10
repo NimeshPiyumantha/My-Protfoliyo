@@ -100,6 +100,8 @@ $("#btnAddToCart").click(function () {
     if (duplicate !== true) {
 
         loadCartTableDetail();
+        reduceQty($("#buyQty").val());
+
     }
 
     /**
@@ -143,4 +145,16 @@ function loadCartTableDetail() {
     var row = `<tr><td>${itemCode}</td><td>${itemName}</td><td>${itemPrice}</td><td>${itemOrderQty}</td><td>${total}</td></tr>`;
 
     $("#tblAddToCart").append(row);
+}
+
+/**
+ * Logics
+ * Place order
+ * Reduce QtyOnHand
+ * */
+function reduceQty(orderQty) {
+    var minQty = parseInt(orderQty);
+    var reduceQty = parseInt($("#qtyOnHand").val());
+    reduceQty = reduceQty - minQty;
+    $("#qtyOnHand").val(reduceQty);
 }
