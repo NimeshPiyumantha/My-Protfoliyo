@@ -52,6 +52,16 @@ $("#cmbCustomerId").click(function () {
  * Items Details
  * */
 
+var itemCode;
+var itemName;
+var itemPrice;
+var itemQty;
+var itemOrderQty;
+
+var total = 0;
+var discount = 0;
+var subTotal = 0;
+
 /**
  * Items Details
  * Item Select Combo
