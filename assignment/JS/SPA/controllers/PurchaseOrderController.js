@@ -301,3 +301,21 @@ function pushOrderDetails() {
         console.log(orderDetails);
     }
 }
+
+/**
+ * Logics
+ * Place order
+ * Purchase Order button
+ * */
+
+$("#btnPurchase").click(function () {
+    placeOrder();
+    pushOrderDetails();
+    generateOrderID();
+    clearItemData();
+    clearCustomerData();
+    $("#tblAddToCart").empty();
+
+});
+
+
