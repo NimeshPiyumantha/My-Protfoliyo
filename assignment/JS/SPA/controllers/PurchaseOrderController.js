@@ -66,14 +66,12 @@ function loadAllItemsForOption() {
 $("#cmbItemCode").click(function () {
     var rCmbI = items.find(({code}) => code === $("#cmbItemCode").val());
     $("#itemName").val(rCmbI.name);
-    $("#itemPrice").val(rCmbI.qty);
-    $("#qtyOnHand").val(rCmbI.price);
+    $("#itemPrice").val(rCmbI.price);
+    $("#qtyOnHand").val(rCmbI.qty);
 });
 
 /**
  * Logics
  * Place order Table logic
  * */
-
-var placeOrderTable=[];
 
