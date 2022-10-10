@@ -34,14 +34,14 @@ function setCurrentDate() {
  * Customer Select Combo
  * */
 function loadAllCustomersForOption() {
-    $("#customerId").empty();
+    $("#cmbCustomerId").empty();
     for (let cus of customers) {
-        $("#customerId").append(`<option>${cus.id}</option>`);
+        $("#cmbCustomerId").append(`<option>${cus.id}</option>`);
     }
 }
 
-$("#customerId").click(function () {
-    var rCmbC = customers.find(({id}) => id === $("#customerId").val());
+$("#cmbCustomerId").click(function () {
+    var rCmbC = customers.find(({id}) => id === $("#cmbCustomerId").val());
     $("#customerName").val(rCmbC.name);
     $("#customerAddress").val(rCmbC.address);
     $("#customerSalary").val(rCmbC.salary);
@@ -57,14 +57,14 @@ $("#customerId").click(function () {
  * Item Select Combo
  * */
 function loadAllItemsForOption() {
-    $("#itemCode").empty();
+    $("#cmbItemCode").empty();
     for (let item of items) {
-        $("#itemCode").append(`<option>${item.code}</option>`);
+        $("#cmbItemCode").append(`<option>${item.code}</option>`);
     }
 }
 
-$("#itemCode").click(function () {
-    var rCmbI = items.find(({code}) => code === $("#itemCode").val());
+$("#cmbItemCode").click(function () {
+    var rCmbI = items.find(({code}) => code === $("#cmbItemCode").val());
     $("#itemName").val(rCmbI.name);
     $("#itemPrice").val(rCmbI.qty);
     $("#qtyOnHand").val(rCmbI.price);
