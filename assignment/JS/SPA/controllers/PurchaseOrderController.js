@@ -107,6 +107,9 @@ $("#btnAddToCart").click(function () {
 
         manageQtyOnHand(tableRow.children(':nth-child(4)').text(), $("#buyQty").val());
         $(tableRow).children(':nth-child(4)').text($("#buyQty").val());
+
+        manageTotal(tableRow.children(':nth-child(5)').text(), $("#buyQty").val() * $("#itemPrice").val());
+        $(tableRow).children(':nth-child(5)').text($("#buyQty").val() * $("#itemPrice").val());
     }
 
     /**
@@ -181,13 +184,13 @@ function calcTotal(amount) {
  * Manage Qty
  * */
 function manageQtyOnHand(prevQty, nowQty) {
-    var prevQty = parseInt(prevQty);
+    var preQty = parseInt(preQty);
     var nowQty = parseInt(nowQty);
-    var availableQty = parseInt($("#qtyOnHand").val());
+    var avQty = parseInt($("#qtyOnHand").val());
 
-    availableQty = availableQty + prevQty;
-    availableQty = availableQty - nowQty;
+    avQty = avQty + preQty;
+    avQty = avQty - nowQty;
 
-    $("#qtyOnHand").val(availableQty);
+    $("#qtyOnHand").val(avQty);
 
 }
