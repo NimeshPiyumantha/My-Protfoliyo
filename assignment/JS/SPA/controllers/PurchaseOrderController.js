@@ -153,6 +153,7 @@ function loadCartTableDetail() {
     var row = `<tr><td>${itemCode}</td><td>${itemName}</td><td>${itemPrice}</td><td>${itemOrderQty}</td><td>${total}</td></tr>`;
 
     $("#tblAddToCart").append(row);
+
 }
 
 /**
@@ -277,7 +278,7 @@ function placeOrder() {
  * */
 function pushOrderDetails() {
     for (let i = 0; i < $("#tblAddToCart tr").length; i++) {
-        let orderID = $("#orderId").val();
+        let orderId = $("#orderId").val();
         let cusId = $("#cmbCustomerId").val();
         let itemId = $("#tblAddToCart tr").children(':nth-child(1)')[i].innerText;
         let qty = $("#tblAddToCart tr").children(':nth-child(4)')[i].innerText;
@@ -285,7 +286,7 @@ function pushOrderDetails() {
 
 
         var orderDetail = {
-            orderId: orderID,
+            orderId: orderId,
             cusId: cusId,
             itemId: itemId,
             qty: qty,

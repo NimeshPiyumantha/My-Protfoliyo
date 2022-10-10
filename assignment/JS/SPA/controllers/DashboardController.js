@@ -52,4 +52,7 @@ $("#orderDetailsBtn").click(function () {
     $("#ItemSection").css('display', 'none');
     $("#OrderSection").css('display', 'none');
     $("#OrderDetails").css('display', 'block');
+
+    loadAllOrders();
+    loadAllOrderDetails();
 });
