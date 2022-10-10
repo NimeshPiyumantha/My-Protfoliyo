@@ -8,6 +8,7 @@ $(document).ready(function () {
     $("#CustomerSection").css('display', 'none');
     $("#ItemSection").css('display', 'none');
     $("#OrderSection").css('display', 'none');
+    $("#OrderDetails").css('display', 'none');
 });
 
 $("#homeBtn").click(function () {
@@ -15,6 +16,7 @@ $("#homeBtn").click(function () {
     $("#CustomerSection").css('display', 'none');
     $("#ItemSection").css('display', 'none');
     $("#OrderSection").css('display', 'none');
+    $("#OrderDetails").css('display', 'none');
 });
 
 $("#customerBtn").click(function () {
@@ -22,6 +24,7 @@ $("#customerBtn").click(function () {
     $("#CustomerSection").css('display', 'block');
     $("#ItemSection").css('display', 'none');
     $("#OrderSection").css('display', 'none');
+    $("#OrderDetails").css('display', 'none');
 });
 
 $("#itemBtn").click(function () {
@@ -29,6 +32,7 @@ $("#itemBtn").click(function () {
     $("#CustomerSection").css('display', 'none');
     $("#ItemSection").css('display', 'block');
     $("#OrderSection").css('display', 'none');
+    $("#OrderDetails").css('display', 'none');
 });
 
 $("#orderBtn").click(function () {
@@ -36,7 +40,16 @@ $("#orderBtn").click(function () {
     $("#CustomerSection").css('display', 'none');
     $("#ItemSection").css('display', 'none');
     $("#OrderSection").css('display', 'block');
+    $("#OrderDetails").css('display', 'none');
 
     generateOrderID();
     setCurrentDate();
+});
+
+$("#orderDetailsBtn").click(function () {
+    $("#HomeSection").css('display', 'none');
+    $("#CustomerSection").css('display', 'none');
+    $("#ItemSection").css('display', 'none');
+    $("#OrderSection").css('display', 'none');
+    $("#OrderDetails").css('display', 'block');
 });

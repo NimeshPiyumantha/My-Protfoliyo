@@ -278,24 +278,16 @@ function placeOrder() {
 function pushOrderDetails() {
     for (let i = 0; i < $("#tblAddToCart tr").length; i++) {
         let orderID = $("#orderId").val();
-        let orderDate = $("#orderDate").val();
         let cusId = $("#cmbCustomerId").val();
-        let cusName = $("#customerName").val();
         let itemId = $("#tblAddToCart tr").children(':nth-child(1)')[i].innerText;
-        let itemName = $("#tblAddToCart tr").children(':nth-child(2)')[i].innerText;
-        let itemPrice = $("#tblAddToCart tr").children(':nth-child(3)')[i].innerText;
         let qty = $("#tblAddToCart tr").children(':nth-child(4)')[i].innerText;
         let total = $("#tblAddToCart tr").children(':nth-child(5)')[i].innerText;
 
 
         var orderDetail = {
             orderId: orderID,
-            orderDate: orderDate,
             cusId: cusId,
-            cusName: cusName,
             itemId: itemId,
-            itemName: itemName,
-            itemPrice: itemPrice,
             qty: qty,
             total: total
         }

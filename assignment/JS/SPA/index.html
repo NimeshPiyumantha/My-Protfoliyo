@@ -41,20 +41,10 @@
                     <li class="nav-item" id="orderBtn">
                         <a class="nav-link" href="#">Orders</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"
-                           role="button">
-                            Others
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
+                    <li class="nav-item" id="orderDetailsBtn">
+                        <a class="nav-link" href="#">Order Details</a>
                     </li>
+
                 </ul>
                 <div class="d-grid gap-2 d-md-flex justify-content-md-end">
                     <button class="btn btn-outline-primary btn-m" type="button"><i class="fa-solid fa-user-plus"></i>
@@ -732,6 +722,76 @@
 </main>
 <!-- OrderFrom End-->
 
+<!-- OrderFrom Start-->
+<main class="container-fluid" id="OrderDetails">
+    <!-- Order Header Start -->
+    <div class="container d-flex flex-grow-1 flex-column">
+        <div class="position-relative d-inline-block mt-3 mt-lg-4 mt-md-4">
+            <h2 id="H1" style="font-family: 'Arial Rounded MT Bold',serif"><i
+                    class="fa-sharp fa-solid fa-cart-plus"></i> Place Order
+            </h2>
+        </div>
+    </div>
+    <!-- Order Header End -->
+
+    <!-- Order Header Section Start -->
+    <div class="container d-flex flex-grow-1 flex-column" style="background-color: #dfe4ea">
+        <div class="position-relative d-inline-block mt-3 mt-lg-4 mt-md-4">
+            <h6 id="H6-4">Home > Order Details</h6>
+            <hr>
+        </div>
+        <!-- Order Header Section End -->
+
+        <!-- Order Details Section Start -->
+        <div class="row justify-content-around" style="height: min-content">
+
+            <!-- View Orders Table Start -->
+            <div class="row mt-1 mt-md-2 mt-lg-3 justify-content-around" style="height: 160px;">
+                <div class="col-10">
+                    <div class="PlaceOrderTableDiv overflow-auto" style="height: 150px;">
+                        <table class="table table-success table-striped table-bordered table-hover">
+                            <thead class="text-light table-dark text-center  table-bordered sticky-top">
+                            <tr>
+                                <th>Order Id</th>
+                                <th>Customer Id</th>
+                                <th>Order Date</th>
+                                <th>Sub Total</th>
+                                <th>Discount</th>
+                            </tr>
+                            </thead>
+                            <tbody id="tblOrder"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <!-- View Orders Table End -->
+
+            <!-- View Order Details Table Start -->
+            <div class="row mt-1 mt-md-2 mt-lg-3 justify-content-around" style="height: 160px;">
+                <div class="col-10">
+                    <div class="PlaceOrderTableDiv overflow-auto" style="height: 150px;">
+                        <table class="table table-success table-striped table-bordered table-hover">
+                            <thead class="text-light table-dark text-center  table-bordered sticky-top">
+                            <tr>
+                                <th>Order Id</th>
+                                <th>Customer Id</th>
+                                <th>Item Code</th>
+                                <th>Qty</th>
+                                <th>Total</th>
+                            </tr>
+                            </thead>
+                            <tbody id="tblOrderDetails"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <!-- View Order Details Table End -->
+
+        </div>
+        <!-- Order Details Section End -->
+    </div>
+</main>
+<!-- OrderFrom End-->
 
 <!--Import js for bootstrap-->
 <script src="assets/styles/bootstrap-5.2.1-dist/js/bootstrap.min.js"></script>
