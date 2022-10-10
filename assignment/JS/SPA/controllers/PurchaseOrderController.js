@@ -87,6 +87,19 @@ $("#cmbItemCode").click(function () {
 
 $("#btnAddToCart").click(function () {
 
+    var tableRow = [];
+
+    var duplicate = false;
+
+    for (var i = 0; i < $("#tblAddToCart tr").length; i++) {
+        if ($("#cmbItemCode option:selected").text() === $("#tblAddToCart tr").children(':nth-child(1)')[i].innerText) {
+            duplicate = true;
+
+        }
+    }
+
+
+
     /**
      * Logics
      * Place order
