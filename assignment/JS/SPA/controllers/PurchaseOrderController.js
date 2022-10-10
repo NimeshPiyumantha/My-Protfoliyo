@@ -318,4 +318,6 @@ $("#btnPurchase").click(function () {
 
 });
 
-
+function clearItemData() {
+    $('#cmbItemCode,#itemName,#itemPrice,#qtyOnHand,#buyQty,#txtDiscount').val("");
+}
