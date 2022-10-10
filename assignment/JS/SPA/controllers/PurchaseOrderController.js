@@ -181,7 +181,7 @@ function calcTotal(amount) {
 /**
  * Logics
  * Place order
- * Manage Qty
+ * Manage Available Qty
  * */
 function manageQtyOnHand(prevQty, nowQty) {
     var preQty = parseInt(preQty);
@@ -193,4 +193,18 @@ function manageQtyOnHand(prevQty, nowQty) {
 
     $("#qtyOnHand").val(avQty);
 
+}
+
+
+/**
+ * Logics
+ * Place order
+ * Manage Total
+ * */
+
+function manageTotal(preTotal, nowTotal) {
+    total -= preTotal;
+    total += nowTotal;
+
+    $("#txtTotal").val(total);
 }
