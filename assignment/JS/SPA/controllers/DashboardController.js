@@ -33,6 +33,8 @@ $("#itemBtn").click(function () {
     $("#ItemSection").css('display', 'block');
     $("#OrderSection").css('display', 'none');
     $("#OrderDetails").css('display', 'none');
+
+    generateItemID();
 });
 
 $("#orderBtn").click(function () {

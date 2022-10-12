@@ -65,6 +65,24 @@ $("#ItemTable").dblclick(function () {
  * */
 
 /**
+ * Save Model
+ * Item ID
+ * */
+function generateItemID() {
+    $("#txtItemsId").val("I00-1001");
+    value="I00-1001";
+    i=0;
+    $("#btnISave").click(function(){
+        var newValue=value.split('-');
+        var increase=newValue[1];
+        increase++;
+        value="I00-"+increase;
+
+        $("#txtItemsId").val(value);
+    });
+}
+
+/**
  * Button Add New Item
  * */
 $("#btnISave").click(function () {
@@ -106,7 +124,7 @@ $("#btnISave").click(function () {
  * Auto Forces Input Fields Save
  * */
 $("#txtItemsId").focus();
-const regExItemCode = /^(I00-)[0-9]{3,4}$/;
+const regExItemCode = /^(I00-)[0-9]{4,5}$/;
 const regExItemName = /^[A-z ]{3,20}$/;
 const regExItemPrice = /^[0-9]{1,10}$/;
 const regExItemQtyOnHand = /^[0-9]{1,}[.]?[0-9]{1,2}$/;
