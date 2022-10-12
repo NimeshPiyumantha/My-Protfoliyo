@@ -69,7 +69,7 @@ $("#ItemTable").dblclick(function () {
  * Item ID
  * */
 function generateItemID() {
-    $("#txtItemsId").val("I00-1001");
+  /*  $("#txtItemsId").val("I00-1001");*/
     valueI="I00-1001";
     $("#btnISave").click(function(){
         var newValueI=valueI.split('-');

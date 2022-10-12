@@ -146,7 +146,7 @@ $("#clearSearchCus").click(function () {
  * Item ID
  * */
 function generateCustomerID() {
-    $("#txtCustomerId").val("C00-1001");
+  /*  $("#txtCustomerId").val("C00-1001");*/
     valueC="C00-1001";
     $("#btnCSave").click(function(){
         var newValueC=valueC.split('-');

@@ -12,7 +12,7 @@
  * Order ID
  * */
 function generateOrderID() {
-    $("#orderId").val("ODI-1001");
+   /* $("#orderId").val("ODI-1001");*/
     value="ODI-1001";
     $("#btnPurchase").click(function(){
         var newValue=value.split('-');
