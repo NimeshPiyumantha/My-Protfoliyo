@@ -141,6 +141,22 @@ $("#clearSearchCus").click(function () {
  * Save Model
  * */
 
+/**
+ * Save Model
+ * Item ID
+ * */
+function generateCustomerID() {
+    $("#txtCustomerId").val("C00-1001");
+    valueC="C00-1001";
+    $("#btnCSave").click(function(){
+        var newValueC=valueC.split('-');
+        var increaseC=newValueC[1];
+        increaseC++;
+        valueC="C00-"+increaseC;
+
+        $("#txtCustomerId").val(valueC);
+    });
+}
 
 /**
  * Button Add New Customer
@@ -321,6 +337,7 @@ function clearTextFieldsC() {
     txtCustomerAddress.value = '';
     txtCustomerSalary.value = '';
     $("#txtCustomerId").focus();
+    checkValidityC();
 }
 
 /**

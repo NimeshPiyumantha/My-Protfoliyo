@@ -70,15 +70,14 @@ $("#ItemTable").dblclick(function () {
  * */
 function generateItemID() {
     $("#txtItemsId").val("I00-1001");
-    value="I00-1001";
-    i=0;
+    valueI="I00-1001";
     $("#btnISave").click(function(){
-        var newValue=value.split('-');
-        var increase=newValue[1];
-        increase++;
-        value="I00-"+increase;
+        var newValueI=valueI.split('-');
+        var increaseI=newValueI[1];
+        increaseI++;
+        valueI="I00-"+increaseI;
 
-        $("#txtItemsId").val(value);
+        $("#txtItemsId").val(valueI);
     });
 }
 
