@@ -12,7 +12,17 @@
  * Order ID
  * */
 function generateOrderID() {
-    $("#orderId").val("ODI-001");
+    $("#orderId").val("ODI-1001");
+    value="ODI-1001";
+    i=0;
+    $("#btnPurchase").click(function(){
+        var newValue=value.split('-');
+        var increase=newValue[1];
+        increase++;
+        value="ODI-"+increase;
+
+        $("#orderId").val(value);
+    });
 }
 
 /**
@@ -20,7 +30,7 @@ function generateOrderID() {
  * Order Date
  * */
 function setCurrentDate() {
-    let orderDate = $('#orderDate');
+    let orderDate = $("#orderDate");
     let today = new Date();
     let dd = String(today.getDate()).padStart(2, '0');
     let mm = String(today.getMonth() + 1).padStart(2, '0');
