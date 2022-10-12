@@ -14,7 +14,6 @@
 function generateOrderID() {
     $("#orderId").val("ODI-1001");
     value="ODI-1001";
-    i=0;
     $("#btnPurchase").click(function(){
         var newValue=value.split('-');
         var increase=newValue[1];
