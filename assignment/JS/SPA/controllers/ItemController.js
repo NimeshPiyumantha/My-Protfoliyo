@@ -38,37 +38,7 @@ function tblClickEventsI() {
 function dblRowClickEventsItem() {
     $("#ItemTable>tr").on('dblclick', function () {
         let deleteItemID = $(this).children().eq(0).text();
-
-        Swal.fire({
-            title: 'Do you want to Delete the ' + deleteItemID + ' ?',
-            showDenyButton: true,
-            showCancelButton: true,
-            confirmButtonText: 'Delete',
-            denyButtonText: `Don't Delete`,
-        }).then((result) => {
-            if (result.isConfirmed) {
-                if (deleteItems(deleteItemID)) {
-                    Swal.fire({
-                        position: 'top-end',
-                        icon: 'success',
-                        title: 'Delete Successfully',
-                        showConfirmButton: false,
-                        timer: 1500
-                    })
-                    $(this).remove();
-                } else {
-                    Swal.fire({
-                        position: 'top-end',
-                        icon: 'error',
-                        title: 'Delete Unsuccessfully',
-                        showConfirmButton: false,
-                        timer: 1500
-                    })
-                }
-            } else if (result.isDenied) {
-                Swal.fire(deleteItemID + ' Delete Canceled!', '', 'info')
-            }
-        })
+        yesNoAlertDelete(deleteItemID);
 
     });
 }
@@ -108,13 +78,7 @@ $("#btnISave").click(function () {
     clearTextFieldsI();
 
     //Alert Save
-    Swal.fire({
-        position: 'top-end',
-        icon: 'success',
-        title: 'Item has been saved',
-        showConfirmButton: false,
-        timer: 2500
-    })
+    saveUpdateAlert("Item", "saved.");
 
     // items object
     var itemObject = {
@@ -277,28 +241,7 @@ $("#btnSearchItem").click(function () {
         $("#DItemQty").val(resultI.qty);
         $("#DItemPrice").val(resultI.price);
     } else {
-        let timerInterval
-        Swal.fire({
-            title: 'Empty Result!',
-            html: 'I will close in <b></b> milliseconds.',
-            timer: 2000,
-            timerProgressBar: true,
-            didOpen: () => {
-                Swal.showLoading()
-                const b = Swal.getHtmlContainer().querySelector('b')
-                timerInterval = setInterval(() => {
-                    b.textContent = Swal.getTimerLeft()
-                }, 100)
-            },
-            willClose: () => {
-                clearInterval(timerInterval)
-            }
-        }).then((result) => {
-            /* Read more about handling dismissals below */
-            if (result.dismiss === Swal.DismissReason.timer) {
-                console.log('I was closed by the timer')
-            }
-        })
+        emptyMassage();
         clearCDTextFields();
     }
 });
@@ -341,24 +284,10 @@ $("#btnUpdateItem").click(function () {
     let ItemId = $("#searchItemId").val();
     let response = updateItem(ItemId);
     if (response) {
-        Swal.fire({
-            position: 'top-end',
-            icon: 'success',
-            title: 'Updated Successfully',
-            showConfirmButton: false,
-            timer: 1500
-        })
-        clearUTextFields();
-        checkValidityIU();
+        saveUpdateAlert(ItemId, "updated.");
+        checkValidity(ItemsValidationsUpdate);
     } else {
-        Swal.fire({
-            position: 'top-end',
-            icon: 'error',
-            title: 'Updated Unsuccessfully',
-            showConfirmButton: false,
-            timer: 1500
-        })
-
+        unSucsessUpdateAlert(ItemId);
     }
 });
 
@@ -437,20 +366,17 @@ $("#searchItemId").on('keydown', function (event) {
     }
 });
 
-
 $("#updateItemName").on('keydown', function (event) {
     if (event.key === "Enter" && check(regExItemName, $("#updateItemName"))) {
         focusText($("#updateItemQty"));
     }
 });
 
-
 $("#updateItemQty").on('keydown', function (event) {
     if (event.key === "Enter" && check(regExItemPrice, $("#updateItemQty"))) {
         focusText($("#updateItemPrice"));
     }
 });
-
 
 $("#updateItemPrice").on('keydown', function (event) {
     if (event.key === "Enter" && check(regExItemQtyOnHand, $("#updateItemPrice"))) {
@@ -508,28 +434,7 @@ $("#searchDItemId").keyup(function (event) {
             $("#DItemQty").val(resultI.qty);
             $("#DItemPrice").val(resultI.price);
         } else {
-            let timerInterval
-            Swal.fire({
-                title: 'Empty Result!',
-                html: 'I will close in <b></b> milliseconds.',
-                timer: 2000,
-                timerProgressBar: true,
-                didOpen: () => {
-                    Swal.showLoading()
-                    const b = Swal.getHtmlContainer().querySelector('b')
-                    timerInterval = setInterval(() => {
-                        b.textContent = Swal.getTimerLeft()
-                    }, 100)
-                },
-                willClose: () => {
-                    clearInterval(timerInterval)
-                }
-            }).then((result) => {
-                /* Read more about handling dismissals below */
-                if (result.dismiss === Swal.DismissReason.timer) {
-                    console.log('I was closed by the timer')
-                }
-            })
+           emptyMassage();
             clearCDTextFields();
         }
     }
@@ -541,37 +446,7 @@ $("#searchDItemId").keyup(function (event) {
 $("#btnDeleteItems").click(function () {
     let deleteIID = $("#searchDItemId").val();
 
-    Swal.fire({
-        title: 'Do you want to Delete the ' + deleteIID + ' ?',
-        showDenyButton: true,
-        showCancelButton: true,
-        confirmButtonText: 'Delete',
-        denyButtonText: `Don't Delete`,
-    }).then((result) => {
-        if (result.isConfirmed) {
-            if (deleteItems(deleteIID)) {
-                Swal.fire({
-                    position: 'top-end',
-                    icon: 'success',
-                    title: 'Delete Successfully',
-                    showConfirmButton: false,
-                    timer: 1500
-                })
-                clearCDTextFields();
-            } else {
-                Swal.fire({
-                    position: 'top-end',
-                    icon: 'error',
-                    title: 'Delete Unsuccessfully',
-                    showConfirmButton: false,
-                    timer: 1500
-                })
-            }
-        } else if (result.isDenied) {
-            Swal.fire(deleteIID + ' Delete Canceled!', '', 'info')
-        }
-    })
-
+    yesNoAlertDelete(deleteIID);
 });
 
 function deleteItems(itemID) {

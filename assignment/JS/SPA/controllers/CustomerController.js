@@ -189,7 +189,6 @@ $("#txtCustomerId,#txtCustomerName,#txtCustomerAddress,#txtCustomerSalary").on('
     }
 });
 
-
 $("#txtCustomerId,#txtCustomerName,#txtCustomerAddress,#txtCustomerSalary").on('keyup', function (event) {
     checkValidity(customerValidations);
 });
@@ -197,7 +196,6 @@ $("#txtCustomerId,#txtCustomerName,#txtCustomerAddress,#txtCustomerSalary").on('
 $("#txtCustomerId,#txtCustomerName,#txtCustomerAddress,#txtCustomerSalary").on('blur', function (event) {
     checkValidity(customerValidations);
 });
-
 
 $("#txtCustomerId").on('keydown', function (event) {
     if (event.key === "Enter" && check(regExCusID, $("#txtCustomerId"))) {
@@ -214,13 +212,11 @@ $("#txtCustomerName").on('keydown', function (event) {
     }
 });
 
-
 $("#txtCustomerAddress").on('keydown', function (event) {
     if (event.key === "Enter" && check(regExCusAddress, $("#txtCustomerAddress"))) {
         focusText($("#txtCustomerSalary"));
     }
 });
-
 
 $("#txtCustomerSalary").on('keydown', function (event) {
     if (event.key === "Enter" && check(regExSalary, $("#txtCustomerSalary"))) {
@@ -229,7 +225,6 @@ $("#txtCustomerSalary").on('keydown', function (event) {
         }
     }
 });
-
 
 function setButtonStateCS(value) {
     if (value > 0) {
@@ -266,7 +261,6 @@ function loadAllCustomers() {
     //remove all the table body content before adding data
     $("#customerTable").empty();
 
-
     // get all customer records from the array
     for (var customer of customers) {
         console.log(customer);// customer object
@@ -284,7 +278,6 @@ function loadAllCustomers() {
 /**
  * Update Model
  * */
-
 
 /**
  * Auto Forces Input Fields update
@@ -319,7 +312,6 @@ $("#searchCustomerId,#nameUpdate,#addressUpdate,#salaryUpdate").on('keydown', fu
     }
 });
 
-
 $("#searchCustomerId,#nameUpdate,#addressUpdate,#salaryUpdate").on('keyup', function (event) {
     checkValidity(customerValidationsUpdate);
 });
@@ -327,7 +319,6 @@ $("#searchCustomerId,#nameUpdate,#addressUpdate,#salaryUpdate").on('keyup', func
 $("#searchCustomerId,#nameUpdate,#addressUpdate,#salaryUpdate").on('blur', function (event) {
     checkValidity(customerValidationsUpdate);
 });
-
 
 $("#searchCustomerId").on('keydown', function (event) {
     if (event.key === "Enter" && check(regExCusID, $("#searchCustomerId"))) {
@@ -337,20 +328,17 @@ $("#searchCustomerId").on('keydown', function (event) {
     }
 });
 
-
 $("#nameUpdate").on('keydown', function (event) {
     if (event.key === "Enter" && check(regExCusName, $("#nameUpdate"))) {
         focusText($("#addressUpdate"));
     }
 });
 
-
 $("#addressUpdate").on('keydown', function (event) {
     if (event.key === "Enter" && check(regExCusAddress, $("#addressUpdate"))) {
         focusText($("#salaryUpdate"));
     }
 });
-
 
 $("#salaryUpdate").on('keydown', function (event) {
     if (event.key === "Enter" && check(regExSalary, $("#salaryUpdate"))) {
@@ -359,7 +347,6 @@ $("#salaryUpdate").on('keydown', function (event) {
         }
     }
 });
-
 
 function setButtonStateCU(value) {
     if (value > 0) {
@@ -410,7 +397,6 @@ function searchCustomer(cusId) {
     return null;
 }
 
-
 /**
  * clear input fields Values Method
  * */
@@ -448,7 +434,6 @@ $("#searchCIdDelete").keyup(function (event) {
             $("#disabledNameDelete").val(result.name);
             $("#disabledAddressDelete").val(result.address);
             $("#disabledSalaryDelete").val(result.salary);
-
         } else {
             emptyMassage();
             clearCDTextFields();
