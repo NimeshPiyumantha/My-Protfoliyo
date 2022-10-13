@@ -5,5 +5,5 @@
 
 var customers = [];
 var items = [];
-var orders=[];
+var order=[];
 var orderDetails=[];
