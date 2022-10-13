@@ -343,7 +343,7 @@ $("#btnSearchItem").click(function () {
 /**
  * Auto Forces Input Fields Search
  * */
-$(document).ready(function () {
+
     $('#ItemIdSearch').keypress(function (event) {
         if (event.which === 13) {
             $('#btnSearchItem').focus();
@@ -354,7 +354,7 @@ $(document).ready(function () {
             $('#ItemIdSearch').focus();
         }
     });
-});
+
 
 /**
  * clear Search input fields Values Button

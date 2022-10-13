@@ -114,7 +114,6 @@ $("#btnSearchCus").click(function () {
 /**
  * Auto Forces Input Fields Search
  * */
-$(document).ready(function () {
     $('#searchCusId').keypress(function (event) {
         if (event.which === 13) {
             $('#btnSearchCus').focus();
@@ -125,7 +124,7 @@ $(document).ready(function () {
             $('#searchCusId').focus();
         }
     });
-});
+
 
 /**
  * clear Search input fields Values Button
