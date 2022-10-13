@@ -267,7 +267,7 @@ function placeOrder() {
     }
 
 
-    order.push(orderObject);
+    orders.push(orderObject);
     console.log(order);
 
     Swal.fire({

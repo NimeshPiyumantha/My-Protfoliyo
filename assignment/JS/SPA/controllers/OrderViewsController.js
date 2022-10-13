@@ -7,9 +7,9 @@ function loadAllOrders() {
 
     $("#tblOrder").empty();
 
-    for (var orders of order) {
-        console.log(orders);
-        var row = `<tr><td>${orders.oId}</td><td>${orders.cId}</td><td>${orders.oDate}</td><td>${orders.subTotal}</td><td>${orders.discount}</td></tr>`;
+    for (var order of orders) {
+        console.log(order);
+        var row = `<tr><td>${order.oId}</td><td>${order.cId}</td><td>${order.oDate}</td><td>${order.subTotal}</td><td>${order.discount}</td></tr>`;
         $("#tblOrder").append(row);
     }
 }
