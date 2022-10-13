@@ -147,6 +147,7 @@ $("#clearSearchCus").click(function () {
     searchCusId.value = '';
     clearCDTextFields();
     clearCUTextFields();
+    loadAllCustomers();
 });
 
 

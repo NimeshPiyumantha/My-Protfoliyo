@@ -378,6 +378,7 @@ $("#clearSearchItem").click(function () {
     ItemIdSearch.value = '';
     clearUTextFields();
     clearDTextFields();
+    loadAllItems();
 });
 
 /**
