@@ -40,38 +40,7 @@ function blindClickEvents() {
 function dblRowClickEventsCus() {
     $("#customerTable>tr").on('dblclick', function () {
         let deleteCusID = $(this).children().eq(0).text();
-
-        Swal.fire({
-            title: 'Do you want to Delete the ' + deleteCusID + ' ?',
-            showDenyButton: true,
-            showCancelButton: true,
-            confirmButtonText: 'Delete',
-            denyButtonText: `Don't Delete`,
-        }).then((result) => {
-            if (result.isConfirmed) {
-                if (deleteCustomer(deleteCusID)) {
-                    Swal.fire({
-                        position: 'top-end',
-                        icon: 'success',
-                        title: 'Delete Successfully',
-                        showConfirmButton: false,
-                        timer: 1500
-                    })
-                    $(this).remove();
-                } else {
-                    Swal.fire({
-                        position: 'top-end',
-                        icon: 'error',
-                        title: 'Delete Unsuccessfully',
-                        showConfirmButton: false,
-                        timer: 1500
-                    })
-                }
-            } else if (result.isDenied) {
-                Swal.fire(deleteCusID + ' Delete Canceled!', '', 'info')
-            }
-        })
-
+        yesNoAlertDelete(deleteCusID);
     });
 }
 
@@ -99,28 +68,7 @@ $("#btnSearchCus").click(function () {
         $("#disabledSalaryDelete").val(result.salary);
 
     } else {
-        let timerInterval
-        Swal.fire({
-            title: 'Empty Result!',
-            html: 'I will close in <b></b> milliseconds.',
-            timer: 2000,
-            timerProgressBar: true,
-            didOpen: () => {
-                Swal.showLoading()
-                const b = Swal.getHtmlContainer().querySelector('b')
-                timerInterval = setInterval(() => {
-                    b.textContent = Swal.getTimerLeft()
-                }, 100)
-            },
-            willClose: () => {
-                clearInterval(timerInterval)
-            }
-        }).then((result) => {
-            /* Read more about handling dismissals below */
-            if (result.dismiss === Swal.DismissReason.timer) {
-                console.log('I was closed by the timer')
-            }
-        })
+        emptyMassage();
         clearCDTextFields();
     }
 });
@@ -185,14 +133,7 @@ $("#btnCSave").click(function () {
     clearTextFieldsC();
 
     //Alert Save
-    Swal.fire({
-        position: 'top-end',
-        icon: 'success',
-        title: 'Customer has been saved',
-        showConfirmButton: false,
-        timer: 2500
-    })
-
+    saveUpdateAlert("Customer", "saved.");
     // customer object
     var customerObject = {
         id: customerID,
@@ -523,23 +464,11 @@ $("#bntUpdateCustomer").click(function () {
     let CustomerId = $("#searchCustomerId").val();
     let response2 = updateCustomers(CustomerId);
     if (response2) {
-        Swal.fire({
-            position: 'top-end',
-            icon: 'success',
-            title: 'Updated Successfully',
-            showConfirmButton: false,
-            timer: 1500
-        })
+        saveUpdateAlert(CustomerId, "updated.");
         clearCUTextFields();
         checkValidityCU();
     } else {
-        Swal.fire({
-            position: 'top-end',
-            icon: 'error',
-            title: 'Updated Unsuccessfully',
-            showConfirmButton: false,
-            timer: 1500
-        })
+        unSucsessUpdateAlert(CustomerId);
     }
 });
 
@@ -609,28 +538,7 @@ $("#searchCIdDelete").keyup(function (event) {
             $("#disabledSalaryDelete").val(result.salary);
 
         } else {
-            let timerInterval
-            Swal.fire({
-                title: 'Empty Result!',
-                html: 'I will close in <b></b> milliseconds.',
-                timer: 2000,
-                timerProgressBar: true,
-                didOpen: () => {
-                    Swal.showLoading()
-                    const b = Swal.getHtmlContainer().querySelector('b')
-                    timerInterval = setInterval(() => {
-                        b.textContent = Swal.getTimerLeft()
-                    }, 100)
-                },
-                willClose: () => {
-                    clearInterval(timerInterval)
-                }
-            }).then((result) => {
-                /* Read more about handling dismissals below */
-                if (result.dismiss === Swal.DismissReason.timer) {
-                    console.log('I was closed by the timer')
-                }
-            })
+            emptyMassage();
             clearCDTextFields();
         }
     }
@@ -642,37 +550,7 @@ $("#searchCIdDelete").keyup(function (event) {
 $("#btnDeleteCustomer").click(function () {
     let deleteID = $("#searchCIdDelete").val();
 
-    Swal.fire({
-        title: 'Do you want to Delete the ' + deleteID + ' ?',
-        showDenyButton: true,
-        showCancelButton: true,
-        confirmButtonText: 'Delete',
-        denyButtonText: `Don't Delete`,
-    }).then((result) => {
-        if (result.isConfirmed) {
-            if (deleteCustomer(deleteID)) {
-                Swal.fire({
-                    position: 'top-end',
-                    icon: 'success',
-                    title: 'Delete Successfully',
-                    showConfirmButton: false,
-                    timer: 1500
-                })
-                clearCDTextFields();
-            } else {
-                Swal.fire({
-                    position: 'top-end',
-                    icon: 'error',
-                    title: 'Delete Unsuccessfully',
-                    showConfirmButton: false,
-                    timer: 1500
-                })
-            }
-        } else if (result.isDenied) {
-            Swal.fire(deleteID + ' Delete Canceled!', '', 'info')
-        }
-    })
-
+    yesNoAlertDelete(deleteID);
 });
 
 function deleteCustomer(customerID) {
