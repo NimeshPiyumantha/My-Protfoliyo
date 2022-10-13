@@ -231,7 +231,7 @@ $("#txtCustomerSalary").on('keydown', function (event) {
 });
 
 
-function setButtonState(value) {
+function setButtonStateCS(value) {
     if (value > 0) {
         $("#btnCSave").attr('disabled', true);
     } else {
@@ -361,7 +361,7 @@ $("#salaryUpdate").on('keydown', function (event) {
 });
 
 
-function setButtonState(value) {
+function setButtonStateCU(value) {
     if (value > 0) {
         $("#bntUpdateCustomer").attr('disabled', true);
     } else {

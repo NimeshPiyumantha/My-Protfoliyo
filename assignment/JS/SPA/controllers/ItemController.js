@@ -212,14 +212,6 @@ $("#txtItemPrice").on('keydown', function (event) {
     }
 });
 
-function setButtonState(value) {
-    if (value > 0) {
-        $("#btnISave").attr('disabled', true);
-    } else {
-        $("#btnISave").attr('disabled', false);
-    }
-}
-
 
 /**
  * clear input fields Values Method
@@ -468,7 +460,7 @@ $("#updateItemPrice").on('keydown', function (event) {
     }
 });
 
-function setButtonState(value) {
+function setButtonStateIU(value) {
     if (value > 0) {
         $("#btnUpdateItem").attr('disabled', true);
     } else {
