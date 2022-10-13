@@ -369,7 +369,7 @@ $("#btnAddToCart").click(function () {
 function updateItemQty(itemIdQ) {
     let itemQ = searchItemQty(itemIdQ);
     if (itemQ != null) {
-        itemQ.qty =$("#qtyOnHand").val();
+        itemQ.qty = $("#qtyOnHand").val();
         loadAllItems();
         return true;
     } else {
@@ -386,3 +386,21 @@ function searchItemQty(itemIdQ) {
     return null;
 }
 
+/**
+ * Logics
+ * Place order
+ * Enter BuyQty and Check Qty On Hand
+ * */
+
+$(document).on("change keyup blur", "#buyQty", function () {
+    var qtyOnHand = $("#qtyOnHand").val();
+    var buyQty = $("#buyQty").val();
+    var buyOnHand = qtyOnHand - buyQty;
+    if (buyOnHand < 0) {
+        $("#lblCheckQty").parent().children('span').text(qtyOnHand + " : Empty On Stock..!!");
+        $("#btnAddToCart").attr('disabled', true);
+    } else {
+        $("#lblCheckQty").parent().children('span').text("");
+        $("#btnAddToCart").attr('disabled', false);
+    }
+});
