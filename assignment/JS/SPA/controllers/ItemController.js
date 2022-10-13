@@ -70,26 +70,20 @@ function generateItemID() {
  * */
 $("#btnISave").click(function () {
 
-    //select all the four text fields and then get their typed values
-    let itemCode = $("#txtItemsId").val();
-    let itemName = $("#txtItemName").val();
-    let itemQty = $("#txtItemQty").val();
-    let itemUnitPrice = $("#txtItemPrice").val();
+    //create object
+    let itemArray = new item(
+        $("#txtItemsId").val(),
+        $("#txtItemName").val(),
+        $("#txtItemQty").val(),
+        $("#txtItemPrice").val());
+
     clearTextFieldsI();
 
     //Alert Save
     saveUpdateAlert("Item", "saved.");
 
-    // items object
-    var itemObject = {
-        code: itemCode,
-        name: itemName,
-        qty: itemQty,
-        price: itemUnitPrice
-    }
-
     //Add the item object to the array
-    items.push(itemObject);
+    items.push(itemArray);
 
     /*console.log(items);*/
 
@@ -176,6 +170,13 @@ $("#txtItemPrice").on('keydown', function (event) {
     }
 });
 
+function setButtonStateIS(value) {
+    if (value > 0) {
+        $("#btnISave").attr('disabled', true);
+    } else {
+        $("#btnISave").attr('disabled', false);
+    }
+}
 
 /**
  * clear input fields Values Method
@@ -434,7 +435,7 @@ $("#searchDItemId").keyup(function (event) {
             $("#DItemQty").val(resultI.qty);
             $("#DItemPrice").val(resultI.price);
         } else {
-           emptyMassage();
+            emptyMassage();
             clearCDTextFields();
         }
     }
