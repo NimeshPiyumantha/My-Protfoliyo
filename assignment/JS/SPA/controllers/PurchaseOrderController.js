@@ -12,13 +12,13 @@
  * Order ID
  * */
 function generateOrderID() {
-   /* $("#orderId").val("ODI-1001");*/
-    value="ODI-1001";
-    $("#btnPurchase").click(function(){
-        var newValue=value.split('-');
-        var increase=newValue[1];
+    /* $("#orderId").val("ODI-1001");*/
+    value = "ODI-1001";
+    $("#btnPurchase").click(function () {
+        var newValue = value.split('-');
+        var increase = newValue[1];
         increase++;
-        value="ODI-"+increase;
+        value = "ODI-" + increase;
 
         $("#orderId").val(value);
     });
@@ -252,31 +252,18 @@ $(document).on("change keyup blur", "#txtCash", function () {
  * method
  * */
 function placeOrder() {
-    let oid = $("#orderId").val();
+    let oId = $("#orderId").val();
     let cId = $("#cmbCustomerId").val();
     let oDate = $("#orderDate").val();
     let subTotal = $("#txtSubTotal").val();
     let discount = $("#txtDiscount").val();
 
-    var orderObject = {
-        oId: oid,
-        cId: cId,
-        oDate: oDate,
-        subTotal: subTotal,
-        discount: discount
-    }
+    var orderArrayList = new order(oId, cId, oDate, subTotal, discount);
 
-
-    orders.push(orderObject);
+    orders.push(orderArrayList);
     console.log(order);
 
-    Swal.fire({
-        position: 'top-end',
-        icon: 'success',
-        title: 'Place Ordering are Successful.',
-        showConfirmButton: false,
-        timer: 2500
-    })
+    saveUpdateAlert(oId, saved.)
 }
 
 /**
