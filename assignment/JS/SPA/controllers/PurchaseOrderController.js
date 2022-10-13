@@ -353,3 +353,36 @@ $("#tblAddToCart").dblclick(function () {
 
 });
 
+
+/**
+ * Logics
+ * Place order
+ * Update Items in buy Qty
+ * */
+$("#btnAddToCart").click(function () {
+    let itemIdQ = $("#cmbItemCode").val();
+    let response = updateItemQty(itemIdQ);
+    if (response) {
+    }
+});
+
+function updateItemQty(itemIdQ) {
+    let itemQ = searchItemQty(itemIdQ);
+    if (itemQ != null) {
+        itemQ.qty =$("#qtyOnHand").val();
+        loadAllItems();
+        return true;
+    } else {
+        return false;
+    }
+}
+
+function searchItemQty(itemIdQ) {
+    for (let itemQ of items) {
+        if (itemQ.code === itemIdQ) {
+            return itemQ;
+        }
+    }
+    return null;
+}
+
