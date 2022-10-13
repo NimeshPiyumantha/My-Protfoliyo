@@ -7,6 +7,9 @@
  * Invoice Details
  * */
 
+$("#btnPurchase").attr('disabled', true);
+$("#btnAddToCart").attr('disabled', true);
+
 /**
  * Invoice Details
  * Order ID
@@ -243,6 +246,13 @@ $(document).on("change keyup blur", "#txtCash", function () {
     var cash = $("#txtCash").val();
     var balance = cash - subTotal;
     $("#txtBalance").val(balance);
+    if (balance < 0) {
+        $("#lblCheckSubtotal").parent().children('span').text(balance+" : plz enter valid Balance");
+        $("#btnPurchase").attr('disabled', true);
+    } else {
+        $("#lblCheckSubtotal").parent().children('span').text("");
+        $("#btnPurchase").attr('disabled', false);
+    }
 });
 
 /**
