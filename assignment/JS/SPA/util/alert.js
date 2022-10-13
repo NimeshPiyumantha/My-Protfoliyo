@@ -56,6 +56,39 @@ function yesNoAlertDelete(value) {
     });
 }
 
+function yesNoAlertIDelete(value) {
+    Swal.fire({
+        title: 'Do you want to Delete the ' + value + ' ?',
+        showDenyButton: true,
+        showCancelButton: true,
+        confirmButtonText: 'Delete',
+        denyButtonText: `Don't Delete`,
+    }).then((result) => {
+        if (result.isConfirmed) {
+            if (deleteItems(value)) {
+                Swal.fire({
+                    position: 'top-end',
+                    icon: 'success',
+                    title: 'Delete Successfully',
+                    showConfirmButton: false,
+                    timer: 1500
+                })
+                $(this).remove();
+            } else {
+                Swal.fire({
+                    position: 'top-end',
+                    icon: 'error',
+                    title: 'Delete Unsuccessfully',
+                    showConfirmButton: false,
+                    timer: 1500
+                })
+            }
+        } else if (result.isDenied) {
+            Swal.fire(value + ' Delete Canceled!', '', 'info')
+        }
+    });
+}
+
 function emptyMassage() {
     let timerInterval
     Swal.fire({

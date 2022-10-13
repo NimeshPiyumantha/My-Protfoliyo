@@ -38,7 +38,7 @@ function tblClickEventsI() {
 function dblRowClickEventsItem() {
     $("#ItemTable>tr").on('dblclick', function () {
         let deleteItemID = $(this).children().eq(0).text();
-        yesNoAlertDelete(deleteItemID);
+        yesNoAlertIDelete(deleteItemID);
 
     });
 }
@@ -88,7 +88,6 @@ $("#btnISave").click(function () {
     /*console.log(items);*/
 
     loadAllItems();
-    loadAllItemsForOption();
 });
 
 /**
@@ -218,6 +217,7 @@ function loadAllItems() {
     }
     tblClickEventsI();
     dblRowClickEventsItem();
+    loadAllItemsForOption();
 }
 
 /**
@@ -446,8 +446,7 @@ $("#searchDItemId").keyup(function (event) {
  * */
 $("#btnDeleteItems").click(function () {
     let deleteIID = $("#searchDItemId").val();
-
-    yesNoAlertDelete(deleteIID);
+    yesNoAlertIDelete(deleteIID);
 });
 
 function deleteItems(itemID) {

@@ -143,7 +143,6 @@ $("#btnCSave").click(function () {
     /* console.log(customers);*/
 
     loadAllCustomers();
-    loadAllCustomersForOption();
 });
 
 /**
@@ -268,6 +267,7 @@ function loadAllCustomers() {
     }
     blindClickEvents();
     dblRowClickEventsCus();
+    loadAllCustomersForOption();
 }
 
 /**
