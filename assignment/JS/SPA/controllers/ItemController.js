@@ -35,29 +35,43 @@ function tblClickEventsI() {
 /**
  * Table Listener double click and Click and Remove textFields
  * */
-$("#ItemTable").dblclick(function () {
-    Swal.fire({
-        title: 'Do you want to Delete the Select row?',
-        showDenyButton: true,
-        showCancelButton: true,
-        confirmButtonText: 'Yes',
-        denyButtonText: 'No',
-        customClass: {
-            actions: 'my-actions',
-            cancelButton: 'order-1 right-gap',
-            confirmButton: 'order-2',
-            denyButton: 'order-3',
-        }
-    }).then((result) => {
-        if (result.isConfirmed) {
-            $(this).children('tr').eq(0).remove();
-            Swal.fire('Delete!', '', 'success')
-        } else if (result.isDenied) {
-            Swal.fire('Select row are not Delete', '', 'info')
-        }
-    })
+    function dblRowClickEventsItem() {
+        $("#ItemTable>tr").on('dblclick', function () {
+            let deleteItemID = $(this).children().eq(0).text();
 
-});
+            Swal.fire({
+                title: 'Do you want to Delete the ' + deleteItemID + ' ?',
+                showDenyButton: true,
+                showCancelButton: true,
+                confirmButtonText: 'Delete',
+                denyButtonText: `Don't Delete`,
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    if (deleteItems(deleteItemID)) {
+                        Swal.fire({
+                            position: 'top-end',
+                            icon: 'success',
+                            title: 'Delete Successfully',
+                            showConfirmButton: false,
+                            timer: 1500
+                        })
+                        $(this).remove();
+                    } else {
+                        Swal.fire({
+                            position: 'top-end',
+                            icon: 'error',
+                            title: 'Delete Unsuccessfully',
+                            showConfirmButton: false,
+                            timer: 1500
+                        })
+                    }
+                } else if (result.isDenied) {
+                    Swal.fire(deleteItemID + ' Delete Canceled!', '', 'info')
+                }
+            })
+
+        });
+    }
 
 
 /**
@@ -290,6 +304,7 @@ function loadAllItems() {
         $("#ItemTable").append(row);
     }
     tblClickEventsI();
+    dblRowClickEventsItem();
 }
 
 /**

@@ -37,29 +37,43 @@ function blindClickEvents() {
 /**
  * Table Listener double click and Click and Remove textFields
  * */
-$("#customerTable").dblclick(function () {
-    Swal.fire({
-        title: 'Do you want to Delete the Select row?',
-        showDenyButton: true,
-        showCancelButton: true,
-        confirmButtonText: 'Yes',
-        denyButtonText: 'No',
-        customClass: {
-            actions: 'my-actions',
-            cancelButton: 'order-1 right-gap',
-            confirmButton: 'order-2',
-            denyButton: 'order-3',
-        }
-    }).then((result) => {
-        if (result.isConfirmed) {
-            $(this).children('tr').eq(0).remove();
-            Swal.fire('Delete!', '', 'success')
-        } else if (result.isDenied) {
-            Swal.fire('Select row are not Delete', '', 'info')
-        }
-    })
+function dblRowClickEventsCus() {
+    $("#customerTable>tr").on('dblclick', function () {
+        let deleteCusID = $(this).children().eq(0).text();
 
-});
+        Swal.fire({
+            title: 'Do you want to Delete the ' + deleteCusID + ' ?',
+            showDenyButton: true,
+            showCancelButton: true,
+            confirmButtonText: 'Delete',
+            denyButtonText: `Don't Delete`,
+        }).then((result) => {
+            if (result.isConfirmed) {
+                if (deleteCustomer(deleteCusID)) {
+                    Swal.fire({
+                        position: 'top-end',
+                        icon: 'success',
+                        title: 'Delete Successfully',
+                        showConfirmButton: false,
+                        timer: 1500
+                    })
+                    $(this).remove();
+                } else {
+                    Swal.fire({
+                        position: 'top-end',
+                        icon: 'error',
+                        title: 'Delete Unsuccessfully',
+                        showConfirmButton: false,
+                        timer: 1500
+                    })
+                }
+            } else if (result.isDenied) {
+                Swal.fire(deleteCusID + ' Delete Canceled!', '', 'info')
+            }
+        })
+
+    });
+}
 
 
 /**
@@ -114,16 +128,16 @@ $("#btnSearchCus").click(function () {
 /**
  * Auto Forces Input Fields Search
  * */
-    $('#searchCusId').keypress(function (event) {
-        if (event.which === 13) {
-            $('#btnSearchCus').focus();
-        }
-    });
-    $('#btnSearchCus').keypress(function (event) {
-        if (event.which === 13) {
-            $('#searchCusId').focus();
-        }
-    });
+$('#searchCusId').keypress(function (event) {
+    if (event.which === 13) {
+        $('#btnSearchCus').focus();
+    }
+});
+$('#btnSearchCus').keypress(function (event) {
+    if (event.which === 13) {
+        $('#searchCusId').focus();
+    }
+});
 
 
 /**
@@ -145,13 +159,13 @@ $("#clearSearchCus").click(function () {
  * Item ID
  * */
 function generateCustomerID() {
-  /*  $("#txtCustomerId").val("C00-1001");*/
-    valueC="C00-1001";
-    $("#btnCSave").click(function(){
-        var newValueC=valueC.split('-');
-        var increaseC=newValueC[1];
+    /*  $("#txtCustomerId").val("C00-1001");*/
+    valueC = "C00-1001";
+    $("#btnCSave").click(function () {
+        var newValueC = valueC.split('-');
+        var increaseC = newValueC[1];
         increaseC++;
-        valueC="C00-"+increaseC;
+        valueC = "C00-" + increaseC;
 
         $("#txtCustomerId").val(valueC);
     });
@@ -366,6 +380,7 @@ function loadAllCustomers() {
         $("#customerTable").append(row);
     }
     blindClickEvents();
+    dblRowClickEventsCus();
 }
 
 /**
@@ -626,36 +641,36 @@ $("#searchCIdDelete").keyup(function (event) {
 $("#btnDeleteCustomer").click(function () {
     let deleteID = $("#searchCIdDelete").val();
 
-        Swal.fire({
-            title: 'Do you want to Delete the ' +deleteID +' ?',
-            showDenyButton: true,
-            showCancelButton: true,
-            confirmButtonText: 'Delete',
-            denyButtonText: `Don't Delete`,
-        }).then((result) => {
-            if (result.isConfirmed) {
-                if (deleteCustomer(deleteID)) {
-                    Swal.fire({
-                        position: 'top-end',
-                        icon: 'success',
-                        title: 'Delete Successfully',
-                        showConfirmButton: false,
-                        timer: 1500
-                    })
-                    clearCDTextFields();
-                } else {
-                    Swal.fire({
-                        position: 'top-end',
-                        icon: 'error',
-                        title: 'Delete Unsuccessfully',
-                        showConfirmButton: false,
-                        timer: 1500
-                    })
-                }
-            } else if (result.isDenied) {
-                Swal.fire(deleteID+' Delete Canceled!', '', 'info')
+    Swal.fire({
+        title: 'Do you want to Delete the ' + deleteID + ' ?',
+        showDenyButton: true,
+        showCancelButton: true,
+        confirmButtonText: 'Delete',
+        denyButtonText: `Don't Delete`,
+    }).then((result) => {
+        if (result.isConfirmed) {
+            if (deleteCustomer(deleteID)) {
+                Swal.fire({
+                    position: 'top-end',
+                    icon: 'success',
+                    title: 'Delete Successfully',
+                    showConfirmButton: false,
+                    timer: 1500
+                })
+                clearCDTextFields();
+            } else {
+                Swal.fire({
+                    position: 'top-end',
+                    icon: 'error',
+                    title: 'Delete Unsuccessfully',
+                    showConfirmButton: false,
+                    timer: 1500
+                })
             }
-        })
+        } else if (result.isDenied) {
+            Swal.fire(deleteID + ' Delete Canceled!', '', 'info')
+        }
+    })
 
 });
 
