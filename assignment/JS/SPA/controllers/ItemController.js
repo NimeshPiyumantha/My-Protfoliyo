@@ -35,43 +35,43 @@ function tblClickEventsI() {
 /**
  * Table Listener double click and Click and Remove textFields
  * */
-    function dblRowClickEventsItem() {
-        $("#ItemTable>tr").on('dblclick', function () {
-            let deleteItemID = $(this).children().eq(0).text();
+function dblRowClickEventsItem() {
+    $("#ItemTable>tr").on('dblclick', function () {
+        let deleteItemID = $(this).children().eq(0).text();
 
-            Swal.fire({
-                title: 'Do you want to Delete the ' + deleteItemID + ' ?',
-                showDenyButton: true,
-                showCancelButton: true,
-                confirmButtonText: 'Delete',
-                denyButtonText: `Don't Delete`,
-            }).then((result) => {
-                if (result.isConfirmed) {
-                    if (deleteItems(deleteItemID)) {
-                        Swal.fire({
-                            position: 'top-end',
-                            icon: 'success',
-                            title: 'Delete Successfully',
-                            showConfirmButton: false,
-                            timer: 1500
-                        })
-                        $(this).remove();
-                    } else {
-                        Swal.fire({
-                            position: 'top-end',
-                            icon: 'error',
-                            title: 'Delete Unsuccessfully',
-                            showConfirmButton: false,
-                            timer: 1500
-                        })
-                    }
-                } else if (result.isDenied) {
-                    Swal.fire(deleteItemID + ' Delete Canceled!', '', 'info')
+        Swal.fire({
+            title: 'Do you want to Delete the ' + deleteItemID + ' ?',
+            showDenyButton: true,
+            showCancelButton: true,
+            confirmButtonText: 'Delete',
+            denyButtonText: `Don't Delete`,
+        }).then((result) => {
+            if (result.isConfirmed) {
+                if (deleteItems(deleteItemID)) {
+                    Swal.fire({
+                        position: 'top-end',
+                        icon: 'success',
+                        title: 'Delete Successfully',
+                        showConfirmButton: false,
+                        timer: 1500
+                    })
+                    $(this).remove();
+                } else {
+                    Swal.fire({
+                        position: 'top-end',
+                        icon: 'error',
+                        title: 'Delete Unsuccessfully',
+                        showConfirmButton: false,
+                        timer: 1500
+                    })
                 }
-            })
+            } else if (result.isDenied) {
+                Swal.fire(deleteItemID + ' Delete Canceled!', '', 'info')
+            }
+        })
 
-        });
-    }
+    });
+}
 
 
 /**
@@ -83,13 +83,13 @@ function tblClickEventsI() {
  * Item ID
  * */
 function generateItemID() {
-  /*  $("#txtItemsId").val("I00-1001");*/
-    valueI="I00-1001";
-    $("#btnISave").click(function(){
-        var newValueI=valueI.split('-');
-        var increaseI=newValueI[1];
+    /*  $("#txtItemsId").val("I00-1001");*/
+    valueI = "I00-1001";
+    $("#btnISave").click(function () {
+        var newValueI = valueI.split('-');
+        var increaseI = newValueI[1];
         increaseI++;
-        valueI="I00-"+increaseI;
+        valueI = "I00-" + increaseI;
 
         $("#txtItemsId").val(valueI);
     });
@@ -173,11 +173,11 @@ $("#txtItemsId,#txtItemName,#txtItemQty,#txtItemPrice").on('keydown', function (
 
 
 $("#txtItemsId,#txtItemName,#txtItemQty,#txtItemPrice").on('keyup', function (event) {
-    checkValidity();
+    checkValidity(ItemsValidations);
 });
 
 $("#txtItemsId,#txtItemName,#txtItemQty,#txtItemPrice").on('blur', function (event) {
-    checkValidity();
+    checkValidity(ItemsValidations);
 });
 
 
@@ -212,51 +212,6 @@ $("#txtItemPrice").on('keydown', function (event) {
     }
 });
 
-function checkValidity() {
-    let errorCount = 0;
-    for (let validation of ItemsValidations) {
-        if (check(validation.reg, validation.field)) {
-            textSuccess(validation.field, "");
-        } else {
-            errorCount = errorCount + 1;
-            setTextError(validation.field, validation.error);
-        }
-    }
-    setButtonState(errorCount);
-}
-
-function check(regex, txtField) {
-    let inputValue = txtField.val();
-    return regex.test(inputValue) ? true : false;
-}
-
-function setTextError(txtField, error) {
-    if (txtField.val().length <= 0) {
-        defaultText(txtField, "");
-    } else {
-        txtField.css('border', '2px solid red');
-        txtField.parent().children('span').text(error);
-    }
-}
-
-function textSuccess(txtField, error) {
-    if (txtField.val().length <= 0) {
-        defaultText(txtField, "");
-    } else {
-        txtField.css('border', '2px solid green');
-        txtField.parent().children('span').text(error);
-    }
-}
-
-function defaultText(txtField, error) {
-    txtField.css("border", "1px solid #ced4da");
-    txtField.parent().children('span').text(error);
-}
-
-function focusText(txtField) {
-    txtField.focus();
-}
-
 function setButtonState(value) {
     if (value > 0) {
         $("#btnISave").attr('disabled', true);
@@ -264,6 +219,7 @@ function setButtonState(value) {
         $("#btnISave").attr('disabled', false);
     }
 }
+
 
 /**
  * clear input fields Values Method
@@ -274,7 +230,7 @@ function clearTextFieldsI() {
     txtItemQty.value = '';
     txtItemPrice.value = '';
     $("#txtItemsId").focus();
-    checkValidity();
+    checkValidity(ItemsValidations);
 }
 
 /**
@@ -359,16 +315,16 @@ $("#btnSearchItem").click(function () {
  * Auto Forces Input Fields Search
  * */
 
-    $('#ItemIdSearch').keypress(function (event) {
-        if (event.which === 13) {
-            $('#btnSearchItem').focus();
-        }
-    });
-    $('#btnSearchItem').keypress(function (event) {
-        if (event.which === 13) {
-            $('#ItemIdSearch').focus();
-        }
-    });
+$('#ItemIdSearch').keypress(function (event) {
+    if (event.which === 13) {
+        $('#btnSearchItem').focus();
+    }
+});
+$('#btnSearchItem').keypress(function (event) {
+    if (event.which === 13) {
+        $('#ItemIdSearch').focus();
+    }
+});
 
 
 /**
@@ -473,35 +429,33 @@ $("#searchItemId,#updateItemName,#updateItemQty,#updateItemPrice").on('keydown',
     }
 });
 
-
 $("#searchItemId,#updateItemName,#updateItemQty,#updateItemPrice").on('keyup', function (event) {
-    checkValidityIU();
+    checkValidity(ItemsValidationsUpdate);
 });
 
 $("#searchItemId,#updateItemName,#updateItemQty,#updateItemPrice").on('blur', function (event) {
-    checkValidityIU();
+    checkValidity(ItemsValidationsUpdate);
 });
-
 
 $("#searchItemId").on('keydown', function (event) {
     if (event.key === "Enter" && check(regExItemCode, $("#searchItemId"))) {
         $("#updateItemName").focus();
     } else {
-        focusTextIU($("#searchItemId"));
+        focusText($("#searchItemId"));
     }
 });
 
 
 $("#updateItemName").on('keydown', function (event) {
     if (event.key === "Enter" && check(regExItemName, $("#updateItemName"))) {
-        focusTextIU($("#updateItemQty"));
+        focusText($("#updateItemQty"));
     }
 });
 
 
 $("#updateItemQty").on('keydown', function (event) {
     if (event.key === "Enter" && check(regExItemPrice, $("#updateItemQty"))) {
-        focusTextIU($("#updateItemPrice"));
+        focusText($("#updateItemPrice"));
     }
 });
 
@@ -514,52 +468,7 @@ $("#updateItemPrice").on('keydown', function (event) {
     }
 });
 
-function checkValidityIU() {
-    let errorCount = 0;
-    for (let validation of ItemsValidationsUpdate) {
-        if (checkIU(validation.reg, validation.field)) {
-            textSuccessIU(validation.field, "");
-        } else {
-            errorCount = errorCount + 1;
-            setTextErrorIU(validation.field, validation.error);
-        }
-    }
-    setButtonStateIU(errorCount);
-}
-
-function checkIU(regex, txtField) {
-    let inputValue = txtField.val();
-    return regex.test(inputValue) ? true : false;
-}
-
-function setTextErrorIU(txtField, error) {
-    if (txtField.val().length <= 0) {
-        defaultTextIU(txtField, "");
-    } else {
-        txtField.css('border', '2px solid red');
-        txtField.parent().children('span').text(error);
-    }
-}
-
-function textSuccessIU(txtField, error) {
-    if (txtField.val().length <= 0) {
-        defaultTextIU(txtField, "");
-    } else {
-        txtField.css('border', '2px solid green');
-        txtField.parent().children('span').text(error);
-    }
-}
-
-function defaultTextIU(txtField, error) {
-    txtField.css("border", "1px solid #ced4da");
-    txtField.parent().children('span').text(error);
-}
-
-function focusTextIU(txtField) {
-    txtField.focus();
-}
-
-function setButtonStateIU(value) {
+function setButtonState(value) {
     if (value > 0) {
         $("#btnUpdateItem").attr('disabled', true);
     } else {
@@ -576,6 +485,7 @@ function clearUTextFields() {
     updateItemName.value = '';
     updateItemQty.value = '';
     updateItemPrice.value = '';
+    checkValidity(ItemsValidationsUpdate);
 }
 
 /**
@@ -640,7 +550,7 @@ $("#btnDeleteItems").click(function () {
     let deleteIID = $("#searchDItemId").val();
 
     Swal.fire({
-        title: 'Do you want to Delete the ' +deleteIID +' ?',
+        title: 'Do you want to Delete the ' + deleteIID + ' ?',
         showDenyButton: true,
         showCancelButton: true,
         confirmButtonText: 'Delete',
@@ -666,7 +576,7 @@ $("#btnDeleteItems").click(function () {
                 })
             }
         } else if (result.isDenied) {
-            Swal.fire(deleteIID+' Delete Canceled!', '', 'info')
+            Swal.fire(deleteIID + ' Delete Canceled!', '', 'info')
         }
     })
 
@@ -684,7 +594,6 @@ function deleteItems(itemID) {
         return false;
     }
 }
-
 
 
 /**
