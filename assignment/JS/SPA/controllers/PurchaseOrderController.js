@@ -252,18 +252,19 @@ $(document).on("change keyup blur", "#txtCash", function () {
  * method
  * */
 function placeOrder() {
-    let oId = $("#orderId").val();
-    let cId = $("#cmbCustomerId").val();
-    let oDate = $("#orderDate").val();
-    let subTotal = $("#txtSubTotal").val();
-    let discount = $("#txtDiscount").val();
-
-    var orderArrayList = new order(oId, cId, oDate, subTotal, discount);
+    //create object
+    let orderArrayList = new order(
+        $("#orderId").val(),
+        $("#cmbCustomerId").val(),
+        $("#orderDate").val(),
+        $("#txtSubTotal").val(),
+        $("#txtDiscount").val()
+    );
 
     orders.push(orderArrayList);
     console.log(orderArrayList);
 
-    saveUpdateAlert(oId, "saved.");
+    saveUpdateAlert("Place Ordering", "Successfully.");
 }
 
 /**
@@ -281,7 +282,7 @@ function pushOrderDetails() {
         let total = $("#tblAddToCart tr").children(':nth-child(5)')[i].innerText;
 
 
-        var orderDetailArrayList = new orderDetail(orderId,cusId,itemId,qty,total);
+        var orderDetailArrayList = new orderDetail(orderId, cusId, itemId, qty, total);
 
         orderDetails.push(orderDetailArrayList);
         console.log(orderDetailArrayList);
