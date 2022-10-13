@@ -261,9 +261,9 @@ function placeOrder() {
     var orderArrayList = new order(oId, cId, oDate, subTotal, discount);
 
     orders.push(orderArrayList);
-    console.log(order);
+    console.log(orderArrayList);
 
-    saveUpdateAlert(oId, saved.)
+    saveUpdateAlert(oId, "saved.");
 }
 
 /**
@@ -281,16 +281,10 @@ function pushOrderDetails() {
         let total = $("#tblAddToCart tr").children(':nth-child(5)')[i].innerText;
 
 
-        var orderDetail = {
-            orderId: orderId,
-            cusId: cusId,
-            itemId: itemId,
-            qty: qty,
-            total: total
-        }
+        var orderDetailArrayList = new orderDetail(orderId,cusId,itemId,qty,total);
 
-        orderDetails.push(orderDetail);
-        console.log(orderDetails);
+        orderDetails.push(orderDetailArrayList);
+        console.log(orderDetailArrayList);
     }
 }
 
