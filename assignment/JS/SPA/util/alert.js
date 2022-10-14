@@ -25,7 +25,7 @@ function unSucsessUpdateAlert(vale) {
 
 function yesNoAlertDelete(value) {
     Swal.fire({
-        title: 'Do you want to Delete the ' + value + ' ?',
+        title: 'Do you want to Delete the \n' + value + ' ?',
         showDenyButton: true,
         showCancelButton: true,
         confirmButtonText: 'Delete',
@@ -58,7 +58,7 @@ function yesNoAlertDelete(value) {
 
 function yesNoAlertIDelete(value) {
     Swal.fire({
-        title: 'Do you want to Delete the ' + value + ' ?',
+        title: 'Do you want to Delete the \n' + value + ' ?',
         showDenyButton: true,
         showCancelButton: true,
         confirmButtonText: 'Delete',
