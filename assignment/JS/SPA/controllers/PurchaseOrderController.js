@@ -247,10 +247,10 @@ $(document).on("change keyup blur", "#txtCash", function () {
     let balance = cash - subTotal;
     $("#txtBalance").val(balance);
     if (balance < 0) {
-        $("#lblCheckSubtotal").parent().children('span').text(balance+" : plz enter valid Balance");
+        $("#lblCheckSubtotal").parent().children('strong').text(balance+" : plz enter valid Balance");
         $("#btnPurchase").attr('disabled', true);
     } else {
-        $("#lblCheckSubtotal").parent().children('span').text("");
+        $("#lblCheckSubtotal").parent().children('strong').text("");
         $("#btnPurchase").attr('disabled', false);
     }
 });
@@ -407,10 +407,10 @@ $(document).on("change keyup blur", "#buyQty", function () {
     let buyQty = $("#buyQty").val();
     let buyOnHand = qtyOnHand - buyQty;
     if (buyOnHand < 0) {
-        $("#lblCheckQty").parent().children('span').text(qtyOnHand + " : Empty On Stock..!!");
+        $("#lblCheckQty").parent().children('strong').text(qtyOnHand + " : Empty On Stock..!!");
         $("#btnAddToCart").attr('disabled', true);
     } else {
-        $("#lblCheckQty").parent().children('span').text("");
+        $("#lblCheckQty").parent().children('strong').text("");
         $("#btnAddToCart").attr('disabled', false);
     }
 });
