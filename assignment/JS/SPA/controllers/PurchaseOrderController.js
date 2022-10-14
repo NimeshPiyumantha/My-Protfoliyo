@@ -291,7 +291,6 @@ function pushOrderDetails() {
         let qty = $("#tblAddToCart tr").children(':nth-child(4)')[i].innerText;
         let total = $("#tblAddToCart tr").children(':nth-child(5)')[i].innerText;
 
-
         let orderDetailArrayList = new orderDetail(orderId, cusId, itemId, qty, total);
 
         orderDetails.push(orderDetailArrayList);
