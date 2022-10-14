@@ -1,14 +1,14 @@
 /**
- * @author : Sanu Vithanage
+ * @author : Nimesh Piyumantha
  * @since : 0.1.0
  **/
+
+$("#btnPurchase").attr('disabled', true);
+$("#btnAddToCart").attr('disabled', true);
 
 /**
  * Invoice Details
  * */
-
-$("#btnPurchase").attr('disabled', true);
-$("#btnAddToCart").attr('disabled', true);
 
 /**
  * Invoice Details
@@ -247,7 +247,7 @@ $(document).on("change keyup blur", "#txtCash", function () {
     let balance = cash - subTotal;
     $("#txtBalance").val(balance);
     if (balance < 0) {
-        $("#lblCheckSubtotal").parent().children('strong').text(balance+" : plz enter valid Balance");
+        $("#lblCheckSubtotal").parent().children('strong').text(balance + " : plz enter valid Balance");
         $("#btnPurchase").attr('disabled', true);
     } else {
         $("#lblCheckSubtotal").parent().children('strong').text("");
