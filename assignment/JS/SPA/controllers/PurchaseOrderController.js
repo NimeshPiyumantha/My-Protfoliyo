@@ -18,8 +18,8 @@ function generateOrderID() {
     /* $("#orderId").val("ODI-1001");*/
     value = "ODI-1001";
     $("#btnPurchase").click(function () {
-        var newValue = value.split('-');
-        var increase = newValue[1];
+        let newValue = value.split('-');
+        let increase = newValue[1];
         increase++;
         value = "ODI-" + increase;
 
@@ -53,7 +53,7 @@ function loadAllCustomersForOption() {
 }
 
 $("#cmbCustomerId").click(function () {
-    var rCmbC = customers.find(({id}) => id === $("#cmbCustomerId").val());
+    let rCmbC = customers.find(({id}) => id === $("#cmbCustomerId").val());
     $("#customerName").val(rCmbC.name);
     $("#customerAddress").val(rCmbC.address);
     $("#customerSalary").val(rCmbC.salary);
@@ -64,15 +64,15 @@ $("#cmbCustomerId").click(function () {
  * Items Details
  * */
 
-var itemCode;
-var itemName;
-var itemPrice;
-var itemQty;
-var itemOrderQty;
+let itemCode;
+let itemName;
+let itemPrice;
+let itemQty;
+let itemOrderQty;
 
-var total = 0;
-var discount = 0;
-var subTotal = 0;
+let total = 0;
+let discount = 0;
+let subTotal = 0;
 
 /**
  * Items Details
@@ -86,7 +86,7 @@ function loadAllItemsForOption() {
 }
 
 $("#cmbItemCode").click(function () {
-    var rCmbI = items.find(({code}) => code === $("#cmbItemCode").val());
+    let rCmbI = items.find(({code}) => code === $("#cmbItemCode").val());
     $("#itemName").val(rCmbI.name);
     $("#itemPrice").val(rCmbI.price);
     $("#qtyOnHand").val(rCmbI.qty);
@@ -97,12 +97,12 @@ $("#cmbItemCode").click(function () {
  * Place order
  * */
 
-var tableRow = [];
+let tableRow = [];
 
 $("#btnAddToCart").click(function () {
-    var duplicate = false;
+    let duplicate = false;
 
-    for (var i = 0; i < $("#tblAddToCart tr").length; i++) {
+    for (let i = 0; i < $("#tblAddToCart tr").length; i++) {
         if ($("#cmbItemCode option:selected").text() === $("#tblAddToCart tr").children(':nth-child(1)')[i].innerText) {
             duplicate = true;
 
@@ -162,7 +162,7 @@ function loadCartTableDetail() {
     itemOrderQty = $("#buyQty").val();
 
     let total = itemPrice * itemOrderQty;
-    var row = `<tr><td>${itemCode}</td><td>${itemName}</td><td>${itemPrice}</td><td>${itemOrderQty}</td><td>${total}</td></tr>`;
+    let row = `<tr><td>${itemCode}</td><td>${itemName}</td><td>${itemPrice}</td><td>${itemOrderQty}</td><td>${total}</td></tr>`;
 
     $("#tblAddToCart").append(row);
 
@@ -174,8 +174,8 @@ function loadCartTableDetail() {
  * Reduce QtyOnHand
  * */
 function reduceQty(orderQty) {
-    var minQty = parseInt(orderQty);
-    var reduceQty = parseInt($("#qtyOnHand").val());
+    let minQty = parseInt(orderQty);
+    let reduceQty = parseInt($("#qtyOnHand").val());
     reduceQty = reduceQty - minQty;
     $("#qtyOnHand").val(reduceQty);
 }
@@ -199,7 +199,7 @@ function calcTotal(amount) {
 function manageQtyOnHand(preQty, nowQty) {
     var preQty = parseInt(preQty);
     var nowQty = parseInt(nowQty);
-    var avaQty = parseInt($("#qtyOnHand").val());
+    let avaQty = parseInt($("#qtyOnHand").val());
 
     avaQty = avaQty + preQty;
     avaQty = avaQty - nowQty;
@@ -243,8 +243,8 @@ $(document).on("change keyup blur", "#txtDiscount", function () {
  * */
 
 $(document).on("change keyup blur", "#txtCash", function () {
-    var cash = $("#txtCash").val();
-    var balance = cash - subTotal;
+    let cash = $("#txtCash").val();
+    let balance = cash - subTotal;
     $("#txtBalance").val(balance);
     if (balance < 0) {
         $("#lblCheckSubtotal").parent().children('span').text(balance+" : plz enter valid Balance");
@@ -292,7 +292,7 @@ function pushOrderDetails() {
         let total = $("#tblAddToCart tr").children(':nth-child(5)')[i].innerText;
 
 
-        var orderDetailArrayList = new orderDetail(orderId, cusId, itemId, qty, total);
+        let orderDetailArrayList = new orderDetail(orderId, cusId, itemId, qty, total);
 
         orderDetails.push(orderDetailArrayList);
         console.log(orderDetailArrayList);
@@ -403,9 +403,9 @@ function searchItemQty(itemIdQ) {
  * */
 
 $(document).on("change keyup blur", "#buyQty", function () {
-    var qtyOnHand = $("#qtyOnHand").val();
-    var buyQty = $("#buyQty").val();
-    var buyOnHand = qtyOnHand - buyQty;
+    let qtyOnHand = $("#qtyOnHand").val();
+    let buyQty = $("#buyQty").val();
+    let buyOnHand = qtyOnHand - buyQty;
     if (buyOnHand < 0) {
         $("#lblCheckQty").parent().children('span').text(qtyOnHand + " : Empty On Stock..!!");
         $("#btnAddToCart").attr('disabled', true);
