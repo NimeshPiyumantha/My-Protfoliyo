@@ -53,16 +53,14 @@ function dblRowClickEventsItem() {
  * Item ID
  * */
 function generateItemID() {
-    /*  $("#txtItemsId").val("I00-1001");*/
-    valueI = "I00-1001";
-    $("#btnISave").click(function () {
-        var newValueI = valueI.split('-');
-        var increaseI = newValueI[1];
-        increaseI++;
-        valueI = "I00-" + increaseI;
-
-        $("#txtItemsId").val(valueI);
-    });
+    if (items.length > 0) {
+        let lastId = items[items.length - 1].code;
+        let digit = lastId.substring(6);
+        let number = parseInt(digit) + 1;
+        return lastId.replace(digit, number);
+    } else {
+        return "I00-001";
+    }
 }
 
 /**
@@ -86,7 +84,7 @@ $("#btnISave").click(function () {
     items.push(itemArray);
 
     /*console.log(items);*/
-
+    $("#txtItemsId").val(generateItemID());
     loadAllItems();
 });
 
@@ -94,7 +92,7 @@ $("#btnISave").click(function () {
  * Auto Forces Input Fields Save
  * */
 $("#txtItemsId").focus();
-const regExItemCode = /^(I00-)[0-9]{4,5}$/;
+const regExItemCode = /^(I00-)[0-9]{3,4}$/;
 const regExItemName = /^[A-z ]{3,20}$/;
 const regExItemPrice = /^[0-9]{1,10}$/;
 const regExItemQtyOnHand = /^[0-9]{1,}[.]?[0-9]{1,2}$/;
