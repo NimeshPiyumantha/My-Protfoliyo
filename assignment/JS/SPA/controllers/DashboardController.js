@@ -46,7 +46,7 @@ $("#orderBtn").click(function () {
     $("#OrderSection").css('display', 'block');
     $("#OrderDetails").css('display', 'none');
 
-    generateOrderID();
+    $("#orderId").val( generateOrderID());
     setCurrentDate();
 });
 

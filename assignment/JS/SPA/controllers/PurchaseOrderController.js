@@ -15,16 +15,14 @@ $("#btnAddToCart").attr('disabled', true);
  * Order ID
  * */
 function generateOrderID() {
-    /* $("#orderId").val("ODI-1001");*/
-    value = "ODI-1001";
-    $("#btnPurchase").click(function () {
-        let newValue = value.split('-');
-        let increase = newValue[1];
-        increase++;
-        value = "ODI-" + increase;
-
-        $("#orderId").val(value);
-    });
+    if (orders.length > 0) {
+        let lastId = orders[orders.length - 1].oId;
+        let digit = lastId.substring(6);
+        let number = parseInt(digit) + 1;
+        return lastId.replace(digit, number);
+    } else {
+        return "ODI-001";
+    }
 }
 
 /**
@@ -307,7 +305,7 @@ function pushOrderDetails() {
 $("#btnPurchase").click(function () {
     placeOrder();
     pushOrderDetails();
-    generateOrderID();
+    $("#orderId").val( generateOrderID());
     clearDetails();
     $("#tblAddToCart").empty();
 
