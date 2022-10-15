@@ -26,7 +26,7 @@ $("#customerBtn").click(function () {
     $("#OrderSection").css('display', 'none');
     $("#OrderDetails").css('display', 'none');
 
-    generateCustomerID();
+    $("#txtCustomerId").val(generateCustomerID());
 });
 
 $("#itemBtn").click(function () {

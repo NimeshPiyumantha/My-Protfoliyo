@@ -107,16 +107,14 @@ $("#clearSearchCus").click(function () {
  * Item ID
  * */
 function generateCustomerID() {
-    /*  $("#txtCustomerId").val("C00-1001");*/
-    valueC = "C00-1001";
-    $("#btnCSave").click(function () {
-        var newValueC = valueC.split('-');
-        var increaseC = newValueC[1];
-        increaseC++;
-        valueC = "C00-" + increaseC;
-
-        $("#txtCustomerId").val(valueC);
-    });
+    if (customers.length > 0) {
+        let lastId = customers[customers.length - 1].id;
+        let digit = lastId.substring(6);
+        let number = parseInt(digit) + 1;
+        return lastId.replace(digit, number);
+    } else {
+        return "C00-001";
+    }
 }
 
 /**
@@ -140,7 +138,7 @@ $("#btnCSave").click(function () {
     customers.push(CustomerArray);
 
     /* console.log(customers);*/
-
+    $("#txtCustomerId").val(generateCustomerID());
     loadAllCustomers();
 });
 
