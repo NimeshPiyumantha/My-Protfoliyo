@@ -104,7 +104,7 @@ $("#clearSearchCus").click(function () {
 
 /**
  * Save Model
- * Item ID
+ * Customer ID
  * */
 function generateCustomerID() {
     if (customers.length > 0) {
