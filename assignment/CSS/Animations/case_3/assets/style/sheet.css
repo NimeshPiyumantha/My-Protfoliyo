@@ -34,31 +34,31 @@ main > section > div {
 }
 
 main > section > div:nth-child(1) {
-    background: url("assets/img/01.jpg");
+    background: url("../img/01.jpg");
     background-size: cover;
     background-position: center;
 }
 
 main > section > div:nth-child(2) {
-    background: url("assets/img/02.jpg");
+    background: url("../img/02.jpg");
     background-size: cover;
     background-position: center;
 }
 
 main > section > div:nth-child(3) {
-    background: url("assets/img/03.jpg");
+    background: url("../img/03.jpg");
     background-size: cover;
     background-position: center;
 }
 
 main > section > div:nth-child(4) {
-    background: url("img/04.jpg");
+    background: url("../img/04.jpg");
     background-size: cover;
     background-position: center;
 }
 
 main > section > div:nth-child(5) {
-    background: url("assets/img/05.jpg");
+    background: url("../img/05.jpg");
     background-size: cover;
     background-position: center;
 }
