@@ -5,6 +5,45 @@
     <title>Simple Task</title>
     <link rel="stylesheet" href="assets/css/bootstrap-reboot.min.css">
 
+    <style>
+        body>section:nth-child(1){
+            width: 350px;
+            height: 350px;
+            border: 2px solid black;
+            position: relative;
+            left: 0;
+            top: 150px;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+        }
+        body>section:nth-child(2){
+            position: relative;
+            display: flex;
+            width: 180px;
+            justify-content: space-around;
+            left: 0;
+            top: 200px;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+        }
+        section>button{
+            padding:10px 20px 10px 20px;
+            cursor: pointer;
+            border: none;
+            border-radius: 8px;
+        }
+        button:nth-child(1){
+            background-color: green;
+            color: white;
+        }
+        button:nth-child(2){
+            background-color: red;
+            color: white;
+        }
+    </style>
+
 </head>
 <body>
 <section id="display">
