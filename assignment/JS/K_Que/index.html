@@ -82,7 +82,42 @@
 
 <script src="assets/js/jquery-3.6.1.min.js"></script>
 
+<script>
 
+    var cueData={
+        persons:[
+            {name:'Sadun', color:'red'},
+            {name:'Nimesh', color:'green'},
+            {name:'Pasan', color:'blue'}
+        ],
+        nextPerson:function (){
+           var lastPerson= this.persons.pop();
+           this.persons.unshift(lastPerson);
+        }
+    }
+
+
+    renderQue();
+    function renderQue(){
+        $("#container").empty();
+        for (let i = 0; i < cueData.persons.length; i++) {
+            $("#container").append(`<div style="background-color: ${cueData.persons[i].color}"><h1>${cueData.persons[i].name}</h1></div>`);
+        }
+        cueData.nextPerson();
+    }
+
+    setInterval(renderQue,900);
+
+
+    //Add a person to the que
+    $('#btnAdd').click(function (){
+       let name= $("#txtName").val();
+       let color= $("#txtColor").val();
+       cueData.persons.unshift({name:name,color:color});
+    });
+
+
+</script>
 
 </body>
 </html>
