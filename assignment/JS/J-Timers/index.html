@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Simple Task</title>
-    <link rel="stylesheet" href="assets/css/bootstrap-reboot.min.css">
+    <link href="assets/css/bootstrap-reboot.min.css" rel="stylesheet">
 
     <style>
-        body>section:nth-child(1){
+        body > section:nth-child(1) {
             width: 350px;
             height: 350px;
             border: 2px solid black;
@@ -17,7 +17,8 @@
             bottom: 0;
             margin: auto;
         }
-        body>section:nth-child(2){
+
+        body > section:nth-child(2) {
             position: relative;
             display: flex;
             width: 180px;
@@ -28,17 +29,20 @@
             bottom: 0;
             margin: auto;
         }
-        section>button{
-            padding:10px 20px 10px 20px;
+
+        section > button {
+            padding: 10px 20px 10px 20px;
             cursor: pointer;
             border: none;
             border-radius: 8px;
         }
-        button:nth-child(1){
+
+        button:nth-child(1) {
             background-color: green;
             color: white;
         }
-        button:nth-child(2){
+
+        button:nth-child(2) {
             background-color: red;
             color: white;
         }
@@ -55,6 +59,32 @@
 </section>
 
 <script src="assets/js/jquery-3.6.1.min.js"></script>
+
+<script>
+
+    var colors = ['red', 'green', 'orange', 'blue', 'deeppink'];
+
+    let count = 0;
+
+    function setColors() {
+        $('#display').css('background', colors[count]);
+        count++;
+        if (count == colors.length) {
+            count = 0;
+        }
+    }
+
+
+    let id;
+    $("#btnStart").click(function () {
+        clearInterval(id);
+        id = setInterval(setColors, 100);
+    });
+
+    $("#btnStop").click(function () {
+        clearInterval(id);
+    });
+</script>
 
 </body>
 </html>
