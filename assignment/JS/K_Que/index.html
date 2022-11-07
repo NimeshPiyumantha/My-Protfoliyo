@@ -5,7 +5,50 @@
     <title>Que With JS</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 
+    <style>
+        #container{
+            height: 80px;
+            width: 90vw;
+            border-bottom: 2px dashed red;
+            display: flex;
+            justify-content: flex-end;
+        }
+        #container>div{
+            width: 130px;
+            height: 70px;
+            background-color: red;
+            color: white;
+            position: relative;
+            border: 1px solid #584b4b;
+            border-radius: 10px;
+            margin-right: 8px;
+            box-shadow: 0 -1px 8px 2px #1c1717e8;
+        }
+        #container>div>h1{
+            font-size: 25px;
+            width: max-content;
+            height: max-content;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin:auto;
+        }
+        main{
+            position: relative;
+        }
+        #img{
+            height: 110px;
+            width: 110px;
+            background: url("assets/img/img.png");
+            position: absolute;
+            top: -13px;
+            right: 0;
+            background-size: cover;
+        }
 
+    </style>
 
 </head>
 <body>
