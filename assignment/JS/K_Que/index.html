@@ -47,6 +47,14 @@
             right: 0;
             background-size: cover;
         }
+        .button{
+            border-radius: 20px;
+            margin: 5px 5px;
+            width: 150px;
+            height: 50px;
+            font-weight: bolder;
+            font-size: 20px;
+        }
 
     </style>
 
@@ -64,7 +72,7 @@
                 <input type="color" class="form-control" id="txtColor" >
             </div>
             <div>
-                <button class="btn btn-danger" id="btnAdd">Add to Que</button>
+                <button class="btn btn-success button" id="btnAdd">Add to Que</button>
             </div>
         </section>
     </section>
@@ -76,6 +84,11 @@
         <section id="img">
 
         </section>
+
+        <div class="d-flex justify-content-center mt-3" id="btC">
+            <button class="btn btn-primary button" id="btnStart">Start</button>
+            <button class="btn btn-danger button" id="btnStop">Stop</button>
+        </div>
     </main>
 
 </section>
@@ -106,7 +119,7 @@
         cueData.nextPerson();
     }
 
-    setInterval(renderQue,900);
+
 
 
     //Add a person to the que
@@ -114,6 +127,16 @@
        let name= $("#txtName").val();
        let color= $("#txtColor").val();
        cueData.persons.unshift({name:name,color:color});
+    });
+
+    queId=0;
+    $('#btnStart').click(function (){
+        clearInterval(queId);
+        queId= setInterval(renderQue,900);
+    });
+
+    $('#btnStop').click(function (){
+        clearInterval(queId);
     });
 
 
