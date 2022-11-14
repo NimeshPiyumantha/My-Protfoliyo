@@ -1,0 +1,351 @@
+/**
+ * @author : Nimesh Piyumantha
+ * @since : 0.1.0
+ **/
+
+.body{
+    margin: 0;
+    padding: 0;
+}
+
+.background{
+    width: 100%;
+    height: 100vh;
+    background: url("../../img/background.jpg");
+    background-size: cover;
+    background-repeat: repeat-x;
+    overflow-x: hidden;
+    position: absolute;
+}
+
+.boy{
+    height: 300px;
+    margin-top: 500px;
+    position: absolute;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    margin-top: 660px;
+    background-image: url("../../img/dragon.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.score{
+    font-size: 50px;
+    font-weight: bolder;
+    margin-left: 200px;
+    margin-top: 20px;
+    position: absolute;
+    font-family: "Gadugi", serif;
+    color: #ecf0f1 ;
+}
+
+.scoreN{
+    font-size: 50px;
+    font-weight: bolder;
+    margin-left: 30px;
+    margin-top: 15px;
+    position: absolute;
+    font-family: "Gadugi", serif;
+    color: #ecf0f1 ;
+}
+
+/* ------------------------------Game Control Buttons-------------------------------- */
+
+div#game-controls {
+    /* border: 5px solid red; */
+    width: 390px;
+    height: 70px;
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* flex-direction: column; */
+    padding: 5px;
+}
+
+div#game-controls>button {
+    /* border: 2px solid blue; */
+    width: 66px;
+    height: 66px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+div#game-controls>button:hover {
+    /* border: 2px solid blue; */
+    width: 75px;
+    height: 75px;
+}
+
+div#game-controls>button#btnSound {
+    background-image: url("../../images/menu/sound.png");
+    background-size: cover;
+    background-position: center;
+}
+
+div#game-controls>button#btn_goToMenu {
+    background-image: url("../../images/menu/menu2.png");
+    background-size: cover;
+    background-position: center;
+}
+
+div#game-controls>button#btnPause {
+    background-image: url("../../images/menu/pause2.png");
+    background-size: cover;
+    background-position: center;
+}
+
+div#game-controls>button#btnResume {
+    background-image: url("../../images/menu/resume2.png");
+    background-size: cover;
+    background-position: center;
+}
+
+div#game-controls>button#btnRestart {
+    background-image: url("../../images/menu/restart.png");
+    background-size: cover;
+    background-position: center;
+}
+
+div#game-controls>div#move {
+    /* border: 5px solid red; */
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: -10px;
+    right: 3px;
+}
+
+div#game-controls>div#move:hover {
+    cursor: grabbing;
+}
+
+div#game-controls>div#move:active {
+    cursor: grab;
+}
+
+div#game-controls div#move>i {
+    /* border: 2px solid purple; */
+    position: relative;
+    width: 15px;
+    height: 15px;
+    color: black;
+}
+
+/* ------------------------------Pause & Resume Game-------------------------------- */
+
+div#game-controls>button#btnPause.pause {
+    width: 75px;
+    height: 75px;
+}
+
+div#game-controls>button#btnSound.sound-on {
+    width: 75px;
+    height: 75px;
+}
+
+.bg-blur {
+    filter: blur(8px);
+    -webkit-filter: blur(2px);
+}
+
+section#pause-bg {
+    /* border: 2px solid red; */
+    width: 25%;
+    height: 55%;
+    background-image: url('../../img/png/Idle (8).png');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+section#pause-bg div#title-img {
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 40%;
+    background-image: url('../../images/menu/title.png');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 40%;
+    left: -13%;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    /* animation: spin 4s linear; */
+}
+
+/* ------------------------------Game Over-------------------------------- */
+
+section#gameOver-bg {
+    /* border: 2px solid red; */
+    width: 30%;
+    height: 62%;
+    background-image: url('../../img/png/Dead (10).png');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    animation: x 4s linear;
+}
+
+@keyframes x {
+    0% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 0.25;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    75% {
+        opacity: 0.75;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+section#gameOver-bg div#gameOver_title-img {
+    /* border: 2px solid red; */
+    width: 80%;
+    height: 55%;
+    background-image: url('../../images/title_game_over.png');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 6%;
+    right: 0;
+    bottom: 47%;
+    margin: auto;
+    animation: spin 4s linear;
+}
+
+@keyframes spin {
+    0% {
+        width: 150%;
+        height: 100vh;
+        left: -100px;
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(180deg);
+    }
+
+    50% {
+        transform: rotate(360deg);
+    }
+
+    75% {
+        transform: rotate(-180deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* ------------------------------Game Win-------------------------------- */
+
+section#gameWin-bg {
+    /* border: 2px solid red; */
+    width: 30%;
+    height: 80%;
+    background-image: url('../../img/png/Jump (3).png');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    animation: x 4s linear;
+}
+
+@keyframes x {
+    0% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 0.25;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    75% {
+        opacity: 0.75;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+section#gameWin-bg div#gameWin_title-img {
+    /* border: 2px solid red; */
+    width: 51%;
+    height: 35%;
+    background-image: url('../../images/win.png');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    animation: spin 4s linear;
+}
+
+@keyframes spin {
+    0% {
+        width: 150%;
+        height: 100vh;
+        left: -100px;
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(180deg);
+    }
+
+    50% {
+        transform: rotate(360deg);
+    }
+
+    75% {
+        transform: rotate(-180deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

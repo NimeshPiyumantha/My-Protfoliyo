@@ -1,0 +1,160 @@
+body {
+    overflow: hidden;
+}
+
+
+section#home-bg {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../../images/menu/start.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section#home-bg div#title-img {
+    width: 33%;
+    height: 33%;
+    background-image: url('../../images/menu/title.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top: 12%;
+    animation: spin 4s linear;
+}
+
+@keyframes spin {
+    0% {
+        width: 100%;
+        height: 100vh;
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(180deg);
+    }
+
+    50% {
+        transform: rotate(360deg);
+    }
+
+    75% {
+        transform: rotate(-180deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+div#controller-icons>button.pressed {
+    width: 75px;
+    height: 75px;
+}
+
+button#btnPlay {
+    width: 12%;
+    height: 12%;
+    background-image: url('../../images/menu/play_button.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: 25%;
+}
+
+button#btnPlay:hover {
+    width: 190px;
+    height: 95px;
+}
+
+div#controller-icons {
+    width: 88px;
+    height: 220px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div#controller-icons>button {
+    height: 66px;
+    width: 66px;
+}
+
+div#controller-icons>button:hover {
+    height: 75px;
+    width: 75px;
+}
+
+div#controller-icons>button#setting-icon {
+    background-image: url('../../images/menu/settings.png');
+    background-size: cover;
+    background-position: center;
+}
+
+div#controller-icons>button#help-icon {
+    background-image: url('../../images/menu/about.png');
+    background-size: cover;
+    background-position: center;
+}
+
+div#controller-icons>button#sound-icon {
+    background-image: url('../../images/menu/sound.png');
+    background-size: cover;
+    background-position: center;
+}
+
+/* -----------------------------------------Help-------------------------------------*/
+/*
+section#help {
+    width: 40%;
+    height: 85%;
+    background-image: url('../../images/help/help_transparent.png');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+section#help button#btnClose {
+    width: 10%;
+    height: 10%;
+    background-image: url('../../images/help/close.png');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: -96%;
+    left: 89%;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+section#help button#btnClose:hover {
+    width: 12%;
+    height: 12%;
+}*/
+
+/* ---------------------------------------------------------- */
+
+.bg-blur {
+    filter: blur(8px);
+    -webkit-filter: blur(2px);
+}
