@@ -14,8 +14,6 @@ audio1.play();
         $("div#controller-icons>button#sound-icon").removeClass("pressed");
     }
 
-   /* $("#help").css("display", "none");
-    console.log($("div#controller-icons>button#sound-icon").hasClass("pressed"));*/
 })();
 
 
@@ -33,50 +31,6 @@ $("#sound-icon").click(function (e) {
 $("#btnPlay").click(function (e) {
     window.location.href = "index1.html";
 });
-
-/*$("#help-icon").click(function (e) {
-    $("#help").css("display", "block");
-    $("div#controller-icons>button#help-icon").css("pointer-events", "none");
-    $("#home-bg").addClass("bg-blur");
-    $("div#controller-icons>button#help-icon").addClass("pressed");
-});
-
-$("#btnClose").click(function (e) {
-    $("#help").css("display", "none");
-    $("div#controller-icons>button#help-icon").css("pointer-events", "auto");
-    $("#home-bg").removeClass("bg-blur")
-    $("div#controller-icons>button#help-icon").removeClass("pressed");
-});*/
-
-
-/*
-$("#help").hover(function () {
-        // over
-        $("#help").css("cursor", "grab");
-
-    }, function () {
-        // out
-        $("#help").css("cursor", "pointer");
-    }
-);
-
-$(function () {
-    $("#help").draggable({
-        containment: "window"
-    });
-});
-
-$("#help").hover(function () {
-        // over
-        $("#help").css("cursor", "grab");
-
-
-    }, function () {
-        // out
-        $("#help").css("cursor", "pointer");
-    }
-);
-*/
 
 $(function () {
     $("#controller-icons").draggable({

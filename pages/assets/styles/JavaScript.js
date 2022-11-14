@@ -15,6 +15,7 @@ $("#all").click(function () {
     $("#9").css('display', 'block');
     $("#10").css('display', 'block');
     $("#11").css('display', 'block');
+    $("#12").css('display', 'block');
 });
 
 $("#java").click(function () {
@@ -29,6 +30,7 @@ $("#java").click(function () {
     $("#9").css('display', 'none');
     $("#10").css('display', 'none');
     $("#11").css('display', 'none');
+    $("#12").css('display', 'none');
 });
 
 $("#javaScript").click(function () {
@@ -43,6 +45,7 @@ $("#javaScript").click(function () {
     $("#9").css('display', 'block');
     $("#10").css('display', 'block');
     $("#11").css('display', 'block');
+    $("#12").css('display', 'block');
 });
 
 // execute after all the content fully loaded
