@@ -122,40 +122,6 @@ div#controller-icons>button#sound-icon {
     background-position: center;
 }
 
-/* -----------------------------------------Help-------------------------------------*/
-/*
-section#help {
-    width: 40%;
-    height: 85%;
-    background-image: url('../../images/help/help_transparent.png');
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-}
-
-section#help button#btnClose {
-    width: 10%;
-    height: 10%;
-    background-image: url('../../images/help/close.png');
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    top: -96%;
-    left: 89%;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-}
-
-section#help button#btnClose:hover {
-    width: 12%;
-    height: 12%;
-}*/
 
 /* ---------------------------------------------------------- */
 
