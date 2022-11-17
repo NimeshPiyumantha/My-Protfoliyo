@@ -4,21 +4,21 @@
  **/
 
 let audio1 = new Audio();
-audio1.src = "assets/audio/BridgeZone.mp3";
+audio1.src = "../assets/audio/BridgeZone.mp3";
 audio1.play();
 audio1.loop = true;
 
 let audio2 = new Audio();
-audio2.src = "assets/audio/RingCollect.mp3";
+audio2.src = "../assets/audio/RingCollect.mp3";
 
 let audio3 = new Audio();
-audio3.src = "assets/audio/GameOver2.wav";
+audio3.src = "../assets/audio/GameOver2.wav";
 
 let audio4 = new Audio();
-audio4.src = "assets/audio/GameOver.mp3";
+audio4.src = "../assets/audio/GameOver.mp3";
 
 let audio5 = new Audio();
-audio5.src = "assets/audio/ActCleared.mp3";
+audio5.src = "../assets/audio/ActCleared.mp3";
 
 
 let boy = document.getElementById("boy");
@@ -33,7 +33,7 @@ function idleAnimation() {
         idleImageNumber = 1;
     }
 
-    boy.src = "assets/img/png/idle (" + idleImageNumber + ").png";
+    boy.src = "../assets/img/png/idle (" + idleImageNumber + ").png";
 }
 
 function idleAnimationStart() {
@@ -50,7 +50,7 @@ function runAnimation() {
         runImageNumber = 1;
     }
 
-    boy.src = "assets/img/png/run (" + runImageNumber + ").png";
+    boy.src = "../assets/img/png/run (" + runImageNumber + ").png";
 }
 
 function runAnimationStart() {
@@ -64,6 +64,7 @@ function keyCheck(event) {
     if (keyCode === 13) {
         if (runAnimationNumber === 0) {
             runAnimationStart();
+            audio1.play();
         }
         if (moveBackgroundAnimationId === 0) {
             moveBackgroundAnimationId = setInterval(moveBackground, 100)
@@ -76,6 +77,7 @@ function keyCheck(event) {
     if (keyCode === 32) {
         if (jumpAnimationNumber === 0) {
             jumpAnimationStart();
+            audio1.play();
         }
     }
     if (moveBackgroundAnimationId === 0) {
@@ -98,9 +100,9 @@ function moveBackground() {
 
     score = score + 1;
     document.getElementById("score").innerHTML = score;
-        if(score===500){
-            winResults();
-        }
+    if (score >= 510) {
+        winResults();
+    }
 }
 
 //jump Animation
@@ -129,7 +131,7 @@ function jumpAnimation() {
         runAnimationStart();
     }
 
-    boy.src = "assets/img/png/jump (" + jumpImageNumber + ").png";
+    boy.src = "../assets/img/png/jump (" + jumpImageNumber + ").png";
 }
 
 function jumpAnimationStart() {
@@ -140,7 +142,6 @@ function jumpAnimationStart() {
 }
 
 //boxes
-
 let boxMarginLeft = 2040;
 
 function createBoxes() {
@@ -183,7 +184,6 @@ function boxAnimation() {
                 moveBackgroundAnimationId = -1;
 
                 deadAnimationNumber = setInterval(boyDeadAnimation, 100);
-
             }
         }
     }
@@ -200,9 +200,10 @@ function boyDeadAnimation() {
         deadImageNumber = 10;
     }
 
-    boy.src = "assets/img/png/Dead (" + deadImageNumber + ").png";
+    boy.src = "../assets/img/png/Dead (" + deadImageNumber + ").png";
     game_over();
 }
+
 
 (function () {
     hide_components();
@@ -244,6 +245,19 @@ function remove_blur() {
     $("#life-img").removeClass("bg-blur");
 }
 
+function pauseAll() {
+    clearInterval(runAnimationNumber);
+    runAnimationNumber = -1;
+
+    clearInterval(jumpAnimationNumber);
+    jumpAnimationNumber = -1;
+
+    clearInterval(moveBackgroundAnimationId);
+    moveBackgroundAnimationId = -1;
+
+    clearInterval(boxAnimationId);
+}
+
 $("#btnPause").click(function (e) {
     $("body").css("pointer-events", "none");
     $("#btnPause").css("pointer-events", "none");
@@ -251,6 +265,7 @@ $("#btnPause").click(function (e) {
     $("#btnRestart").css("pointer-events", "auto");
     $(document).off("32");
     $(document).off("13");
+    pauseAll();
 
     $("#btnPause").addClass("pause");
     $("#btnResume").removeClass("pause");
@@ -269,6 +284,7 @@ $("#btnResume").click(function (e) {
     $("#btnPause").removeClass("pause");
     $("#btnRestart").removeClass("pause");
     $("#btnResume").addClass("pause");
+    location.reload();
 
     remove_blur();
     hide_components();
@@ -289,6 +305,7 @@ function hide_components() {
 
     $("#gameWin-bg").css("display", "none");
     $("#gameWin_title-img").css("display", "none");
+    $("#btnNext").css("display", "none");
 }
 
 $(function () {
@@ -298,14 +315,13 @@ $(function () {
 });
 
 $("#game-controls").hover(function () {
-        // over
-        $("#game-controls").css("cursor", "grab");
+    // over
+    $("#game-controls").css("cursor", "grab");
 
-    }, function () {
-        // out
-        $("#game-controls").css("cursor", "pointer");
-    }
-);
+}, function () {
+    // out
+    $("#game-controls").css("cursor", "pointer");
+});
 
 function game_over() {
     blurComponents();
@@ -318,7 +334,7 @@ function game_over() {
     $("#btnSound").removeClass("sound-on");
 
     boy.css("display", "none");
-    return;
+
 }
 
 
@@ -331,11 +347,15 @@ function winResults() {
 
     $("#gameWin-bg").css("display", "block");
     $("#gameWin_title-img").css("display", "block");
+    $("#btnNext").css("display", "block");
+
+    pauseAll();
 
     audio1.pause();
     audio5.play();
     $("#btnSound").removeClass("sound-on");
 }
 
-
-
+$("#btnNext").click(function (e) {
+    window.location.href = "index2.html";
+});
