@@ -100,7 +100,7 @@ function moveBackground() {
 
     score = score + 1;
     document.getElementById("score").innerHTML = score;
-    if (score >= 500) {
+    if (score >= 700) {
         winResults();
     }
 }
@@ -152,10 +152,10 @@ function createBoxes() {
         box.style.marginLeft = boxMarginLeft + "px";
         box.id = "box" + i;
 
-        if (i < 6) {
-            boxMarginLeft = boxMarginLeft + 1800;
+        if (i < 16) {
+            boxMarginLeft = boxMarginLeft + 1200;
         }
-        if (i >= 24) {
+        if (i >= 15) {
             boxMarginLeft = boxMarginLeft + 1000;
         }
     }
