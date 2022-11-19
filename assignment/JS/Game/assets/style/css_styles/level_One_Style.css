@@ -28,28 +28,55 @@
     position: absolute;
 }
 
+.background2{
+    width: 100%;
+    height: 100vh;
+    background: url("../../img/background3.jpg");
+    background-size: cover;
+    background-repeat: repeat-x;
+    overflow-x: hidden;
+    position: absolute;
+}
+
+.background3{
+    width: 100%;
+    height: 100vh;
+    background: url("../../img/background4.jpg");
+    background-size: cover;
+    background-repeat: repeat-x;
+    overflow-x: hidden;
+    position: absolute;
+}
+
 .boy{
     height: 300px;
     margin-top: 500px;
     position: absolute;
 }
 
+.boy1{
+    height: 300px;
+    margin-top: 550px;
+    position: absolute;
+}
+
 .box{
     width: 265px;
-    height: 165px;
+    height: 131px;
     position: absolute;
-    margin-top: 630px;
-    background-image: url("../../img/dragon.gif");
+    margin-top: 651px;
+    background-image: url("../../img/tiger.gif");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.box2{
-    width: 280px;
-    height: 200px;
+
+.box1{
+    width: 120px;
+    height: 160px;
     position: absolute;
-    margin-top: 340px;
-    background-image: url("../../img/fly_dragon.gif");
+    margin-top: 700px;
+    background-image: url("../../img/buning.gif");
     background-size: cover;
     background-repeat: no-repeat;
 }
