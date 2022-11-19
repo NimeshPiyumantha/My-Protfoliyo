@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game 4th Level</title>
+</head>
+<link href="assets/style/css_styles/level_One_Style.css" rel="stylesheet">
+<body class="body" onkeypress="keyCheck(event);" onload="idleAnimationStart(); createBoxes();createBoxes2();">
+
+<section id="bg-container1">
+    <section id="bg-container2">
+        <div class="background3" id="background">
+
+            <img class="boy" id="boy" src="assets/img/png/Idle%20(1).png">
+
+            <div id="scoreBoard">
+                <h4 class="scoreN">Score :</h4>
+                <div class="score" id="score">0</div>
+            </div>
+        </div>
+    </section>
+</section>
+
+<div id="game-controls">
+    <button id="btnSound"></button>
+    <button id="btn_goToMenu"></button>
+    <button id="btnPause"></button>
+    <button id="btnResume"></button>
+    <button id="btnRestart"></button>
+</div>
+
+<section id="pause-bg">
+    <div id="title-img"></div>
+</section>
+
+<section id="gameOver-bg">
+    <div id="gameOver_title-img"></div>
+</section>
+
+<section id="gameWin-bg">
+    <div id="gameWin_title-img"></div>
+</section>
+
+<div id="btnNext"></div>
+
+
+<script src="assets/style/js/jquery-3.6.0.min.js"></script>
+<script src="assets/style/js/jquery-ui.min.js"></script>
+<script src="assets/style/js/oridomi.min.js"></script>
+<script rel="script" src="assets/style/js_styles/level_Four_Script.js"></script>
+</body>
+</html>
