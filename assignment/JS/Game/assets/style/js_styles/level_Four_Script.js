@@ -357,5 +357,5 @@ function winResults() {
 }
 
 $("#btnNext").click(function (e) {
-    window.location.href = "index3.html";
+    window.location.href = "index.html";
 });
