@@ -333,7 +333,7 @@ function game_over() {
     audio4.play();
     $("#btnSound").removeClass("sound-on");
 
-    boy.css("display", "none");
+    $boy.css("display", "none");
 
 }
 

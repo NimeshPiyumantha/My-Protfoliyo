@@ -155,7 +155,7 @@ function createBoxes() {
         if (i < 12) {
             boxMarginLeft = boxMarginLeft + 1000;
         }
-        if (i >= 18) {
+        if (i >= 12) {
             boxMarginLeft = boxMarginLeft + 700;
         }
     }
@@ -333,7 +333,7 @@ function game_over() {
     audio4.play();
     $("#btnSound").removeClass("sound-on");
 
-    boy.css("display", "none");
+    $boy.css("display", "none");
 
 }
 
