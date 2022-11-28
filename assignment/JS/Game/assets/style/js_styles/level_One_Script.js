@@ -3,6 +3,9 @@
  * @since : 0.1.0
  **/
 
+/** 
+ * All Audio
+ **/
 let audio1 = new Audio();
 audio1.src = "assets/audio/BridgeZone.mp3";
 audio1.play();
@@ -33,7 +36,7 @@ function idleAnimation() {
         idleImageNumber = 1;
     }
 
-    boy.src = "assets/img/png/idle ("+idleImageNumber+").png";
+    boy.src = "assets/img/png/Idle%20("+idleImageNumber+").png";
 
 }
 
@@ -51,7 +54,7 @@ function runAnimation() {
         runImageNumber = 1;
     }
 
-    boy.src = "assets/img/png/run (" + runImageNumber + ").png";
+    boy.src = "assets/img/png/Run%20("+runImageNumber+").png";
 }
 
 function runAnimationStart() {
@@ -59,6 +62,9 @@ function runAnimationStart() {
     clearInterval(idleAnimationNumber);
 }
 
+/** 
+ * Key Code set
+ **/
 function keyCheck(event) {
     let keyCode = event.which;
 
@@ -94,6 +100,9 @@ let moveBackgroundAnimationId = 0;
 
 let score = 0;
 
+/** 
+ * Move Background
+ **/
 function moveBackground() {
     backgroundImagePositionX = backgroundImagePositionX - 20;
 
@@ -132,7 +141,7 @@ function jumpAnimation() {
         runAnimationStart();
     }
 
-    boy.src = "assets/img/png/jump (" + jumpImageNumber + ").png";
+    boy.src = "assets/img/png/Jump%20("+jumpImageNumber+").png";
 }
 
 function jumpAnimationStart() {
@@ -201,11 +210,14 @@ function boyDeadAnimation() {
         deadImageNumber = 10;
     }
 
-    boy.src = "assets/img/png/Dead (" + deadImageNumber + ").png";
+    boy.src = "assets/img/png/Dead%20("+ deadImageNumber +").png";
     game_over();
 }
 
 
+/** 
+ * Other Options
+ **/
 (function () {
     hide_components();
     $("#btnSound").addClass("sound-on");

@@ -6,6 +6,9 @@ let audio1 = new Audio();
 audio1.src = "assets/audio/TitleScreen.mp3";
 audio1.play();
 
+/** 
+ * Add Pause Sound  
+ **/
 (function () {
 
     if (!audio1.paused) {
@@ -17,7 +20,9 @@ audio1.play();
 })();
 
 
-
+/** 
+ * Add  Sound Icone
+ **/
 $("#sound-icon").click(function (e) {
     if (!audio1.paused) {
         audio1.pause();
@@ -28,15 +33,22 @@ $("#sound-icon").click(function (e) {
     }
 });
 
+/** 
+ * Button Play
+ **/
 $("#btnPlay").click(function (e) {
     window.location.href = "index1.html";
 });
 
+/** 
+ * Draggable window
+ **/
 $(function () {
     $("#controller-icons").draggable({
         containment: "window"
     });
 });
+
 
 $("#controller-icons").hover(function () {
         // over

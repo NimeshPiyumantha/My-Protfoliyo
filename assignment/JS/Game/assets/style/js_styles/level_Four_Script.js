@@ -33,7 +33,7 @@ function idleAnimation() {
         idleImageNumber = 1;
     }
 
-    boy.src = "assets/img/png/idle (" + idleImageNumber + ").png";
+    boy.src = "assets/img/png/Idle%20("+idleImageNumber+").png";
 }
 
 function idleAnimationStart() {
@@ -50,7 +50,7 @@ function runAnimation() {
         runImageNumber = 1;
     }
 
-    boy.src = "assets/img/png/run (" + runImageNumber + ").png";
+    boy.src = "assets/img/png/Run%20("+runImageNumber+").png";
 }
 
 function runAnimationStart() {
@@ -131,7 +131,7 @@ function jumpAnimation() {
         runAnimationStart();
     }
 
-    boy.src = "assets/img/png/jump (" + jumpImageNumber + ").png";
+    boy.src = "assets/img/png/Jump%20("+jumpImageNumber+").png";
 }
 
 function jumpAnimationStart() {
@@ -200,7 +200,7 @@ function boyDeadAnimation() {
         deadImageNumber = 10;
     }
 
-    boy.src = "assets/img/png/Dead (" + deadImageNumber + ").png";
+    boy.src = "assets/img/png/Dead%20("+deadImageNumber+").png";
     game_over();
 }
 
