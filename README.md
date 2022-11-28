@@ -36,6 +36,9 @@ This is My Personal Web Project.
 ## - Calculator 
 * 🔗 <a href="https://nimeshpiyumantha.github.io/My-Protfoliyo/assignment/JS/Calculator" target="_blank">GitHub Page</a>
 
+## - Game (Rize Gameing) 
+* 🔗 <a href="https://nimeshpiyumantha.github.io/My-Protfoliyo/assignment/JS/Game" target="_blank">GitHub Page</a>
+
 ###  
 ### Clone this repository ✅
 ```md
