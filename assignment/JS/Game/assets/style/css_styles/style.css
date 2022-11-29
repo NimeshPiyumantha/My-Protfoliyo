@@ -21,7 +21,7 @@
 .background1{
     width: 100%;
     height: 100vh;
-    background: url("../../img/background2.jpg");
+    background: url("../../img/background4.jpg");
     background-size: cover;
     background-repeat: repeat-x;
     overflow-x: hidden;
@@ -54,12 +54,6 @@
     position: absolute;
 }
 
-.boy1{
-    height: 300px;
-    margin-top: 550px;
-    position: absolute;
-}
-
 .box{
     width: 265px;
     height: 131px;
@@ -75,7 +69,7 @@
     width: 120px;
     height: 160px;
     position: absolute;
-    margin-top: 700px;
+    margin-top: 651px;
     background-image: url("../../img/buning.gif");
     background-size: cover;
     background-repeat: no-repeat;
