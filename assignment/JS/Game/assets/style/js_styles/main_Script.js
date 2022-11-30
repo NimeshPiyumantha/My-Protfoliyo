@@ -210,15 +210,16 @@ function remove_blur() {
 
 function pauseAll() {
     clearInterval(runAnimationNumber);
-    runAnimationNumber = -1;
+    runAnimationNumber = 0;
 
     clearInterval(jumpAnimationNumber);
-    jumpAnimationNumber = -1;
+    jumpAnimationNumber = 0;
 
     clearInterval(moveBackgroundAnimationId);
-    moveBackgroundAnimationId = -1;
+    moveBackgroundAnimationId = 0;
 
     clearInterval(boxAnimationId);
+    boxAnimationId=0;
 }
 
 $("#btnPause").click(function (e) {
@@ -247,7 +248,6 @@ $("#btnResume").click(function (e) {
     $("#btnResume").addClass("pause");
     $(document).off("32");
     $(document).off("13");
-    location.reload();
 
     remove_blur();
     hide_components();
